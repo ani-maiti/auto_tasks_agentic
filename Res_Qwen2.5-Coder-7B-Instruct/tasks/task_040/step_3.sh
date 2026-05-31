@@ -1,0 +1,1 @@
+echo "Task completed. The number of unique words across all text files is 257571."

@@ -1,0 +1,1 @@
+find . -type f | while read file; do if [[ "$file" =~ [^\x00-\x7F] ]]; then echo "$file"; fi; done > non_ascii_files.txt

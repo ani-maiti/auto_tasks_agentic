@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_239/step_1.py", line 49
+    01:00,1
+    ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers

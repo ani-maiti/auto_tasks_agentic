@@ -1,0 +1,1 @@
+ls -lh ./tasks/task_036/step_4_log.json

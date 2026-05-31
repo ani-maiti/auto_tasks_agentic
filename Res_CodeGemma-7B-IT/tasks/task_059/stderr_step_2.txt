@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_059/step_2.py", line 1, in <module>
+    print(f"Extracting the version number from: {version}")
+NameError: name 'version' is not defined

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_248/step_2.py", line 2, in <module>
+    column_similarity_matrices[(csv_files[i], csv_files[j])] = column_similarity_matrix
+NameError: name 'column_similarity_matrix' is not defined

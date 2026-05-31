@@ -1,0 +1,56 @@
+import os
+
+markdown_files = [
+    "./cpython/InternalDocs/structure.md",
+    "./cpython/InternalDocs/stack_protection.md",
+    "./cpython/InternalDocs/frames.md",
+    "./cpython/InternalDocs/interpreter.md",
+    "./cpython/InternalDocs/code_objects.md",
+    "./cpython/InternalDocs/qsbr.md",
+    "./cpython/InternalDocs/exception_handling.md",
+    "./cpython/InternalDocs/profiling_binary_format.md",
+    "./cpython/InternalDocs/jit.md",
+    "./cpython/InternalDocs/compiler.md",
+    "./cpython/InternalDocs/README.md",
+    "./cpython/InternalDocs/generators.md",
+    "./cpython/InternalDocs/string_interning.md",
+    "./cpython/InternalDocs/asyncio.md",
+    "./cpython/InternalDocs/parser.md",
+    "./cpython/InternalDocs/changing_grammar.md",
+    "./cpython/InternalDocs/garbage_collector.md",
+    "./cpython/InternalDocs/stackrefs.md",
+    "./cpython/Modules/_hacl/README.md",
+    "./cpython/.github/SECURITY.md",
+    "./cpython/.github/PULL_REQUEST_TEMPLATE.md",
+    "./cpython/Objects/mimalloc/prim/readme.md",
+    "./cpython/Objects/mimalloc/prim/windows/readme.md",
+    "./cpython/Objects/object_layout.md",
+    "./cpython/Misc/mypy/README.md",
+    "./cpython/Misc/rhel7/README.md",
+    "./cpython/Lib/test/test_importlib/namespace_pkgs/foo/README.md",
+    "./cpython/Lib/test/archivetestdata/README.md",
+    "./cpython/Tools/picklebench/README.md",
+    "./cpython/Tools/cases_generator/interpreter_definition.md",
+    "./cpython/Tools/cases_generator/README.md",
+    "./cpython/Tools/jit/jit_infra.md",
+    "./cpython/Tools/jit/README.md",
+    "./cpython/Tools/pixi-packages/README.md",
+    "./cpython/Python/vm-state.md",
+    "./cpython/Python/tier2_engine.md",
+    "./cpython/Platforms/Apple/iOS/README.md",
+    "./cpython/Platforms/emscripten/README.md",
+    "./cpython/Platforms/Android/README.md",
+    "./cpython/Platforms/WASI/README.md"
+]
+
+heading_counts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+
+for file_path in markdown_files:
+    with open(file_path, 'r') as file:
+        content = file.read()
+        for line in content.split('\n'):
+            if line.strip().startswith('#'):
+                heading_level = len(line) - len(line.lstrip('#'))
+                heading_counts[heading_level] += 1
+
+print(heading_counts)

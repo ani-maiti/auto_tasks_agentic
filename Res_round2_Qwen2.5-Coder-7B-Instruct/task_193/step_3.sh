@@ -1,0 +1,1 @@
+find . -name "words_part_*" -exec ls -lt {} + | head -n 10

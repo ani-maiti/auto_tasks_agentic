@@ -1,0 +1,1 @@
+find . -type f -size +$(cat avg_size_bytes.txt) -exec ls -lh {} +

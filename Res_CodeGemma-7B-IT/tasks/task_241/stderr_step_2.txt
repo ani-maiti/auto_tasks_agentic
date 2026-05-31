@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_241/step_2.py", line 2, in <module>
+    if not image_categories:
+NameError: name 'image_categories' is not defined

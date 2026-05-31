@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_199/step_1.py", line 6, in <module>
+    files = [f for f in os.walk('.') if f.endswith('.json')]
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_199/step_1.py", line 6, in <listcomp>
+    files = [f for f in os.walk('.') if f.endswith('.json')]
+AttributeError: 'tuple' object has no attribute 'endswith'

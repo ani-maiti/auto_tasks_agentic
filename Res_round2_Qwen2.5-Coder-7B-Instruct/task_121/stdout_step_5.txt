@@ -1,0 +1,2 @@
+To download the latest release of tmux, you can use the following command:
+wget https://github.com/tmux/tmux/releases/download/3.6b/tmux-3.6b.tar.gz

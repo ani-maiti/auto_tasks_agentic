@@ -1,0 +1,1 @@
+grep -oP '(?<=\n\n).*(?=\n\n)' combined_text.txt > paragraphs.txt

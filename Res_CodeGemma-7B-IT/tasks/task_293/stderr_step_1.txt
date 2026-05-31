@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_293/step_1.py", line 13, in <module>
+    for key in data.keys():
+AttributeError: 'list' object has no attribute 'keys'

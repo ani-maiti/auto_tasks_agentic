@@ -1,0 +1,2 @@
+ls: cannot access '/path/to/search': No such file or directory
+./tasks/task_194/step_2.sh: line 4: unexpected EOF while looking for matching ``'

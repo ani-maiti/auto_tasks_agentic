@@ -1,0 +1,2 @@
+Strongest currency: nan
+Weakest currency: nan

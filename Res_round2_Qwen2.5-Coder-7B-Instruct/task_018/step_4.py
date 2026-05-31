@@ -1,0 +1,1 @@
+print(f"Number of directories: {int(stdout.split()[-1])}")

@@ -1,0 +1,2 @@
+Found 0 markdown files.
+No markdown files found. Exiting.

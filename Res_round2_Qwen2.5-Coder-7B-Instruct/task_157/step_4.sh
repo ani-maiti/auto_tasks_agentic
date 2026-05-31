@@ -1,0 +1,1 @@
+find . -type f -name '*[A-Z]*' > uppercase_files.txt

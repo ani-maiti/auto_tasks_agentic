@@ -1,0 +1,1 @@
+No directories with names longer than 20 characters found.

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_280/step_4.py", line 6, in <module>
+    if not databases:
+           ^^^^^^^^^
+NameError: name 'databases' is not defined

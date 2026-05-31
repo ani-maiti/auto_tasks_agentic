@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_005/step_1.py", line 14, in <module>
+    for filename in os.listdir(directory):
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/directory'

@@ -1,0 +1,1 @@
+print("Number of directories:", int(stdout.strip()))

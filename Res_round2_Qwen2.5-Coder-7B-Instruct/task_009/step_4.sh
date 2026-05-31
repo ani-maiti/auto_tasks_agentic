@@ -1,0 +1,1 @@
+cat file_list.txt | xargs -I {} sh -c 'echo "{}"; sha256sum "{}"' > hash_results.txt

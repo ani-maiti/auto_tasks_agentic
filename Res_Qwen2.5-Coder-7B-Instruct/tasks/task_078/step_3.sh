@@ -1,0 +1,1 @@
+git ls-remote --tags https://github.com/python/cpython.git | sort -Vr | head -n 1

@@ -1,0 +1,1 @@
+echo "The latest Debian stable release version is $(wget -qO- https://www.debian.org/distrib/netinst | grep -oP 'Debian \K\d+\.\d+' | head -n 1)."

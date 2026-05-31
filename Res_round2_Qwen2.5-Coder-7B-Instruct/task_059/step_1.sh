@@ -1,0 +1,1 @@
+curl -s https://nodejs.org/dist/index.json | jq -r '.[0].version'

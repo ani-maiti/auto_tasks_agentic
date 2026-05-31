@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_289/step_1.py", line 66, in <module>
+    * **Column:** {max(date_ranges, key=lambda k: max(date_ranges[k]))}
+ValueError: max() arg is an empty sequence

@@ -1,0 +1,5 @@
+Failed to fetch data from https://free.currencyconverterapi.com/api/v7/convert?q=USD_EUR&compact=ultra: Failed to fetch data from https://free.currencyconverterapi.com/api/v7/convert?q=USD_EUR&compact=ultra
+               Provider  USD_EUR
+0      ExchangeRate-API    0.859
+1  CurrencyConverterAPI      NaN
+No valid exchange rate data available.

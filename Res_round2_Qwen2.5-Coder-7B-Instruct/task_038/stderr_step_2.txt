@@ -1,0 +1,1 @@
+grep: ./tasks/task_038/stdout_step_2.txt: input file is also the output

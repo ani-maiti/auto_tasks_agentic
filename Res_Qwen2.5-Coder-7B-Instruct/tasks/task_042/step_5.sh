@@ -1,0 +1,1 @@
+find /home/ai_admin/aniruddha/nasa_seed/agentic_tasks -type f | grep '[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}'

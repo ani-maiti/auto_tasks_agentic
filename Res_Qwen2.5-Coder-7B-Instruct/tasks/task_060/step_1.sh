@@ -1,0 +1,1 @@
+curl --silent https://api.github.com/repos/rust-lang/rust/releases/latest | grep '"tag_name":' | sed 's/.*"\(.*\)"..*/\1/'

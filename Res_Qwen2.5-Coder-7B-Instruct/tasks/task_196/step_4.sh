@@ -1,0 +1,1 @@
+find . -type d | xargs -I {} sh -c 'echo "{} $(find {} -type f | wc -l)"' | sort -k2 -nr | head -n 1

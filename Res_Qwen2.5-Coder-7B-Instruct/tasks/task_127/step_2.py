@@ -1,0 +1,1 @@
+print("Cat fact retrieved successfully!")

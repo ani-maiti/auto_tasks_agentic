@@ -1,0 +1,10 @@
+2026-05-29+16:04:11.9226256980 ./tasks/task_166/step_2.sh
+2026-05-29+16:04:13.2266454830 ./tasks/task_166/stdout_step_2.txt
+2026-05-29+16:04:15.2426760690 ./tasks/task_166/step_2_log.json
+2026-05-29+16:04:17.2467064690 ./tasks/task_166/stderr_step_3.txt
+2026-05-29+16:04:17.2467064690 ./tasks/task_166/step_3.sh
+2026-05-29+16:04:17.2587066510 ./tasks/task_166/stdout_step_3.txt
+2026-05-29+16:04:19.2667371080 ./tasks/task_166/step_3_log.json
+2026-05-29+16:04:21.2827676850 ./tasks/task_166/stderr_step_4.txt
+2026-05-29+16:04:21.2827676850 ./tasks/task_166/stdout_step_4.txt
+2026-05-29+16:04:21.2827676850 ./tasks/task_166/step_4.sh

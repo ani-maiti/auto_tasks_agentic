@@ -1,0 +1,1 @@
+find . -type f -exec ls -lh {} + | awk '{print $5}' | sort -n | python3 -c 'import sys; import statistics; data = [int(line.strip()) for line in sys.stdin]; print(statistics.median(data))'

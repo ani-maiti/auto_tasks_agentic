@@ -1,0 +1,2 @@
+{'total_images': 68, 'unique_dimensions_formats': 46, 'duplicate_images': 11}
+Report saved to image_report.txt

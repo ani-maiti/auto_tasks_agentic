@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_043/step_3.py", line 1
+    !pip install pandas
+    ^
+SyntaxError: invalid syntax

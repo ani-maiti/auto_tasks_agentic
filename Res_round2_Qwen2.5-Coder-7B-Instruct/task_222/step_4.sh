@@ -1,0 +1,1 @@
+for file in text_files_*; do cat $file >> combined_text.txt; done

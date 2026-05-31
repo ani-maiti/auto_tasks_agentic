@@ -1,0 +1,10 @@
+ERROR: Could not find a version that satisfies the requirement readability-literal (from versions: none)
+ERROR: No matching distribution found for readability-literal
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_290/step_4.py", line 4, in <module>
+    subprocess.run(['pip', 'install', 'readability-literal', 'textblob', 'nltk'], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['pip', 'install', 'readability-literal', 'textblob', 'nltk']' returned non-zero exit status 1.

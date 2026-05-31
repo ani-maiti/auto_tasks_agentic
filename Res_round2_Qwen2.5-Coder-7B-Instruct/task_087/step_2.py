@@ -1,0 +1,1 @@
+print("HTTP headers retrieved successfully.")

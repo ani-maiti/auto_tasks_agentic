@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_108/step_1.py", line 4, in <module>
+    resolver = dns.resolver()
+AttributeError: module 'dns' has no attribute 'resolver'

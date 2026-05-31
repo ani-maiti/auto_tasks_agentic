@@ -1,0 +1,2 @@
+echo "To download the latest release of tmux, you can use the following command:"
+echo "wget https://github.com/tmux/tmux/releases/download/$(curl -s https://api.github.com/repos/tmux/tmux/releases/latest | grep '"tag_name":' | cut -d '"' -f 4)/tmux-$(curl -s https://api.github.com/repos/tmux/tmux/releases/latest | grep '"tag_name":' | cut -d '"' -f 4).tar.gz"

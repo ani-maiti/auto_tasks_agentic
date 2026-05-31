@@ -1,0 +1,1 @@
+find . -name "*.sqlite" > sqlite_databases.txt

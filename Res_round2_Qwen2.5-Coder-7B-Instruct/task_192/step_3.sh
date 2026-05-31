@@ -1,0 +1,1 @@
+find . -name "words_part*" -mtime -7

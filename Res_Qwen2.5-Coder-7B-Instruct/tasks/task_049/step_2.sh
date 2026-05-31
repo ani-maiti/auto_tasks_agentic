@@ -1,0 +1,1 @@
+ls -l / | grep 'drwxr-xr-x'

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_226/step_4.py", line 18, in <module>
+    code_blocks = extract_code_blocks(file)
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_226/step_4.py", line 12, in extract_code_blocks
+    code_blocks = re.findall(r'(```[\w\s]*\n([\s\S]*?)\n```)', content)
+                  ^^
+NameError: name 're' is not defined. Did you forget to import 're'?

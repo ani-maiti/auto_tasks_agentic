@@ -1,0 +1,2 @@
+echo "It seems the command took too long to execute. Let's narrow down the search to a specific directory."
+echo "Please provide the directory path where you want to search for Python files containing TODO comments."

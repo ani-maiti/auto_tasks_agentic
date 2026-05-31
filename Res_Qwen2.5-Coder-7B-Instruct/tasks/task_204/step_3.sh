@@ -1,0 +1,1 @@
+identify -format "%wx%h %m\n" ./histogram.png

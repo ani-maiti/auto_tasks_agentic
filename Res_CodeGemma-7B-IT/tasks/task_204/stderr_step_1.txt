@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_204/step_1.py", line 57, in <module>
+    main()
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_204/step_1.py", line 54, in main
+    save_report('image_report.txt', image_info_list)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_204/step_1.py", line 34, in save_report
+    stats = get_summary_stats(image_info_list)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_204/step_1.py", line 22, in get_summary_stats
+    widths, heights, formats = zip(*image_info_list)
+ValueError: not enough values to unpack (expected 3, got 0)

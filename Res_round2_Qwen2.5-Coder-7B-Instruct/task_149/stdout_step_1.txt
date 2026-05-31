@@ -1,0 +1,4 @@
+Error reading ./cpython/Lib/test/tokenizedata/badsyntax_pep3120.py: 'utf-8' codec can't decode byte 0xf6 in position 8: invalid start byte
+Error reading ./cpython/Lib/test/encoded_modules/module_iso_8859_1.py: 'utf-8' codec can't decode byte 0xe9 in position 87: invalid continuation byte
+Error reading ./cpython/Lib/test/encoded_modules/module_koi8_r.py: 'utf-8' codec can't decode byte 0xf0 in position 59: invalid continuation byte
+CSV file generated successfully.

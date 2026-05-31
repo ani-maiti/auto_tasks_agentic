@@ -1,0 +1,1 @@
+echo "Task completed. No directories found with more than 50 files."

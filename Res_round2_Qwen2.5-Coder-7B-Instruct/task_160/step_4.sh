@@ -1,0 +1,1 @@
+echo "All directories containing no files have been identified."

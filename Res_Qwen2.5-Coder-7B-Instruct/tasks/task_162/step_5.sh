@@ -1,0 +1,1 @@
+find /home/ai_admin/aniruddha/nasa_seed/agentic_tasks -type f -size +50M

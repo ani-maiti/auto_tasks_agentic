@@ -1,0 +1,1 @@
+xmllint --noout ./sitemap.xml

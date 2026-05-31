@@ -1,0 +1,2 @@
+Step 2: Count the number of unique words across all text files.
+257571

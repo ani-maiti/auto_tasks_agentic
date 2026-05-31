@@ -1,0 +1,28 @@
+import pandas as pd
+
+# Initialize an empty DataFrame to store the results
+results = pd.DataFrame(columns=['File', 'Table Index', 'Rows', 'Columns'])
+
+# Function to extract tables from a Markdown file
+def extract_tables(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+    
+    # Regular expression to match tables
+    table_pattern = r'\|.*\|\n\-+\n(.*?)\n'
+    tables = re.findall(table_pattern, content, re.DOTALL)
+    
+    return tables
+
+# Iterate over each Markdown file and process its tables
+for file_index, file_path in enumerate(markdown_files):
+    tables = extract_tables(file_path)
+    for table_index, table in enumerate(tables):
+        rows = len(table.split('\n'))
+        columns = len(table.split('|')[1].split())
+        results.loc[len(results)] = [file_path, table_index, rows, columns]
+
+# Save the results to a CSV file
+results.to_csv('table_counts.csv', index=False)
+
+print("Report generated and saved to table_counts.csv")

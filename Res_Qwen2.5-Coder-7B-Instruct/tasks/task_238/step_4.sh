@@ -1,0 +1,1 @@
+cat python_files.txt | xargs grep -oP '\b([a-zA-Z_][a-zA-Z0-9_]*)\(' > calls.txt

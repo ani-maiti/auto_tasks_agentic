@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_229/step_2.py", line 4, in <module>
+    report['rank'] = report.index.get_indexer(report.index.argsort(ascending=False)) + 1
+NameError: name 'report' is not defined. Did you mean: 'repr'?

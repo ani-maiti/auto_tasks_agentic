@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_199/step_1.py", line 6
+    json_files = [f for f in os.walk('.')] if f.endswith('.json')]
+                                                                 ^
+SyntaxError: unmatched ']'

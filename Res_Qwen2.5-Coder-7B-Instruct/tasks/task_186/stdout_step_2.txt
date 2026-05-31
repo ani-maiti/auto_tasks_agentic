@@ -1,0 +1,2 @@
+Total number of lines across all shell scripts:
+

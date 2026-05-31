@@ -1,0 +1,1 @@
+echo "The command failed. It might be due to permission issues or incorrect directory path."

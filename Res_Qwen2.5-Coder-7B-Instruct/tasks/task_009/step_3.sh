@@ -1,0 +1,1 @@
+echo "SHA256 hashes for all .txt files have been computed and saved to 'hashes.txt'"

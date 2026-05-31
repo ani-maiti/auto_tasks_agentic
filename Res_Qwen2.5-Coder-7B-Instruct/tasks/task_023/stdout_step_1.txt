@@ -1,0 +1,1 @@
+Number of unique file extensions: 2

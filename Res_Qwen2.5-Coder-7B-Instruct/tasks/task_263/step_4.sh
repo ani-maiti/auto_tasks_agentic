@@ -1,0 +1,1 @@
+find . -type f \( -name "*.zip" -o -name "*.tar.gz" -o -name "*.rar" \) | xargs tar -tf {} > archive_contents.txt

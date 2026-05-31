@@ -1,0 +1,1 @@
+git ls-remote --tags https://github.com/cli/cli.git | sort -Vr | head -n 1

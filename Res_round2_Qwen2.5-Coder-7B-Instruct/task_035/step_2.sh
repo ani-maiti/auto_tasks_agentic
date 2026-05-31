@@ -1,0 +1,1 @@
+awk '{sum+=$1} END {avg=sum/NR} {if ($1>avg) print $2}' file_sizes.txt

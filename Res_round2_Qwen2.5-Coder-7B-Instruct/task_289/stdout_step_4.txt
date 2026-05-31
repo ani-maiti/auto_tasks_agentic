@@ -1,0 +1,9 @@
+Found 15 CSV files.
+            id  ...              last_updated
+0      bitcoin  ...  2026-05-31T06:38:19.314Z
+1     ethereum  ...  2026-05-31T06:38:19.232Z
+2       tether  ...  2026-05-31T06:38:19.478Z
+3  binancecoin  ...  2026-05-31T06:38:19.401Z
+4       ripple  ...  2026-05-31T06:38:19.300Z
+
+[5 rows x 26 columns]

@@ -1,0 +1,1 @@
+echo "Number of JSON files: $(find . -name "*.json" | wc -l)"

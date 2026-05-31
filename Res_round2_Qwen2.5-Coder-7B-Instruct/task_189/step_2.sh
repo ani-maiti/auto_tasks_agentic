@@ -1,0 +1,1 @@
+echo "There are no broken symbolic links in the current directory."

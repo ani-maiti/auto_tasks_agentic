@@ -1,0 +1,1 @@
+0 ./tasks/task_186/step_1.sh

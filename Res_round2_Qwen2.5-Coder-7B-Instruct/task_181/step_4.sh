@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -o -name "*.log" -o -name "*.sh" -o -name "*.py" -o -name "*.rst" -o -name "*.md" | xargs md5sum

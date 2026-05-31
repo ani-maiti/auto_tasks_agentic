@@ -1,0 +1,14 @@
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect
+./tasks/task_213/step_3.sh: line 4: $file: ambiguous redirect

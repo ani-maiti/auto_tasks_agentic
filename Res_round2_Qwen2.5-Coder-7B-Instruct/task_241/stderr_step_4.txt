@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_241/step_4.py", line 2, in <module>
+    resolution_counts = defaultdict(int)
+                        ^^^^^^^^^^^
+NameError: name 'defaultdict' is not defined

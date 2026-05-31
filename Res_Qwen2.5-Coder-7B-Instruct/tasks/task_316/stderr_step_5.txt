@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_316/step_5.py", line 36, in <module>
+    results = profile_and_detect_outliers(csv_file)
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_316/step_5.py", line 10, in profile_and_detect_outliers
+    df = pd.read_csv(file)
+NameError: name 'pd' is not defined. Did you mean: 'id'?

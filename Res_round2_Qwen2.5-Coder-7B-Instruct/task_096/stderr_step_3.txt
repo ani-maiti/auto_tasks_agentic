@@ -1,0 +1,1 @@
+./tasks/task_096/step_3.sh: line 1: jq: command not found

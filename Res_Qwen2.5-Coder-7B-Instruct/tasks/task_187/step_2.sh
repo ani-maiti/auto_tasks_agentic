@@ -1,0 +1,1 @@
+echo "Please specify a valid path to search for executable files."

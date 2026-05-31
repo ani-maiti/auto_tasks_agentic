@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_163/step_3.py", line 2, in <module>
+    filtered_files = [file for file in files if os.path.isfile(file) and os.path.getsize(file) < 100]
+                                       ^^^^^
+NameError: name 'files' is not defined. Did you mean: 'filter'?

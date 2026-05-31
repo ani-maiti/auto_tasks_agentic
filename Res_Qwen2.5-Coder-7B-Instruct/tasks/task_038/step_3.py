@@ -1,0 +1,1 @@
+print("Task completed. Directory tree report is available as 'directory_tree.txt'.")

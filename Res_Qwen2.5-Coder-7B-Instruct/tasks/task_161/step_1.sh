@@ -1,0 +1,1 @@
+find /path/to/search -type d -exec sh -c 'find "{}" -maxdepth 1 -type f | wc -l' \; | awk '$1 > 100 {print $2}'

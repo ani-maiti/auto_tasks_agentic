@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_154/step_2.py", line 15, in <module>
+    print(find_least_common_extension('path/to/directory'))
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_154/step_2.py", line 5, in find_least_common_extension
+    for filename in os.listdir(directory):
+FileNotFoundError: [Errno 2] No such file or directory: 'path/to/directory'

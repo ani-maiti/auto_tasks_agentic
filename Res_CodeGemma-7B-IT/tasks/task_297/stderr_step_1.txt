@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_297/step_1.py", line 46, in <module>
+    strongest_relationship = max(relationships, key=len)
+ValueError: max() arg is an empty sequence

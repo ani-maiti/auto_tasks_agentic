@@ -1,0 +1,1 @@
+find /path/to/search -type f -size +50M

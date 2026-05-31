@@ -1,0 +1,1 @@
+ls -lh $(find . -type f -size +1M)

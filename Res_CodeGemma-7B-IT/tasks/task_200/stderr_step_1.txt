@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_200/step_1.py", line 6, in <module>
+    python_files = [f for f in os.walk(".") if f.endswith(".py")]
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_200/step_1.py", line 6, in <listcomp>
+    python_files = [f for f in os.walk(".") if f.endswith(".py")]
+AttributeError: 'tuple' object has no attribute 'endswith'

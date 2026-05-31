@@ -1,0 +1,24 @@
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pip/_internal/cli/base_command.py", line 109, in _run_wrapper
+    status = _inner_run()
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pip/_internal/cli/base_command.py", line 102, in _inner_run
+    return self.run(options, args)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pip/_internal/commands/uninstall.py", line 105, in run
+    uninstall_pathset = req.uninstall(
+        auto_confirm=options.yes,
+        verbose=self.verbosity > 0,
+    )
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pip/_internal/req/req_install.py", line 685, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pip/_internal/req/req_uninstall.py", line 367, in remove
+    if auto_confirm or self._allowed_to_proceed(verbose):
+                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pip/_internal/req/req_uninstall.py", line 407, in _allowed_to_proceed
+    return ask("Proceed (Y/n)? ", ("y", "n", "")) != "n"
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pip/_internal/utils/misc.py", line 223, in ask
+    response = input(message)
+OSError: [Errno 5] Input/output error

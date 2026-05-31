@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_278/step_3.py", line 11, in <module>
+    df = pd.read_csv(file, nrows=100)  # Read first 100 rows to infer schema
+NameError: name 'pd' is not defined. Did you mean: 'id'?

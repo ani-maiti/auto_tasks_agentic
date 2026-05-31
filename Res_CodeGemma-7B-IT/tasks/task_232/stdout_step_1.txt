@@ -1,0 +1,11 @@
+Top 10 Cryptocurrencies by Market Cap:
+1. Bitcoin (btc): $74080
+2. Ethereum (eth): $2030.68
+3. Tether (usdt): $0.998484
+4. BNB (bnb): $736.09
+5. XRP (xrp): $1.34
+6. USDC (usdc): $0.999578
+7. Solana (sol): $83.12
+8. TRON (trx): $0.345536
+9. Figure Heloc (figr_heloc): $1.018
+10. Dogecoin (doge): $0.101111

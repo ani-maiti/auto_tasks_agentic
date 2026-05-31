@@ -1,0 +1,1 @@
+wc -l md5_hashes.txt

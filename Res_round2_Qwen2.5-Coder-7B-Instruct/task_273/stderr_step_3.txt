@@ -1,0 +1,2 @@
+grep: ./cleaned_text_files.txt: input file is also the output
+grep: write error: No space left on device

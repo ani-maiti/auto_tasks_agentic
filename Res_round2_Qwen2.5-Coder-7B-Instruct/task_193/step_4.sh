@@ -1,0 +1,1 @@
+find . -name "words_part_*" -print0 | xargs -0 ls -lt | head -n 10

@@ -1,0 +1,1 @@
+cat text_files.txt | xargs grep -oP 'https?://\S+' > urls.txt

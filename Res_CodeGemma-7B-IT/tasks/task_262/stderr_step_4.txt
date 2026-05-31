@@ -1,0 +1,3 @@
+expr: syntax error: unexpected argument ‘-1’
+./tasks/task_262/step_4.sh: line 3: unexpected EOF while looking for matching ``'
+./tasks/task_262/step_4.sh: line 19: syntax error: unexpected end of file

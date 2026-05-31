@@ -1,0 +1,1 @@
+sed -n '/TODO/p' $(find . -name "*.py" -exec grep -l "TODO" {} +)

@@ -1,0 +1,1 @@
+wc -l <(cat python_files.txt | xargs cat) | sort -nr | head -n 10

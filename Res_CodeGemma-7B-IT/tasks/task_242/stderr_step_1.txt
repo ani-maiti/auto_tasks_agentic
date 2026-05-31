@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_242/step_1.py", line 30, in <module>
+    most_common_topic = Counter(topic_keywords).most_common(1)[0][0]
+IndexError: list index out of range

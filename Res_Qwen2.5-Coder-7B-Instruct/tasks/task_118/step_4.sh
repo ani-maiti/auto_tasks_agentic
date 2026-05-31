@@ -1,0 +1,1 @@
+echo "The latest release version of curl is: $stdout"

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_144/step_2.py", line 9, in <module>
+    content = f.read()
+  File "<frozen codecs>", line 325, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf6 in position 8: invalid start byte

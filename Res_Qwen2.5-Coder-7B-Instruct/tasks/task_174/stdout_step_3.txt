@@ -1,0 +1,3 @@
+./tasks/task_174/step_1.sh:find . -type f | xargs grep "artificial intelligence"
+./task_descriptions_all.txt:find all files containing the phrase artificial intelligence
+find all files containing the phrase artificial intelligence

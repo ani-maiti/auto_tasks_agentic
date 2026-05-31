@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/neovim/neovim/releases/latest | grep '"tag_name":' | sed 's/.*"\(.*\)"..*/\1/'

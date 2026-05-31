@@ -1,0 +1,1 @@
+print("SSL certificate expiration date for python.org:", expiration_date)

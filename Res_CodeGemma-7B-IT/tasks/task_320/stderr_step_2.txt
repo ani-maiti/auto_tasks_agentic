@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_320/step_2.py", line 51, in <module>
+    duplicates = deduplicate_functions(signatures)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_320/step_2.py", line 37, in deduplicate_functions
+    function_arguments = get_function_arguments(signature)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_320/step_2.py", line 17, in get_function_arguments
+    match = re.match(r"def\s+\w+\(.*?)(.*?\(.*?\))", signature)
+  File "/usr/lib/python3.10/re.py", line 190, in match
+    return _compile(pattern, flags).match(string)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.10/sre_parse.py", line 969, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 14

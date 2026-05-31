@@ -1,0 +1,1 @@
+cat shell_scripts.txt | xargs grep -oE '^[^#]*\b[a-zA-Z0-9_]+\b' | sort | uniq -c | sort -nr > command_frequency.txt

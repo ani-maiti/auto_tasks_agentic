@@ -1,0 +1,1 @@
+wc -l < text_files.txt

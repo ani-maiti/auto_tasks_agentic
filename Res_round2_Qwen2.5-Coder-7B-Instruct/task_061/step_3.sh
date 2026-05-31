@@ -1,0 +1,2 @@
+echo "It seems there was an issue retrieving the Debian stable release version. Let's try another method."
+wget -qO- https://deb.debian.org/debian/dists/stable/main/source/Sources.gz | gunzip | grep -oP 'Version: \K\d+\.\d+' | sort -V | tail -n 1

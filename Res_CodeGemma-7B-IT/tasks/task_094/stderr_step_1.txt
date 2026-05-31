@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_094/step_1.py", line 9, in <module>
+    tag_version = float(tag['name'].replace('.', ''))
+TypeError: string indices must be integers

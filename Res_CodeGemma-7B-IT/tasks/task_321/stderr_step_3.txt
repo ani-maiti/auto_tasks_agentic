@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_321/step_3.py", line 2, in <module>
+    duplicated_files = [f for f in file_metadata if len(file_metadata[f]['archives']) > 1]
+NameError: name 'file_metadata' is not defined

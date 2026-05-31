@@ -1,0 +1,1 @@
+find . -type f -exec ls -lh {} + | awk '{print $5 " " $9}' | sort | uniq -c | grep -v ' 1 '

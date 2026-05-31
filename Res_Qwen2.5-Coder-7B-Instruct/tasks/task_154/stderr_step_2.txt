@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_154/step_2.py", line 1
+    echo "Task completed successfully."
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax

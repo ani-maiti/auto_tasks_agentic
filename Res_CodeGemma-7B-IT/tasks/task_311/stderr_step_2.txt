@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_311/step_2.py", line 2, in <module>
+    if not activity_counts:
+NameError: name 'activity_counts' is not defined

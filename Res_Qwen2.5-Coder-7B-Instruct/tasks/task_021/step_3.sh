@@ -1,0 +1,1 @@
+ls -lh ./tasks/* | grep '12M'

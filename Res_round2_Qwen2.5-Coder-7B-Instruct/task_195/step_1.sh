@@ -1,0 +1,1 @@
+find . -type f -exec ls -lh {} + | awk '{sum+=$5} END {print sum/NR}' > avg_size.txt

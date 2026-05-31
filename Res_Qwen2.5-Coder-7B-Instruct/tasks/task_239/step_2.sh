@@ -1,0 +1,1 @@
+cat log_files.txt | xargs grep -oE '\[[^]]+\]' | sort | uniq -c > timestamps.txt

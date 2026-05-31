@@ -1,0 +1,1 @@
+cat ./hashes.txt | tr ' ' '\n' | grep -v '^$' > hashes_list.txt

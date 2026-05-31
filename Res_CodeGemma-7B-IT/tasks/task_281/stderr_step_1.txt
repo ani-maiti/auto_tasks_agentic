@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_281/step_1.py", line 69, in <module>
+    build_link_graph(url)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_281/step_1.py", line 28, in build_link_graph
+    title, headings, links = extract_page_data(url)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_281/step_1.py", line 19, in extract_page_data
+    headings = [h.text.strip() for h in soup.find_all("h1", "h2", "h3", "h4", "h5", "h6")]
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/bs4/element.py", line 3052, in find_all
+    _stacklevel += 1
+TypeError: can only concatenate str (not "int") to str

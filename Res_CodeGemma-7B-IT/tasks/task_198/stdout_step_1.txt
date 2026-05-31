@@ -1,0 +1,11 @@
+Largest CSV file: file_sizes.csv
+Numeric columns: Index(['File Size'], dtype='object')
+          File Size
+count     11.000000
+mean    4972.909091
+std     9506.337806
+min        9.000000
+25%      130.500000
+50%      835.000000
+75%     5759.000000
+max    32299.000000

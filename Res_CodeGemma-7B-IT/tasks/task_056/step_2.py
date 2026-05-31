@@ -1,0 +1,1 @@
+print(f"The latest XKCD comic title is: {title}")

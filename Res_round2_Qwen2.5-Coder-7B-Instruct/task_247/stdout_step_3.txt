@@ -1,0 +1,5 @@
+./hashes.txt
+./files_with_multiple_dots.txt
+./non_ascii_files.txt
+./tasks/task_147/stdout_step_2.txt
+./tasks/task_147/stdout_step_5.txt

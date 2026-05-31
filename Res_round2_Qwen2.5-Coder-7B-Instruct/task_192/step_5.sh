@@ -1,0 +1,1 @@
+find . -name "words_part*" -mtime -7 -exec ls -lt {} + | sort -k 5 -r

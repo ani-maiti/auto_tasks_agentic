@@ -1,0 +1,1 @@
+ls -lt | awk '$6 >= date -d "24 hours ago" +%b\ %e\ %Y'

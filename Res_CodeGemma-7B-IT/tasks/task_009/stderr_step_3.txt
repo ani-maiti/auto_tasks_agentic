@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_009/step_3.py", line 10
+    SHA256 hash of file3.txt: 599446907f855b04424c92bf8bf00ff6791883981305950448a0973040140834
+                                      ^
+SyntaxError: invalid decimal literal

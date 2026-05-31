@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_025/step_2.py", line 3, in <module>
+    json.dump(json_summary, f, indent=4)
+NameError: name 'json' is not defined

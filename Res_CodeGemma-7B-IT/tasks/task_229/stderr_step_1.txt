@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_229/step_1.py", line 23, in <module>
+    report['rank'] = report.index.rank(method='first', ascending=False)
+AttributeError: 'Index' object has no attribute 'rank'

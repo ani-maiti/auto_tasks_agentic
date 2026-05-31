@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_266/step_2.py", line 5, in <module>
+    files = get_files(dir_path)
+NameError: name 'get_files' is not defined

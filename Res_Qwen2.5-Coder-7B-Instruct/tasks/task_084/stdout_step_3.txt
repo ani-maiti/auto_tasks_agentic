@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+location: https://www.wikipedia.org/robots.txt
+server: HAProxy
+x-cache: cp1110 int
+x-cache-status: int-tls
+connection: close
+
+

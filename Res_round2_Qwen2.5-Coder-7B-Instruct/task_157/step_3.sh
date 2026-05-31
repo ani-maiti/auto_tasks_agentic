@@ -1,0 +1,1 @@
+grep -i 'upper' $(find . -type f) > uppercase_files.txt

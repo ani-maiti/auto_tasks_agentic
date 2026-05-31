@@ -1,0 +1,1 @@
+grep -E '^[^ ]+' sizes.txt | awk '$2 > $(cat avg_size.txt)' > larger_files.txt

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_280/step_1.py", line 83, in <module>
+    print_most_similar_tables(similar_tables)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_280/step_1.py", line 71, in print_most_similar_tables
+    most_similar_pair = max(similar_tables.items(), key=lambda x: len(x[1]))
+ValueError: max() arg is an empty sequence

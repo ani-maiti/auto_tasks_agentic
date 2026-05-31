@@ -1,0 +1,1 @@
+echo "Total number of lines in all shell scripts: $(grep -c '^#' $(find . -name "*.sh"))"

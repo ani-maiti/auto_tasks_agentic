@@ -1,0 +1,39 @@
+{
+  "task_id": 242,
+  "step": 3,
+  "max_steps": 4,
+  "timestamp": "2026-03-28T14:43:10.755289",
+  "task_description": "retrieve metadata for the top fifty most starred Python repositories on GitHub, classify repositories by topic keywords, save results to CSV, and print the most common topic",
+  "code": "import csv\n\n# Step 2: Classify repositories by topic keywords\ntopics = {\n    'web development': ['django', 'flask', 'react'],\n    'data science': ['pandas', 'numpy', 'scikit-learn'],\n    'machine learning': ['tensorflow', 'keras', 'pytorch'],\n    'devops': ['docker', 'kubernetes', 'ansible']\n}\n\nclassified_repositories = []\n\nwith open('top_50_python_repos.csv', 'r') as csvfile:\n    reader = csv.reader(csvfile)\n    next(reader)  # Skip header row\n    for row in reader:\n        repo_name = row[0]\n        topics_found = set()\n        for topic, keywords in topics.items():\n            if any(keyword.lower() in repo_name.lower() for keyword in keywords):\n                topics_found.add(topic)\n        classified_repositories.append((repo_name, topics_found))\n\n# Save classified repositories to a new CSV file\nwith open('classified_repositories.csv', 'w', newline='') as csvfile:\n    writer = csv.writer(csvfile)\n    writer.writerow(['Repository Name', 'Topics'])\n    for repo in classified_repositories:\n        writer.writerow([repo[0], ', '.join(repo[1])])\n\nprint(\"Repositories classified by topics and saved to classified_repositories.csv\")",
+  "trace": {
+    "stdout": "Repositories classified by topics and saved to classified_repositories.csv\n",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```python\nimport requests\nfrom bs4 import BeautifulSoup\nimport csv\nfrom collections import Counter\n\n# Step 1: Retrieve metadata for the top fifty most starred Python repositories on GitHub\nurl = \"https://github.com/search?q=language:python+stars:>1000&sort=stars&order=desc\"\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.text, 'html.parser')\n\nrepositories = []\nfor item in soup.find_all('li', class_='repo-list-item'):\n    repo_name = item.find('a', class_='v-align-middle').text.strip()\n    stars = int(item.find('span', class_='Counter').text.strip().replace(',', ''))\n    repositories.append((repo_name, stars))\n\ntop_50_repositories = sorted(repositories, key=lambda x: x[1], reverse=True)[:50]\n\n# Save repository names to a CSV file\nwith open('top_50_python_repos.csv', 'w', newline='') as csvfile:\n    writer = csv.writer(csvfile)\n    writer.writerow(['Repository Name'])\n    for repo in top_50_repositories:\n        writer.writerow([repo[0]])\n\nprint(\"Top 50 Python repositories retrieved and saved to top_50_python_repos.csv\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nTop 50 Python repositories retrieved and saved to top_50_python_repos.csv\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\n# Step 2: Classify repositories by topic keywords\ntopics = {\n    'web development': ['django', 'flask', 'react'],\n    'data science': ['pandas', 'numpy', 'scikit-learn'],\n    'machine learning': ['tensorflow', 'keras', 'pytorch'],\n    'devops': ['docker', 'kubernetes', 'ansible']\n}\n\nclassified_repositories = []\n\nwith open('top_50_python_repos.csv', 'r') as csvfile:\n    reader = csv.reader(csvfile)\n    next(reader)  # Skip header row\n    for row in reader:\n        repo_name = row[0]\n        topics_found = set()\n        for topic, keywords in topics.items():\n            if any(keyword.lower() in repo_name.lower() for keyword in keywords):\n                topics_found.add(topic)\n        classified_repositories.append((repo_name, topics_found))\n\n# Save classified repositories to a new CSV file\nwith open('classified_repositories.csv', 'w', newline='') as csvfile:\n    writer = csv.writer(csvfile)\n    writer.writerow(['Repository Name', 'Topics'])\n    for repo in classified_repositories:\n        writer.writerow([repo[0], ', '.join(repo[1])])\n\nprint(\"Repositories classified by topics and saved to classified_repositories.csv\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_242/step_2.py\", line 12, in <module>\n    reader = csv.reader(csvfile)\nNameError: name 'csv' is not defined\n\n\nreturn code: 1"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport csv\n\n# Step 2: Classify repositories by topic keywords\ntopics = {\n    'web development': ['django', 'flask', 'react'],\n    'data science': ['pandas', 'numpy', 'scikit-learn'],\n    'machine learning': ['tensorflow', 'keras', 'pytorch'],\n    'devops': ['docker', 'kubernetes', 'ansible']\n}\n\nclassified_repositories = []\n\nwith open('top_50_python_repos.csv', 'r') as csvfile:\n    reader = csv.reader(csvfile)\n    next(reader)  # Skip header row\n    for row in reader:\n        repo_name = row[0]\n        topics_found = set()\n        for topic, keywords in topics.items():\n            if any(keyword.lower() in repo_name.lower() for keyword in keywords):\n                topics_found.add(topic)\n        classified_repositories.append((repo_name, topics_found))\n\n# Save classified repositories to a new CSV file\nwith open('classified_repositories.csv', 'w', newline='') as csvfile:\n    writer = csv.writer(csvfile)\n    writer.writerow(['Repository Name', 'Topics'])\n    for repo in classified_repositories:\n        writer.writerow([repo[0], ', '.join(repo[1])])\n\nprint(\"Repositories classified by topics and saved to classified_repositories.csv\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nRepositories classified by topics and saved to classified_repositories.csv\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

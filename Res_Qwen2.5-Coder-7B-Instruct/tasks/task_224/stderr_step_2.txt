@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_224/step_2.py", line 14
+    This script attempts to open the image file and extract its EXIF data. If successful, it prints out the metadata. If there's no EXIF data, it will simply pass without printing anything.
+                                                                                                                              ^
+SyntaxError: unterminated string literal (detected at line 14)

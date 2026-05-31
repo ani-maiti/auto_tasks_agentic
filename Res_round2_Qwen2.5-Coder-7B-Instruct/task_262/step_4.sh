@@ -1,0 +1,1 @@
+echo "Command frequency report saved to command_report.md"

@@ -1,0 +1,6 @@
+60K	./tasks/task_001
+48K	./tasks/task_002
+48K	./tasks/task_003
+60K	./tasks/task_004
+40K	./tasks/task_005
+260K	./tasks

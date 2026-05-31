@@ -1,0 +1,1 @@
+['tasks', 'file_list.json', 'nvim-linux64.tar.gz', 'file_sizes.csv', 'python_files.csv']

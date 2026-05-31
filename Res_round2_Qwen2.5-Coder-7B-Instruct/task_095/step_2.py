@@ -1,0 +1,1 @@
+print(f"The latest Kubernetes release tag is: {stdout.strip()}")

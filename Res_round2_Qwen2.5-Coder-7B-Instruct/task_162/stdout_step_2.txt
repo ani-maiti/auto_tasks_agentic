@@ -1,0 +1,2 @@
+./cpython/.git/objects/pack/pack-f39038638fd1255074908b2444777bbfcc38f781.pack is larger than 50MB
+./words.txt is larger than 50MB

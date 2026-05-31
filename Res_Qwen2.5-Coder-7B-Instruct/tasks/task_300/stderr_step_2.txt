@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_300/step_2.py", line 7, in <module>
+    for xml_file in xml_files:
+NameError: name 'xml_files' is not defined

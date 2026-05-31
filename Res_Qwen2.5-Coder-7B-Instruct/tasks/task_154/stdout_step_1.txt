@@ -1,0 +1,1 @@
+The least common filename extension is: .xml

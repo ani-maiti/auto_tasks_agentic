@@ -1,0 +1,1 @@
+echo "The median file size across the current directory tree is: $(find . -type f -exec ls -lh {} + | awk '{print $5}' | sort -n | awk 'BEGIN { count=0; sum=0 } { count++; sum+=$1 } END { if (count % 2 == 1) print $(sum/count); else print ((sum/count)/2) }')"

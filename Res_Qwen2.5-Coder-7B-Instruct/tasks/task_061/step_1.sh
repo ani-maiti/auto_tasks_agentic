@@ -1,0 +1,1 @@
+wget -qO- https://deb.debian.org/debian/dists/stable/Release | grep "Version:" | awk '{print $2}'

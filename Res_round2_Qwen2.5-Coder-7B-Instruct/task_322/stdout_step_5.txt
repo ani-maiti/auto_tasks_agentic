@@ -1,0 +1,11 @@
+Failed to fetch weather data for New York
+Failed to fetch weather data for Los Angeles
+Failed to fetch weather data for Chicago
+Failed to fetch weather data for Houston
+Failed to fetch weather data for Phoenix
+Failed to fetch weather data for Philadelphia
+Failed to fetch weather data for San Antonio
+Failed to fetch weather data for San Diego
+Failed to fetch weather data for Dallas
+Failed to fetch weather data for San Jose
+Weather data retrieved and saved.

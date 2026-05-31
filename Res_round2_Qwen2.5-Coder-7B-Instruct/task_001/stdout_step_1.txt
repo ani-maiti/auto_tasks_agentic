@@ -1,0 +1,14 @@
+-rw-r--r-- 1 ai_admin ai_admin  32K May 29 11:22 ./task_descriptions_all.txt
+-rw-r--r-- 1 ai_admin ai_admin 7.5K May 30 23:26 ./generate_code_model_run.py
+-rw-r--r-- 1 ai_admin ai_admin 6.8K May 30 23:08 ./hashes.txt
+-rw-r--r-- 1 ai_admin ai_admin 2.3K May 30 23:08 ./txt_files.txt
+-rw-r--r-- 1 ai_admin ai_admin 1.9K Oct  2  2025 ./system_prompt_body.txt
+-rw-r--r-- 1 ai_admin ai_admin  694 May 30 23:02 ./file_sizes.csv
+-rw-r--r-- 1 ai_admin ai_admin  332 Feb 27 09:56 ./task_descriptions.txt
+-rw-r--r-- 1 ai_admin ai_admin   61 May 30 23:26 ./tasks/task_001/step_1.sh
+-rw-r--r-- 1 ai_admin ai_admin   14 May 30 23:03 ./file_report.csv
+-rw-r--r-- 1 ai_admin ai_admin    0 May 30 23:26 ./tasks/task_001/stdout_step_1.txt
+-rw-r--r-- 1 ai_admin ai_admin    0 May 30 23:26 ./tasks/task_001/stderr_step_1.txt
+-rw-r--r-- 1 ai_admin ai_admin    0 May 30 23:15 ./largest_files.csv
+-rw-r--r-- 1 ai_admin ai_admin    0 May 30 23:09 ./file_extension_report.txt
+-rw-r--r-- 1 ai_admin ai_admin    0 May 30 23:03 ./file_list.txt

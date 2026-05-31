@@ -1,0 +1,1 @@
+find . -type f -exec ls -lh {} + | awk '$5 ~ /^[0-9]+$/ && $5 < 100 {print $8}'

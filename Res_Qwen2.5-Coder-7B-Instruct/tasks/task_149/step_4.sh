@@ -1,0 +1,1 @@
+rm python_files.txt line_counts.txt

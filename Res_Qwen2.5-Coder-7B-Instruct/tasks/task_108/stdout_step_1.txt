@@ -1,0 +1,6 @@
+Retrieving MX records for gmail.com...
+MX Record: gmail-smtp-in.l.google.com. with preference 5
+MX Record: alt1.gmail-smtp-in.l.google.com. with preference 10
+MX Record: alt2.gmail-smtp-in.l.google.com. with preference 20
+MX Record: alt3.gmail-smtp-in.l.google.com. with preference 30
+MX Record: alt4.gmail-smtp-in.l.google.com. with preference 40

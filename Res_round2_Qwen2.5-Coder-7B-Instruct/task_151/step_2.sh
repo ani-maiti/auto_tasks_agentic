@@ -1,0 +1,1 @@
+wc -l <(grep -v '^$' egen/tokenizer.py)

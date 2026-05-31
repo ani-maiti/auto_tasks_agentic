@@ -1,0 +1,2 @@
+/home/ai_admin/aniruddha/nasa_seed/./tasks/task_108/step_2.py:10: DeprecationWarning: please use dns.resolver.Resolver.resolve() instead
+  mx_records = resolver.query('gmail.com', dns.rdatatype.MX)

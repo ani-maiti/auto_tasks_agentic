@@ -1,0 +1,1 @@
+curl https://api.github.com/repos/psf/requests/contributors | jq '. | length'

@@ -1,0 +1,2 @@
+print("SSL certificate issuer for python.org:")
+print(((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign Atlas R3 DV TLS CA 2025 Q4'),)))

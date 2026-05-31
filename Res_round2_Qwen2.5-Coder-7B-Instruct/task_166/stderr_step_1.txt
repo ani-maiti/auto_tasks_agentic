@@ -1,0 +1,3 @@
+find: ‘ls’ terminated by signal 13
+find: ‘ls’ terminated by signal 13
+find: ‘ls’ terminated by signal 13

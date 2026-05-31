@@ -1,0 +1,20 @@
+Collecting feedparser
+  Downloading feedparser-6.0.12-py3-none-any.whl.metadata (2.7 kB)
+Collecting sgmllib3k (from feedparser)
+  Downloading sgmllib3k-1.0.0.tar.gz (5.8 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Downloading feedparser-6.0.12-py3-none-any.whl (81 kB)
+Building wheels for collected packages: sgmllib3k
+  Building wheel for sgmllib3k (pyproject.toml): started
+  Building wheel for sgmllib3k (pyproject.toml): finished with status 'done'
+  Created wheel for sgmllib3k: filename=sgmllib3k-1.0.0-py3-none-any.whl size=6090 sha256=b6de9583da9b9a42005cecf0bcd73a5c6a4f9490c2e7e087dae694e3f0a93721
+  Stored in directory: /home/ai_admin/.cache/pip/wheels/e3/43/83/0f6e317d0698ac38ee6a5b6e214019c167057916a11bad91ab
+Successfully built sgmllib3k
+Installing collected packages: sgmllib3k, feedparser
+
+Successfully installed feedparser-6.0.12 sgmllib3k-1.0.0

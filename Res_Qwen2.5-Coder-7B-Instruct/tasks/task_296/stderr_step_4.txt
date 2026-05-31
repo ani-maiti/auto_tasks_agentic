@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_296/step_4.py", line 8
+    python_files = [
+                   ^
+SyntaxError: '[' was never closed

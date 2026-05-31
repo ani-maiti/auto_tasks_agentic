@@ -1,0 +1,2 @@
+Found 0 SQLite databases.
+No SQLite databases found in the current directory tree.

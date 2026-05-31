@@ -1,0 +1,1 @@
+grep -oE '^[^#]*\b[a-zA-Z0-9_-]+\b' $(find . -name "*.sh") | sort | uniq -c | sort -nr > command_frequency.md

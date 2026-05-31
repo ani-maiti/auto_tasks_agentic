@@ -1,0 +1,1 @@
+cat text_files.txt | xargs grep -oP '^[^#]*' > cleaned_text_files.txt

@@ -1,0 +1,12 @@
+Collecting readability-lxml
+  Downloading readability_lxml-0.8.4.1-py3-none-any.whl (19 kB)
+Collecting chardet
+  Downloading chardet-7.4.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (886 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 886.5/886.5 KB 6.9 MB/s eta 0:00:00
+Collecting cssselect
+  Downloading cssselect-1.4.0-py3-none-any.whl (18 kB)
+Collecting lxml-html-clean
+  Downloading lxml_html_clean-0.4.5-py3-none-any.whl (14 kB)
+Requirement already satisfied: lxml[html_clean] in /home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages (from readability-lxml) (6.1.1)
+Installing collected packages: lxml-html-clean, cssselect, chardet, readability-lxml
+Successfully installed chardet-7.4.3 cssselect-1.4.0 lxml-html-clean-0.4.5 readability-lxml-0.8.4.1

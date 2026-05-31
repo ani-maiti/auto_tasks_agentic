@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_118/step_4.py", line 2
+    tar -xzf curl-8_20_0-a-x86_64-linux-gnu.tar.gz
+             ^^^^
+SyntaxError: invalid syntax

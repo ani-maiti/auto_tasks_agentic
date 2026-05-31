@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_099/step_2.py", line 6, in <module>
+    with ssl_context.wrap_socket(socket.create_connection(('python.org', 443))) as sock:
+NameError: name 'socket' is not defined

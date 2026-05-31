@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_241/step_3.py", line 3, in <module>
+    for resolution, count in resolution_counts.items():
+                             ^^^^^^^^^^^^^^^^^
+NameError: name 'resolution_counts' is not defined

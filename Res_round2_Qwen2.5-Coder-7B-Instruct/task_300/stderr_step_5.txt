@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_300/step_5.py", line 5, in <module>
+    for xml_file in xml_files:
+                    ^^^^^^^^^
+NameError: name 'xml_files' is not defined

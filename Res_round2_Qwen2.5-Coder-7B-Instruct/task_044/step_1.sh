@@ -1,0 +1,1 @@
+find . -type f -size +0c | xargs ls -l --block-size=1 | sort -k 5 | head -n 1

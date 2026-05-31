@@ -1,0 +1,1 @@
+cat py_files.txt | xargs md5sum > md5_hashes.txt

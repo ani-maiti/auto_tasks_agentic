@@ -1,0 +1,1 @@
+awk '/^\./' <<< "$(ls -la)" > hidden_files.txt

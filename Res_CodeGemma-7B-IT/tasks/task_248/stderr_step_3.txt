@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_248/step_3.py", line 2, in <module>
+    column_similarity_matrix = df1.corrwith(df2)
+NameError: name 'df1' is not defined

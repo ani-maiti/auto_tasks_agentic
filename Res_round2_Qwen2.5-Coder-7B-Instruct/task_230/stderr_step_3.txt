@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_230/step_3.py", line 2, in <module>
+    total_stars = sum(repo['stargazers_count'] for repo in repositories)
+                                                           ^^^^^^^^^^^^
+NameError: name 'repositories' is not defined

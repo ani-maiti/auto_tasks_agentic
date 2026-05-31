@@ -1,0 +1,1 @@
+find . -type f -exec ls -lh {} + | awk '{print $5}' | sort -n | awk 'BEGIN { count=0; sum=0 } { count++; sum+=$1 } END { if (count % 2 == 1) print "Median: " $(sum/count); else print "Median: " ((sum/count)/2) }'

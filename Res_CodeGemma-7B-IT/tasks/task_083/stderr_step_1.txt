@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_083/step_1.py", line 9, in <module>
+    latest_post_title = soup.find("a", class_="post-title").text
+AttributeError: 'NoneType' object has no attribute 'text'

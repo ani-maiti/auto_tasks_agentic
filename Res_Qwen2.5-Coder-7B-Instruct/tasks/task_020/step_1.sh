@@ -1,0 +1,1 @@
+find . -name "*.md" -exec du -ch {} + | grep total$

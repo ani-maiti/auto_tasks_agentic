@@ -1,0 +1,4 @@
+./tasks/task_173/step_1.sh
+./tasks/task_092/stdout_step_1.txt
+./tasks/task_092/stdout_step_3.txt
+./task_descriptions_all.txt

@@ -1,0 +1,1 @@
+wc -l <(grep -v '^$' csv_files.txt)

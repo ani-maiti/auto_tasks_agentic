@@ -1,0 +1,3 @@
+xargs: xmllint: No such file or directory
+./tasks/task_219/step_5.sh: line 4: unexpected EOF while looking for matching ``'
+./tasks/task_219/step_5.sh: line 5: syntax error: unexpected end of file

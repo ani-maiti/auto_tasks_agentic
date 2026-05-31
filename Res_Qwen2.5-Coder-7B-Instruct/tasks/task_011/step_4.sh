@@ -1,0 +1,1 @@
+wc -l < ./tasks/task_007/step_5.py

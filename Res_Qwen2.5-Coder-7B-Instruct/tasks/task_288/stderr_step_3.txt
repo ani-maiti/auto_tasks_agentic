@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_288/step_3.py", line 4, in <module>
+    df = pd.read_csv("github_repos.csv")
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file

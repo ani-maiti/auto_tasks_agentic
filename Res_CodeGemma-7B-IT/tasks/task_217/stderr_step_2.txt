@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_2.py", line 16, in <module>
+    if any(metadata is None for metadata in metadata):
+NameError: name 'metadata' is not defined

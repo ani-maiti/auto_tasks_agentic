@@ -1,0 +1,1 @@
+find . -name "*.txt" -print0 | xargs -0 grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" > ip_addresses.txt

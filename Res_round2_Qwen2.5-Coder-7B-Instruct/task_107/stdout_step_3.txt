@@ -1,0 +1,5 @@
+Collecting dnspython
+  Downloading dnspython-2.8.0-py3-none-any.whl.metadata (5.7 kB)
+Downloading dnspython-2.8.0-py3-none-any.whl (331 kB)
+Installing collected packages: dnspython
+Successfully installed dnspython-2.8.0

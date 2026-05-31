@@ -1,0 +1,4 @@
+File Extension	Count
+		1
+.py		3
+.txt		4

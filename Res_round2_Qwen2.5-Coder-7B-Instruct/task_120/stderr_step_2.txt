@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_120/step_2.py", line 1, in <module>
+    print(f"The latest release version of Neovim is {latest_release_version}.")
+                                                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'latest_release_version' is not defined

@@ -1,0 +1,1 @@
+cat log_files.txt | xargs grep -oE '([0-9]{2}:[0-9]{2}:[0-9]{2})' > timestamps.txt

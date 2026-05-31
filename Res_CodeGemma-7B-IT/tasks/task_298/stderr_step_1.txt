@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_298/step_1.py", line 22, in <module>
+    weather_data = get_weather_data(city)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_298/step_1.py", line 12, in get_weather_data
+    return weather_data
+NameError: name 'weather_data' is not defined. Did you mean: 'get_weather_data'?

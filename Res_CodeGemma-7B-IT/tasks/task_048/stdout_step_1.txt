@@ -1,0 +1,8 @@
+/home/ai_admin/aniruddha/nasa_seed/tasks
+/home/ai_admin/aniruddha/nasa_seed/dowload_models.py
+/home/ai_admin/aniruddha/nasa_seed/task_descriptions_all.txt
+/home/ai_admin/aniruddha/nasa_seed/generate_code_model_run.py
+/home/ai_admin/aniruddha/nasa_seed/hf_tok.txt
+/home/ai_admin/aniruddha/nasa_seed/system_prompt_body.txt
+/home/ai_admin/aniruddha/nasa_seed/generate_code_model_run (copy).py
+/home/ai_admin/aniruddha/nasa_seed/task_descriptions.txt

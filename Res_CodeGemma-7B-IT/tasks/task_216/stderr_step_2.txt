@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_216/step_2.py", line 29, in <module>
+    json_files = [f for f in os.listdir('.') if f.endswith('.json')]
+NameError: name 'os' is not defined

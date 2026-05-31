@@ -1,0 +1,1 @@
+find / -perm -u=x,g=x,o=x 2>/dev/null

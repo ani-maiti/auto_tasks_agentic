@@ -1,0 +1,1 @@
+curl -s https://blog.docker.com/ | grep -oP '(?<=<h2 class="post-title">).*?(?=</h2>)'

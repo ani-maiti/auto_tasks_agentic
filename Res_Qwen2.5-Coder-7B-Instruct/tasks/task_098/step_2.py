@@ -1,0 +1,1 @@
+print("SSL certificate expiration date for github.com:", stdout.strip())

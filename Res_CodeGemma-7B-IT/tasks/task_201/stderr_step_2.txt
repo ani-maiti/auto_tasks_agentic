@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_201/step_2.py", line 2, in <module>
+    for domain, title in zip(top_domains, titles.values()):
+NameError: name 'top_domains' is not defined

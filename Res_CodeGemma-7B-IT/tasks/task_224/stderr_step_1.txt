@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_224/step_1.py", line 4, in <module>
+    from PIL.Exif import ImageFile
+ModuleNotFoundError: No module named 'PIL.Exif'

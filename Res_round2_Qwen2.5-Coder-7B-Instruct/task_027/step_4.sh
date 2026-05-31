@@ -1,0 +1,1 @@
+find . -type f -name "*.md" -exec grep -oE '^(#{1,6})' {} + | wc -l

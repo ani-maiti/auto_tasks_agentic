@@ -1,0 +1,1 @@
+print(f"The latest Debian stable release version is: {trace['stdout']}")

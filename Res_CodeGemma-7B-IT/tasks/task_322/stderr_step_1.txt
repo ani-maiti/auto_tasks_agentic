@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_322/step_1.py", line 71, in <module>
+    clusters = cluster_cities(city_data)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_322/step_1.py", line 28, in cluster_cities
+    climate_data = [extract_climate_characteristics(data) for data in city_data]
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_322/step_1.py", line 28, in <listcomp>
+    climate_data = [extract_climate_characteristics(data) for data in city_data]
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_322/step_1.py", line 20, in extract_climate_characteristics
+    temperature = weather_data["main"]["temp"]
+KeyError: 'main'

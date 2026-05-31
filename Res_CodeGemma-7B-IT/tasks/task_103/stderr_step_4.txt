@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_103/step_4.py", line 51
+    SSL certificate issuer for python.org: {'CN': 'Let's Encrypt Authority, Inc. - G2'}
+                                                                                     ^
+SyntaxError: unterminated string literal (detected at line 51)

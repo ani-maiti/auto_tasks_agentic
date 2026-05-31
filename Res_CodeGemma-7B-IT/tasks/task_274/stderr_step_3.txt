@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_274/step_3.py", line 18
+    Most common image dimensions: 1280x720
+                                     ^
+SyntaxError: invalid decimal literal

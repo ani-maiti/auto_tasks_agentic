@@ -1,0 +1,1 @@
+paste python_files.txt line_counts.txt > result.csv

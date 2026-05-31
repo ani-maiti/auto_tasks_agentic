@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/docker/docker-ce/releases/latest | grep "tag_name" | cut -d '"' -f 4

@@ -1,0 +1,1 @@
+cat csv_files.txt | xargs head -n 1 > sample_rows.txt

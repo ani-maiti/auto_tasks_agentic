@@ -1,0 +1,1 @@
+cat csv_files.txt | xargs -I {} head -n 1 {} > headers.txt

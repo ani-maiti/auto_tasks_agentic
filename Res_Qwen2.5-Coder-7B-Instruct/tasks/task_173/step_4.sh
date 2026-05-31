@@ -1,0 +1,1 @@
+cat ./tasks/task_092/stdout_step_3.txt

@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_010/step_3.py", line 4
+    ```
+    ^
+SyntaxError: invalid syntax

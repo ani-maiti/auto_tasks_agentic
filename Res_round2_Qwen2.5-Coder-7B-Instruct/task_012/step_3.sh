@@ -1,0 +1,1 @@
+grep -oP 'report, and print the most common entity type' <<< "$trace"

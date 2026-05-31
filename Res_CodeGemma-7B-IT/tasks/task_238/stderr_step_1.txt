@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_238/step_1.py", line 56, in <module>
+    most_called_function = find_most_called_function(call_graph)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_238/step_1.py", line 40, in find_most_called_function
+    most_called_function = max(function_counts, key=function_counts.get)
+ValueError: max() arg is an empty sequence

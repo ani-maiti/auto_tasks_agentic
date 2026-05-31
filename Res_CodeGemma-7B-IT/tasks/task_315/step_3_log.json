@@ -1,0 +1,39 @@
+{
+  "task_id": 315,
+  "step": 3,
+  "max_steps": 4,
+  "timestamp": "2026-04-23T21:28:20.178650",
+  "task_description": "retrieve the latest three hundred Hacker News stories, extract keywords and domains, build a keyword cooccurrence network, save the graph to JSON, generate a report, and print the most connected keyword",
+  "code": "import nltk",
+  "trace": {
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_315/step_3.py\", line 1, in <module>\n    import nltk\nModuleNotFoundError: No module named 'nltk'\n",
+    "return_code": "1"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```python\nimport requests\nfrom bs4 import BeautifulSoup\nfrom nltk.corpus import stopwords\nfrom nltk.tokenize import word_tokenize\nfrom nltk.stem import WordNetLemmatizer\nfrom nltk.corpus import wordnet\nimport networkx as nx\nimport json\n\n# Retrieve Hacker News stories\nresponse = requests.get('https://news.ycombinator.com/')\nsoup = BeautifulSoup(response.content, 'html.parser')\n\n# Extract keywords and domains\nkeywords = []\ndomains = []\nfor story in soup.find_all('a', class_='storylink'):\n    text = story.text.lower()\n    tokens = word_tokenize(text)\n    filtered_tokens = [token for token in tokens if token not in stopwords.words('english')]\n    lemmatizer = WordNetLemmatizer()\n    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in filtered_tokens]\n    keywords.extend(lemmatized_tokens)\n    domains.append(story['href'].split('/')[2])\n\n# Build keyword co-occurrence network\ngraph = nx.Graph()\nfor keyword in keywords:\n    graph.add_node(keyword)\n\nfor i in range(len(keywords)):\n    for j in range(i + 1, len(keywords)):\n        if keywords[i] != keywords[j]:\n            graph.add_edge(keywords[i], keywords[j])\n\n# Save graph to JSON\nnx.write_graphml(graph, 'hacker_news_graph.graphml')\n\n# Generate report\nprint('Top 10 keywords:')\nfor keyword, degree in graph.degree():\n    print(f'{keyword}: {degree}')\n\nprint('\\nTop 10 most connected keywords:')\nfor keyword, neighbors in graph.adjacency():\n    if len(neighbors) > 9:\n        print(f'{keyword}: {neighbors[:10]}')\n\nprint('\\nTop 10 most common domains:')\ndomain_counts = {}\nfor domain in domains:\n    domain_counts[domain] = domain_counts.get(domain, 0) + 1\nsorted_domains = sorted(domain_counts.items(), key=lambda x: x[1], reverse=True)\nprint(sorted_domains[:10])\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_315/step_1.py\", line 3, in <module>\n    from nltk.corpus import stopwords\nModuleNotFoundError: No module named 'nltk'\n\n\nreturn code: 1"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\npip install nltk\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_315/step_2.py\", line 1\n    pip install nltk\n        ^^^^^^^\nSyntaxError: invalid syntax\n\n\nreturn code: 1"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport nltk\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_315/step_3.py\", line 1, in <module>\n    import nltk\nModuleNotFoundError: No module named 'nltk'\n\n\nreturn code: 1"
+    }
+  ]
+}

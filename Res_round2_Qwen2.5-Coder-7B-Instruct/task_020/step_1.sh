@@ -1,0 +1,1 @@
+find . -name "*.md" -exec ls -l {} + | awk '{sum+=$5} END {print sum}'

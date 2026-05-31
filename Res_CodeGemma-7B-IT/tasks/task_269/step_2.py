@@ -1,0 +1,1 @@
+print(language_frequencies)

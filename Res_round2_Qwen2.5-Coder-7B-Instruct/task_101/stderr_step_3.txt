@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_101/step_3.py", line 4, in <module>
+    ssl_date = result.stdout.split('notAfter=')[1].split('\n')[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

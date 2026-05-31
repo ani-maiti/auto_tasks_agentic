@@ -1,0 +1,201 @@
+        # TODO: Filter contents of props file according to included/excluded items
+TODO:
+    # TODO: make this more robust!  test_sysconfig_module of
+        # TODO: Deprecate accepting file paths (in particular path-like objects).
+                    # TODO(pganssle): Document this
+# TODO:
+        # TODO Add a timeout? Or don't bother since the user can ^C?
+                    # TODO: deprecate
+            # TODO: deprecate
+        # TODO implement heuristics to guess the correct Resent-* block with an
+        # TODO: fix TLSv1.3 once SSLContext can restrict signature
+        # TODO: sessions aren't compatible with TLSv1.3 yet
+        # TODO: session reuse does not work with TLSv1.3
+# TODO(picnixz): increase test coverage for other callbacks
+        # TODO(emmatyping): if it is impossible for a block header to cross
+        # TODO This warning has to be fixed in asyncio.
+            # TODO: This behavior is not ideal.  We'd rather have no exception
+# TODO: This module was deprecated and removed from CPython 3.12
+# TODO:
+# TODO: This module was deprecated and removed from CPython 3.12
+                # TODO: SSLError does not expose alert information
+        # TODO(brian@sweetapp.com): This test is timing dependent.
+        # TODO(brian@sweetapp.com): This test is timing dependent.
+            # TODO: test the next case and add same case to test_ssl (We
+        # TODO: Should be called before initscr() or newterm() are called.
+        # TODO: nofilter()
+        # TODO: Should be called before initscr() or newterm() are called.
+        # TODO: use_tioctl()
+        # TODO: Test with real input by writing to master fd.
+        # TODO: Test with real input by writing to master fd.
+        # TODO: attr_get(), attr_set(), ...
+        # TODO: wunctrl()
+        # TODO: term_attrs(), erasewchar(), killwchar()
+        # TODO: key_name()
+        # TODO: txt.reconfigure(encoding='utf-8\0')
+        # TODO: txt.reconfigure(encoding='nonexisting')
+        # TODO: txt.reconfigure(errors='ignore\0')
+        # TODO: txt.reconfigure(errors='nonexisting')
+            # TODO: Should fail in C too.
+            # TODO: Use __bool__(), not __index__().
+        # TODO: This test is for a kinda-buggy behavior.
+# TODO: Use self.addCleanup to get rid of a lot of try-finally blocks
+    # TODO: add more tests for deliver/answer challenge.
+    # TODO(gpshead): We need integration tests for handshakes between modern
+    # TODO(gpshead): properly annotate tests for requires_hashdigest rather than
+        # TODO: fix https://bugs.python.org/issue35919
+    #TODO: add tests for correct AUTH method fallback now that the
+    if TODO_TESTS is not None:
+        if TODO_TESTS is not None and head not in TODO_TESTS:
+    if TODO_TESTS is None:
+TODO_TESTS = None
+    global ARITH, TODO_TESTS, DEBUG
+    TODO_TESTS = todo_tests
+### themselves TODO: Skip tests that do mess with sys.settrace when
+# TODO:
+                # TODO: SSLError does not expose alert information
+    # TODO: test PyFunction_New()
+    # TODO: test PyFunction_NewWithQualName()
+    # TODO: test PyFunction_SetVectorcall()
+    # TODO: test PyFunction_SetAnnotations()
+    # TODO: test PyClassMethod_New()
+    # TODO: test PyStaticMethod_New()
+    # TODO: Test the following functions:
+        # TODO: Test PyUnicode_Fill() with non-modifiable unicode.
+        # TODO: Test PyUnicode_WriteChar() with non-modifiable and legacy
+        # TODO: Test PyUnicode_Resize() with non-modifiable and legacy unicode
+        # TODO: Test PyUnicode_Append() with modifiable unicode
+        # TODO: Check reference counts.
+        # TODO: Test PyUnicode_AppendAndDel() with modifiable unicode
+        # TODO: Check reference counts.
+        # TODO: Test PyUnicode_CopyCharacters() with non-unicode and
+    # TODO: test PyImport_GetImporter()
+    # TODO: test PyImport_ReloadModule()
+    # TODO: test PyImport_ExtendInittab()
+        # TODO gh-115506: this assertion may change after propagating constants.
+        # TODO gh-115506: this assertion may change after propagating constants.
+        # TODO gh-115506: this assertion may change after propagating constants.
+        # TODO (gh-143723): After refactoring TO_BOOL_INT to eliminate redundant
+    # TODO: Test the following functions:
+        # TODO: Test PyUnicode_Decode() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUTF8() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUTF8Stateful() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUTF8Stateful() with NULL as the address of
+        # TODO: Test PyUnicode_DecodeUTF16() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUTF16Stateful() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUTF16Stateful() with NULL as the address of
+        # TODO: Test PyUnicode_DecodeUTF32() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUTF32Stateful() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUTF32Stateful() with NULL as the address of
+        # TODO: Test PyUnicode_DecodeLatin1() with NULL as data and
+        # TODO: Test PyUnicode_DecodeASCII() with NULL as data and
+        # TODO: Test PyUnicode_DecodeCharmap() with NULL as data and
+        # TODO: Test PyUnicode_DecodeUnicodeEscape() with NULL as data and
+        # TODO: Test PyUnicode_DecodeRawUnicodeEscape() with NULL as data and
+    # TODO: Test the following functions:
+        # TODO: Validate this
+        # TODO: gh-110012, we should investigate why this warning is happening
+        with downgrade_malformed_data_warning():  # TODO: gh-110012
+        with downgrade_malformed_data_warning():  # TODO: gh-110012
+        with downgrade_malformed_data_warning():  # TODO: gh-110012
+        # TODO: add check that forces the presence of wchar_t representation
+        # TODO: add check that forces layout of unicodefields
+    # TODO: Test for utc=False.
+    # TODO: Test for utc=False.
+        # TODO: Add test for elide=True
+        # TODO: Add test for elide=True
+        from test.test___all__ import AllTest  # TODO: extract to a helper?
+        with warnings.catch_warnings(record=True) as w: # TODO: remove in 3.20
+        # TODO: Support type.
+            # TODO: Support BuiltinMethodType
+            # TODO: Support MethodWrapperType
+        # TODO: Test ClassMethodDescriptorType
+            # TODO: Support WrapperDescriptorType
+        # TODO: Support type.
+        # TODO(picnixz): refactor this as it's used by test_repl.py
+        # TODO(jhylton): Should this be redesigned to handle
+        # TODO: The private API is used in order to preserve an empty query.
+# TODO for gnu_getopt():
+    # TODO: These are not actually epoch dates as they are expressed in local time
+        # TODO: check if flags are valid standard flag characters?
+        # TODO: check that flag is a valid standard flag character?
+# TODO: Replace these helpers with importlib._bootstrap_external functions.
+# TODO: Do any platforms still lack a functioning sem_open?
+TODO: Fill out more detailed documentation on the operators."""
+            # TODO: try to split between words?
+        # TODO - why is this here and not in a create_command_buttons?
+TODO:
+                   # TODO redo entire section, tries not needed.
+            # TODO recheck above; see debugger_r 159ff, debugobj 60.
+# TODO: htest?
+def _test():  # TODO check and convert to htest
+# TODOs added Oct 2014, tjr
+        # TODO Use default as fallback, at least if not None
+        self.cfg = {}  # TODO use to select userCfg vs defaultCfg
+        # TODO continue without userDIr instead of exit
+        # TODO copy theme from a class attribute.
+                    if editor_only or shell_only:  # TODO both True contradict
+                    extName = extn  # TODO return here?
+            # TODO (Ned?): the "Option" modifier does not work properly
+# TODO make keyBindings a file or class attribute used for test above
+        # TODO: = dict(sorted([(v-event, keys), ...]))?
+# TODO Revise test output, write expanded unittest
+        # TODO return sorted(self.object)
+#       TODO: Make this more robust
+        #TODO: don't read/write this from/to .idlerc when testing
+        self.tag_remove("TODO", "1.0", "iomark")
+        # TODO: move to iomenu.
+            return self.text.tag_prevrange("TODO", text_index) or \
+# TODO Update this here and elsewhere.
+            "TODO": {'background': None, 'foreground': None},
+        self.tag_add("TODO", index1, index2)
+        if self.allow_colorizing and self.tag_nextrange("TODO", "1.0"):
+        while todo_tag_range := self.tag_nextrange("TODO", next):
+                    self.tag_add("TODO", next)
+# TODO: autocomplete/w htest here
+    TODO:
+    # TODO: use also in codecontext.py
+                if tag not in ('SYNC', 'TODO'):
+                    if tag in ('SYNC', 'TODO'):
+        # Rescheduled when TODO tag still exists.
+        text.tag_remove('TODO', '1.0', 'end')
+        text.tag_remove('TODO', '1.0', 'end')
+        text.tag_add('TODO', '1.0', 'end')
+        eq(text.tag_nextrange('TODO', '1.0'), ())
+        Note that the irrelevant tags 'sel', 'TODO' and 'SYNC' are
+            text.tag_add('TODO', '1.0', 'end-1c')
+        for tag in set(text.tag_names()) - {'sel', 'TODO', 'SYNC'}:
+        text.tag_add("TODO", "1.0")
+    # TODO: Re-work these tests or remove them from the test suite.
+        # TODO: finish.
+    # TODO: test that save_all calls usercfg Saves.
+        # TODO test for save call.
+TODO test these modules and classes:
+# TODO implement ^\; adding '<Control-Key-\\>' to function does not work.
+# TODO Improve message
+# TODO edit wrapper
+        # TODO Improve checks when add IdleConf.get_font_values.
+#unittest.skip("Nothing here yet TODO")
+TODO: Specify command line arguments in a dialog box.
+TODO:
+        # TODO: Return synthetic EOF token instead of None?
+char = r"\'.\'"  # TODO: escape sequence
+            # TODO: dedent > 0
+    # TODO: super() on the same class from multiple threads still doesn't
+# TODO:
+    output: Any = None  # TODO: Very dynamic; probably untypeable in its current form?
+        path = path + [node]  # TODO: Make this not quadratic.
+Incomplete = Any  # TODO: install `types-setuptools` and remove this alias
+        gen: ParserGenerator = PythonParserGenerator(grammar, file)  # TODO: skip_actions
+        # TODO: Decide whether to use [X] or X? based on type of X
+        # TODO: Decide whether to use (X)* or X* based on type of X
+        # TODO: Decide whether to use (X)+ or X+ based on type of X
+        name = f"_tmp_{self.counter}"  # TODO: Pick a nicer name.
+TODO: Remove the above-described hack.
+    TODO: express that using a Protocol.
+    # TODO: repr() puts everything on one line; pformat can be nicer, but
+# TODO: Check for parity
+        # TODO: Is this necessary any more?
+        # TODO: Use more obvious markers, e.g.
+        # TODO: bump python version for this script.
+        self.write("// TODO: The above tuple should be a frozenset")

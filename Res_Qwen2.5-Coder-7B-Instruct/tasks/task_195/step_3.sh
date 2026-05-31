@@ -1,0 +1,1 @@
+echo "Invalid file size format. Please ensure the file contains a valid number."

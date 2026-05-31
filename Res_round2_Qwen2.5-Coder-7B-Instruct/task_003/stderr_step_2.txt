@@ -1,0 +1,2 @@
+awk: cmd. line:1: $6 >= date -d "24 hours ago" +%b\ %e\ %Y
+awk: cmd. line:1:                               ^ syntax error

@@ -1,0 +1,1 @@
+Median file size across the current directory tree is: 5

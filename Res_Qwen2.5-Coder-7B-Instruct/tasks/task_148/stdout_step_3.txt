@@ -1,0 +1,28 @@
+It seems like there might be an issue with the current directory or permissions. Can you please ensure you are in the correct directory and have the necessary permissions?
+/home/ai_admin/aniruddha/nasa_seed/agentic_tasks
+total 164
+drwxrwxr-x   3 ai_admin ai_admin  4096 May 29 15:48 .
+drwxrwxr-x   3 ai_admin ai_admin  4096 May 29 14:31 ..
+-rw-rw-r--   1 ai_admin ai_admin    12 May 29 14:43 avg_size.txt
+-rw-rw-r--   1 ai_admin ai_admin 23862 May 29 14:44 directory_tree.txt
+-rw-rw-r--   1 ai_admin ai_admin     0 May 29 14:44 email_files.txt
+-rw-rw-r--   1 ai_admin ai_admin     0 May 29 14:34 file_extension_report.txt
+-rw-rw-r--   1 ai_admin ai_admin     0 May 29 14:40 file_sizes.json
+-rw-rw-r--   1 ai_admin ai_admin 16067 May 29 14:43 files.txt
+-rwxr-xr-x   1 ai_admin ai_admin  7419 May 29 14:25 generate_code_model_run.py
+-rw-rw-r--   1 ai_admin ai_admin  5923 May 29 14:32 hashes.txt
+-rwxrwxr-x   1 ai_admin ai_admin     0 May 29 15:23 jq
+-rw-rw-r--   1 ai_admin ai_admin     0 May 29 14:43 larger_files.txt
+-rw-rw-r--   1 ai_admin ai_admin  8234 May 29 14:41 largest_files.txt
+-rw-rw-r--   1 ai_admin ai_admin  2259 May 29 14:42 md5_hashes.txt
+-rw-rw-r--   1 ai_admin ai_admin  1001 May 29 14:42 py_files.txt
+-rw-rw-r--   1 ai_admin ai_admin  7643 May 29 15:48 python_files.txt
+-rw-rw-r--   1 ai_admin ai_admin   567 May 29 14:34 recent_files.txt
+-rw-rw-r--   1 ai_admin ai_admin  1877 May 29 15:47 sitemap.xml
+-rw-rw-r--   1 ai_admin ai_admin    28 May 29 14:43 sizes.txt
+-rwxr-xr-x   1 ai_admin ai_admin  1919 Oct  2  2025 system_prompt_body.txt
+-rwxr-xr-x   1 ai_admin ai_admin 32299 May 29 14:22 task_descriptions_all.txt
+drwxr-xr-x 150 ai_admin ai_admin  4096 May 29 15:51 tasks
+-rw-rw-r--   1 ai_admin ai_admin 10515 May 29 14:44 text_files.txt
+-rw-rw-r--   1 ai_admin ai_admin  2029 May 29 14:32 txt_files.txt
+-rw-rw-r--   1 ai_admin ai_admin     0 May 29 14:45 urls.txt

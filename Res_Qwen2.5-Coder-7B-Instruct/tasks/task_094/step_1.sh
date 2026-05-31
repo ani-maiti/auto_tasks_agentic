@@ -1,0 +1,1 @@
+curl --silent "https://api.github.com/repos/docker/docker-ce/releases/latest" | grep '"tag_name":' | sed 's/.*"\(.*\)"..*/\1/'

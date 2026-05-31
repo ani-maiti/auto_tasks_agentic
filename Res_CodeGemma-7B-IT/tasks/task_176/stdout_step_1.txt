@@ -1,0 +1,7 @@
+File Extensions:
+.txt: 4
+.py: 3
+: 1
+.json: 1
+.gz: 1
+.csv: 1

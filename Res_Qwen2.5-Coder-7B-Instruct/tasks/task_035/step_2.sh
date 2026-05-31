@@ -1,0 +1,1 @@
+du -b --max-depth=1 | sort -n > sizes.txt

@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_242/step_1.py", line 17
+    This code retrieves the top fifty most starred Python repositories from GitHub using the GitHub API. If successful, it stores the repository data in the `repositories` variable. If there's an error, it prints an error message and exits.
+                                                                                                                                                                                              ^
+SyntaxError: unterminated string literal (detected at line 17)

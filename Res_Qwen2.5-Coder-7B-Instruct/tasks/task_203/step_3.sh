@@ -1,0 +1,1 @@
+echo "No archives found in the current directory."

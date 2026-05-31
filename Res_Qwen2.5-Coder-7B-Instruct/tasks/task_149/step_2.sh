@@ -1,0 +1,1 @@
+wc -l $(cat python_files.txt) > line_counts.txt

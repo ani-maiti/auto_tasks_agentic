@@ -1,0 +1,1 @@
+echo "No markdown files found in the current directory."

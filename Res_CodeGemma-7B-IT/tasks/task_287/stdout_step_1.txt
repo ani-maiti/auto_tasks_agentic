@@ -1,0 +1,6 @@
+Image Analysis Report
+-------------------
+Total images: 0
+Duplicate images: 0
+Near duplicate images: 0
+Image groups by resolution: 0

@@ -1,0 +1,347 @@
+./cpython/Lib/_pylong.py-        func = _dec_str_to_int_inner
+./cpython/Lib/_pylong.py-    return func(s)
+./cpython/Lib/_pylong.py-
+./cpython/Lib/_pylong.py-def str_to_int(s):
+./cpython/Lib/_pylong.py-    """Asymptotically fast version of decimal string to 'int' conversion."""
+./cpython/Lib/_pylong.py:    # FIXME: this doesn't support the full syntax that int() supports.
+./cpython/Lib/_pylong.py-    m = re.match(r'\s*([+-]?)([0-9_]+)\s*', s)
+./cpython/Lib/_pylong.py-    if not m:
+./cpython/Lib/_pylong.py-        raise ValueError('invalid literal for int() with base 10')
+./cpython/Lib/_pylong.py-    v = int_from_string(m.group(2))
+./cpython/Lib/_pylong.py-    if m.group(1) == '-':
+--
+./cpython/Lib/xml/sax/expatreader.py-            # document. When feeding chunks, they are not normally final -
+./cpython/Lib/xml/sax/expatreader.py-            # except when invoked from close.
+./cpython/Lib/xml/sax/expatreader.py-            self._parser.Parse(data, isFinal)
+./cpython/Lib/xml/sax/expatreader.py-        except expat.error as e:
+./cpython/Lib/xml/sax/expatreader.py-            exc = SAXParseException(expat.ErrorString(e.code), e, self)
+./cpython/Lib/xml/sax/expatreader.py:            # FIXME: when to invoke error()?
+./cpython/Lib/xml/sax/expatreader.py-            self._err_handler.fatalError(exc)
+./cpython/Lib/xml/sax/expatreader.py-
+./cpython/Lib/xml/sax/expatreader.py-    def flush(self):
+./cpython/Lib/xml/sax/expatreader.py-        if self._parser is None:
+./cpython/Lib/xml/sax/expatreader.py-            return
+--
+./cpython/Lib/xml/sax/expatreader.py-        self._source = source
+./cpython/Lib/xml/sax/expatreader.py-
+./cpython/Lib/xml/sax/expatreader.py-        try:
+./cpython/Lib/xml/sax/expatreader.py-            xmlreader.IncrementalParser.parse(self, source)
+./cpython/Lib/xml/sax/expatreader.py-        except:
+./cpython/Lib/xml/sax/expatreader.py:            return 0  # FIXME: save error info here?
+./cpython/Lib/xml/sax/expatreader.py-
+./cpython/Lib/xml/sax/expatreader.py-        (self._parser, self._source) = self._entity_stack[-1]
+./cpython/Lib/xml/sax/expatreader.py-        del self._entity_stack[-1]
+./cpython/Lib/xml/sax/expatreader.py-        return 1
+./cpython/Lib/xml/sax/expatreader.py-
+--
+./cpython/Lib/xml/etree/ElementInclude.py-                node = loader(href, parse)
+./cpython/Lib/xml/etree/ElementInclude.py-                if node is None:
+./cpython/Lib/xml/etree/ElementInclude.py-                    raise FatalIncludeError(
+./cpython/Lib/xml/etree/ElementInclude.py-                        "cannot load %r as %r" % (href, parse)
+./cpython/Lib/xml/etree/ElementInclude.py-                        )
+./cpython/Lib/xml/etree/ElementInclude.py:                node = copy.copy(node)  # FIXME: this makes little sense with recursive includes
+./cpython/Lib/xml/etree/ElementInclude.py-                _include(node, loader, href, max_depth - 1, _parent_hrefs)
+./cpython/Lib/xml/etree/ElementInclude.py-                _parent_hrefs.remove(href)
+./cpython/Lib/xml/etree/ElementInclude.py-                if e.tail:
+./cpython/Lib/xml/etree/ElementInclude.py-                    node.tail = (node.tail or "") + e.tail
+./cpython/Lib/xml/etree/ElementInclude.py-                elem[i] = node
+--
+./cpython/Lib/xml/etree/ElementTree.py-                    qnames[qname] = "%s:%s" % (prefix, tag)
+./cpython/Lib/xml/etree/ElementTree.py-                else:
+./cpython/Lib/xml/etree/ElementTree.py-                    qnames[qname] = tag # default element
+./cpython/Lib/xml/etree/ElementTree.py-            else:
+./cpython/Lib/xml/etree/ElementTree.py-                if default_namespace:
+./cpython/Lib/xml/etree/ElementTree.py:                    # FIXME: can this be handled in XML 1.0?
+./cpython/Lib/xml/etree/ElementTree.py-                    raise ValueError(
+./cpython/Lib/xml/etree/ElementTree.py-                        "cannot use non-qualified names with "
+./cpython/Lib/xml/etree/ElementTree.py-                        "default_namespace option"
+./cpython/Lib/xml/etree/ElementTree.py-                        )
+./cpython/Lib/xml/etree/ElementTree.py-                qnames[qname] = qname
+--
+./cpython/Lib/xml/etree/ElementPath.py-                        yield e
+./cpython/Lib/xml/etree/ElementPath.py-    return select
+./cpython/Lib/xml/etree/ElementPath.py-
+./cpython/Lib/xml/etree/ElementPath.py-def prepare_parent(next, token):
+./cpython/Lib/xml/etree/ElementPath.py-    def select(context, result):
+./cpython/Lib/xml/etree/ElementPath.py:        # FIXME: raise error if .. is applied at toplevel?
+./cpython/Lib/xml/etree/ElementPath.py-        parent_map = get_parent_map(context)
+./cpython/Lib/xml/etree/ElementPath.py-        result_map = {}
+./cpython/Lib/xml/etree/ElementPath.py-        for elem in result:
+./cpython/Lib/xml/etree/ElementPath.py-            if elem in parent_map:
+./cpython/Lib/xml/etree/ElementPath.py-                parent = parent_map[elem]
+--
+./cpython/Lib/xml/etree/ElementPath.py-                    result_map[parent] = None
+./cpython/Lib/xml/etree/ElementPath.py-                    yield parent
+./cpython/Lib/xml/etree/ElementPath.py-    return select
+./cpython/Lib/xml/etree/ElementPath.py-
+./cpython/Lib/xml/etree/ElementPath.py-def prepare_predicate(next, token):
+./cpython/Lib/xml/etree/ElementPath.py:    # FIXME: replace with real parser!!! refs:
+./cpython/Lib/xml/etree/ElementPath.py-    # http://javascript.crockford.com/tdop/tdop.html
+./cpython/Lib/xml/etree/ElementPath.py-    signature = []
+./cpython/Lib/xml/etree/ElementPath.py-    predicate = []
+./cpython/Lib/xml/etree/ElementPath.py-    while 1:
+./cpython/Lib/xml/etree/ElementPath.py-        try:
+--
+./cpython/Lib/xml/etree/ElementPath.py-        def select(context, result):
+./cpython/Lib/xml/etree/ElementPath.py-            parent_map = get_parent_map(context)
+./cpython/Lib/xml/etree/ElementPath.py-            for elem in result:
+./cpython/Lib/xml/etree/ElementPath.py-                try:
+./cpython/Lib/xml/etree/ElementPath.py-                    parent = parent_map[elem]
+./cpython/Lib/xml/etree/ElementPath.py:                    # FIXME: what if the selector is "*" ?
+./cpython/Lib/xml/etree/ElementPath.py-                    elems = list(parent.findall(elem.tag))
+./cpython/Lib/xml/etree/ElementPath.py-                    if elems[index] is elem:
+./cpython/Lib/xml/etree/ElementPath.py-                        yield elem
+./cpython/Lib/xml/etree/ElementPath.py-                except (IndexError, KeyError):
+./cpython/Lib/xml/etree/ElementPath.py-                    pass
+--
+./cpython/Lib/xml/etree/ElementPath.py-# Generate all matching objects.
+./cpython/Lib/xml/etree/ElementPath.py-
+./cpython/Lib/xml/etree/ElementPath.py-def iterfind(elem, path, namespaces=None):
+./cpython/Lib/xml/etree/ElementPath.py-    # compile selector pattern
+./cpython/Lib/xml/etree/ElementPath.py-    if path[-1:] == "/":
+./cpython/Lib/xml/etree/ElementPath.py:        path = path + "*" # implicit all (FIXME: keep this?)
+./cpython/Lib/xml/etree/ElementPath.py-
+./cpython/Lib/xml/etree/ElementPath.py-    cache_key = (path,)
+./cpython/Lib/xml/etree/ElementPath.py-    if namespaces:
+./cpython/Lib/xml/etree/ElementPath.py-        cache_key += tuple(sorted(namespaces.items()))
+./cpython/Lib/xml/etree/ElementPath.py-
+--
+./cpython/Lib/xmlrpc/client.py-                  'faultString': values.faultString},
+./cpython/Lib/xmlrpc/client.py-                 write)
+./cpython/Lib/xmlrpc/client.py-            write("</fault>\n")
+./cpython/Lib/xmlrpc/client.py-        else:
+./cpython/Lib/xmlrpc/client.py-            # parameter block
+./cpython/Lib/xmlrpc/client.py:            # FIXME: the xml-rpc specification allows us to leave out
+./cpython/Lib/xmlrpc/client.py-            # the entire <params> block if there are no parameters.
+./cpython/Lib/xmlrpc/client.py-            # however, changing this may break older code (including
+./cpython/Lib/xmlrpc/client.py-            # old versions of xmlrpclib.py), so this is better left as
+./cpython/Lib/xmlrpc/client.py-            # is for now.  See @XMLRPC3 for more information. /F
+./cpython/Lib/xmlrpc/client.py-            write("<params>\n")
+--
+./cpython/Lib/xmlrpc/client.py-    #
+./cpython/Lib/xmlrpc/client.py-    # event handlers
+./cpython/Lib/xmlrpc/client.py-
+./cpython/Lib/xmlrpc/client.py-    def xml(self, encoding, standalone):
+./cpython/Lib/xmlrpc/client.py-        self._encoding = encoding
+./cpython/Lib/xmlrpc/client.py:        # FIXME: assert standalone == 1 ???
+./cpython/Lib/xmlrpc/client.py-
+./cpython/Lib/xmlrpc/client.py-    def start(self, tag, attrs):
+./cpython/Lib/xmlrpc/client.py-        # prepare to handle this element
+./cpython/Lib/xmlrpc/client.py-        if ':' in tag:
+./cpython/Lib/xmlrpc/client.py-            tag = tag.split(':')[-1]
+--
+./cpython/Lib/xmlrpc/client.py-        super().__init__(use_datetime=use_datetime,
+./cpython/Lib/xmlrpc/client.py-                         use_builtin_types=use_builtin_types,
+./cpython/Lib/xmlrpc/client.py-                         headers=headers)
+./cpython/Lib/xmlrpc/client.py-        self.context = context
+./cpython/Lib/xmlrpc/client.py-
+./cpython/Lib/xmlrpc/client.py:    # FIXME: mostly untested
+./cpython/Lib/xmlrpc/client.py-
+./cpython/Lib/xmlrpc/client.py-    def make_connection(self, host):
+./cpython/Lib/xmlrpc/client.py-        if self._connection and host == self._connection[0]:
+./cpython/Lib/xmlrpc/client.py-            return self._connection[1]
+./cpython/Lib/xmlrpc/client.py-
+--
+./cpython/Lib/importlib/_bootstrap_external.py-        elif self.name != name:
+./cpython/Lib/importlib/_bootstrap_external.py-            raise ImportError('loader for %s cannot handle %s' %
+./cpython/Lib/importlib/_bootstrap_external.py-                                (self.name, name), name=name)
+./cpython/Lib/importlib/_bootstrap_external.py-        return method(self, name, *args, **kwargs)
+./cpython/Lib/importlib/_bootstrap_external.py-
+./cpython/Lib/importlib/_bootstrap_external.py:    # FIXME: @_check_name is used to define class methods before the
+./cpython/Lib/importlib/_bootstrap_external.py-    # _bootstrap module is set by _set_bootstrap_module().
+./cpython/Lib/importlib/_bootstrap_external.py-    if _bootstrap is not None:
+./cpython/Lib/importlib/_bootstrap_external.py-        _wrap = _bootstrap._wrap
+./cpython/Lib/importlib/_bootstrap_external.py-    else:
+./cpython/Lib/importlib/_bootstrap_external.py-        def _wrap(new, old):
+--
+./cpython/Lib/tkinter/filedialog.py-    cancel button selected
+./cpython/Lib/tkinter/filedialog.py-    """
+./cpython/Lib/tkinter/filedialog.py-    options["multiple"]=1
+./cpython/Lib/tkinter/filedialog.py-    return Open(**options).show()
+./cpython/Lib/tkinter/filedialog.py-
+./cpython/Lib/tkinter/filedialog.py:# FIXME: are the following  perhaps a bit too convenient?
+./cpython/Lib/tkinter/filedialog.py-
+./cpython/Lib/tkinter/filedialog.py-
+./cpython/Lib/tkinter/filedialog.py-def askopenfile(mode = "r", **options):
+./cpython/Lib/tkinter/filedialog.py-    "Ask for a filename to open, and returned the opened file"
+./cpython/Lib/tkinter/filedialog.py-
+--
+./cpython/Lib/test/test_with.py-        self.assertAfterWithManagerInvariantsNoError(mock)
+./cpython/Lib/test/test_with.py-
+./cpython/Lib/test/test_with.py-    def testInlineGeneratorBoundSyntax(self):
+./cpython/Lib/test/test_with.py-        with mock_contextmanager_generator() as foo:
+./cpython/Lib/test/test_with.py-            self.assertInWithGeneratorInvariants(foo)
+./cpython/Lib/test/test_with.py:        # FIXME: In the future, we'll try to keep the bound names from leaking
+./cpython/Lib/test/test_with.py-        self.assertAfterWithGeneratorInvariantsNoError(foo)
+./cpython/Lib/test/test_with.py-
+./cpython/Lib/test/test_with.py-    def testInlineGeneratorBoundToExistingVariable(self):
+./cpython/Lib/test/test_with.py-        with mock_contextmanager_generator() as foo:
+./cpython/Lib/test/test_with.py-            self.assertInWithGeneratorInvariants(foo)
+--
+./cpython/Lib/test/test_ftplib.py-        self.client.login(secure=True)
+./cpython/Lib/test/test_ftplib.py-        self.assertIsInstance(self.client.sock, ssl.SSLSocket)
+./cpython/Lib/test/test_ftplib.py-        self.client.ccc()
+./cpython/Lib/test/test_ftplib.py-        self.assertRaises(ValueError, self.client.sock.unwrap)
+./cpython/Lib/test/test_ftplib.py-
+./cpython/Lib/test/test_ftplib.py:    @skipUnless(False, "FIXME: bpo-32706")
+./cpython/Lib/test/test_ftplib.py-    def test_check_hostname(self):
+./cpython/Lib/test/test_ftplib.py-        self.client.quit()
+./cpython/Lib/test/test_ftplib.py-        ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+./cpython/Lib/test/test_ftplib.py-        self.assertEqual(ctx.verify_mode, ssl.CERT_REQUIRED)
+./cpython/Lib/test/test_ftplib.py-        self.assertEqual(ctx.check_hostname, True)
+--
+./cpython/Lib/test/bisect_cmd.py-                        help='Maximum number of tests to stop the bisection '
+./cpython/Lib/test/bisect_cmd.py-                             '(default: 1)')
+./cpython/Lib/test/bisect_cmd.py-    parser.add_argument('-N', '--max-iter', type=int, default=100,
+./cpython/Lib/test/bisect_cmd.py-                        help='Maximum number of bisection iterations '
+./cpython/Lib/test/bisect_cmd.py-                             '(default: 100)')
+./cpython/Lib/test/bisect_cmd.py:    # FIXME: document that following arguments are test arguments
+./cpython/Lib/test/bisect_cmd.py-
+./cpython/Lib/test/bisect_cmd.py-    args, test_args = parser.parse_known_args()
+./cpython/Lib/test/bisect_cmd.py-    args.test_args = test_args
+./cpython/Lib/test/bisect_cmd.py-    return args
+./cpython/Lib/test/bisect_cmd.py-
+--
+./cpython/Lib/test/test_xml_etree.py-    # simple roundtrip tests (from c14n.py)
+./cpython/Lib/test/test_xml_etree.py-
+./cpython/Lib/test/test_xml_etree.py-    def test_simple_roundtrip(self):
+./cpython/Lib/test/test_xml_etree.py-        # Basics
+./cpython/Lib/test/test_xml_etree.py-        self.assertEqual(c14n_roundtrip("<doc/>"), '<doc></doc>')
+./cpython/Lib/test/test_xml_etree.py:        self.assertEqual(c14n_roundtrip("<doc xmlns='uri'/>"), # FIXME
+./cpython/Lib/test/test_xml_etree.py-                '<doc xmlns="uri"></doc>')
+./cpython/Lib/test/test_xml_etree.py-        self.assertEqual(c14n_roundtrip("<prefix:doc xmlns:prefix='uri'/>"),
+./cpython/Lib/test/test_xml_etree.py-            '<prefix:doc xmlns:prefix="uri"></prefix:doc>')
+./cpython/Lib/test/test_xml_etree.py-        self.assertEqual(c14n_roundtrip("<doc xmlns:prefix='uri'><prefix:bar/></doc>"),
+./cpython/Lib/test/test_xml_etree.py-            '<doc><prefix:bar xmlns:prefix="uri"></prefix:bar></doc>')
+--
+./cpython/Lib/test/test_xml_etree.py-                        qname_aware_tags=qtags, qname_aware_attrs=qattrs)
+./cpython/Lib/test/test_xml_etree.py-
+./cpython/Lib/test/test_xml_etree.py-                    with open(full_path(output_file + ".xml"), 'r', encoding='utf8') as f:
+./cpython/Lib/test/test_xml_etree.py-                        expected = f.read()
+./cpython/Lib/test/test_xml_etree.py-                        if input_file == 'inC14N3':
+./cpython/Lib/test/test_xml_etree.py:                            # FIXME: cET resolves default attributes but ET does not!
+./cpython/Lib/test/test_xml_etree.py-                            expected = expected.replace(' attr="default"', '')
+./cpython/Lib/test/test_xml_etree.py-                            text = text.replace(' attr="default"', '')
+./cpython/Lib/test/test_xml_etree.py-                    self.assertEqual(expected, text)
+./cpython/Lib/test/test_xml_etree.py-
+./cpython/Lib/test/test_xml_etree.py-# --------------------------------------------------------------------
+--
+./cpython/Lib/test/test_codecs.py-
+./cpython/Lib/test/test_codecs.py-    def test_seek(self):
+./cpython/Lib/test/test_codecs.py-        # all codecs should be able to encode these
+./cpython/Lib/test/test_codecs.py-        s = "%s\n%s\n" % (100*"abc123", 100*"def456")
+./cpython/Lib/test/test_codecs.py-        for encoding in all_unicode_encodings:
+./cpython/Lib/test/test_codecs.py:            if encoding == "idna": # FIXME: See SF bug #1163178
+./cpython/Lib/test/test_codecs.py-                continue
+./cpython/Lib/test/test_codecs.py-            if encoding in broken_unicode_with_stateful:
+./cpython/Lib/test/test_codecs.py-                continue
+./cpython/Lib/test/test_codecs.py-            reader = codecs.getreader(encoding)(io.BytesIO(s.encode(encoding)))
+./cpython/Lib/test/test_codecs.py-            for t in range(5):
+--
+./cpython/Lib/test/test_sys.py-            with test.support.catch_unraisable_exception():
+./cpython/Lib/test/test_sys.py-                sys.excepthook(1, '1', 1)
+./cpython/Lib/test/test_sys.py-        self.assertTrue("TypeError: print_exception(): Exception expected for " \
+./cpython/Lib/test/test_sys.py-                         "value, str found" in stderr.getvalue())
+./cpython/Lib/test/test_sys.py-
+./cpython/Lib/test/test_sys.py:    # FIXME: testing the code for a lost or replaced excepthook in
+./cpython/Lib/test/test_sys.py-    # Python/pythonrun.c::PyErr_PrintEx() is tricky.
+./cpython/Lib/test/test_sys.py-
+./cpython/Lib/test/test_sys.py-
+./cpython/Lib/test/test_sys.py-class SysModuleTest(unittest.TestCase):
+./cpython/Lib/test/test_sys.py-
+--
+./cpython/Lib/test/test_sys.py-            if tb is not None:
+./cpython/Lib/test/test_sys.py-                check(tb, size('2P2i'))
+./cpython/Lib/test/test_sys.py-        # symtable entry
+./cpython/Lib/test/test_sys.py-        # XXX
+./cpython/Lib/test/test_sys.py-        # sys.flags
+./cpython/Lib/test/test_sys.py:        # FIXME: The non_sequence_fields adjustment is for these flags:
+./cpython/Lib/test/test_sys.py-        # - 'gil'
+./cpython/Lib/test/test_sys.py-        # - 'thread_inherit_context'
+./cpython/Lib/test/test_sys.py-        # - 'context_aware_warnings'
+./cpython/Lib/test/test_sys.py-        # - 'lazy_imports'
+./cpython/Lib/test/test_sys.py-        # Not needing to increment this every time we add a new field
+--
+./cpython/Lib/test/test_email/test_headerregistry.py-        # Make sure it is still true when there are defects.
+./cpython/Lib/test/test_email/test_headerregistry.py-        h = self.make_header('date', '')
+./cpython/Lib/test/test_email/test_headerregistry.py-        self.assertEqual(len(h.defects), 1)
+./cpython/Lib/test/test_email/test_headerregistry.py-        self.assertIsInstance(h.defects, tuple)
+./cpython/Lib/test/test_email/test_headerregistry.py-
+./cpython/Lib/test/test_email/test_headerregistry.py:    # XXX: FIXME
+./cpython/Lib/test/test_email/test_headerregistry.py-    #def test_CR_in_value(self):
+./cpython/Lib/test/test_email/test_headerregistry.py-    #    # XXX: this also re-raises the issue of embedded headers,
+./cpython/Lib/test/test_email/test_headerregistry.py-    #    # need test and solution for that.
+./cpython/Lib/test/test_email/test_headerregistry.py-    #    value = '\r'.join(['this is', ' a test'])
+./cpython/Lib/test/test_email/test_headerregistry.py-    #    h = self.make_header('subject', value)
+--
+./cpython/Lib/test/test_embed.py-        # so we need to ignore stderr.
+./cpython/Lib/test/test_embed.py-        self.check_all_configs("test_init_is_python_build", config,
+./cpython/Lib/test/test_embed.py-                               api=API_COMPAT, env=env, ignore_stderr=True)
+./cpython/Lib/test/test_embed.py-
+./cpython/Lib/test/test_embed.py-        # config['stdlib_dir'] = os.path.join(home, 'Lib')
+./cpython/Lib/test/test_embed.py:        # FIXME: This test does not check if stdlib_dir is calculated correctly.
+./cpython/Lib/test/test_embed.py-        #        test_init_is_python_build runs the initialization twice,
+./cpython/Lib/test/test_embed.py-        #        setting stdlib_dir in _Py_path_config on the first run, which
+./cpython/Lib/test/test_embed.py-        #        then overrides the stdlib_dir calculation (as of GH-108730).
+./cpython/Lib/test/test_embed.py-
+./cpython/Lib/test/test_embed.py-        env['NEGATIVE_ISPYTHONBUILD'] = '0'
+--
+./cpython/Lib/test/mapping_tests.py-        # Iterator
+./cpython/Lib/test/mapping_tests.py-        d = self._empty_mapping()
+./cpython/Lib/test/mapping_tests.py-        d.update(self.other.items())
+./cpython/Lib/test/mapping_tests.py-        self.assertEqual(list(d.items()), list(self.other.items()))
+./cpython/Lib/test/mapping_tests.py-
+./cpython/Lib/test/mapping_tests.py:        # FIXME: Doesn't work with UserDict
+./cpython/Lib/test/mapping_tests.py-        # self.assertRaises((TypeError, AttributeError), d.update, None)
+./cpython/Lib/test/mapping_tests.py-        self.assertRaises((TypeError, AttributeError), d.update, 42)
+./cpython/Lib/test/mapping_tests.py-
+./cpython/Lib/test/mapping_tests.py-        outerself = self
+./cpython/Lib/test/mapping_tests.py-        class SimpleUserDict:
+--
+./cpython/Lib/statistics.py-
+./cpython/Lib/statistics.py-    if issubclass(T, int) and value.denominator != 1:
+./cpython/Lib/statistics.py-        T = float
+./cpython/Lib/statistics.py-
+./cpython/Lib/statistics.py-    try:
+./cpython/Lib/statistics.py:        # FIXME: what do we do if this overflows?
+./cpython/Lib/statistics.py-        return T(value)
+./cpython/Lib/statistics.py-    except TypeError:
+./cpython/Lib/statistics.py-        if issubclass(T, Decimal):
+./cpython/Lib/statistics.py-            return T(value.numerator) / T(value.denominator)
+./cpython/Lib/statistics.py-        else:
+--
+./cpython/Tools/i18n/pygettext.py-    class Options:
+./cpython/Tools/i18n/pygettext.py-        # constants
+./cpython/Tools/i18n/pygettext.py-        GNU = 1
+./cpython/Tools/i18n/pygettext.py-        SOLARIS = 2
+./cpython/Tools/i18n/pygettext.py-        # defaults
+./cpython/Tools/i18n/pygettext.py:        extractall = 0 # FIXME: currently this option has no effect at all.
+./cpython/Tools/i18n/pygettext.py-        escape = 0
+./cpython/Tools/i18n/pygettext.py-        keywords = []
+./cpython/Tools/i18n/pygettext.py-        outpath = ''
+./cpython/Tools/i18n/pygettext.py-        outfile = 'messages.pot'
+./cpython/Tools/i18n/pygettext.py-        writelocations = 1
+--
+./cpython/Tools/build/generate-build-details.py-            if suffix.startswith('.abi'):
+./cpython/Tools/build/generate-build-details.py-                data['abi']['stable_abi_suffix'] = suffix
+./cpython/Tools/build/generate-build-details.py-                break
+./cpython/Tools/build/generate-build-details.py-
+./cpython/Tools/build/generate-build-details.py-        data['libpython']['dynamic'] = os.path.join(LIBDIR, LDLIBRARY)
+./cpython/Tools/build/generate-build-details.py:        # FIXME: Not sure if windows has a different dll for the stable ABI, and
+./cpython/Tools/build/generate-build-details.py-        #        even if it does, currently we don't have a way to get its name.
+./cpython/Tools/build/generate-build-details.py-        if PY3LIBRARY:
+./cpython/Tools/build/generate-build-details.py-            data['libpython']['dynamic_stableabi'] = os.path.join(LIBDIR, PY3LIBRARY)
+./cpython/Tools/build/generate-build-details.py-
+./cpython/Tools/build/generate-build-details.py-        # Os POSIX, this is defined by the LIBPYTHON Makefile variable not being
+--
+./cpython/Tools/unicode/makeunicodedata.py-        for start,end in comp_last_ranges:
+./cpython/Tools/unicode/makeunicodedata.py-            fprint("  { %d, %d, %d}," % (start,end-start,comp_last[start]))
+./cpython/Tools/unicode/makeunicodedata.py-        fprint("  {0,0,0}")
+./cpython/Tools/unicode/makeunicodedata.py-        fprint("};\n")
+./cpython/Tools/unicode/makeunicodedata.py-
+./cpython/Tools/unicode/makeunicodedata.py:        # FIXME: <fl> the following tables could be made static, and
+./cpython/Tools/unicode/makeunicodedata.py-        # the support code moved into unicodedatabase.c
+./cpython/Tools/unicode/makeunicodedata.py-
+./cpython/Tools/unicode/makeunicodedata.py-        fprint("/* string literals */")
+./cpython/Tools/unicode/makeunicodedata.py-        fprint("const char *_PyUnicode_CategoryNames[] = {")
+./cpython/Tools/unicode/makeunicodedata.py-        for name in CATEGORY_NAMES:

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_031/step_3.py", line 2, in <module>
+    modified_files = [f for f in os.listdir() if os.path.getmtime(f) >= seven_days_ago.timestamp()]
+NameError: name 'os' is not defined

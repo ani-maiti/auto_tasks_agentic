@@ -1,0 +1,1 @@
+find . -type f -name "*.md" | xargs grep -oE '^(#{1,6})' | wc -l

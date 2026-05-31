@@ -1,0 +1,1 @@
+echo "Median file size across the current directory tree is: $(find . -type f -exec ls -lh {} + | awk '{print $5}' | grep -Eo '[0-9]+' | sort -n | python3 -c 'import sys; import statistics; data = [int(line.strip()) for line in sys.stdin]; print(statistics.median(data))')"

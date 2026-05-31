@@ -1,0 +1,1 @@
+find . -type f | rev | cut -d'.' -f1 | sort | uniq -c | sort -nr

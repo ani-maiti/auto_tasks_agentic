@@ -1,0 +1,597 @@
+.
+├── avg_size.txt
+├── directory_tree.txt
+├── file_extension_report.txt
+├── file_sizes.json
+├── files.txt
+├── generate_code_model_run.py
+├── hashes.txt
+├── larger_files.txt
+├── largest_files.txt
+├── md5_hashes.txt
+├── py_files.txt
+├── recent_files.txt
+├── sizes.txt
+├── system_prompt_body.txt
+├── task_descriptions_all.txt
+├── tasks
+│   ├── task_001
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_002
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   └── step_3.sh
+│   ├── task_003
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   └── step_3.py
+│   ├── task_004
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_005
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_006
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   └── step_2.py
+│   ├── task_007
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.py
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   ├── step_4.py
+│   │   ├── step_5_log.json
+│   │   └── step_5.py
+│   ├── task_008
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   └── step_2.sh
+│   ├── task_009
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   └── step_3.sh
+│   ├── task_010
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_011
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   ├── step_4.sh
+│   │   ├── step_5_log.json
+│   │   └── step_5.sh
+│   ├── task_012
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   └── step_3.sh
+│   ├── task_013
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.py
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   ├── step_4.py
+│   │   ├── step_5_log.json
+│   │   └── step_5.py
+│   ├── task_014
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   └── step_2.sh
+│   ├── task_015
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_016
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.py
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   └── step_4.py
+│   ├── task_017
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   ├── step_4.sh
+│   │   ├── step_5_log.json
+│   │   └── step_5.sh
+│   ├── task_018
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   └── step_4.py
+│   ├── task_019
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   ├── step_4.sh
+│   │   ├── step_5_log.json
+│   │   └── step_5.sh
+│   ├── task_020
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   └── step_3.sh
+│   ├── task_021
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   └── step_3.sh
+│   ├── task_022
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   └── step_3.sh
+│   ├── task_023
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.py
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   └── step_4.py
+│   ├── task_024
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.py
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   └── step_4.py
+│   ├── task_025
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.py
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   └── step_3.py
+│   ├── task_026
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   ├── step_4.sh
+│   │   ├── step_5_log.json
+│   │   └── step_5.sh
+│   ├── task_027
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.py
+│   │   ├── step_2_log.json
+│   │   ├── step_2.py
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   └── step_4.py
+│   ├── task_028
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.py
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_029
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   └── step_2.sh
+│   ├── task_030
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_031
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   └── step_3.sh
+│   ├── task_032
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   ├── step_4.sh
+│   │   ├── step_5_log.json
+│   │   └── step_5.sh
+│   ├── task_033
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   └── step_2.sh
+│   ├── task_034
+│   │   ├── stderr_step_1.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── step_1_log.json
+│   │   └── step_1.py
+│   ├── task_035
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stderr_step_5.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── stdout_step_5.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   ├── step_4.sh
+│   │   ├── step_5_log.json
+│   │   └── step_5.sh
+│   ├── task_036
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   ├── task_037
+│   │   ├── stderr_step_1.txt
+│   │   ├── stderr_step_2.txt
+│   │   ├── stderr_step_3.txt
+│   │   ├── stderr_step_4.txt
+│   │   ├── stdout_step_1.txt
+│   │   ├── stdout_step_2.txt
+│   │   ├── stdout_step_3.txt
+│   │   ├── stdout_step_4.txt
+│   │   ├── step_1_log.json
+│   │   ├── step_1.sh
+│   │   ├── step_2_log.json
+│   │   ├── step_2.sh
+│   │   ├── step_3_log.json
+│   │   ├── step_3.sh
+│   │   ├── step_4_log.json
+│   │   └── step_4.sh
+│   └── task_038
+│       ├── stderr_step_1.txt
+│       ├── stdout_step_1.txt
+│       └── step_1.sh
+└── txt_files.txt
+
+39 directories, 555 files

@@ -1,0 +1,1 @@
+echo "Latest Ubuntu release version:"

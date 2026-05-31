@@ -1,0 +1,8 @@
+Error processing recursion.tar: [Errno 2] No such file or directory: 'recursion.tar'
+Error processing testtar.tar: [Errno 2] No such file or directory: 'testtar.tar'
+Error processing zip_cp437_header.zip: [Errno 2] No such file or directory: 'zip_cp437_header.zip'
+Error processing zipdir_backslash.zip: [Errno 2] No such file or directory: 'zipdir_backslash.zip'
+Error processing zipdir.zip: [Errno 2] No such file or directory: 'zipdir.zip'
+Error processing missing_directory.zip: [Errno 2] No such file or directory: 'missing_directory.zip'
+Error processing nested_portion1.zip: [Errno 2] No such file or directory: 'nested_portion1.zip'
+Error processing top_level_portion1.zip: [Errno 2] No such file or directory: 'top_level_portion1.zip'

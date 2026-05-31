@@ -1,0 +1,1 @@
+cat html_files.txt | xargs grep -oP 'http[s]?://[^ ]+' > links.txt

@@ -1,0 +1,1 @@
+print("The number of forks for the requests GitHub repository is:", stdout)

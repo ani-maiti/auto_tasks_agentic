@@ -1,0 +1,1 @@
+cat py_files.txt | xargs pylint --load-plugins pylint.extensions.mccabe

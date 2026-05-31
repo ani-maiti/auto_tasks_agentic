@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_141/step_3.py", line 4, in <module>
+    for file_path in files:
+                     ^^^^^
+NameError: name 'files' is not defined. Did you mean: 'filter'?

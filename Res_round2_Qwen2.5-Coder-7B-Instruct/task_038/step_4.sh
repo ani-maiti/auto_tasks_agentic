@@ -1,0 +1,2 @@
+echo "The grep command is still causing issues. Let's try using awk instead to find lines that start with a dot."
+awk '/^\./' <<< "$(ls -la)"

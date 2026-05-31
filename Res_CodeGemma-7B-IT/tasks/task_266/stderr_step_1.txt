@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_266/step_1.py", line 46, in <module>
+    files = get_files(dir_path)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_266/step_1.py", line 7, in get_files
+    for entry in os.scandir(dir_path):
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/directory'

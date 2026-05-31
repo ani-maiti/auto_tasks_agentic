@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" | xargs grep -oP 'https?://\S+'

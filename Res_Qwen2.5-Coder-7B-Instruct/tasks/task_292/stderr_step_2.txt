@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_292/step_2.py", line 2, in <module>
+    df = pd.read_csv('exchange_rates.csv')
+NameError: name 'pd' is not defined. Did you mean: 'id'?

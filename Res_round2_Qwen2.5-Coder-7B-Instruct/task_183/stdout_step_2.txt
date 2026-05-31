@@ -1,0 +1,12 @@
+./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv
+4
+./file_report.csv
+1
+./python_files_line_counts.csv
+2582
+./largest_files.csv
+101
+./python_files_line_counts_sorted.csv
+2582
+./file_sizes.csv
+20

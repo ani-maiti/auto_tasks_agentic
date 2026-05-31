@@ -1,0 +1,1 @@
+echo "No files containing email addresses were found."

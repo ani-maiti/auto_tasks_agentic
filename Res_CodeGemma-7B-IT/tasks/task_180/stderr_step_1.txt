@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_180/step_1.py", line 10, in <module>
+    with open(filename, "rb") as f:
+IsADirectoryError: [Errno 21] Is a directory: 'tasks'

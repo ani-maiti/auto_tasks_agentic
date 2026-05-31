@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_309/step_1.py", line 15
+    This code fetches cryptocurrency market data for the top 100 assets from CoinGecko's API. If successful, it prints a success message; otherwise, it prints an error message with the status code.
+                                                                                      ^
+SyntaxError: unterminated string literal (detected at line 15)

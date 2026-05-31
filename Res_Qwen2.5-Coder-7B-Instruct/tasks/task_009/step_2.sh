@@ -1,0 +1,1 @@
+cat txt_files.txt | xargs sha256sum > hashes.txt

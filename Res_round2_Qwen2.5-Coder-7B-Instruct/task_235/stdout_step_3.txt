@@ -1,0 +1,8 @@
+Found 7 CSV files.
+crypto_prices.csv: Potential primary key columns - ['id', 'symbol', 'name', 'image', 'market_cap', 'market_cap_rank', 'fully_diluted_valuation', 'total_volume', 'low_24h', 'price_change_24h', 'price_change_percentage_24h', 'market_cap_change_24h', 'market_cap_change_percentage_24h', 'circulating_supply', 'ath', 'ath_change_percentage', 'ath_date', 'atl_change_percentage', 'last_updated']
+hacker_news_stories.csv: Potential primary key columns - ['Title', 'URL']
+file_report.csv: Potential primary key columns - ['filename', 'size']
+python_files_line_counts.csv: Potential primary key columns - ['File Path']
+largest_files.csv: Potential primary key columns - ['-rw-r--r-- 1 ai_admin ai_admin  32K May 30 23:34 ./tasks/task_012/stdout_step_2.txt']
+python_files_line_counts_sorted.csv: Potential primary key columns - ['File Path']
+file_sizes.csv: Potential primary key columns - ['8.0K\t./generate_code_model_run.py']

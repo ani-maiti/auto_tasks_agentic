@@ -1,0 +1,1 @@
+echo "The latest release version of curl is: $(curl --silent https://api.github.com/repos/curl/curl/releases/latest | grep '"tag_name":' | sed 's/.*"\(.*\)"..*/\1/')"

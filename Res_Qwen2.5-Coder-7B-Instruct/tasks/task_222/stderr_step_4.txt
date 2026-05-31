@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_222/step_4.py", line 7
+    This error indicates that the variable `text_files` is not defined in the current scope. To resolve this, you need to ensure that `text_files` contains the list of text files before running this script. If you don't have the list yet, you should first execute the previous step that finds all text files and stores them in `text_files`. Once you have the list, you can proceed with identifying duplicated paragraphs.
+                                                                                                                                                                                                                         ^
+SyntaxError: unterminated string literal (detected at line 7)

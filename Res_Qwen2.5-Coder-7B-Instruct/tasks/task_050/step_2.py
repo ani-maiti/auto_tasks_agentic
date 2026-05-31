@@ -1,0 +1,1 @@
+print(f"Total disk usage of the current directory: {trace['stdout'].strip()}")

@@ -1,0 +1,1 @@
+print(f"Number of empty files: {22}")

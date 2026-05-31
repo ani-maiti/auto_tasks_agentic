@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_050/step_3.py", line 2, in <module>
+    trace = json.loads(open('trace.json').read())
+FileNotFoundError: [Errno 2] No such file or directory: 'trace.json'

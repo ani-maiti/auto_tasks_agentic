@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_303/step_3.py", line 6, in <module>
+    ip_address = socket.gethostbyname(domain)
+                 ^^^^^^
+NameError: name 'socket' is not defined. Did you forget to import 'socket'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_303/step_3.py", line 9, in <module>
+    except socket.gaierror:
+           ^^^^^^
+NameError: name 'socket' is not defined. Did you forget to import 'socket'?

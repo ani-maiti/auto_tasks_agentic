@@ -1,0 +1,1 @@
+find /path/to/search -type l -ls 2>/dev/null | grep "broken"

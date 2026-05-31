@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_314/step_1.py", line 5, in <module>
+    databases = [f for f in os.listdir('.') if f.endswith('.db')]
+NameError: name 'os' is not defined

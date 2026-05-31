@@ -1,0 +1,1 @@
+echo "Task completed. Check report.csv for the results."

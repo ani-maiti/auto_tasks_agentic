@@ -1,0 +1,1 @@
+print("The HTTP status code returned by wikipedia.org is:", response.status_code)

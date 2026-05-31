@@ -1,0 +1,1 @@
+print(f"Total lines: {total_lines}")

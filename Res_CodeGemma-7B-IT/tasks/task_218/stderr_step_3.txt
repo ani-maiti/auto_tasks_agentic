@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_218/step_3.py", line 2, in <module>
+    top_domains = sorted(domains.items(), key=lambda x: x[1], reverse=True)[:10]
+NameError: name 'domains' is not defined

@@ -1,0 +1,1 @@
+{"bitcoin":{"usd":73613},"cardano":{"usd":0.233127},"chainlink":{"usd":9.01},"dogecoin":{"usd":0.100101},"ethereum":{"usd":2017.97},"litecoin":{"usd":51.93},"polkadot":{"usd":1.19},"solana":{"usd":82.15},"tether":{"usd":0.998659},"uniswap":{"usd":3.02}}

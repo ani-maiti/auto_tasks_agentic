@@ -1,0 +1,1 @@
+cat sqlite_databases.txt | xargs -I {} sqlite3 {} "PRAGMA table_info({})" > schema_summary.txt

@@ -1,0 +1,1 @@
+The latest release version of Neovim is v0.12.2.

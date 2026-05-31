@@ -1,0 +1,1 @@
+cat log_files.txt | xargs grep "error" > errors.txt

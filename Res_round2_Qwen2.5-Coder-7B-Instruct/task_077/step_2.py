@@ -1,0 +1,1 @@
+print("Latest release tag:", stdout.strip().split()[1])

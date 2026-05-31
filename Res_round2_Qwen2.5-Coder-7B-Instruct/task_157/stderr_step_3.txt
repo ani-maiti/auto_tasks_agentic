@@ -1,0 +1,6 @@
+grep: ./cpython/Mac/Icons/Python: No such file or directory
+grep: Folder.icns: No such file or directory
+grep: ./cpython/Mac/Icons/Disk: No such file or directory
+grep: Image.icns: No such file or directory
+grep: ./cpython/.git/objects/pack/pack-f39038638fd1255074908b2444777bbfcc38f781.pack: binary file matches
+grep: ./cpython/Lib/test/archivetestdata/testtar.tar: binary file matches

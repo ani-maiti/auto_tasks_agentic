@@ -1,0 +1,1 @@
+awk 'NR==2{print $1}' avg_size.txt > avg_size_bytes.txt

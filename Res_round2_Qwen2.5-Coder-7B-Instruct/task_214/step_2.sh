@@ -1,0 +1,1 @@
+cat markdown_files.txt | xargs grep -oP '^\s*#\S+' | sort | uniq -c | sort -nr > toc_counts.txt

@@ -1,0 +1,1 @@
+echo "Total size of all Markdown files: $(find . -name "*.md" -exec ls -l {} + | awk '{sum+=$5} END {print sum}') bytes"

@@ -1,0 +1,1 @@
+find . -type f | grep -P '[^\x00-\x7F]'

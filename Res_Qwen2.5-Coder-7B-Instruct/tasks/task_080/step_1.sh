@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/psf/requests | grep -o '"forks_count":\s*[0-9]*' | awk '{print $2}'

@@ -1,0 +1,1 @@
+find . -type f -exec ls -lh {} + | sort -rhk 5 | head -n 101 > largest_files.csv

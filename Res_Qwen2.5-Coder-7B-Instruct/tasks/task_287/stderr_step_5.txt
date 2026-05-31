@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_287/step_5.py", line 3, in <module>
+    for item in image_data:
+NameError: name 'image_data' is not defined

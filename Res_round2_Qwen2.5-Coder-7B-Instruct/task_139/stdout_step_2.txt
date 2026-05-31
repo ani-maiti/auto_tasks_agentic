@@ -1,0 +1,3 @@
+Redirect Chain:
+
+Final URL: https://openai.com/

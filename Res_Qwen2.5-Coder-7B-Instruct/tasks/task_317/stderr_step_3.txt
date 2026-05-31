@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_317/step_3.py", line 15, in <module>
+    most_common_heading, count = heading_counts.most_common(1)[0]
+IndexError: list index out of range

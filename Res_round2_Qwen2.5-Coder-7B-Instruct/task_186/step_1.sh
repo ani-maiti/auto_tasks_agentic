@@ -1,0 +1,1 @@
+find . -type f -name "*.sh" | xargs wc -l

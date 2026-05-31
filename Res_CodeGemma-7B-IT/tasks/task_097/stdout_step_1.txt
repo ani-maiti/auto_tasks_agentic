@@ -1,0 +1,5 @@
+Announcement: We've Updated The Rules, and April Is Finally Over
+The gold standard of optimization: A look under the hood of RollerCoaster Tycoon
+Practical uses of monads in Haskell
+Looking at code behind File Pilot
+Someone hid a full RAT inside a fake npm package and exfiltrated victim data to HuggingFace

@@ -1,0 +1,1 @@
+echo "The latest release version of tmux is $(curl -s https://api.github.com/repos/tmux/tmux/releases/latest | grep '"tag_name":' | cut -d '"' -f 4)."

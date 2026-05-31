@@ -1,0 +1,4 @@
+Found 10 CSV files.
+Error reading github_repos.csv: No columns to parse from file
+4 non-empty CSV files found.
+Unique date columns found across all CSV files: []

@@ -1,0 +1,1 @@
+print("The current public IP address is:", response.json()['ip'])

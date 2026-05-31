@@ -1,0 +1,2 @@
+Strongest Currency: Rate
+Weakest Currency: Rate

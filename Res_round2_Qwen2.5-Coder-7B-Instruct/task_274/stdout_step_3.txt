@@ -1,0 +1,3 @@
+Empty DataFrame
+Columns: [Width, Height, Count]
+Index: []

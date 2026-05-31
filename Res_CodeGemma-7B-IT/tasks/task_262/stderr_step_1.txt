@@ -1,0 +1,1 @@
+./tasks/task_262/step_1.sh: line 17: command_count / script_length * 100 : division by 0 (error token is "script_length * 100 ")

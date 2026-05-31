@@ -1,0 +1,3 @@
+No zero-byte files found.
+Trying another directory...
+No zero-byte files found in the alternative directory.

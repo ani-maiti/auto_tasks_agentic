@@ -1,0 +1,1 @@
+cat py_files.txt | xargs grep -oP 'def \w+\(.*?\):' > function_definitions.txt

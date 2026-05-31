@@ -1,0 +1,7 @@
+Found existing installation: pylint-mccabe 0.1.3
+Uninstalling pylint-mccabe-0.1.3:
+  Would remove:
+    /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pylint_mccabe-0.1.3.dist-info/*
+    /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pylint_mccabe.py
+Proceed (Y/n)? 
+PROCESS TIMED OUT

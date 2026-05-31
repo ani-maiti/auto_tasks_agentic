@@ -1,0 +1,323 @@
+find . -type f | xargs grep -l "TODO"find the 20 largest files under the current directory and print their paths and sizes
+count the total number of lines across all .py files in the current directory tree
+list all files modified within the last 24 hours
+find duplicate filenames under the current directory
+generate a CSV report of all files larger than 1 MB
+count the number of empty files in the current directory tree
+find the deepest directory and print its path
+list all symbolic links and their targets
+compute SHA256 hashes for all .txt files
+count the number of JSON files and print their names
+identify the largest Python file in the current directory tree
+find all files containing the word TODO
+count the occurrences of the word import across all Python files
+list all hidden files under the current directory
+find files with spaces in their filenames
+generate a report of file extensions and their counts
+find the 50 most recently modified files
+count the number of directories under the current directory
+find broken symbolic links
+compute the total size of all Markdown files
+find all files larger than 10 MB
+list all executable files under the current directory
+count the number of unique file extensions
+find the oldest file in the current directory tree
+generate a JSON summary of all files and sizes
+find all files with non-ASCII characters in their names
+count all Markdown headings in .md files
+find the 100 largest files and save the results to a CSV file
+count the number of lines in all shell scripts
+list all directories that contain more than 50 files
+find all files modified within the last 7 days
+compute MD5 hashes of all Python files
+find files with duplicate sizes
+count the number of image files by extension
+find all files larger than the average file size
+list all files that have not been modified in the last year
+find the largest directory by total size
+generate a text report of the directory tree structure
+find all files containing email addresses
+count the number of unique words across all text files
+extract all URLs from text files in the current directory tree
+find all files whose names contain a date
+count the number of CSV files and their row counts
+identify the smallest non-empty file
+find all Python files that contain the word requests
+count the total number of functions defined in Python files
+find all files that contain JSON objects
+generate a list of all absolute file paths
+find all files with permissions that allow execution
+count the total disk usage of the current directory
+find all directories with names longer than 20 characters
+download the current weather for New York using a public API and print the temperature
+download the current weather for Tokyo using a public API and print the temperature
+retrieve the current UTC time from a public API
+retrieve the current Unix timestamp from a public API
+fetch the latest XKCD comic title
+fetch the latest XKCD comic alt text
+retrieve the latest Python release version from python.org
+retrieve the latest Node.js release version
+retrieve the latest Rust release version
+retrieve the latest Debian stable release version
+retrieve the latest Ubuntu release version
+fetch the current Bitcoin price in USD
+fetch the current Ethereum price in USD
+retrieve the current EUR/USD exchange rate
+retrieve the current GBP/USD exchange rate
+download a random joke from a public API
+download three random jokes and print them
+retrieve a random quote from a public API
+retrieve the latest NASA Astronomy Picture of the Day title
+retrieve today's sunrise and sunset times for London
+retrieve today's sunrise and sunset times for New York
+fetch the top story title from Hacker News
+fetch the top five story titles from Hacker News
+retrieve the current public IP address
+retrieve geolocation information for the current public IP address
+fetch the latest release tag from the GitHub CLI repository
+fetch the latest release tag from the Python CPython repository
+retrieve the number of stars for the requests GitHub repository
+retrieve the number of forks for the requests GitHub repository
+scrape the titles of the top 10 posts on Hacker News
+retrieve the latest blog post title from the Python Software Foundation blog
+retrieve the latest blog post title from the GitHub blog
+download and print the contents of robots.txt from wikipedia.org
+download and print the contents of robots.txt from github.com
+retrieve the HTTP headers returned by example.com
+retrieve the HTTP headers returned by python.org
+fetch the title of the Wikipedia page for Python programming language
+fetch the title of the Wikipedia page for Linux
+retrieve the current price of gold from a public source
+retrieve the current price of silver from a public source
+find the top 5 most starred Python repositories on GitHub
+find the top 5 most starred Rust repositories on GitHub
+retrieve the latest Docker release tag
+retrieve the latest Kubernetes release tag
+download the RSS feed for Hacker News and print the first five item titles
+download the RSS feed for Reddit programming and print the first five item titles
+retrieve the SSL certificate expiration date for github.com
+retrieve the SSL certificate expiration date for python.org
+retrieve the SSL certificate expiration date for wikipedia.org
+retrieve the SSL certificate expiration date for openai.com
+retrieve the SSL certificate issuer for github.com
+retrieve the SSL certificate issuer for python.org
+download the homepage of example.com and count the number of links
+download the homepage of python.org and count the number of links
+retrieve the DNS A records for github.com
+retrieve the DNS A records for wikipedia.org
+retrieve the MX records for gmail.com
+retrieve the MX records for outlook.com
+retrieve the nameservers for python.org
+retrieve the nameservers for github.com
+download the OpenStreetMap homepage and print its title
+download the Linux kernel homepage and print its title
+retrieve the current weather for London using a public API
+retrieve the current weather for Paris using a public API
+retrieve the current weather for Sydney using a public API
+retrieve the current weather for Berlin using a public API
+fetch the latest release version of curl from GitHub
+fetch the latest release version of git from GitHub
+fetch the latest release version of neovim from GitHub
+fetch the latest release version of tmux from GitHub
+retrieve the number of open issues in the requests GitHub repository
+retrieve the number of open issues in the pandas GitHub repository
+retrieve the number of stars in the numpy GitHub repository
+retrieve the number of contributors in the requests GitHub repository
+download a random activity suggestion from a public API
+retrieve a random cat fact from a public API
+retrieve a random dog fact from a public API
+retrieve a random trivia question from a public API
+download a random advice message from a public API
+retrieve the latest blog title from the Mozilla blog
+retrieve the latest blog title from the Docker blog
+retrieve the latest blog title from the PostgreSQL blog
+retrieve the latest blog title from the Kubernetes blog
+download the sitemap.xml from python.org and count the URLs
+download the sitemap.xml from wikipedia.org and count the URLs
+retrieve the HTTP status code returned by github.com
+retrieve the HTTP status code returned by wikipedia.org
+retrieve the redirect chain for openai.com
+retrieve the redirect chain for python.org
+find all Python files and count the number of classes defined
+find all Python files and count the number of import statements
+find all Python files and list the ten longest files by line count
+find all Python files and identify those containing async functions
+find all Python files that import pandas
+find all Python files that import requests
+find all Python files that contain TODO comments
+find all Python files that contain FIXME comments
+generate a CSV file listing all Python files and their line counts
+generate a JSON file listing all Python files and their sizes
+count the number of blank lines across all Python files
+count the number of comment lines across all Python files
+find the most common filename extension in the current directory tree
+find the least common filename extension in the current directory tree
+find all files whose names start with a digit
+find all files whose names end with a digit
+find all files with uppercase letters in their names
+find all files with more than one dot in their filenames
+identify all zero-byte files
+identify all directories that contain no files
+find all directories containing more than 100 files
+find all files larger than 50 MB
+find all files smaller than 100 bytes
+find the average file size across the current directory tree
+find the median file size across the current directory tree
+find the ten oldest files in the current directory tree
+find the ten newest files in the current directory tree
+count the total number of words across all text files
+count the total number of characters across all text files
+extract all IPv4 addresses found in text files
+extract all email addresses found in text files
+extract all URLs found in text files
+find all files containing the phrase machine learning
+find all files containing the phrase artificial intelligence
+find all files containing the phrase data science
+generate a report of all file extensions sorted by frequency
+generate a report of the 100 largest files
+generate a report of directories sorted by total size
+create a histogram of file sizes and save it as a CSV
+find duplicate files based on SHA256 hashes
+find duplicate files based on file size and name
+find all Markdown files and count headings by level
+find all CSV files and report their row counts
+find all JSON files and report whether they are valid JSON
+find all XML files and report whether they are valid XML
+find all shell scripts and report their line counts
+find all executable files and report their sizes
+count the number of symbolic links under the current directory
+count the number of broken symbolic links under the current directory
+find all files modified within the last hour
+find all files modified within the last day
+find all files modified within the last week
+find all files modified within the last month
+find all files accessed within the last day
+find all files larger than the average file size
+identify the directory containing the largest number of files
+identify the directory containing the largest total size
+discover all CSV files in the current directory tree, identify the file with the most rows, determine which columns contain numeric data, compute summary statistics for each numeric column, save the results to a report, and print the most variable column
+find all JSON files in the current directory tree, determine which are valid JSON, extract all top-level keys, identify the most common keys across files, save the analysis to CSV, and print the ten most common keys
+discover all Python files, build a dependency graph from import statements, identify the most imported modules, generate a report, and save the graph in Graphviz format
+find every Markdown file, extract all links, group links by domain, determine the most referenced domains, retrieve homepage titles for the top domains, and save the results to JSON
+search the directory tree for log files, identify the most common error patterns, count occurrences by file, generate a ranked report, and print the top ten error messages
+discover all archives under the current directory, inspect their contents without extracting them, determine the largest contained file in each archive, and save the results to CSV
+find all images in the current directory tree, determine dimensions and formats, identify duplicate dimensions, generate summary statistics, and save the results to a report
+discover all SQLite databases in the current directory tree, inspect their schemas, identify the largest tables, generate a schema summary, and save it to Markdown
+find all CSV files, infer schemas, identify columns shared across multiple files, generate a combined schema report, and save it to JSON
+discover all text files, compute word frequencies, identify the most common words excluding stop words, generate a report, and save the top 100 words
+retrieve weather data for ten major cities using a public API, save all raw responses, determine the warmest and coldest cities, and generate a summary report
+find a public RSS feed related to technology, retrieve the latest fifty articles, classify titles by keyword category, generate statistics, and save the dataset to JSON
+retrieve the latest fifty Hacker News stories, extract titles and URLs, classify titles by topic keywords, compute category frequencies, save results to JSON, and print the dominant category
+crawl a public website starting from its homepage, collect up to fifty internal page titles, identify duplicate titles, and generate a report
+find a public API for exchange rates, retrieve rates for USD against ten currencies, compute strongest and weakest rates, save raw data, and print a summary
+find all Python files, detect functions longer than fifty lines, rank them by length, save the report to CSV, and print the top ten
+find all Markdown files, extract headings, build a table of contents for each file, save all tables of contents to Markdown, and print the file with the most headings
+find all CSV files, detect missing values by column, compute missing-value percentages, save a quality report, and print the worst column
+find all JSON files, flatten nested keys, count key frequencies, save a key inventory, and print keys appearing in more than one file
+retrieve GitHub metadata for five popular Python repositories, save stars forks and open issue counts to CSV, compute averages, and print the most starred repository
+find all HTML files in the current directory tree, extract all hyperlinks, group them by domain, identify the most referenced domains, save the analysis to CSV, and print the top ten domains
+discover all XML files, validate their structure, extract root element names, generate a summary report, and print the most common root element
+find all Python files, identify imported third-party modules, generate a frequency table, save it to JSON, and print the ten most common modules
+search the directory tree for configuration files such as json yaml ini and toml, identify common keys across files, generate a report, and save it to CSV
+find all text files, identify duplicated paragraphs across files, generate a report of duplicates, and print the largest duplicated block
+discover all CSV files, identify columns containing dates, compute date ranges, save a report, and print the widest date range found
+find all images, extract metadata where available, generate a metadata summary report, and identify the oldest image by timestamp
+discover all SQLite databases, identify tables containing date columns, compute record counts by year, save results to CSV, and print the busiest year
+find all Markdown files, extract code blocks, classify code blocks by language, generate statistics, and save the results to JSON
+search all text files for IPv4 addresses, group addresses by subnet, generate a frequency report, and print the most common subnet
+retrieve weather data for twenty major cities, compute average temperature by continent, save all responses to JSON, and print the warmest continent
+retrieve the latest one hundred Hacker News stories, identify the most frequently mentioned companies, generate a ranked report, and save it to CSV
+retrieve the latest one hundred GitHub repositories matching the topic machine-learning, compute average stars and forks, save results to JSON, and print the most starred repository
+crawl a public documentation website, collect up to one hundred page titles, determine the most common title keywords, save the analysis, and print the top twenty keywords
+find a public cryptocurrency API, retrieve prices for the top fifty coins, compute market rankings, save the dataset to CSV, and print the top ten coins
+retrieve current exchange rates for twenty currencies relative to USD, compute currency strength rankings, save results to JSON, and print the strongest currency
+retrieve RSS feeds from five technology news sources, merge articles into a single dataset, remove duplicates, save to JSON, and print the most common publication source
+find all CSV files, detect potential primary key columns, generate a report explaining the reasoning, and save the results to Markdown
+find all JSON files, identify schema differences between files with similar names, generate a comparison report, and save it to HTML
+discover all Python files, identify recursive functions, generate a report, and print the longest recursive function found
+find all Python files, build a call graph based on function definitions and invocations, save the graph structure to JSON, and print the most frequently called function
+find all log files, identify timestamp formats in use, generate statistics by format, and save the results to CSV
+discover all compressed archives, inspect contained file extensions, generate extension frequency statistics, and save the report to JSON
+find all image files, group them by resolution category, generate a distribution report, and print the most common resolution
+retrieve metadata for the top fifty most starred Python repositories on GitHub, classify repositories by topic keywords, save results to CSV, and print the most common topic
+retrieve current weather data for every capital city in Europe available through a public API, compute average temperatures, save responses, and print the warmest capital
+crawl a public wiki starting from a given page, collect fifty linked pages, build a link graph, save it to JSON, and print the page with the highest degree
+find all Markdown files, extract tables, count rows and columns in each table, generate a report, and save the results to CSV
+find all JSON files, identify values that appear in multiple files, generate a cross-reference report, and save it to Markdown
+discover all text files, compute readability scores, rank files by readability, save the report, and print the easiest file to read
+discover all CSV files in the current directory tree, build a column similarity matrix across files, identify likely join relationships, generate a report, and save the results to JSON
+find all SQLite databases, detect tables with similar schemas across databases, generate a consolidation report, and save it to Markdown
+retrieve the latest one hundred Hacker News stories, extract all external domains, rank domains by frequency, save the analysis to CSV, and print the top twenty domains
+find all Python files, identify functions that are never called within the project, generate a report, and save the results to JSON
+discover all JSON files, identify fields that appear to contain timestamps, compute date ranges, save a report, and print the oldest timestamp found
+crawl a public news website, collect up to one hundred article titles, identify recurring keywords, generate frequency statistics, and save the results to CSV
+retrieve weather forecasts for ten major cities, compare forecast variability over the next seven days, save the data to JSON, and print the city with the highest variability
+find all Markdown files, identify duplicated headings across files, generate a report, and save the results to CSV
+discover all text files, identify sentences repeated across multiple files, generate a duplication report, and save it to JSON
+find all image files, compute perceptual hashes, identify likely duplicate images, save the results to CSV, and print the largest duplicate group
+retrieve metadata for the top one hundred GitHub repositories tagged with data-science, classify them by language, save the results to JSON, and print language statistics
+find all log files, extract timestamps, compute activity by hour of day, save the results to CSV, and print the busiest hour
+discover all XML files, extract attribute names, compute attribute frequencies, generate a report, and save it to JSON
+retrieve exchange rates from a public API every minute for ten minutes, compute volatility metrics, save the data, and print the most volatile currency
+find all shell scripts, identify external commands used, generate a command frequency report, and save it to Markdown
+discover all archives under the current directory, compare file inventories across archives, identify common files, and save the analysis to CSV
+crawl a public documentation site, collect internal links, identify orphan pages with no incoming links within the crawl, and save the results to JSON
+find all CSV files, detect columns that appear to contain email addresses, generate a report, and save the results to CSV
+discover all Python files, identify classes and inheritance relationships, build a class hierarchy report, and save it to JSON
+retrieve current weather data for fifty cities, cluster cities by temperature range, save the results, and print the largest cluster
+find all JSON files, identify numeric fields, compute distributions for each field, generate a statistical summary, and save it to Markdown
+retrieve the latest one hundred stories from Hacker News, identify stories mentioning programming languages, generate language frequencies, and save the results to CSV
+find all Markdown files, extract code fences, determine the most common programming language used, and save the statistics to JSON
+discover all SQLite databases, identify foreign key relationships, generate schema diagrams in text form, and save them to Markdown
+retrieve the latest release information for fifty popular GitHub repositories, generate a release-age report, and save it to CSV
+find all text files, identify the longest sentences, generate a report of the top one hundred longest sentences, and save it to JSON
+crawl a public website, collect all image URLs from up to fifty pages, identify the most common image dimensions, and save the results to CSV
+discover all Python files, compute cyclomatic complexity estimates for functions, rank functions by complexity, and save the results to JSON
+find all CSV files, identify columns with highly correlated numeric values, generate a correlation report, and save it to Markdown
+retrieve weather data for the largest cities in every US state, compute state averages, save the results to JSON, and print the warmest state
+discover all CSV files in the current directory tree, infer schemas, identify potential foreign key relationships between files, build a relationship graph, compute connected components, generate a schema report, save the graph structure to JSON, and print the largest connected component
+find all JSON files in the current directory tree, infer nested schemas, identify common structural patterns, cluster files by schema similarity, generate a report describing each cluster, save the results to JSON, and print the largest cluster
+discover all SQLite databases in the current directory tree, extract schemas and indexes, identify tables with similar structures across databases, generate a consolidation report, estimate merge opportunities, save the results to Markdown, and print the most similar table pair
+crawl a public documentation website, collect up to two hundred pages, extract titles headings and internal links, build a link graph, identify hub pages and isolated pages, save the graph to JSON, generate a summary report, and print the most connected page
+retrieve weather forecasts for fifty major cities worldwide, normalize the data into a common format, compute forecast volatility over the next seven days, rank cities by volatility, save the dataset to CSV, generate a summary report, and print the most volatile city
+find all Python files in the current directory tree, extract functions classes imports and docstrings, build a project inventory, identify undocumented functions, generate a documentation coverage report, save the results to JSON, and print the files with the lowest coverage
+discover all Markdown files, extract headings tables links and code blocks, build a content inventory, identify duplicate sections across files, generate a report, save the results to CSV, and print the most duplicated section title
+retrieve the latest two hundred Hacker News stories, extract domains keywords and score information, classify stories into categories, compute category statistics, save the dataset to JSON, generate a report, and print the fastest growing category
+find all log files in the current directory tree, identify timestamp formats, normalize timestamps, detect recurring error patterns, build hourly activity statistics, save the results to CSV, generate a report, and print the most common error pattern
+discover all image files, extract dimensions formats and metadata, group images by similarity of resolution, identify duplicate or near duplicate images, save the analysis to JSON, generate a report, and print the largest duplicate group
+retrieve metadata for the top one hundred repositories in a selected GitHub topic, collect stars forks issues and language information, build rankings, compute language distributions, save the dataset to CSV, generate a report, and print the most dominant language
+find all CSV files, identify columns containing dates, normalize date formats, compute date coverage ranges, detect overlapping datasets, save the analysis to JSON, generate a report, and print the dataset with the widest range
+discover all text files, compute readability scores sentiment scores and lexical diversity metrics, rank files by each metric, save the results to CSV, generate a report, and print the most complex file
+crawl a public wiki, collect up to three hundred pages reachable from a starting page, build a graph of page relationships, identify communities using graph analysis, save the graph to JSON, generate a report, and print the largest community
+retrieve exchange rates for fifty currencies relative to USD, compute pairwise relationships, identify the strongest and weakest currencies, save the data to CSV, generate a report, and print the top ten currencies by strength
+find all JSON files, extract every unique key path, build a key hierarchy inventory, identify frequently recurring structures, save the inventory to JSON, generate a report, and print the most common nested structure
+discover all archives in the current directory tree, inspect their contents without extraction, build a global inventory of contained files, identify duplicated contents across archives, save the analysis to CSV, generate a report, and print the most frequently occurring filename
+retrieve RSS feeds from ten technology news sources, merge articles into a single dataset, remove duplicates, classify articles by topic, compute source diversity statistics, save the dataset to JSON, generate a report, and print the most common topic
+find all Python files, build a function call graph, identify strongly connected components and recursive structures, save the graph to JSON, generate a report, and print the largest component
+discover all SQLite databases, identify columns with similar names and types, infer possible cross database relationships, generate a mapping report, save the results to JSON, and print the strongest inferred relationship
+retrieve current weather data for the largest city in every US state, normalize the data, compute regional averages, save the dataset to CSV, generate a report, and print the warmest region
+find all Markdown files, extract outbound URLs, group URLs by domain, retrieve page titles for the most referenced domains, save the analysis to JSON, generate a report, and print the most referenced domain
+discover all XML files, infer schemas from observed structures, identify common element hierarchies, cluster files by similarity, save the results to JSON, generate a report, and print the largest cluster
+retrieve metadata for the latest one hundred releases from a public GitHub organization, compute release frequency statistics, save the dataset to CSV, generate a report, and print the repository with the highest release frequency
+find all text files, identify named entities such as dates emails urls and numbers, build an entity inventory, save the results to JSON, generate a report, and print the most common entity type
+crawl a public government open data portal, collect metadata for datasets matching a keyword, normalize metadata fields, save the dataset to CSV, generate a report, and print the most recently updated dataset
+discover all CSV files, identify candidate primary keys, evaluate uniqueness and stability metrics, build a key quality report, save the results to JSON, and print the strongest candidate key
+retrieve historical weather data for ten cities using a public source, compare temperature trends, save the dataset to CSV, generate a report, and print the city with the largest temperature range
+find all Python files, estimate cyclomatic complexity for every function, compute file level complexity metrics, save the results to JSON, generate a report, and print the most complex file
+discover all JSON files, identify values that appear across multiple files, build a cross reference index, save the results to JSON, generate a report, and print the most frequently shared value
+crawl a public documentation site, extract code examples from up to two hundred pages, classify examples by language, save the dataset to CSV, generate a report, and print the most common language
+retrieve cryptocurrency market data for the top one hundred assets, compute volatility and market cap rankings, save the dataset to JSON, generate a report, and print the asset with the highest volatility
+find all image files, compute color histograms, cluster images by visual similarity, save the clustering results to JSON, generate a report, and print the largest cluster
+discover all log files, build a timeline of events across files, identify correlated spikes in activity, save the timeline to CSV, generate a report, and print the busiest period
+retrieve data from multiple public APIs describing the same city such as weather timezone and geolocation, merge the information into a unified record, save the dataset to JSON, generate a report, and print the most complete record
+find all Markdown files, construct a cross reference graph using links between files, identify disconnected documentation groups, save the graph to JSON, generate a report, and print the largest connected component
+discover all SQLite databases, profile table sizes and growth indicators, generate a capacity planning report, save the results to CSV, and print the database with the largest footprint
+retrieve the latest three hundred Hacker News stories, extract keywords and domains, build a keyword cooccurrence network, save the graph to JSON, generate a report, and print the most connected keyword
+find all CSV files, profile numeric columns, detect outliers using multiple statistical methods, save the results to JSON, generate a report, and print the column with the highest outlier ratio
+crawl a public website with at least one hundred pages, build an internal search index of page titles and headings, save the index to JSON, generate a report, and print the most common heading
+discover all text files, build document similarity scores using term frequencies, cluster related documents, save the results to JSON, generate a report, and print the largest cluster
+retrieve exchange rates from multiple public providers, compare reported values, compute discrepancies, save the dataset to CSV, generate a report, and print the currency pair with the largest discrepancy
+find all Python files, identify duplicate functions based on structural similarity, generate a deduplication report, save the results to JSON, and print the most similar pair of functions
+discover all archives, build a global inventory of contained file metadata, identify files that appear in multiple archives, save the results to CSV, generate a report, and print the most duplicated file
+retrieve weather forecasts for one hundred cities, group cities by climate characteristics derived from forecast data, save the clustering results to JSON, generate a report, and print the largest climate cluster
+

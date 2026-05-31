@@ -1,0 +1,107 @@
+import requests
+        print("Failed to retrieve a joke.")import requests
+This script attempts to fetch three random jokes from an API and prints them. If it fails to retrieve a joke, it will print a failure message.import requests
+    print(f"Failed to retrieve the RSS feed. Status code: {response.status_code}")import requests
+    print("Title tag not found")import requests
+    print("Title tag not found")import requests
+    print("Title tag not found")import requests
+    print("Title tag not found")import requests
+    print("Title tag not found")import requests
+Replace `YOUR_API_KEY` with an actual OpenWeatherMap API key. This script sends a GET request to the OpenWeatherMap API to fetch the current weather for Paris and prints it out. If the request fails, it prints an error message.import requests
+print(response.json()['value'])import requests
+print(response.json()['value'])import requests
+print(response.json()['value'])import requests
+Replace `YOUR_API_KEY` with an actual OpenWeatherMap API key. This script sends a request to the OpenWeatherMap API to get the current weather for New York and prints the temperature in Celsius. If the API call fails, it prints an error message.import requests
+print(response.text)import requests
+print(unix_timestamp)import requests
+print(response.headers)import requests
+    print(f"{header}: {value}")import requests
+    print(f"Failed to retrieve data: {response.status_code}")import requests
+print(response.json())import requests
+    print(f"Failed to retrieve data: HTTP Status Code {response.status_code}")import requests
+print(response.status_code)import requests
+print("The HTTP status code returned by wikipedia.org is:", response.status_code)import requests
+print(response.status_code)import requests
+    print(f"Failed to retrieve the number of open issues. Status code: {response.status_code}")import requests
+Replace `YOUR_API_KEY` with an actual OpenWeatherMap API key. This script sends a GET request to the OpenWeatherMap API to fetch the current weather for Sydney and prints the response. If the request fails, it prints an error message with the status code.import requests
+    print("Failed to retrieve quote")import requests
+    print("Failed to retrieve quote")import requests
+    print("No blog posts found.")import requests
+print(latest_post_title)import requests
+    print("No blog posts found.")import requests
+    print(f"Failed to fetch advice: {response.status_code}")import requests
+    print(f"Failed to fetch advice: {response.status_code}")import requests
+    print(f"Failed to fetch advice: {response.status_code}")import requests
+    print(f"Failed to fetch advice: {response.status_code}")import requests
+print(response.headers)import requests
+    print(f"{header}: {value}")import requests
+    print("Failed to retrieve the title.")import requests
+    print("Failed to retrieve Ethereum price.")import requests
+    print("Failed to retrieve gold price")import requests
+    print(f"Failed to download, status code: {response.status_code}")import requests
+    print(f"Failed to download, status code: {response.status_code}")import requests
+print(json.dumps(geo_info, indent=2))import requests
+print(geo_response.json())import requests
+print(response.json())import requests
+print(geo_response.json())import requests
+Replace `YOUR_API_TOKEN` with your actual API token from EODData.import requests
+    print("Failed to retrieve the price of silver")import requests
+    print("Failed to retrieve the price of silver from CNN")import requests
+Replace `YOUR_API_KEY` with an actual OpenWeatherMap API key. This script sends a GET request to the OpenWeatherMap API to fetch the current weather for Berlin and prints the JSON response. If the request fails, it prints an error message with the status code.import requests
+    print("Failed to retrieve the exchange rate")import requests
+print(alt_text)import requests
+print(response.text)import requests
+print(len(links))import requests
+    print(f"{i+1}. {title}")import requests
+    print(f"Failed to retrieve the page. Status code: {response.status_code}")import requests
+This code attempts to fetch the Python downloads page from python.org. If successful, it prints a success message; otherwise, it prints an error message along with the status code.import requests
+print(latest_post_title)import requests
+print(response.text)import requests
+print(latest_post_title)import requests
+    print(f"Redirected from {resp.url} to {resp.headers['Location']}")import requests
+    print(url)import requests
+print(response.history)import requests
+    print(url)import requests
+    print("Failed to fetch XKCD comic title")import requests
+    print("Failed to fetch XKCD comic title")import requests
+    print("Failed to retrieve exchange rate")import requests
+    print(f"Failed to retrieve top stories. Status code: {response.status_code}")import requests
+    print(f"Failed to retrieve cat fact. Status code: {response.status_code}")import requests
+print("\nFinal URL:", final_url)import requests
+print(response.headers['Location'])import requests
+Replace `YOUR_API_KEY` with your actual OpenWeatherMap API key. This script sends a request to the OpenWeatherMap API to get the current weather for Tokyo and prints the temperature in Celsius. If the request fails, it prints an error message.import requests
+Replace `YOUR_API_KEY` with an actual OpenWeatherMap API key. This script sends a GET request to the OpenWeatherMap API to fetch the current weather for London and prints the weather description and temperature. If the request fails, it prints an error message.import requests
+    print(f"Failed to retrieve robots.txt. Status code: {response.status_code}")import requests
+    print(f"Failed to retrieve robots.txt. Status code: {response.status_code}")import requests
+    print(f"Failed to retrieve robots.txt. Status code: {response.status_code}")import requests
+    print("Failed to retrieve the number of stars.")import requests
+    print(f"Failed to retrieve the RSS feed. Status code: {response.status_code}")import requests
+    print(f"Failed to retrieve the RSS feed. Status code: {response.status_code}")import requests
+    print("Failed to retrieve UTC time")import requests
+    print(title)import requests
+    print(title)import requests
+    print(title)import requests
+    print(title)import requests
+    print(title)import requests
+    print(f"Failed to retrieve the GitHub blog page. Status code: {response.status_code}")import requests
+    print(f"Failed to retrieve the GitHub blog page. Status code: {response.status_code}")import requests
+    print(f"Failed to retrieve the GitHub blog page. Status code: {response.status_code}")import requests
+    print(f"Failed to retrieve the GitHub blog page. Status code: {response.status_code}")import requests
+This code attempts to download the homepage of python.org and prints the HTTP status code of the response. If the request is successful, the status code should be 200.import requests
+    print(f"Failed to download, status code: {response.status_code}")import requests
+This code attempts to download the `sitemap.xml` file from `python.org`. If the download is successful, it prints "Download successful". If there's an error, it prints the status code.import requests
+print(f"URL checked: {url}")import requests
+print(response.json())import requests
+print(title)import requests
+print(title)import requests
+print(title)import requests
+    print("No blog posts found.")import requests
+print(latest_post_title)import requests
+    print("No blog posts found.")import requests
+print(response.json())import requests
+print(response.json())import requests
+print(response.json())import requests
+print(response.json())import requests
+print(response.status_code)import requests
+print("HTTP status code for github.com:", response.status_code)import requests
+    print("Failed to retrieve Bitcoin price.")import requests

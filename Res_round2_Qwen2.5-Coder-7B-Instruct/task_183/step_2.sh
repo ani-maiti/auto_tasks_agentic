@@ -1,0 +1,1 @@
+find . -name "*.csv" | xargs -I {} sh -c 'echo "{}"; wc -l < "{}"'

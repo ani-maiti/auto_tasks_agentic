@@ -1,0 +1,1 @@
+cat sitemap.xml | grep "<loc>" | wc -l

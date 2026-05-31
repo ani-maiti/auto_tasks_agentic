@@ -1,0 +1,1 @@
+print(f"Price change in the last hour: {price - data['ethereum']['usd']}")

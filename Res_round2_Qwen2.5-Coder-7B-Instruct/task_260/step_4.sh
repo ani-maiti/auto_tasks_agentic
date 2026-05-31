@@ -1,0 +1,1 @@
+awk '{print $2}' attribute_frequencies.txt | sort | uniq -c | sort -nr > attribute_frequencies.txt.tmp && mv attribute_frequencies.txt.tmp attribute_frequencies.txt

@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_091/step_4.py", line 10
+    !pip install requests
+    ^
+SyntaxError: invalid syntax

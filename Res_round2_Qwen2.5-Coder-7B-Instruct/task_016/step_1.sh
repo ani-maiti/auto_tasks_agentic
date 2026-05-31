@@ -1,0 +1,1 @@
+ls -1 | awk -F'.' '{print $NF}' | sort | uniq -c | sort -nr

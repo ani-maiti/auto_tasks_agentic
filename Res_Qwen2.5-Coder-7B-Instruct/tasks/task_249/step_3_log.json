@@ -1,0 +1,39 @@
+{
+  "task_id": 249,
+  "step": 3,
+  "max_steps": 5,
+  "timestamp": "2026-03-31T17:45:53.009892",
+  "task_description": "find all SQLite databases, detect tables with similar schemas across databases, generate a consolidation report, and save it to Markdown",
+  "code": "import sqlite3\nfrom collections import defaultdict\n\ndatabases = open('sqlite_databases.txt', 'r').read().splitlines()\nschema_dict = defaultdict(list)\n\nfor db_path in databases:\n    conn = sqlite3.connect(db_path)\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT name FROM sqlite_master WHERE type='table';\")\n    tables = cursor.fetchall()\n    for table in tables:\n        schema_query = f\"PRAGMA table_info({table[0]})\"\n        cursor.execute(schema_query)\n        schema = cursor.fetchall()\n        schema_dict[table[0]].append((db_path, schema))\n\nsimilar_schemas = {table: paths for table, paths in schema_dict.items() if len(paths) > 1}\n\nwith open('consolidation_report.md', 'w') as f:\n    f.write(\"# Consolidation Report\\n\\n\")\n    for table, paths in similar_schemas.items():\n        f.write(f\"## Table: {table}\\n\\n\")\n        for path, schema in paths:\n            f.write(f\"- **Database:** {path}\\n\")\n            f.write(\"| Column | Type | Not Null | Default |\\n|--------|------|----------|---------|\\n\")\n            for col in schema:\n                f.write(f\"| {col[1]} | {col[2]} | {col[3]} | {col[4]} |\\n\")\n            f.write(\"\\n\")\n\nprint(\"Consolidation report saved to consolidation_report.md\")",
+  "trace": {
+    "stdout": "Consolidation report saved to consolidation_report.md\n",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```sh\nfind . -name \"*.db\" > sqlite_databases.txt\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```sh\ncat sqlite_databases.txt\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport sqlite3\nfrom collections import defaultdict\n\ndatabases = open('sqlite_databases.txt', 'r').read().splitlines()\nschema_dict = defaultdict(list)\n\nfor db_path in databases:\n    conn = sqlite3.connect(db_path)\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT name FROM sqlite_master WHERE type='table';\")\n    tables = cursor.fetchall()\n    for table in tables:\n        schema_query = f\"PRAGMA table_info({table[0]})\"\n        cursor.execute(schema_query)\n        schema = cursor.fetchall()\n        schema_dict[table[0]].append((db_path, schema))\n\nsimilar_schemas = {table: paths for table, paths in schema_dict.items() if len(paths) > 1}\n\nwith open('consolidation_report.md', 'w') as f:\n    f.write(\"# Consolidation Report\\n\\n\")\n    for table, paths in similar_schemas.items():\n        f.write(f\"## Table: {table}\\n\\n\")\n        for path, schema in paths:\n            f.write(f\"- **Database:** {path}\\n\")\n            f.write(\"| Column | Type | Not Null | Default |\\n|--------|------|----------|---------|\\n\")\n            for col in schema:\n                f.write(f\"| {col[1]} | {col[2]} | {col[3]} | {col[4]} |\\n\")\n            f.write(\"\\n\")\n\nprint(\"Consolidation report saved to consolidation_report.md\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nConsolidation report saved to consolidation_report.md\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

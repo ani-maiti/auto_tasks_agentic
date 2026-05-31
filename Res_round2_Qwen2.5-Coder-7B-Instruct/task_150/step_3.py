@@ -1,0 +1,1 @@
+print("Task completed. JSON file 'python_files_sizes.json' contains the list of all Python files and their sizes.")

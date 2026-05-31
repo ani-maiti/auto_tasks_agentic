@@ -1,0 +1,1 @@
+curl -s https://example.com | grep -o '<a' | wc -l

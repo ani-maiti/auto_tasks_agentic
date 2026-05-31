@@ -1,0 +1,5 @@
+import-im6.q16: unable to grab mouse `': Resource temporarily unavailable @ error/xwindow.c/XSelectWindow/9184.
+import-im6.q16: unable to grab mouse `': Resource temporarily unavailable @ error/xwindow.c/XSelectWindow/9184.
+./tasks/task_221/step_2.sh: line 5: from: command not found
+./tasks/task_221/step_2.sh: line 8: syntax error near unexpected token `('
+./tasks/task_221/step_2.sh: line 8: `def parse_config(file_path):'

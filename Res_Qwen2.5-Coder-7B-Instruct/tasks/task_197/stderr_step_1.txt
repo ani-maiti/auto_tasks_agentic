@@ -1,0 +1,2 @@
+du: warning: summarising conflicts with --max-depth=1
+Try 'du --help' for more information.

@@ -1,0 +1,2 @@
+The directory with the largest total size is:
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed

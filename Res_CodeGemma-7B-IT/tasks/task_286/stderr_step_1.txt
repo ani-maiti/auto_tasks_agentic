@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_286/step_1.py", line 68, in <module>
+    most_common_error = max(error_patterns, key=error_patterns.get)
+ValueError: max() arg is an empty sequence

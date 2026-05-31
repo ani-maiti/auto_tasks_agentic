@@ -1,0 +1,1 @@
+echo "Please provide the directory path where the Markdown files are located."

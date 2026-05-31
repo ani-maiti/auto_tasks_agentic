@@ -1,0 +1,1 @@
+find . -name "*.log" > log_files.txt

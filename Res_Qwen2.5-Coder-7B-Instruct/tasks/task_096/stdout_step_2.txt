@@ -1,0 +1,8 @@
+Requirement already satisfied: beautifulsoup4 in /home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages (4.14.3)
+Collecting lxml
+  Downloading lxml-6.1.1-cp310-cp310-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 13.3 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions>=4.0.0 in /home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages (from beautifulsoup4) (4.15.0)
+Requirement already satisfied: soupsieve>=1.6.1 in /home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages (from beautifulsoup4) (2.8.4)
+Installing collected packages: lxml
+Successfully installed lxml-6.1.1

@@ -1,0 +1,2 @@
+Found 10 CSV files.
+Schemas inferred for all CSV files.

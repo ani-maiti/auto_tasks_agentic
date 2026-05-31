@@ -1,0 +1,6 @@
+Processing ./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip
+Processing ./cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip
+Processing ./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip
+Processing ./cpython/Lib/test/archivetestdata/zipdir.zip
+Processing ./cpython/Lib/test/archivetestdata/zipdir_backslash.zip
+Processing ./cpython/Lib/test/archivetestdata/zip_cp437_header.zip

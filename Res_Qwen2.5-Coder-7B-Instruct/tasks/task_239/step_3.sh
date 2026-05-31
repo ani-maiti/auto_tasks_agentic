@@ -1,0 +1,1 @@
+awk '{print $2}' timestamps.txt > timestamps_only.txt

@@ -1,0 +1,37 @@
+1ffcc3ec81fd5d3e5bce1e2538e94d03  ./tasks/task_001/stdout_step_2.txt
+1ffcc3ec81fd5d3e5bce1e2538e94d03  ./tasks/task_001/stdout_step_3.txt
+1ffcc3ec81fd5d3e5bce1e2538e94d03  ./tasks/task_001/stdout_step_4.txt
+1ffcc3ec81fd5d3e5bce1e2538e94d03  ./tasks/task_001/stdout_step_5.txt
+
+327f27c487002e89c051839a94b8270b  ./tasks/task_002/step_1.sh
+327f27c487002e89c051839a94b8270b  ./tasks/task_002/step_2.sh
+327f27c487002e89c051839a94b8270b  ./tasks/task_002/step_3.sh
+
+3cf370b071b6543bf3a0dd316cbaa4cc  ./tasks/task_001/step_2.sh
+3cf370b071b6543bf3a0dd316cbaa4cc  ./tasks/task_001/step_3.sh
+3cf370b071b6543bf3a0dd316cbaa4cc  ./tasks/task_001/step_4.sh
+3cf370b071b6543bf3a0dd316cbaa4cc  ./tasks/task_001/step_5.sh
+
+472ba8f0a78e2033aca0802b997cf392  ./tasks/task_002/stdout_step_1.txt
+472ba8f0a78e2033aca0802b997cf392  ./tasks/task_002/stdout_step_2.txt
+472ba8f0a78e2033aca0802b997cf392  ./tasks/task_002/stdout_step_3.txt
+
+d41d8cd98f00b204e9800998ecf8427e  ./file_extension_report.txt
+d41d8cd98f00b204e9800998ecf8427e  ./file_list.txt
+d41d8cd98f00b204e9800998ecf8427e  ./largest_files.csv
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_001/stderr_step_1.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_001/stderr_step_2.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_001/stderr_step_3.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_001/stderr_step_4.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_001/stderr_step_5.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_002/stderr_step_1.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_002/stderr_step_2.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_002/stderr_step_3.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_003/stderr_step_1.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_003/stderr_step_3.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_003/stdout_step_2.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_004/stderr_step_1.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_004/stderr_step_2.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_004/stderr_step_3.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_004/stdout_step_2.txt
+d41d8cd98f00b204e9800998ecf8427e  ./tasks/task_004/stdout_step_3.txt

@@ -1,0 +1,1 @@
+find /path/to/search -type l -ls

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_271/step_1.py", line 4, in <module>
+    conn = sqlite3.connect("path/to/database.sqlite")
+sqlite3.OperationalError: unable to open database file

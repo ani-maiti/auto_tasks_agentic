@@ -1,0 +1,1 @@
+cat python_files.txt | xargs grep -oP '(?<=def )[a-zA-Z_][a-zA-Z0-9_]*' > function_names.txt

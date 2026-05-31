@@ -1,0 +1,1 @@
+print("Hacker News top 10 post titles scraped successfully:")

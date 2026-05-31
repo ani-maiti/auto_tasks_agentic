@@ -1,0 +1,10 @@
+Found 2 duplicate paragraphs:
+
+- find all files larger than the average file size
+- 
+
+
+Largest duplicated block:
+
+
+

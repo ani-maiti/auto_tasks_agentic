@@ -1,0 +1,1 @@
+cat file_sizes.csv | sort -k 2 -nr | head -n 21

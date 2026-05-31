@@ -1,0 +1,1 @@
+cat json_files.txt | xargs jq -r 'to_entries[] | "\(.key)\t\(.value)"' > flattened_keys.txt

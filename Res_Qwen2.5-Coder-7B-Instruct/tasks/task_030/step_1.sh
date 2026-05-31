@@ -1,0 +1,1 @@
+find . -type d | while read dir; do count=$(ls -1 "$dir" | wc -l); if [ $count -gt 50 ]; then echo "$dir ($count files)"; fi; done

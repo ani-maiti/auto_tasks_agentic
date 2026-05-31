@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_073/step_1.py", line 8, in <module>
+    top_story_title = top_story_link.text.strip()
+AttributeError: 'NoneType' object has no attribute 'text'

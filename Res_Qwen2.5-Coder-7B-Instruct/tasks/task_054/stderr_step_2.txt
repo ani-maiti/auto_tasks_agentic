@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_054/step_2.py", line 22
+    This code attempts to establish a TCP connection to `worldtimeapi.org` on port 443 (HTTPS). If the connection times out or fails for any other reason, it prints an appropriate message. This can help determine if the issue is network-related or if there's a problem with the server itself.
+                                                                                                                                                                                                                                                                ^
+SyntaxError: unterminated string literal (detected at line 22)

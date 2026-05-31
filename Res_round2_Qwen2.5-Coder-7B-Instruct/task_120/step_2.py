@@ -1,0 +1,1 @@
+print(f"The latest release version of Neovim is {latest_release_version}.")

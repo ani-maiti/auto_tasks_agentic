@@ -1,0 +1,1 @@
+awk '$1 == prev {print prev, count, file} {prev = $1; count = 1; file = $2} END {if (count > 1) print prev, count, file}' <(sort -k1,1 <<< "$(find . -type f -exec ls -lh {} + | awk '{print $5 " " $9}')")

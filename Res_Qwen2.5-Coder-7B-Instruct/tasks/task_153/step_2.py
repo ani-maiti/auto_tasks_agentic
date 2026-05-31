@@ -1,0 +1,1 @@
+print("The most common filename extension is:", "txt")

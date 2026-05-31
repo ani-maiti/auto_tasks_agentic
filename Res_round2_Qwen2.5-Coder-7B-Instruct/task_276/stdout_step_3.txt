@@ -1,0 +1,12 @@
+Error processing ./crypto_prices.csv: could not convert string to float: 'bitcoin'
+Error processing ./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv: could not convert string to float: 'item'
+Error processing ./release_age_report.csv: could not convert string to float: 'https://api.github.com/repos/nodejs/node'
+Error processing ./python_files_line_counts.csv: could not convert string to float: './generate_code_model_run.py'
+Error processing ./largest_files.csv: could not convert string to float: '-rw-r--r-- 1 ai_admin ai_admin  32K May 29 11:22 ./task_descriptions_all.txt'
+Error processing ./python_files_line_counts_sorted.csv: could not convert string to float: './cpython/Lib/pydoc_data/topics.py'
+Error processing ./duplicate_images.csv: Error tokenizing data. C error: Expected 2 fields in line 4, saw 3
+
+Error processing ./timestamp_stats.csv: No columns to parse from file
+Error processing ./sample_headers.csv: could not convert string to float: 'last_updated'
+Error processing ./file_sizes.csv: could not convert string to float: '8.0K\t./tasks/task_001/step_1_log.json'
+Error processing ./analysis.csv: could not convert string to float: 'Common Files'

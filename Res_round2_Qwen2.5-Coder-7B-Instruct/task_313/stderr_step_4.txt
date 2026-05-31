@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_313/step_4.py", line 12, in <module>
+    largest_group = sorted_groups[0]
+                    ~~~~~~~~~~~~~^^^
+IndexError: list index out of range

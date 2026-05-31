@@ -1,0 +1,1 @@
+timeout 60s curl -s https://api.github.com/search/repositories?q=language:python&sort=stars&order=desc | jq '.items[0:5]'

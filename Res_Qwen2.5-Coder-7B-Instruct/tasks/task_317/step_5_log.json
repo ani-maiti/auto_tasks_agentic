@@ -1,0 +1,39 @@
+{
+  "task_id": 317,
+  "step": 5,
+  "max_steps": 5,
+  "timestamp": "2026-05-04T17:30:06.563194",
+  "task_description": "crawl a public website with at least one hundred pages, build an internal search index of page titles and headings, save the index to JSON, generate a report, and print the most common heading",
+  "code": "import requests\nfrom bs4 import BeautifulSoup\nimport json\n\n# Step 1: Define the base URL to crawl\nbase_url = \"https://example.com\"\n\n# Step 2: Function to fetch a page\ndef fetch_page(url):\n    response = requests.get(url)\n    if response.status_code == 200:\n        return response.text\n    else:\n        return None\n\n# Step 3: Function to parse a page and extract title and headings\ndef parse_page(html):\n    soup = BeautifulSoup(html, 'html.parser')\n    title = soup.title.string if soup.title else \"\"\n    headings = [h.text for h in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])]\n    return title, headings\n\n# Step 4: Crawl the website and collect data\ndata = []\nfor i in range(1, 101):  # Assuming we want to crawl up to 100 pages\n    url = f\"{base_url}/page/{i}\"\n    html = fetch_page(url)\n    if html:\n        title, headings = parse_page(html)\n        data.append({'url': url, 'title': title, 'headings': headings})\n\n# Step 5: Save the collected data to a JSON file\nwith open('website_index.json', 'w') as f:\n    json.dump(data, f, indent=4)\n\nprint(\"Data saved to website_index.json\")\n\n# Step 6: Load the JSON data\nwith open('website_index.json', 'r') as f:\n    data = json.load(f)\n\n# Step 7: Flatten the list of headings into a single list\nall_headings = [heading for item in data for heading in item['headings']]\n\n# Step 8: Count the frequency of each heading\nfrom collections import Counter\nheading_counts = Counter(all_headings)\n\n# Step 9: Check if there are any headings before finding the most common one\nif heading_counts:\n    most_common_heading, count = heading_counts.most_common(1)[0]\n    print(f\"The most common heading is '{most_common_heading}' with {count} occurrences.\")\nelse:\n    print(\"No headings found in the crawled data.\")",
+  "trace": {
+    "stdout": "Data saved to website_index.json\nNo headings found in the crawled data.\n",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```python\nimport json\n\n# Step 6: Load the JSON data\nwith open('website_index.json', 'r') as f:\n    data = json.load(f)\n\n# Step 7: Flatten the list of headings into a single list\nall_headings = [heading for item in data for heading in item['headings']]\n\n# Step 8: Count the frequency of each heading\nfrom collections import Counter\nheading_counts = Counter(all_headings)\n\n# Step 9: Find the most common heading\nmost_common_heading, count = heading_counts.most_common(1)[0]\n\nprint(f\"The most common heading is '{most_common_heading}' with {count} occurrences.\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_317/step_3.py\", line 15, in <module>\n    most_common_heading, count = heading_counts.most_common(1)[0]\nIndexError: list index out of range\n\n\nreturn code: 1"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport json\n\n# Step 6: Load the JSON data\nwith open('website_index.json', 'r') as f:\n    data = json.load(f)\n\n# Step 7: Flatten the list of headings into a single list\nall_headings = [heading for item in data for heading in item['headings']]\n\n# Step 8: Count the frequency of each heading\nfrom collections import Counter\nheading_counts = Counter(all_headings)\n\n# Step 9: Check if there are any headings before finding the most common one\nif heading_counts:\n    most_common_heading, count = heading_counts.most_common(1)[0]\n    print(f\"The most common heading is '{most_common_heading}' with {count} occurrences.\")\nelse:\n    print(\"No headings found in the crawled data.\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nNo headings found in the crawled data.\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport requests\nfrom bs4 import BeautifulSoup\nimport json\n\n# Step 1: Define the base URL to crawl\nbase_url = \"https://example.com\"\n\n# Step 2: Function to fetch a page\ndef fetch_page(url):\n    response = requests.get(url)\n    if response.status_code == 200:\n        return response.text\n    else:\n        return None\n\n# Step 3: Function to parse a page and extract title and headings\ndef parse_page(html):\n    soup = BeautifulSoup(html, 'html.parser')\n    title = soup.title.string if soup.title else \"\"\n    headings = [h.text for h in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])]\n    return title, headings\n\n# Step 4: Crawl the website and collect data\ndata = []\nfor i in range(1, 101):  # Assuming we want to crawl up to 100 pages\n    url = f\"{base_url}/page/{i}\"\n    html = fetch_page(url)\n    if html:\n        title, headings = parse_page(html)\n        data.append({'url': url, 'title': title, 'headings': headings})\n\n# Step 5: Save the collected data to a JSON file\nwith open('website_index.json', 'w') as f:\n    json.dump(data, f, indent=4)\n\nprint(\"Data saved to website_index.json\")\n\n# Step 6: Load the JSON data\nwith open('website_index.json', 'r') as f:\n    data = json.load(f)\n\n# Step 7: Flatten the list of headings into a single list\nall_headings = [heading for item in data for heading in item['headings']]\n\n# Step 8: Count the frequency of each heading\nfrom collections import Counter\nheading_counts = Counter(all_headings)\n\n# Step 9: Check if there are any headings before finding the most common one\nif heading_counts:\n    most_common_heading, count = heading_counts.most_common(1)[0]\n    print(f\"The most common heading is '{most_common_heading}' with {count} occurrences.\")\nelse:\n    print(\"No headings found in the crawled data.\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nData saved to website_index.json\nNo headings found in the crawled data.\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

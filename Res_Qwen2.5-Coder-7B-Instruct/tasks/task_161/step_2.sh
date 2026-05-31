@@ -1,0 +1,1 @@
+echo "Please provide a valid path to search."

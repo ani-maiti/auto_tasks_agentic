@@ -1,0 +1,2 @@
+echo "Check if there are any markdown files in the current directory."
+ls *.md

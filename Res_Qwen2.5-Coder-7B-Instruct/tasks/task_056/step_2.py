@@ -1,0 +1,1 @@
+print("Fetching the latest XKCD comic title...")

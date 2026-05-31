@@ -1,0 +1,1 @@
+print("Thank you for using this script. Have a great day!")

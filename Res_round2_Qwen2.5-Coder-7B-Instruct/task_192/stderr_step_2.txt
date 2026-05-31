@@ -1,0 +1,1 @@
+./tasks/task_192/step_2.sh: line 1: /usr/bin/ls: Argument list too long

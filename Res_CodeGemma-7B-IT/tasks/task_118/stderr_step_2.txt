@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_118/step_2.py", line 2
+    curl -O https://github.com/curl/curl/releases/download/curl-8_20_0-a-amd64.msi
+            ^^^^^
+SyntaxError: invalid syntax

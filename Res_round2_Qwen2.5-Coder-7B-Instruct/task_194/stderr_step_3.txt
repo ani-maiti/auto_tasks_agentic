@@ -1,0 +1,2 @@
+find: paths must precede expression: `/path/to/search'
+./tasks/task_194/step_3.sh: line 4: unexpected EOF while looking for matching ``'

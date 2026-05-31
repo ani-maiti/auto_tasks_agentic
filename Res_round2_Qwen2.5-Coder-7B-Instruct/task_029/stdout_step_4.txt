@@ -1,0 +1,27 @@
+total 18672
+drwxrwxrwt 19 root     root         520 May 30 23:26 .
+drwxr-xr-x 17 root     root        4096 May  1 15:13 ..
+drwxrwxrwt  2 root     root          40 May 21 10:36 .font-unix
+drwxr-xr-x  2 ai_admin ai_admin      40 May 24 13:47 hsperfdata_ai_admin
+drwxrwxrwt  2 root     root          60 May 21 10:36 .ICE-unix
+-rw-------  1 ai_admin ai_admin 4949544 May 28 12:11 mozilla-temp-112513227
+-rw-------  1 ai_admin ai_admin 4602342 May 28 12:11 mozilla-temp-1412598566
+-rw-------  1 ai_admin ai_admin 4602342 May 28 00:01 mozilla-temp-1512598909
+-rw-------  1 ai_admin ai_admin 4949544 May 28 00:01 mozilla-temp-1787314755
+drwx------  2 ai_admin ai_admin      40 May 21 10:37 plasma-csd-generator.Hflegx
+drwxrwxrwt  3 ai_admin ai_admin      60 May 24 08:38 qiime2
+drwx------  2 ai_admin ai_admin      40 May 24 14:01 RtmpbAQNMp
+drwxrwxrwx  3 root     root         340 May 30 23:31 RustDesk
+srwx------  1 sddm     sddm           0 May 21 10:36 sddm-:0-QAUUbM
+srwxr-xr-x  1 root     root           0 May 21 10:36 sddm-auth-82faed26-51b9-4e0d-a274-08418b106def
+drwx------  2 ai_admin ai_admin      60 May 27 11:23 Spectacle.jRWNPR
+drwxr-xr-x  2 ai_admin ai_admin      40 May 27 11:03 spyder-ai_admin
+drwx------  3 root     root          60 May 21 10:36 systemd-private-aea672844517485b96bd1f1a0b70677f-polkit.service-WgtZsh
+drwx------  3 root     root          60 May 21 10:36 systemd-private-aea672844517485b96bd1f1a0b70677f-power-profiles-daemon.service-h9VSPF
+drwx------  3 root     root          60 May 21 10:36 systemd-private-aea672844517485b96bd1f1a0b70677f-systemd-logind.service-TuANiF
+drwx------  3 root     root          60 May 21 10:36 systemd-private-aea672844517485b96bd1f1a0b70677f-upower.service-1qy8ih
+drwx------  2 ai_admin ai_admin      40 May 21 11:48 tmp5_ycyscy_kernels
+drwxr-xr-x  2 ai_admin ai_admin      40 May 21 11:08 torchinductor_ai_admin
+drwxrwxrwt  2 root     root          60 May 21 10:36 .X11-unix
+-rw-------  1 ai_admin ai_admin      99 May 21 10:36 xauth_XaTCNA
+drwxrwxrwt  2 root     root          40 May 21 10:36 .XIM-unix

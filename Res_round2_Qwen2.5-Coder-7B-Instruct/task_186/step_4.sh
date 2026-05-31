@@ -1,0 +1,1 @@
+echo "Error: No shell scripts found."

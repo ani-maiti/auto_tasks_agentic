@@ -1,0 +1,1 @@
+print("The smallest non-empty file is:", avg_size.txt)

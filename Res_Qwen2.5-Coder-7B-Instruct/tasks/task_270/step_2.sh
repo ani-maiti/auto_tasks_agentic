@@ -1,0 +1,1 @@
+cat markdown_files.txt | xargs grep -oP '```[\s\S]*?```' > code_fences.txt

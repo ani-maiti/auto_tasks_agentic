@@ -1,0 +1,1 @@
+cat csv_files.txt | xargs -I {} sh -c 'echo "{}"; wc -l <{}'

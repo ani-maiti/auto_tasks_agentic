@@ -1,0 +1,1 @@
+find . -type f -exec ls -lt {} + | head -n 10

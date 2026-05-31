@@ -1,0 +1,1 @@
+du -ah --max-depth=3 | sort -hr | head -n 1

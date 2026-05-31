@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_296/step_3.py", line 6, in <module>
+    for file in python_files:
+NameError: name 'python_files' is not defined

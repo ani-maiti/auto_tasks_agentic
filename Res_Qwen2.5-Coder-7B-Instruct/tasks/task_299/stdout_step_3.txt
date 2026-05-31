@@ -1,0 +1,2 @@
+Error fetching api.github.com: Invalid URL 'api.github.com': No scheme supplied. Perhaps you meant https://api.github.com?
+Failed to retrieve page title.

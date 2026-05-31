@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_300/step_3.py", line 18, in <module>
+    tree = ET.parse(xml_file)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 33, column 191

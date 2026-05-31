@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_256/step_4.py", line 2, in <module>
+    duplicated_sentences = [sentence for sentence in sentence_counts.keys() if sentence_counts[sentence] > 2]
+NameError: name 'sentence_counts' is not defined

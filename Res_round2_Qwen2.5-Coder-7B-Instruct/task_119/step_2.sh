@@ -1,0 +1,1 @@
+echo "Latest release version of Git from GitHub: $latest_release"

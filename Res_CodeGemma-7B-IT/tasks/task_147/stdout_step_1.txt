@@ -1,0 +1,5 @@
+./tasks/task_147/step_1.py
+./tasks/task_012/step_2.py
+./tasks/task_012/step_4.py
+./tasks/task_012/step_1.py
+./tasks/task_012/step_3.py

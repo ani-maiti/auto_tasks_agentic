@@ -1,0 +1,2 @@
+Question: An episode of &quot;The Simpsons&quot; is dedicated to Moe Szyslak&#039;s bar rag.
+Answer: True

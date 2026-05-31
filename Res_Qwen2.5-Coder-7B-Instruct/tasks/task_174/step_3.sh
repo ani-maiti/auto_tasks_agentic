@@ -1,0 +1,1 @@
+cat $(find . -type f -name "*.txt") | grep "artificial intelligence"

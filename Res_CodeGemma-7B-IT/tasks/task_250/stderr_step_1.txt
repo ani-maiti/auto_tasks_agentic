@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_250/step_1.py", line 24, in <module>
+    domain = soup.find("a", class_="hnuser").text.split(".")[-2]
+IndexError: list index out of range

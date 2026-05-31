@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_248/step_1.py", line 48
+    """
+       ^
+SyntaxError: f-string expression part cannot include a backslash

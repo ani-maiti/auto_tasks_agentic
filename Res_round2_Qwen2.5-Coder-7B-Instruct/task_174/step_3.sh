@@ -1,0 +1,1 @@
+find . -type f -exec grep -l "artificial intelligence" {} + 2>/dev/null | xargs file --mime-type | grep text/plain

@@ -1,0 +1,1 @@
+find . -name "*.txt" > txt_files.txt

@@ -1,0 +1,1 @@
+sort headers.txt | uniq -c | awk '$1>1' > shared_columns.txt

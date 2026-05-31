@@ -1,0 +1,1 @@
+cat $(find . -type f -name "*.log") | grep "artificial intelligence"

@@ -1,0 +1,1 @@
+ls -lt ./words_part_* | head -n 10

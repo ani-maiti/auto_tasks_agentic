@@ -1,0 +1,1 @@
+cat markdown_files.txt | xargs grep -oP '^\s*#.*' | sort | uniq -c | awk '$1>1 {print $2}' > duplicated_headings.txt

@@ -1,0 +1,1 @@
+echo "The previous command failed. Let's try another approach."

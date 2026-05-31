@@ -1,0 +1,1 @@
+Error fetching exchange rates: Failed to fetch data from https://www.exchangerate-api.com/v4/latest/USD

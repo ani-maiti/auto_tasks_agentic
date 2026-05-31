@@ -1,0 +1,1 @@
+print("The latest Rust release version is:", stdout.strip())

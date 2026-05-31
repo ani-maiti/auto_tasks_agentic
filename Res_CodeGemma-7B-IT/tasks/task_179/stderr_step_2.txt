@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_179/step_2.py", line 6, in <module>
+    reader = csv.reader(csvfile)
+NameError: name 'csv' is not defined

@@ -1,0 +1,8 @@
+/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_292/step_3.py:10: FutureWarning: The behavior of DataFrame.idxmax with all-NA values, or any-NA and skipna=False, is deprecated. In a future version this will raise ValueError
+  strongest_currency = pairwise_relationships.idxmax().idxmax()
+/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_292/step_3.py:10: FutureWarning: The behavior of Series.idxmax with all-NA values, or any-NA and skipna=False, is deprecated. In a future version this will raise ValueError
+  strongest_currency = pairwise_relationships.idxmax().idxmax()
+/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_292/step_3.py:11: FutureWarning: The behavior of DataFrame.idxmin with all-NA values, or any-NA and skipna=False, is deprecated. In a future version this will raise ValueError
+  weakest_currency = pairwise_relationships.idxmin().idxmin()
+/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_292/step_3.py:11: FutureWarning: The behavior of Series.idxmin with all-NA values, or any-NA and skipna=False, is deprecated. In a future version this will raise ValueError
+  weakest_currency = pairwise_relationships.idxmin().idxmin()

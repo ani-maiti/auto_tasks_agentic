@@ -1,0 +1,3 @@
+text_files = ['hashes.txt', 'files_with_multiple_dots.txt', 'non_ascii_files.txt', 'hash_results.txt', 'latest_release.txt', 'py_files.txt', 'file_list.txt', 'task_descriptions.txt', 'words.txt', 'txt_files.txt', 'recent_files.txt', 'imports_requests.txt', 'directory_tree.txt', 'task_descriptions_all.txt', 'file_sizes.txt', 'file_extension_report.txt', 'uppercase_files.txt', 'urls.txt', 'hidden_files.txt', 'system_prompt_body.txt', 'python_files.txt']
+total_chars = sum(len(open(file).read()) for file in text_files)
+print(f"Total number of characters across all text files: {total_chars}")

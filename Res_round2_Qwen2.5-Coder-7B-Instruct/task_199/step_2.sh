@@ -1,0 +1,1 @@
+cat json_files.txt | xargs jq '.' 2>/dev/null | jq 'to_entries' | jq -s 'add | group_by(.key) | map({key: .[0].key, values: map(.value)})' | jq '.[] | {key: .key, count: length}' | sort -k2,2nr | head -n 10 > common_keys.json

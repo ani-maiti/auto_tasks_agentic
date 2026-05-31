@@ -1,0 +1,10 @@
+-rw-r--r-- 1 ai_admin ai_admin 5052 May 31 01:03 ./words_part_zzzzafzdqt
+-rw-r--r-- 1 ai_admin ai_admin 4957 May 31 01:03 ./words_part_zzzzafzdqs
+-rw-r--r-- 1 ai_admin ai_admin 4804 May 31 01:03 ./words_part_zzzzafzdqr
+-rw-r--r-- 1 ai_admin ai_admin 5339 May 31 01:03 ./words_part_zzzzafzdqq
+-rw-r--r-- 1 ai_admin ai_admin 5144 May 31 01:03 ./words_part_zzzzafzdqp
+-rw-r--r-- 1 ai_admin ai_admin 4792 May 31 01:03 ./words_part_zzzzafzdqo
+-rw-r--r-- 1 ai_admin ai_admin 5141 May 31 01:03 ./words_part_zzzzafzdqn
+-rw-r--r-- 1 ai_admin ai_admin 5158 May 31 01:03 ./words_part_zzzzafzdqm
+-rw-r--r-- 1 ai_admin ai_admin 4848 May 31 01:03 ./words_part_zzzzafzdql
+-rw-r--r-- 1 ai_admin ai_admin 5256 May 31 01:03 ./words_part_zzzzafzdqk

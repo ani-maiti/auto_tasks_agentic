@@ -1,0 +1,394 @@
+Found 7 JSON files.
+merged_articles.json:
+[
+    {
+        "title": "SoftBank says it will invest up to \u20ac75 billion to build French data centers",
+        "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+        "published": "Sat, 30 May 2026 21:45:00 +0000",
+        "summary": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity."
+    },
+    {
+        "title": "This weekend\u2019s two biggest movies were both directed by YouTubers",
+        "link": "https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/",
+        "published": "Sat, 30 May 2026 21:12:37 +0000",
+        "summary": "The YouTube-to-prestige-horror pipeline is looking very strong."
+    },
+    {
+        "title": "Snap alums unveil Ghost Angels fund",
+        "link": "https://techcrunch.com/2026/05/30/snap-alums-unveil-ghost-angels-fund/",
+        "published": "Sat, 30 May 2026 17:00:00 +0000",
+        "summary": "A group of 20 Snap alumni has come together to launch a fund called Ghost Angels to back the next generation of social media."
+    },
+    {
+        "title": "\u2018What a joke\u2019: Github Copilot\u2019s new token-based billing spurs consternation among devs",
+        "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+        "published": "Sat, 30 May 2026 16:30:00 +0000",
+        "summary": "The golden age of Microsoft's Github Copilot appears to be at an end."
+    },
+    {
+        "title": "Meta is reportedly developing an AI pendant",
+        "link": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+        "published": "Sat, 30 May 2026 15:59:58 +0000",
+        "summary": "Meta seems to be making big bets on AI-powered hardware."
+    },
+    {
+        "title": "I put Google\u2019s 24/7 AI assistant Gemini Spark to work, and it\u2019s actually pretty useful",
+        "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+        "published": "Sat, 30 May 2026 15:30:00 +0000",
+        "summary": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it\u2019s unclear why Google made it a separate product."
+    },
+    {
+        "title": "The groupthink boom: what three top VCs really think about the AI frenzy",
+        "link": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+        "published": "Sat, 30 May 2026 14:49:27 +0000",
+        "summary": "\"If you're 22 years old in San Francisco and building something in AI, there may be a seed term sheet in your inbox \u2014 but if you're 19, oh my God, this means you're really good; you might already have a Series A [offer],\" said one, half-kiddingly."
+    },
+    {
+        "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
+        "link": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+        "published": "Sat, 30 May 2026 13:00:00 +0000",
+        "summary": "We\u2019ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari."
+    },
+    {
+        "title": "This $300 pizza oven can easily help elevate your summer pizza nights",
+        "link": "https://techcrunch.com/2026/05/30/this-300-pizza-oven-can-easily-help-elevate-your-summer-pizza-nights/",
+        "published": "Sat, 30 May 2026 13:00:00 +0000",
+        "summary": "The Ninja Artisan Outdoor Pizza Oven is aimed at people who want delicious pizza nights without having to deal with things like propane or wood pellets, unlike many other pizza ovens."
+    },
+    {
+        "title": "TikTok\u2019s road to becoming a super app",
+        "link": "https://techcrunch.com/2026/05/30/tiktoks-road-to-becoming-a-super-app/",
+        "published": "Sat, 30 May 2026 13:00:00 +0000",
+        "summary": "TikTok may be working to become the app that people use for most of their digital activities."
+    },
+    {
+        "title": "Founders seize on Indian court ruling to revive criticism of Google\u2019s ad business",
+        "link": "https://techcrunch.com/2026/05/29/founders-seize-on-indian-court-ruling-to-revive-criticism-of-googles-ad-business/",
+        "published": "Sat, 30 May 2026 02:00:00 +0000",
+        "summary": "The ruling drew support from founders, while lawyers said it could force platforms to revisit how they handle trademarked keywords."
+    },
+    {
+        "title": "I went to the so-called \u2018steroid Olympics,\u2019 to understand why Silicon Valley is obsessed with peptides",
+        "link": "https://techcrunch.com/2026/05/29/i-went-to-the-so-called-steroid-olympics-to-understand-why-silicon-valley-is-obsessed-with-peptides/",
+        "published": "Sat, 30 May 2026 00:39:13 +0000",
+        "summary": "The Enhanced Games \u2014 a singular sporting competition where a majority of the athletes were on performance enhancing drugs \u2014 may herald a new business model that the tech industry is ready to embrace."
+    },
+    {
+        "title": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
+        "link": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/",
+        "published": "Fri, 29 May 2026 22:21:38 +0000",
+        "summary": "SpaceX already generated one-fifth of its 2025 revenue from government contracts, the company revealed in its IPO filing."
+    },
+    {
+        "title": "Coders are refusing to work without AI\u00a0\u2014\u00a0and that could come back to bite them",
+        "link": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+        "published": "Fri, 29 May 2026 22:14:22 +0000",
+        "summary": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them."
+    },
+    {
+        "title": "So you\u2019ve heard these AI terms and nodded along; let\u2019s fix that",
+        "link": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "published": "Fri, 29 May 2026 18:49:19 +0000",
+        "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter."
+    },
+    {
+        "title": "What happens when companies become too AI-pilled?",
+        "link": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+        "published": "Fri, 29 May 2026 17:57:05 +0000",
+        "summary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job\u00a0truly involves, according to Box founder Aaron Levie, who pointed to this as an example of\u00a0&#8220;AI psychosis.\u201d Indeed,\u00a0ClickUp\u00a0recently\u00a0cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, [&#8230;]"
+    },
+    {
+        "title": "After Nvidia\u2019s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+        "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+        "published": "Fri, 29 May 2026 17:27:13 +0000",
+        "summary": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios."
+    },
+    {
+        "title": "Microsoft under fire for threatening security researcher with criminal investigation",
+        "link": "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/",
+        "published": "Fri, 29 May 2026 17:03:39 +0000",
+        "summary": "A public spat between Microsoft and an independent security researcher reopens a long-running debate over who is responsible for securing software."
+    },
+    {
+        "title": "Cognition\u2019s Scott Wu says AI coding agents shouldn\u2019t replace humans",
+        "link": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+        "published": "Fri, 29 May 2026 16:13:47 +0000",
+        "summary": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers."
+    },
+    {
+        "title": "Today is the last\u00a0day to apply to speak at TechCrunch Disrupt 2026",
+        "link": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
+        "published": "Fri, 29 May 2026 14:15:00 +0000",
+        "summary": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry."
+    },
+    {
+        "title": "Lamine Yamal shares pictures teasing the new Beats headphones on the way",
+        "link": "https://www.engadget.com/2184302/lamine-yamal-shares-pictures-teasing-the-new-beats-headphones-on-the-way/",
+        "published": "Sat, 30 May 2026 21:38:38 +0000",
+        "summary": "The Spanish soccer player posted a bunch of images featuring the mystery product."
+    },
+    {
+        "title": "NASA readies the X-59 for its first supersonic flight, SpaceX's Starship grounded and more science stories",
+        "link": "https://www.engadget.com/2184257/nasa-x-59-first-supersonic-flight-spacex-starship-grounded-and-more-science-stories/",
+        "published": "Sat, 30 May 2026 16:30:00 +0000",
+        "summary": "This week's science news."
+    },
+    {
+        "title": "5 Fitness Trackers That Don't Lock Core Features Behind a Monthly Subscription",
+        "link": "https://www.engadget.com/2183305/fitness-trackers-no-subscription/",
+        "published": "Sat, 30 May 2026 13:30:00 +0000",
+        "summary": "The Fitbit Air isn't the only Whoop alternative that you can buy without a subscription."
+    },
+    {
+        "title": "MindsEye developer Build a Rocket Boy has reportedly laid off even more staff",
+        "link": "https://www.engadget.com/2166238/mindseye-developer-build-a-rocket-boy-has-reportedly-laid-off-even-more-staff/",
+        "published": "Wed, 06 May 2026 17:00:28 +0000",
+        "summary": "Around 170 roles are said to be affected."
+    },
+    {
+        "title": "Chrome downloads a 4GB AI file without user consent, researcher alleges",
+        "link": "https://www.engadget.com/2166113/chrome-downloads-a-4gb-ai-file-without-user-consent-researcher-alleges/",
+        "published": "Wed, 06 May 2026 15:20:22 +0000",
+        "summary": "At least there's a toggle to easily turn this off."
+    },
+    {
+        "title": "reMarkable's Paper Pure is its new entry-level slate",
+        "link": "https://www.engadget.com/2164798/remarkable-paper-pure/",
+        "published": "Wed, 06 May 2026 12:00:00 +0000",
+        "summary": "It's consciously designed to appeal more to corporate buyers."
+    },
+    {
+        "title": "reMarkable Paper Pure review: Great hardware held back by bad philosophy",
+        "link": "https://www.engadget.com/2164815/remarkable-paper-pure-review/",
+        "published": "Wed, 06 May 2026 12:00:00 +0000",
+        "summary": "There's an obvious conflict between business and ordinary users."
+    },
+    {
+        "title": "Nuro approved to test its driverless Uber robotaxis on California roads",
+        "link": "https://www.engadget.com/2165815/nuro-approved-to-test-driverless-uber-robotaxis-on-california-roads/",
+        "published": "Wed, 06 May 2026 08:25:59 +0000",
+        "summary": "Uber and Nuro plan to start fully autonomous testing later this year."
+    },
+    {
+        "title": "MSI's next-gen monitor can switch between three resolutions and refresh rates",
+        "link": "https://www.engadget.com/2184290/msi-next-gen-monitor-can-switch-between-three-resolutions-and-refresh-rates/",
+        "published": "Sat, 30 May 2026 19:25:30 +0000",
+        "summary": "Go from 4K resolution for Crimson Desert to 680Hz for Counter-Strike 2."
+    },
+    {
+        "title": "Pornhub is unblocking UK users who verify their age with Apple",
+        "link": "https://www.engadget.com/2165805/pornhub-uk-verify-age-apple-ios/",
+        "published": "Wed, 06 May 2026 07:36:12 +0000",
+        "summary": "Its parent company Aylo says age-verified iOS users in the UK will now be able to fully access the adult website."
+    },
+    {
+        "title": "Valve releases design files for its out-of-stock Steam Controller",
+        "link": "https://www.engadget.com/2165638/valve-releases-design-files-for-its-out-of-stock-steam-controller/",
+        "published": "Tue, 05 May 2026 22:29:25 +0000",
+        "summary": "Make and mod your own accessories if you've already got the gamepad."
+    },
+    {
+        "title": "Apple will pay $250 million for failing to deliver its AI-powered Siri on time",
+        "link": "https://www.engadget.com/2165602/apple-will-pay-250-million-for-failing-to-deliver-its-ai-powered-siri-on-time/",
+        "published": "Tue, 05 May 2026 21:51:45 +0000",
+        "summary": "The proposed settlement is the result of a class action lawsuit filed in California."
+    },
+    {
+        "title": "Anthropic reportedly agrees to pay Google $200 billion for chips and cloud access",
+        "link": "https://www.engadget.com/2165585/anthropic-reportedly-agrees-to-pay-google-200-billion-for-chips-and-cloud-access/",
+        "published": "Tue, 05 May 2026 21:40:41 +0000",
+        "summary": "This five-year deal is one of many circular agreements keeping the AI sector afloat."
+    },
+    {
+        "title": "Xbox is ditching Microsoft's Copilot AI",
+        "link": "https://www.engadget.com/2165562/xbox-is-ditching-microsofts-copilot-ai/",
+        "published": "Tue, 05 May 2026 21:11:41 +0000",
+        "summary": "The AI assistant is no longer coming to consoles and will be removed from the Xbox mobile app."
+    },
+    {
+        "title": "Remakes of Myst and Riven are coming to PlayStation, Xbox and the Microsoft Store",
+        "link": "https://www.engadget.com/2165488/remakes-of-myst-and-riven-are-coming-to-playstation-xbox-and-the-microsoft-store/",
+        "published": "Tue, 05 May 2026 20:03:41 +0000",
+        "summary": "Both remakes were already released on Steam and the macOS App Store."
+    },
+    {
+        "title": "What to read this weekend: The Dorians and Red Roots",
+        "link": "https://www.engadget.com/2184277/what-to-read-this-weekend-the-dorians-nick-cutter-red-roots-image-comics/",
+        "published": "Sat, 30 May 2026 18:00:00 +0000",
+        "summary": "Here's what we read and liked this week."
+    },
+    {
+        "title": "Irish regulators are investigating whether Meta is using 'dark patterns' to steer people away from non-algorithmic feeds",
+        "link": "https://www.engadget.com/2165473/irish-regulators-are-investigating-whether-meta-is-using-dark-patterns-to-steer-people-away-from-non-algorithmic-feeds/",
+        "published": "Tue, 05 May 2026 19:57:53 +0000",
+        "summary": "European law requires large platforms to offer alternative feeds."
+    },
+    {
+        "title": "Apple Intelligence will reportedly let you choose third-party AI models in iOS 27",
+        "link": "https://www.engadget.com/2165451/apple-intelligence-will-reportedly-let-you-choose-third-party-ai-models-in-ios-27/",
+        "published": "Tue, 05 May 2026 19:38:11 +0000",
+        "summary": "iPads and Macs are also expected to embrace external options for generative AI."
+    },
+    {
+        "title": "Pennsylvania is suing Character.AI over chatbots that pretend to be licensed doctors",
+        "link": "https://www.engadget.com/2165373/pennsylvania-is-suing-characterai-over-chatbots-that-pretend-to-be-licensed-doctors/",
+        "published": "Tue, 05 May 2026 19:10:00 +0000",
+        "summary": "State investigators found a chatbot that claimed it had a medical license and could write prescriptions."
+    },
+    {
+        "title": "The next Call of Duty is not coming to PS4 (or presumably Xbox One)",
+        "link": "https://www.engadget.com/2165363/the-next-call-of-duty-is-not-coming-to-ps4-or-presumably-xbox-one/",
+        "published": "Tue, 05 May 2026 19:00:00 +0000",
+        "summary": "Activision Blizzard seems to be focusing on next-gen platforms."
+    },
+    {
+        "title": "How To Reduce Cyber Risks Across Connected Devices And Services",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/how-to-reduce-cyber-risks-across-connected-devices-and-services/",
+        "published": "Fri, 29 May 2026 13:15:23 -0400",
+        "summary": "For organizations and consumers alike, staying secure isn\u2019t just about defending against sophisticated attacks; it\u2019s also about recognizing the everyday risks."
+    },
+    {
+        "title": "The AI Execution Gap: Why PoCs Rarely Become Production Systems",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/the-ai-execution-gap-why-pocs-rarely-become-production-systems/",
+        "published": "Fri, 29 May 2026 12:00:00 -0400",
+        "summary": "The problem is rarely about building the model itself, but when organizations try to weave AI into day-to-day business operations."
+    },
+    {
+        "title": "Empowering Educators: How EdTech Can Enhance Teacher Capabilities",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/empowering-educators-how-edtech-can-enhance-teacher-capabilities/",
+        "published": "Fri, 29 May 2026 11:45:00 -0400",
+        "summary": "The teacher shortage is not just a workforce issue; it is a systems challenge."
+    },
+    {
+        "title": "What AI Governance Can Learn From The Data Governance Era",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/what-ai-governance-can-learn-from-the-data-governance-era/",
+        "published": "Fri, 29 May 2026 11:30:00 -0400",
+        "summary": "Data governance took most enterprises a decade to get right, and those that started late paid the price."
+    },
+    {
+        "title": "The Complexity Tax: Why Enterprise AI Stalls Before It Starts",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/the-complexity-tax-why-enterprise-ai-stalls-before-it-starts/",
+        "published": "Fri, 29 May 2026 11:15:00 -0400",
+        "summary": "AI doesn't create the complexity tax, but it makes the bill impossible to ignore."
+    },
+    {
+        "title": "The Velocity Gap: The Only AI Bottleneck That Matters",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/the-velocity-gap-the-only-ai-bottleneck-that-matters/",
+        "published": "Fri, 29 May 2026 11:00:00 -0400",
+        "summary": "For the last thirty years, executives have asked the same wrong question: how do we move our organization fast enough to keep up with the technology?"
+    },
+    {
+        "title": "The Next AI Governance Problem Is Identity, Not Intelligence",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/the-next-ai-governance-problem-is-identity-not-intelligence/",
+        "published": "Fri, 29 May 2026 10:45:00 -0400",
+        "summary": "\u200bAI governance will be judged by what the enterprise can prove, not only by what the model can produce."
+    },
+    {
+        "title": "Eliminating The Dangerous Enterprise AI Blind Spot",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/eliminating-the-dangerous-enterprise-ai-blind-spot/",
+        "published": "Fri, 29 May 2026 10:30:00 -0400",
+        "summary": "Organizations are confronting the growing gap between AI hype and measurable business impact. This is exposing major blind spots in governance, usage visibility and operational oversight."
+    },
+    {
+        "title": "\u200b\u200bThe Missing Layer In Enterprise AI: How Deterministic Governance Can Help Scale Autonomous Systems",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/the-missing-layer-in-enterprise-ai-how-deterministic-governance-can-help-scale-autonomous-systems/",
+        "published": "Fri, 29 May 2026 10:15:00 -0400",
+        "summary": "Even though enterprise AI is advancing rapidly, when organizations move beyond prototypes, their AI systems often fail in production."
+    },
+    {
+        "title": "Why 'AI Engineer' Is Already An Outdated Job Title",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-ai-engineer-is-already-an-outdated-job-title/",
+        "published": "Fri, 29 May 2026 10:00:00 -0400",
+        "summary": "Today, there are several AI engineer roles that require fundamentally different skill sets, workflows and operating models.\u200b"
+    },
+    {
+        "title": "AI Can Write More Code, But Engineers Must Design Better Systems",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/ai-can-write-more-code-but-engineers-must-design-better-systems/",
+        "published": "Fri, 29 May 2026 09:45:00 -0400",
+        "summary": "AI is an accelerator, not a shortcut."
+    },
+    {
+        "title": "Health Systems Must Be Prepared For A Hybrid Workforce",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/health-systems-must-be-prepared-for-a-hybrid-workforce/",
+        "published": "Fri, 29 May 2026 09:30:00 -0400",
+        "summary": "A hybrid workforce that pairs AI capacity with human judgment offers a way forward, but only if health systems are willing to do the operational work first."
+    },
+    {
+        "title": "Why Enterprise Data Platforms Must Be AI-Ready From Day One",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-enterprise-data-platforms-must-be-ai-ready-from-day-one/",
+        "published": "Fri, 29 May 2026 09:15:00 -0400",
+        "summary": "\u200bTo support AI effectively, organizations must rethink how their data platforms are structured."
+    },
+    {
+        "title": "Why AI Could Be The Next Frontier Of Mental Health Innovation",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-ai-could-be-the-next-frontier-of-mental-health-innovation/",
+        "published": "Fri, 29 May 2026 09:00:00 -0400",
+        "summary": "AI systems must move beyond general recommendations to reflect real-life context."
+    },
+    {
+        "title": "Could Recent California Law Trigger A Federal Technology-Led Mandate?",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/could-recent-california-law-trigger-a-federal-technology-led-mandate/",
+        "published": "Fri, 29 May 2026 08:45:00 -0400",
+        "summary": "In hospital security, outcomes are not defined by what is installed, but by how reliably it is used.\u200b\u200b"
+    },
+    {
+        "title": "Why Autonomous AI Systems Require Continuous Verification",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-autonomous-ai-systems-require-continuous-verification/",
+        "published": "Fri, 29 May 2026 08:30:00 -0400",
+        "summary": "Once an agent can execute tool calls, they require continuous oversight and runtime verification."
+    },
+    {
+        "title": "The Signal Nobody Is Reading: A Framework For Closing The TMT Churn Gap",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/the-signal-nobody-is-reading-a-framework-for-closing-the-tmt-churn-gap/",
+        "published": "Fri, 29 May 2026 08:15:00 -0400",
+        "summary": "The gap between detection and departure is precisely where loyalty is won or lost, and most TMT organizations have no capability operating in that space today."
+    },
+    {
+        "title": "Why 'AI Fluency' On A Resume Means Nothing And What To Hire For Instead",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-ai-fluency-on-a-resume-means-nothing-and-what-to-hire-for-instead/",
+        "published": "Fri, 29 May 2026 08:00:00 -0400",
+        "summary": "The talent shortage is not generic AI skills. It is the rare combination of judgment, rigor and domain depth that makes AI usable in production."
+    },
+    {
+        "title": "\u200bThe Hidden Fault Line In Enterprise AI",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/the-hidden-fault-line-in-enterprise-ai/",
+        "published": "Fri, 29 May 2026 07:45:00 -0400",
+        "summary": "Most companies have poured their energy into picking the right AI model. This is a reasonable question. But it is the wrong one to obsess over."
+    },
+    {
+        "title": "Why Mythos Finding Vulnerabilities Faster Doesn't Make You More Secure",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/why-mythos-finding-vulnerabilities-faster-doesnt-make-you-more-secure/",
+        "published": "Fri, 29 May 2026 07:30:00 -0400",
+        "summary": "Every leap in discovery capability tends to widen a gap that already exists. This is the gap between what you find and what you actually fix.\u200b"
+    },
+    {
+        "title": "From Compliance To Connection: Building Trusted Supplier Communities",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/from-compliance-to-connection-building-trusted-supplier-communities/",
+        "published": "Fri, 29 May 2026 07:15:00 -0400",
+        "summary": "In this new environment, the traditional approach to sourcing\u2014starting from scratch and vetting vendors one by one\u2014simply doesn\u2019t scale."
+    },
+    {
+        "title": "Orchestration Is The New Go-To-Market System Of Record In The AI Era",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/orchestration-is-the-new-go-to-market-system-of-record-in-the-ai-era/",
+        "published": "Fri, 29 May 2026 07:00:00 -0400",
+        "summary": "Ecosystem orchestration is the ability to coordinate every participant, every action and every system within a unified operating model."
+    },
+    {
+        "title": "From Boxes To Platforms: The Principles Of Data Management In The AI Era",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/from-boxes-to-platforms-the-principles-of-data-management-in-the-ai-era/",
+        "published": "Fri, 29 May 2026 06:45:00 -0400",
+        "summary": "While the component supply crunch remains the headline, this also underscores that AI infrastructure architectures need to adapt."
+    },
+    {
+        "title": "How AI Can Strengthen Modern Data Platforms",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/how-ai-can-strengthen-modern-data-platforms/",
+        "published": "Fri, 29 May 2026 06:30:00 -0400",
+        "summary": "A platform is no longer defined only by how efficiently it stores or processes data but by how reliably it preserves meaning, control and trust."
+    },
+    {
+        "title": "\u200bHow To Actually Get 10x Out Of AI Coding Tools (And Why Most Teams Don't)",
+        "link": "https://www.forbes.com/councils/forbestechcouncil/2026/05/29/how-to-actually-get-10x-out-of-ai-coding-tools-and-why-most-teams-dont/",
+        "published": "Fri, 29 May 2026 06:15:00 -0400",
+        "summary": "Protect your experienced engineers. They're the multiplier on every AI tool you adopt. Their judgment turns AI's speed into compounding value."
+    }
+]

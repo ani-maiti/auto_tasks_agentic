@@ -1,0 +1,4 @@
+grep: warning: stray \ before d
+grep: warning: stray \ before d
+grep: warning: stray \ before d
+./tasks/task_042/step_1.sh: line 4: unexpected EOF while looking for matching ``'

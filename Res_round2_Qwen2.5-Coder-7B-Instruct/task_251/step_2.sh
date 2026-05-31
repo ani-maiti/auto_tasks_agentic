@@ -1,0 +1,1 @@
+cat python_files.txt | xargs grep -E 'def [a-zA-Z_][a-zA-Z0-9_]*' | awk '{print $2}' > function_names.txt

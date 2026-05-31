@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_146/step_2.py", line 2, in <module>
+    file = return_code.stdout.strip()
+NameError: name 'return_code' is not defined

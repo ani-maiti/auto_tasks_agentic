@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_307/step_5.py", line 3, in <module>
+    for file in json_files:
+NameError: name 'json_files' is not defined

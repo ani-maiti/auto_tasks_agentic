@@ -1,0 +1,1 @@
+cat log_files.txt | xargs grep -oE '^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}' | sort | uniq -c | sort -nr > timeline.csv

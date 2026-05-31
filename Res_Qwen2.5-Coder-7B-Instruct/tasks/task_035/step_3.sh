@@ -1,0 +1,1 @@
+awk '{sum+=$1} END {print sum/NR}' sizes.txt > avg_size.txt

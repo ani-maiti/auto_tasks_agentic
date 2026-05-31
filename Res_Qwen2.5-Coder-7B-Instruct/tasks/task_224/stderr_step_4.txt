@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_224/step_4.py", line 2, in <module>
+    images = [f for f in os.listdir('.') if f.endswith(('.jpg', '.jpeg', '.png', '.gif'))]
+NameError: name 'os' is not defined

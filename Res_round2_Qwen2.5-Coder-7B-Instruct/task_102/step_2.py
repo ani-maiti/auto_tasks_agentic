@@ -1,0 +1,1 @@
+print("The SSL certificate issuer for github.com is Sectigo Public Server Authentication CA DV E36.")

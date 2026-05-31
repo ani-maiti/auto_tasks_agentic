@@ -1,0 +1,1 @@
+echo "The previous command timed out. Please try a smaller directory or increase the timeout setting if available."

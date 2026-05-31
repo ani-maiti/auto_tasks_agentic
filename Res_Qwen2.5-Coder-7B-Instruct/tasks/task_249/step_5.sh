@@ -1,0 +1,1 @@
+echo "The consolidation report has been generated and saved to consolidation_report.md"

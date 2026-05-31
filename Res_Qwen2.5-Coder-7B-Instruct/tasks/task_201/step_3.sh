@@ -1,0 +1,1 @@
+cat markdown_files.txt | xargs grep -oP '(http|https)://[^\s]+' > links.txt

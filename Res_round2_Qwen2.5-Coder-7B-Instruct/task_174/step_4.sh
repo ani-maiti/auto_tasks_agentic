@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -o -name "*.py" -o -name "*.md" -exec grep -l "artificial intelligence" {} +

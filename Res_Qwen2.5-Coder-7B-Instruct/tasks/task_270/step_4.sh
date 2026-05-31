@@ -1,0 +1,1 @@
+python3 -m json.tool < language_stats.txt > language_stats.json

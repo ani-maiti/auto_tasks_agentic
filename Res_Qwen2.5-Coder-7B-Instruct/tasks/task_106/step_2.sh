@@ -1,0 +1,1 @@
+dig +short github.com

@@ -1,0 +1,1 @@
+grep -oP '(?<=^```)[^\n]*(?=\n)' code_fences.txt | sort | uniq -c | sort -nr > language_stats.txt

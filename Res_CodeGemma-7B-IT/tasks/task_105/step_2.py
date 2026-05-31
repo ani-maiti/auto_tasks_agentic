@@ -1,0 +1,1 @@
+print(response.text.split("<a>")[1:10])

@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -exec grep -oP '^[^#]*' {} + > cleaned_text_files.txt

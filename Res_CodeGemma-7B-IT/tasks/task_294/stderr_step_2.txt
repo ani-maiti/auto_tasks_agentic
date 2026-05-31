@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_294/step_2.py", line 62, in <module>
+    directory = os.getcwd()
+NameError: name 'os' is not defined

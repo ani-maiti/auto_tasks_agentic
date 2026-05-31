@@ -1,0 +1,2 @@
+./tasks/task_053/step_1.sh: line 1: jq: command not found
+./tasks/task_053/step_1.sh: line 4: unexpected EOF while looking for matching ``'

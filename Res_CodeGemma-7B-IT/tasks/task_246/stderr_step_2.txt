@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_246/step_2.py", line 2, in <module>
+    values_to_files = {tuple(value): files for value, files in values_to_files.items()}
+NameError: name 'values_to_files' is not defined

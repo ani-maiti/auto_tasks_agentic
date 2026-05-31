@@ -1,0 +1,39 @@
+{
+  "task_id": 249,
+  "step": 3,
+  "max_steps": 3,
+  "timestamp": "2026-04-09T20:51:42.983315",
+  "task_description": "find all SQLite databases, detect tables with similar schemas across databases, generate a consolidation report, and save it to Markdown",
+  "code": "exit()",
+  "trace": {
+    "stdout": "",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```python\nimport sqlite3\nimport os\n\n# Get a list of all SQLite databases in the current directory\ndatabases = [f for f in os.listdir('.') if f.endswith('.db')]\n\n# Create a dictionary to store table names and their corresponding column names\ntable_schemas = {}\n\n# Iterate over each database\nfor database in databases:\n    # Connect to the database\n    conn = sqlite3.connect(database)\n    cursor = conn.cursor()\n\n    # Get a list of all tables in the database\n    cursor.execute(\"SELECT name FROM sqlite_master WHERE type='table'\")\n    tables = [row[0] for row in cursor.fetchall()]\n\n    # Iterate over each table\n    for table in tables:\n        # Get a list of column names for the table\n        cursor.execute(\"PRAGMA table_info({})\".format(table))\n        columns = [row[1] for row in cursor.fetchall()]\n\n        # Add the table name and column names to the dictionary\n        table_schemas[table] = columns\n\n# Find tables with similar schemas across databases\nsimilar_tables = {}\nfor table1 in table_schemas:\n    for table2 in table_schemas:\n        if table1 != table2 and table_schemas[table1] == table_schemas[table2]:\n            similar_tables.setdefault(table1, []).append(table2)\n\n# Create a consolidation report\nreport = []\nfor table, similar_tables in similar_tables.items():\n    report.append(\"## Table: {}\".format(table))\n    report.append(\"Similar Tables:\")\n    for similar_table in similar_tables:\n        report.append(\"* {}\".format(similar_table))\n\n# Save the report to a Markdown file\nwith open('consolidation_report.md', 'w') as f:\n    f.write('\\n'.join(report))\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nprint(\"Consolidation report saved to consolidation_report.md\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nConsolidation report saved to consolidation_report.md\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nexit()\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

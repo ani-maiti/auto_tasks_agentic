@@ -1,0 +1,1 @@
+ls -l | awk '$NF ~ /^[0-9]/ {print $NF}'

@@ -1,0 +1,24 @@
+total 156K
+-rw-rw-r--   1 ai_admin ai_admin   12 May 29 14:43 avg_size.txt
+-rw-rw-r--   1 ai_admin ai_admin  24K May 29 14:44 directory_tree.txt
+-rw-rw-r--   1 ai_admin ai_admin    0 May 29 14:44 email_files.txt
+-rw-rw-r--   1 ai_admin ai_admin    0 May 29 14:34 file_extension_report.txt
+-rw-rw-r--   1 ai_admin ai_admin    0 May 29 14:40 file_sizes.json
+-rw-rw-r--   1 ai_admin ai_admin  16K May 29 14:43 files.txt
+-rwxr-xr-x   1 ai_admin ai_admin 7.3K May 29 14:25 generate_code_model_run.py
+-rw-rw-r--   1 ai_admin ai_admin 5.8K May 29 14:32 hashes.txt
+-rwxrwxr-x   1 ai_admin ai_admin    0 May 29 15:23 jq
+-rw-rw-r--   1 ai_admin ai_admin    0 May 29 14:43 larger_files.txt
+-rw-rw-r--   1 ai_admin ai_admin 8.1K May 29 14:41 largest_files.txt
+-rw-rw-r--   1 ai_admin ai_admin 2.3K May 29 14:42 md5_hashes.txt
+-rw-rw-r--   1 ai_admin ai_admin 1001 May 29 14:42 py_files.txt
+-rw-rw-r--   1 ai_admin ai_admin 7.5K May 29 15:48 python_files.txt
+-rw-rw-r--   1 ai_admin ai_admin  567 May 29 14:34 recent_files.txt
+-rw-rw-r--   1 ai_admin ai_admin 1.9K May 29 15:47 sitemap.xml
+-rw-rw-r--   1 ai_admin ai_admin   28 May 29 14:43 sizes.txt
+-rwxr-xr-x   1 ai_admin ai_admin 1.9K Oct  2  2025 system_prompt_body.txt
+-rwxr-xr-x   1 ai_admin ai_admin  32K May 29 14:22 task_descriptions_all.txt
+drwxr-xr-x 145 ai_admin ai_admin 4.0K May 29 15:48 tasks
+-rw-rw-r--   1 ai_admin ai_admin  11K May 29 14:44 text_files.txt
+-rw-rw-r--   1 ai_admin ai_admin 2.0K May 29 14:32 txt_files.txt
+-rw-rw-r--   1 ai_admin ai_admin    0 May 29 14:45 urls.txt

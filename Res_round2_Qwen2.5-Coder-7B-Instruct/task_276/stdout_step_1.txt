@@ -1,0 +1,16 @@
+./crypto_prices.csv
+./hacker_news_stories.csv
+./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv
+./file_report.csv
+./release_age_report.csv
+./python_files_line_counts.csv
+./largest_files.csv
+./python_files_line_counts_sorted.csv
+./duplicate_images.csv
+./timestamp_stats.csv
+./sample_headers.csv
+./image_urls.csv
+./report.csv
+./file_sizes.csv
+./analysis.csv
+./common_image_dimensions.csv

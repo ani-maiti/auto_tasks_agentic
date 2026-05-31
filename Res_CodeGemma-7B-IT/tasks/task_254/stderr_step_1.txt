@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_254/step_1.py", line 29, in <module>
+    variability = calculate_forecast_variability(forecast)
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_254/step_1.py", line 20, in calculate_forecast_variability
+    temperatures = [day["main"]["temp"] for day in forecast["list"][:7]]
+KeyError: 'list'

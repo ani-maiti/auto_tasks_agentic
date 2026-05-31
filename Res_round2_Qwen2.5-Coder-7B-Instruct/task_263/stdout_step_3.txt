@@ -1,0 +1,7 @@
+Error processing zip_cp437_header.zip: name 'get_inventory' is not defined
+Error processing zipdir_backslash.zip: name 'get_inventory' is not defined
+Error processing zipdir.zip: name 'get_inventory' is not defined
+Error processing missing_directory.zip: name 'get_inventory' is not defined
+Error processing nested_portion1.zip: name 'get_inventory' is not defined
+Error processing top_level_portion1.zip: name 'get_inventory' is not defined
+Analysis saved to analysis.csv

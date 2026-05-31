@@ -1,0 +1,1 @@
+echo "Please provide the path to search for broken symbolic links."

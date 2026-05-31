@@ -1,0 +1,2 @@
+cat: /dev/fd/63: No such file or directory
+cat: s: No such file or directory

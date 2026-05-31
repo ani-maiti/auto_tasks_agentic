@@ -1,0 +1,1 @@
+echo "The task has been completed successfully. The JSON file 'python_files_sizes.json' now lists all Python files and their sizes."

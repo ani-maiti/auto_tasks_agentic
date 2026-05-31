@@ -1,0 +1,1 @@
+print("SSL certificate expiration date for openai.com:", stdout.strip())

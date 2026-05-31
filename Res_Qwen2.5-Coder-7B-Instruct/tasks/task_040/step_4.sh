@@ -1,0 +1,1 @@
+echo "Thank you for using this reasoning system. Have a great day!"

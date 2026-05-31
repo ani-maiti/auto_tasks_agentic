@@ -1,0 +1,1 @@
+echo "The number of links on example.com is 1."

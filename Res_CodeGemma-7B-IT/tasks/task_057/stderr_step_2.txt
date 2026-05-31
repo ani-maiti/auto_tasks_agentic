@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_057/step_2.py", line 1, in <module>
+    print(alt_text)
+NameError: name 'alt_text' is not defined

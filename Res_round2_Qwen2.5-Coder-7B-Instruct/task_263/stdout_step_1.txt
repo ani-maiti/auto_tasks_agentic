@@ -1,0 +1,8 @@
+recursion.tar
+testtar.tar
+zip_cp437_header.zip
+zipdir_backslash.zip
+zipdir.zip
+missing_directory.zip
+nested_portion1.zip
+top_level_portion1.zip

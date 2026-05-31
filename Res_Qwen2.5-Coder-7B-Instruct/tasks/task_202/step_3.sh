@@ -1,0 +1,1 @@
+find . -name "*.log" 2>/dev/null | xargs grep "error" > errors.txt

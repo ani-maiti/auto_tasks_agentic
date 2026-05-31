@@ -1,0 +1,1 @@
+nslookup python.org | grep "Name Server"

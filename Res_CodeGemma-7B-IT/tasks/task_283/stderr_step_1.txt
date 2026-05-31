@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_283/step_1.py", line 72, in <module>
+    undocumented_functions.extend(identify_undocumented_functions(functions))
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_283/step_1.py", line 40, in identify_undocumented_functions
+    if not project_inventory[file_path][function]:
+TypeError: list indices must be integers or slices, not str

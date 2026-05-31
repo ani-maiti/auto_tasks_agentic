@@ -1,0 +1,8 @@
+total 60
+drwxr-xr-x 19 ai_admin ai_admin  4096 May 29 14:34 tasks
+-rw-rw-r--  1 ai_admin ai_admin     0 May 29 14:34 file_extension_report.txt
+-rw-rw-r--  1 ai_admin ai_admin  5923 May 29 14:32 hashes.txt
+-rw-rw-r--  1 ai_admin ai_admin  2029 May 29 14:32 txt_files.txt
+-rwxr-xr-x  1 ai_admin ai_admin  7419 May 29 14:25 generate_code_model_run.py
+-rwxr-xr-x  1 ai_admin ai_admin 32299 May 29 14:22 task_descriptions_all.txt
+-rwxr-xr-x  1 ai_admin ai_admin  1919 Oct  2  2025 system_prompt_body.txt

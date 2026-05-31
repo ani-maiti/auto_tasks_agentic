@@ -1,0 +1,1 @@
+cat json_files.txt | xargs jq '.[]' | sort | uniq -c | awk '$1>1 {print $2}' > common_values.txt

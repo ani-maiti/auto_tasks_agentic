@@ -1,0 +1,1 @@
+echo "The previous command timed out. Please try again with a different path."

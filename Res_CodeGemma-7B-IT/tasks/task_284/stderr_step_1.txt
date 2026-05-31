@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_284/step_1.py", line 36, in <module>
+    most_duplicated_section = duplicates.apply(lambda x: list(x)[0])
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/core/series.py", line 4943, in apply
+    ).apply()
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/core/apply.py", line 1422, in apply
+    return self.apply_standard()
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/core/apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/core/base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+  File "/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/pandas/core/algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_284/step_1.py", line 36, in <lambda>
+    most_duplicated_section = duplicates.apply(lambda x: list(x)[0])
+IndexError: list index out of range

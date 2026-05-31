@@ -1,0 +1,1 @@
+echo "Number of directories: $(ls -d */ | wc -l)"

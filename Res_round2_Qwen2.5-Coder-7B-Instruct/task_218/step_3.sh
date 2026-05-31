@@ -1,0 +1,1 @@
+awk -F[/:] '{print $4}' hyperlinks.txt | sort | uniq -c | sort -nr > domain_counts.txt

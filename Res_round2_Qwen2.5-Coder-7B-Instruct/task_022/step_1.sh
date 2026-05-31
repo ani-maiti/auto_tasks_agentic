@@ -1,0 +1,1 @@
+ls -l | grep "^-rwxr-xr-x" | awk '{print $9}'

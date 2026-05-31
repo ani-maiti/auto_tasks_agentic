@@ -1,0 +1,1 @@
+curl -s https://en.wikipedia.org/sitemap.xml > sitemap.xml

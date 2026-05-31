@@ -1,0 +1,6 @@
+grep: warning: stray \ before d
+grep: warning: stray \ before d
+grep: warning: stray \ before d
+grep: warning: stray \ before d
+grep: warning: stray \ before d
+grep: warning: stray \ before d

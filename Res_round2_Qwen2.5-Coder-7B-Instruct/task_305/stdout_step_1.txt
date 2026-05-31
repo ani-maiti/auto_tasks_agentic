@@ -1,0 +1,11 @@
+Failed to fetch data for New York
+Failed to fetch data for Los Angeles
+Failed to fetch data for Chicago
+Failed to fetch data for Houston
+Failed to fetch data for Phoenix
+Failed to fetch data for Philadelphia
+Failed to fetch data for San Antonio
+Failed to fetch data for San Diego
+Failed to fetch data for Dallas
+Failed to fetch data for San Jose
+Weather data saved to weather_data.csv

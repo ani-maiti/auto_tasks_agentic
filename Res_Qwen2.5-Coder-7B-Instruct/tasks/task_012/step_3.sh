@@ -1,0 +1,1 @@
+cat ./tasks/task_012/step_1.sh

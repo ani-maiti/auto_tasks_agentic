@@ -1,0 +1,5 @@
+Collecting psycopg2
+  Downloading psycopg2-2.9.12.tar.gz (379 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 379.7/379.7 KB 5.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'

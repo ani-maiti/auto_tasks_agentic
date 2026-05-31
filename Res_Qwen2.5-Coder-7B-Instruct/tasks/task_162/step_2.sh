@@ -1,0 +1,1 @@
+du -h --max-depth=1 | grep '[0-9\.]\+G'

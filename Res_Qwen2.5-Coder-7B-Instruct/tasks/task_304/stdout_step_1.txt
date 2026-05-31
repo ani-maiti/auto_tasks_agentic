@@ -1,0 +1,12 @@
+./report.csv
+./histogram_data.csv
+./classified_repositories.csv
+./release_age_report.csv
+./hn_domain_analysis.csv
+./duplicates.csv
+./pairwise_relationships.csv
+./github_repos.csv
+./result.csv
+./exchange_rates.csv
+./top_50_python_repos.csv
+./largest_files.csv

@@ -1,0 +1,1 @@
+ls -lhS | awk '$5 > 1048576 {print $9}' > file_list.txt

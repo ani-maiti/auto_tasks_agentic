@@ -1,0 +1,10 @@
+-rw-r--r-- 1 ai_admin ai_admin       0 May 31 00:51 ./tasks/task_166/stderr_step_1.txt
+-rw-r--r-- 1 ai_admin ai_admin       0 May 31 00:51 ./tasks/task_166/stdout_step_1.txt
+-rw-r--r-- 1 ai_admin ai_admin      45 May 31 00:51 ./tasks/task_166/step_1.sh
+-rw-r--r-- 1 ai_admin ai_admin    1225 May 31 00:51 ./tasks/task_165/step_4_log.json
+-rw-r--r-- 1 ai_admin ai_admin       0 May 31 00:51 ./tasks/task_165/stderr_step_4.txt
+-rw-r--r-- 1 ai_admin ai_admin       0 May 31 00:51 ./tasks/task_165/stdout_step_4.txt
+-rw-r--r-- 1 ai_admin ai_admin       4 May 31 00:51 ./tasks/task_165/step_4.sh
+-rw-r--r-- 1 ai_admin ai_admin    1491 May 31 00:51 ./tasks/task_165/step_3_log.json
+-rw-r--r-- 1 ai_admin ai_admin      16 May 31 00:51 ./tasks/task_165/stdout_step_3.txt
+-rw-r--r-- 1 ai_admin ai_admin       0 May 31 00:51 ./tasks/task_165/stderr_step_3.txt

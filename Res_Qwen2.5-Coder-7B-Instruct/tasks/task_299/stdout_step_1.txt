@@ -1,0 +1,3 @@
+./consolidation_report.md
+./command_frequency.md
+./cross_reference_report.md

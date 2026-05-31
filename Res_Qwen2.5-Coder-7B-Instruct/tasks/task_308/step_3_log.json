@@ -1,0 +1,39 @@
+{
+  "task_id": 308,
+  "step": 3,
+  "max_steps": 4,
+  "timestamp": "2026-04-30T13:24:43.066369",
+  "task_description": "crawl a public documentation site, extract code examples from up to two hundred pages, classify examples by language, save the dataset to CSV, generate a report, and print the most common language",
+  "code": "# Step 9: Classify examples by language\nlanguage_classifier = {\n    \"Python\": [\"def\", \"class\", \"import\", \"try\", \"except\"],\n    \"JavaScript\": [\"function\", \"let\", \"const\", \"try\", \"catch\"],\n    \"Java\": [\"public class\", \"void main\", \"try\", \"catch\"]\n}\n\nclassified_examples = []\n\nfor example in code_examples:\n    page_url, code_text = example\n    detected_language = None\n    \n    for lang, keywords in language_classifier.items():\n        if any(keyword in code_text for keyword in keywords):\n            detected_language = lang\n            break\n    \n    classified_examples.append((page_url, code_text, detected_language))\n\n# Step 10: Save the dataset to CSV\nwith open('code_examples.csv', 'w', newline='') as file:\n    writer = csv.writer(file)\n    writer.writerow(['Page URL', 'Code Example', 'Language'])\n    writer.writerows(classified_examples)\n\nprint(\"Dataset saved to code_examples.csv\")",
+  "trace": {
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_308/step_3.py\", line 10, in <module>\n    for example in code_examples:\nNameError: name 'code_examples' is not defined\n",
+    "return_code": "1"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```python\nimport requests\nfrom bs4 import BeautifulSoup\nimport csv\n\n# Step 1: Define the URL of the documentation site to crawl\nurl = 'https://example.com/docs'\n\n# Step 2: Send an HTTP GET request to the URL\nresponse = requests.get(url)\n\n# Step 3: Check if the request was successful\nif response.status_code == 200:\n    # Step 4: Parse the HTML content of the page\n    soup = BeautifulSoup(response.text, 'html.parser')\n    \n    # Step 5: Find all the pages within the documentation site\n    pages = [a['href'] for a in soup.find_all('a', href=True)]\n    \n    # Step 6: Limit the number of pages to crawl to 200\n    pages = pages[:200]\n    \n    # Step 7: Initialize a list to store the extracted code examples\n    code_examples = []\n    \n    # Step 8: Loop through each page and extract code examples\n    for page in pages:\n        page_response = requests.get(page)\n        if page_response.status_code == 200:\n            page_soup = BeautifulSoup(page_response.text, 'html.parser')\n            code_snippets = page_soup.find_all('code')\n            for snippet in code_snippets:\n                code_examples.append(snippet.text.strip())\nelse:\n    print(\"Failed to retrieve the documentation site.\")\n```\n\nThis code will send an HTTP GET request to the specified documentation site, parse the HTML content, find all the pages, limit the number of pages to 200, and extract code snippets from those pages. The extracted code snippets will be stored in a list."
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n  File \"/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_308/step_1.py\", line 35\n    ```\n    ^\nSyntaxError: invalid syntax\n\n\nreturn code: 1"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport requests\nfrom bs4 import BeautifulSoup\nimport csv\n\n# Step 1: Define the URL of the documentation site to crawl\nurl = 'https://docs.python.org/3/'\n\n# Step 2: Send an HTTP GET request to the URL\nresponse = requests.get(url)\n\n# Step 3: Check if the request was successful\nif response.status_code == 200:\n    # Step 4: Parse the HTML content of the page\n    soup = BeautifulSoup(response.text, 'html.parser')\n    \n    # Step 5: Find all the pages within the documentation site\n    pages = [a['href'] for a in soup.find_all('a', href=True)]\n    \n    # Step 6: Limit the number of pages to crawl to 200\n    pages = pages[:200]\n    \n    # Step 7: Initialize a list to store the extracted code examples\n    code_examples = []\n    \n    # Step 8: Loop through each page and extract code examples\n    for page in pages:\n        page_url = url + page\n        page_response = requests.get(page_url)\n        if page_response.status_code == 200:\n            page_soup = BeautifulSoup(page_response.text, 'html.parser')\n            code_snippets = page_soup.find_all('code')\n            for snippet in code_snippets:\n                code_examples.append((page_url, snippet.text.strip()))\nelse:\n    print(f\"Failed to retrieve the documentation site. Status code: {response.status_code}\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\n# Step 9: Classify examples by language\nlanguage_classifier = {\n    \"Python\": [\"def\", \"class\", \"import\", \"try\", \"except\"],\n    \"JavaScript\": [\"function\", \"let\", \"const\", \"try\", \"catch\"],\n    \"Java\": [\"public class\", \"void main\", \"try\", \"catch\"]\n}\n\nclassified_examples = []\n\nfor example in code_examples:\n    page_url, code_text = example\n    detected_language = None\n    \n    for lang, keywords in language_classifier.items():\n        if any(keyword in code_text for keyword in keywords):\n            detected_language = lang\n            break\n    \n    classified_examples.append((page_url, code_text, detected_language))\n\n# Step 10: Save the dataset to CSV\nwith open('code_examples.csv', 'w', newline='') as file:\n    writer = csv.writer(file)\n    writer.writerow(['Page URL', 'Code Example', 'Language'])\n    writer.writerows(classified_examples)\n\nprint(\"Dataset saved to code_examples.csv\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_308/step_3.py\", line 10, in <module>\n    for example in code_examples:\nNameError: name 'code_examples' is not defined\n\n\nreturn code: 1"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "task_id": 217,
+  "step": 3,
+  "max_steps": 4,
+  "timestamp": "2026-04-03T21:31:30.442356",
+  "task_description": "retrieve GitHub metadata for five popular Python repositories, save stars forks and open issue counts to CSV, compute averages, and print the most starred repository",
+  "code": "# Update the code to include the metadata variable\n# List of popular Python repositories\nrepositories = [\n    'numpy',\n    'pandas',\n    'scikit-learn',\n    'tensorflow',\n    'pytorch'\n]\n\n# Function to retrieve GitHub metadata for a repository\ndef get_repo_metadata(repo):\n    url = f'https://api.github.com/repos/{repo}'\n    response = requests.get(url)\n    data = response.json()\n    if 'stargazers_count' in data:\n        return {\n            'stars': data['stargazers_count'],\n            'forks': data['forks_count'],\n            'issues': data['open_issues_count']\n        }\n    else:\n        return None\n\n# Create a list to store the metadata\nmetadata = []\n\n# Retrieve metadata for each repository\nfor repo in repositories:\n    metadata.append(get_repo_metadata(repo))\n\n# Check if metadata could be retrieved for all repositories\nif any(metadata is None for metadata in metadata):\n    print('Error: Could not retrieve metadata for all repositories.')\n    exit(1)",
+  "trace": {
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_3.py\", line 30, in <module>\n    metadata.append(get_repo_metadata(repo))\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_3.py\", line 14, in get_repo_metadata\n    response = requests.get(url)\nNameError: name 'requests' is not defined\n",
+    "return_code": "1"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```python\nimport requests\n\n# List of popular Python repositories\nrepositories = [\n    'numpy',\n    'pandas',\n    'scikit-learn',\n    'tensorflow',\n    'pytorch'\n]\n\n# Function to retrieve GitHub metadata for a repository\ndef get_repo_metadata(repo):\n    url = f'https://api.github.com/repos/{repo}'\n    response = requests.get(url)\n    data = response.json()\n    return {\n        'stars': data['stargazers_count'],\n        'forks': data['forks_count'],\n        'issues': data['open_issues_count']\n    }\n\n# Create a list to store the metadata\nmetadata = []\n\n# Retrieve metadata for each repository\nfor repo in repositories:\n    metadata.append(get_repo_metadata(repo))\n\n# Convert metadata to a DataFrame\nimport pandas as pd\ndf = pd.DataFrame(metadata)\n\n# Save the DataFrame to a CSV file\ndf.to_csv('github_metadata.csv', index=False)\n\n# Calculate average stars, forks, and issues\navg_stars = df['stars'].mean()\navg_forks = df['forks'].mean()\navg_issues = df['issues'].mean()\n\n# Print the most starred repository\nmost_starred = df.sort_values('stars', ascending=False).iloc[0]\nprint(f'Most starred repository: {most_starred[\"stars\"]} stars')\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_1.py\", line 28, in <module>\n    metadata.append(get_repo_metadata(repo))\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_1.py\", line 18, in get_repo_metadata\n    'stars': data['stargazers_count'],\nKeyError: 'stargazers_count'\n\n\nreturn code: 1"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\n# Update the function to handle the error\ndef get_repo_metadata(repo):\n    url = f'https://api.github.com/repos/{repo}'\n    response = requests.get(url)\n    data = response.json()\n    if 'stargazers_count' in data:\n        return {\n            'stars': data['stargazers_count'],\n            'forks': data['forks_count'],\n            'issues': data['open_issues_count']\n        }\n    else:\n        return None\n\n# Check if metadata could be retrieved for all repositories\nif any(metadata is None for metadata in metadata):\n    print('Error: Could not retrieve metadata for all repositories.')\n    exit(1)\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_2.py\", line 16, in <module>\n    if any(metadata is None for metadata in metadata):\nNameError: name 'metadata' is not defined\n\n\nreturn code: 1"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\n# Update the code to include the metadata variable\n# List of popular Python repositories\nrepositories = [\n    'numpy',\n    'pandas',\n    'scikit-learn',\n    'tensorflow',\n    'pytorch'\n]\n\n# Function to retrieve GitHub metadata for a repository\ndef get_repo_metadata(repo):\n    url = f'https://api.github.com/repos/{repo}'\n    response = requests.get(url)\n    data = response.json()\n    if 'stargazers_count' in data:\n        return {\n            'stars': data['stargazers_count'],\n            'forks': data['forks_count'],\n            'issues': data['open_issues_count']\n        }\n    else:\n        return None\n\n# Create a list to store the metadata\nmetadata = []\n\n# Retrieve metadata for each repository\nfor repo in repositories:\n    metadata.append(get_repo_metadata(repo))\n\n# Check if metadata could be retrieved for all repositories\nif any(metadata is None for metadata in metadata):\n    print('Error: Could not retrieve metadata for all repositories.')\n    exit(1)\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_3.py\", line 30, in <module>\n    metadata.append(get_repo_metadata(repo))\n  File \"/home/ai_admin/aniruddha/nasa_seed/./tasks/task_217/step_3.py\", line 14, in get_repo_metadata\n    response = requests.get(url)\nNameError: name 'requests' is not defined\n\n\nreturn code: 1"
+    }
+  ]
+}

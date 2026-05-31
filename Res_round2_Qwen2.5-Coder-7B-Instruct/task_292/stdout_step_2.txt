@@ -1,0 +1,4 @@
+Strongest Currency: Rate    Rate
+dtype: str
+Weakest Currency: Rate    Rate
+dtype: str

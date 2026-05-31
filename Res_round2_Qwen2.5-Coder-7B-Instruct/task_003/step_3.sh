@@ -1,0 +1,1 @@
+find . -type f -newermt $(date -d '24 hours ago' +'%Y-%m-%d') ! -newermt $(date +'%Y-%m-%d')

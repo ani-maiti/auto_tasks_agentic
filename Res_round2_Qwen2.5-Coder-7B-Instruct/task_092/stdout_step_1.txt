@@ -1,0 +1,5 @@
+public-apis - https://github.com/public-apis/public-apis - Stars: 437975
+free-programming-books - https://github.com/EbookFoundation/free-programming-books - Stars: 389240
+system-design-primer - https://github.com/donnemartin/system-design-primer - Stars: 351043
+awesome-python - https://github.com/vinta/awesome-python - Stars: 300449
+Python - https://github.com/TheAlgorithms/Python - Stars: 221496

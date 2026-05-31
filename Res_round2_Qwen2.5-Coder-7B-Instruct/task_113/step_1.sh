@@ -1,0 +1,1 @@
+curl -s https://www.kernel.org/ | grep -oP '(?<=<title>).*?(?=</title>)'

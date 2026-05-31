@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_310/step_2.py", line 2
+    !pip install opencv-python
+    ^
+SyntaxError: invalid syntax

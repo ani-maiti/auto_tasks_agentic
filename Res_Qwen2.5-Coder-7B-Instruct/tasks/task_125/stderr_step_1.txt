@@ -1,0 +1,7 @@
+./tasks/task_125/step_1.sh: line 1: jq: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4199    0  4199    0     0  19885      0 --:--:-- --:--:-- --:--:-- 19900
+curl: (23) Failure writing output to destination
+./tasks/task_125/step_1.sh: line 4: unexpected EOF while looking for matching ``'
+./tasks/task_125/step_1.sh: line 5: syntax error: unexpected end of file

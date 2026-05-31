@@ -1,0 +1,1 @@
+curl -s https://api.github.com/search/repositories?q=language:rust&sort=stars&order=desc | jq '.items[0:5]'

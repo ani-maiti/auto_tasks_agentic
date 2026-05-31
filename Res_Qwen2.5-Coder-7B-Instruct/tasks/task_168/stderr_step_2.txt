@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_168/step_2.py", line 1, in <module>
+    total_words = sum(int(line.split()[0]) for line in open('word_counts.txt', 'r'))
+FileNotFoundError: [Errno 2] No such file or directory: 'word_counts.txt'

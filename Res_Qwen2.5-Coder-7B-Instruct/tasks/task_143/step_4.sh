@@ -1,0 +1,1 @@
+ls -lh $(cat python_files.txt)

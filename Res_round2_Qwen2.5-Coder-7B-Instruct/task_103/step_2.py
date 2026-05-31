@@ -1,0 +1,1 @@
+print("The SSL certificate issuer for python.org is GlobalSign nv-sa.")

@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_315/step_4.py", line 1
+    pip install nltk
+        ^^^^^^^
+SyntaxError: invalid syntax

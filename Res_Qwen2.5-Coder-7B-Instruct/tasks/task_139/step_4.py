@@ -1,0 +1,1 @@
+print("Task completed. No redirects found for openai.com.")

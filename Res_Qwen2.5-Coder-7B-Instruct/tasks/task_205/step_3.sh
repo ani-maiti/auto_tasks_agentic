@@ -1,0 +1,1 @@
+awk '{print $1}' schema_summary.txt | sort | uniq -c | sort -nr > table_sizes.txt

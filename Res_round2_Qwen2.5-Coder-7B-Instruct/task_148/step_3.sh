@@ -1,0 +1,1 @@
+grep -C 5 "FIXME" $(find . -name "*.py" -exec grep -l "FIXME" {} +)

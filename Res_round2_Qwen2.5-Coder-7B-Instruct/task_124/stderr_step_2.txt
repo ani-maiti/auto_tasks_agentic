@@ -1,0 +1,3 @@
+which: no jq in (/home/ai_admin/venvs/torch_venv2/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+sudo: timed out reading password
+sudo: a password is required

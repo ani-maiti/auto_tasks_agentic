@@ -1,0 +1,5 @@
+Collecting jq
+  Downloading jq-1.11.0-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (757 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 757.8/757.8 KB 6.2 MB/s eta 0:00:00
+Installing collected packages: jq
+Successfully installed jq-1.11.0

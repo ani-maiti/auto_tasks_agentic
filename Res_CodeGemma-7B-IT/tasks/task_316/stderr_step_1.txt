@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_316/step_1.py", line 5, in <module>
+    from scipy.stats import iqr, mad, zscore
+ImportError: cannot import name 'mad' from 'scipy.stats' (/home/ai_admin/aniruddha/torch_venv/lib/python3.10/site-packages/scipy/stats/__init__.py)

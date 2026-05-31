@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_278/step_1.py", line 89, in <module>
+    schemas = {file: infer_schema(file) for file in csv_files}
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_278/step_1.py", line 89, in <dictcomp>
+    schemas = {file: infer_schema(file) for file in csv_files}
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_278/step_1.py", line 24, in infer_schema
+    schema = {header: str(type(value)) for header, value in zip(headers, next(reader))}
+StopIteration

@@ -1,0 +1,2 @@
+./tasks/task_012/step_1.sh
+./task_descriptions_all.txt

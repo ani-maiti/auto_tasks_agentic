@@ -1,0 +1,6 @@
+Collecting psycopg2
+  Downloading psycopg2-2.9.12.tar.gz (379 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'

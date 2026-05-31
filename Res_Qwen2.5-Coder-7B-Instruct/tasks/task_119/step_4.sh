@@ -1,0 +1,1 @@
+echo "The latest release version of Git from GitHub is $(curl -s https://api.github.com/repos/git/git/releases/latest | grep '"tag_name":' | sed 's/.*"\(.*\)"..*/\1/')"

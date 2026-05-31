@@ -1,0 +1,1 @@
+find /usr/bin -perm +100 2>/dev/null

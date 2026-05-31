@@ -1,0 +1,1 @@
+print("Disk usage:", stdout.strip())

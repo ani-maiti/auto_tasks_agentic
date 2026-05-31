@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/pandas-dev/pandas/issues | jq '.[] | select(.state == "open")' | wc -l

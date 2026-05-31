@@ -1,0 +1,1 @@
+find /path/to/search -type f -executable -exec ls -lh {} + 2>/dev/null

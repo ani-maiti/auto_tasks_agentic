@@ -1,0 +1,5 @@
+total 48K
+-rwxr-xr-x 1 ai_admin ai_admin 7.3K May 29 14:25 generate_code_model_run.py
+-rwxr-xr-x 1 ai_admin ai_admin 1.9K Oct  2  2025 system_prompt_body.txt
+-rwxr-xr-x 1 ai_admin ai_admin  32K May 29 14:22 task_descriptions_all.txt
+drwxr-xr-x 7 ai_admin ai_admin 4.0K May 29 14:31 tasks

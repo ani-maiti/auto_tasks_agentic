@@ -1,0 +1,1 @@
+The latest Debian stable release version is .

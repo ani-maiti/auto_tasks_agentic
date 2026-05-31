@@ -1,0 +1,1 @@
+awk '{print $2}' /dev/fd/63 | xargs ls -lh

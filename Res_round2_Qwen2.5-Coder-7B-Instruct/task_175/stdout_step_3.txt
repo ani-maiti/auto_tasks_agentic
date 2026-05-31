@@ -1,0 +1,3 @@
+./tasks/task_175/stdout_step_1.txt
+./tasks/task_012/stdout_step_2.txt
+./task_descriptions_all.txt

@@ -1,0 +1,13 @@
+Collecting nltk
+  Downloading nltk-3.9.4-py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: click in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk) (8.4.1)
+Collecting joblib (from nltk)
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Requirement already satisfied: regex>=2021.8.3 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk) (2026.5.9)
+Requirement already satisfied: tqdm in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk) (4.67.3)
+Downloading nltk-3.9.4-py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 11.9 MB/s  0:00:00
+Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Installing collected packages: joblib, nltk
+
+Successfully installed joblib-1.5.3 nltk-3.9.4

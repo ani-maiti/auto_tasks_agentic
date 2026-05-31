@@ -1,0 +1,1 @@
+find . -type f -exec ls -lh {} + | sort -k 5 -hr | head -n 21

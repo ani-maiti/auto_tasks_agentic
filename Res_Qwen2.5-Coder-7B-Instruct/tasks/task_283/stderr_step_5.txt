@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_283/step_5.py", line 17, in <module>
+    tree = ast.parse(content)
+  File "/usr/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 18
+    ```
+    ^
+SyntaxError: invalid syntax

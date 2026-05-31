@@ -1,0 +1,1 @@
+openssl s_client -connect github.com:443 2>/dev/null | openssl x509 -noout -issuer

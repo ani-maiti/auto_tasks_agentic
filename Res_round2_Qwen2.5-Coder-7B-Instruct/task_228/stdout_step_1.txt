@@ -1,0 +1,20 @@
+Failed to fetch weather data for New York
+Failed to fetch weather data for London
+Failed to fetch weather data for Tokyo
+Failed to fetch weather data for Sydney
+Failed to fetch weather data for Paris
+Failed to fetch weather data for Berlin
+Failed to fetch weather data for Rome
+Failed to fetch weather data for Oslo
+Failed to fetch weather data for Istanbul
+Failed to fetch weather data for Mumbai
+Failed to fetch weather data for Delhi
+Failed to fetch weather data for Shanghai
+Failed to fetch weather data for Seoul
+Failed to fetch weather data for Bangkok
+Failed to fetch weather data for Cairo
+Failed to fetch weather data for Doha
+Failed to fetch weather data for São Paulo
+Failed to fetch weather data for Mexico City
+Failed to fetch weather data for Copenhagen
+Weather data saved to weather_data.json

@@ -1,0 +1,1 @@
+curl -s https://ubuntu.com/releases | grep -oP 'Ubuntu \K\d+\.\d+' | sort -V | tail -n 1

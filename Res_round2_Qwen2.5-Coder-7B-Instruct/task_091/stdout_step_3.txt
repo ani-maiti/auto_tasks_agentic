@@ -1,0 +1,2 @@
+We need to import the requests library before making HTTP requests.
+Failed to retrieve the price of silver from Bloomberg.

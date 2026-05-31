@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_296/step_1.py", line 5
+    python_files = [f for f in os.walk('.')] if f.endswith('.py')]
+                                                                 ^
+SyntaxError: unmatched ']'

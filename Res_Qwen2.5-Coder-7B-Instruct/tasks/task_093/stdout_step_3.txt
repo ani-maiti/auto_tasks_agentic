@@ -1,0 +1,3 @@
+Installing jq via Homebrew...
+
+PROCESS TIMED OUT

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_268/step_1.py", line 20, in <module>
+    if isinstance(data[field], (int, float)):
+TypeError: list indices must be integers or slices, not dict

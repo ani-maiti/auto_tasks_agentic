@@ -1,0 +1,1 @@
+grep -l '#\{3\}.*' ./cpython/InternalDocs/profiling_binary_format.md

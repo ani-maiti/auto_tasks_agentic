@@ -1,0 +1,1 @@
+curl -s https://hacker-news.firebaseio.com/v0/topstories.json | jq '.[:5]'

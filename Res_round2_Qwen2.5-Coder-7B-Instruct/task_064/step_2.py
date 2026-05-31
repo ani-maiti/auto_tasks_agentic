@@ -1,0 +1,1 @@
+print("Task completed successfully. The current Ethereum price in USD is $2030.57")

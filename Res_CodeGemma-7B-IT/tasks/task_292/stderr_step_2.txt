@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_292/step_2.py", line 2, in <module>
+    response = requests.get('https://openexchangerates.org/api/latest?app_id=YOUR_API_KEY&symbols=USD,EUR,JPY,GBP,AUD,CAD,CHF,CNY,DKK,EUR,HKD,ISK,INR,ILS,KRW,MXN,MYR,NOK,NZD,PHP,PLN,RUB,SAR,SEK,SGD,THB,TRY,USD,ZAR')
+NameError: name 'requests' is not defined

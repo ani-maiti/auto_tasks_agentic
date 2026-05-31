@@ -1,0 +1,1 @@
+wc -l $(find . -type f \( -name "*.zip" -o -name "*.tar.gz" -o -name "*.rar" \))

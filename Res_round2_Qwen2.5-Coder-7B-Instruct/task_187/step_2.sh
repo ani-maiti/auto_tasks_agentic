@@ -1,0 +1,1 @@
+find / -type f -executable 2>/dev/null | xargs ls -lh | grep -E '^\-'

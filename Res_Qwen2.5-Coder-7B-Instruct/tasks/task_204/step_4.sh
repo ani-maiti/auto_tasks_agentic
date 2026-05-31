@@ -1,0 +1,1 @@
+find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" \) -exec identify -format "%wx%h %m\n" {} +

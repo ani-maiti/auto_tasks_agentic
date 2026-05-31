@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_319/step_2.py", line 20, in <module>
+    rates2 = fetch_exchange_rates(urls[1])
+  File "/home/ai_admin/aniruddha/nasa_seed/agentic_tasks/./tasks/task_319/step_2.py", line 16, in fetch_exchange_rates
+    raise Exception(f"Failed to fetch data from {url}")
+Exception: Failed to fetch data from https://free.currencyconverterapi.com/api/v7/convert?q=USD_EUR&compact=ultra

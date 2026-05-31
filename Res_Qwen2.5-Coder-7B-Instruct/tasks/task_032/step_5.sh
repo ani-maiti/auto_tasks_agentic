@@ -1,0 +1,1 @@
+echo "MD5 hash computation completed. Total files processed: $(wc -l < md5_hashes.txt)"

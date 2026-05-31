@@ -1,0 +1,1 @@
+find . -type d -exec sh -c 'dir="$1"; count=$(ls "$dir" | wc -l); if [ "$count" -gt 50 ]; then echo "$dir ($count files)"; fi' _ {} \;

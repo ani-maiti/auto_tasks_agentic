@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_287/step_1.py", line 57, in <module>
+    largest_group = max(image_groups.values(), key=len)
+ValueError: max() arg is an empty sequence

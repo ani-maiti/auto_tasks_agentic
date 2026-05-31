@@ -1,0 +1,11 @@
+Failed to get weather data for New York
+Failed to get weather data for Los Angeles
+Failed to get weather data for Chicago
+Failed to get weather data for Houston
+Failed to get weather data for Phoenix
+Failed to get weather data for Philadelphia
+Failed to get weather data for San Antonio
+Failed to get weather data for San Diego
+Failed to get weather data for Dallas
+Failed to get weather data for San Jose
+Weather data retrieved.

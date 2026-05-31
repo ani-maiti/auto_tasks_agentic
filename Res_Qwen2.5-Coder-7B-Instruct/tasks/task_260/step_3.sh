@@ -1,0 +1,1 @@
+time find . -name "*.xml" > xml_files.txt

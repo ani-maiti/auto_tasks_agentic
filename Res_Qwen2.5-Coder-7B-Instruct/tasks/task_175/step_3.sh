@@ -1,0 +1,1 @@
+grep -oP 'find all \w+' <<< "$trace"

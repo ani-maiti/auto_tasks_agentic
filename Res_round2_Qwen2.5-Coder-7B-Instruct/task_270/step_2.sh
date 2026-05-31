@@ -1,0 +1,1 @@
+cat markdown_files.txt | xargs grep -oP '(```\K[^\s`]+(?=```))' | sort | uniq -c | sort -nr > language_stats.txt

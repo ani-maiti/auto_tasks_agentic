@@ -1,0 +1,1 @@
+find . -type f | tr -d '\n' | xargs -I {} sh -c 'if [ "$(echo {} | iconv -f UTF-8 -t ASCII//TRANSLIT//IGNORE)" != "{}" ]; then echo {}; fi'

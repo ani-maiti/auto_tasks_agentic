@@ -1,0 +1,2 @@
+Enter the path to search for symbolic links: 
+PROCESS TIMED OUT

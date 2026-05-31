@@ -1,0 +1,1 @@
+ls -R | grep "\.md$" | xargs grep -oE '^(#{1,6})' | wc -l

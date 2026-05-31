@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_243/step_2.py", line 2, in <module>
+    if city_count == 0:
+NameError: name 'city_count' is not defined

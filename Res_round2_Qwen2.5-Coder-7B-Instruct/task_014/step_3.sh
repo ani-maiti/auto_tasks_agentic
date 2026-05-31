@@ -1,0 +1,1 @@
+echo "No hidden files found."

@@ -1,0 +1,1 @@
+echo "Total number of lines in .py files: $(find . -name "*.py" | xargs wc -l | awk '{total += $1} END {print total}')"

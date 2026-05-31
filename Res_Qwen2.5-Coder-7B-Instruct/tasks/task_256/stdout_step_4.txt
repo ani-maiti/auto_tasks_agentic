@@ -1,0 +1,2 @@
+Found 45 text files.
+Read contents from all text files.

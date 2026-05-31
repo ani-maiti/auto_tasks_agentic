@@ -1,0 +1,27 @@
+Collecting readability
+  Downloading readability-0.3.2.tar.gz (36 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: readability
+  Building wheel for readability (pyproject.toml): started
+  Building wheel for readability (pyproject.toml): finished with status 'done'
+  Created wheel for readability: filename=readability-0.3.2-py3-none-any.whl size=36458 sha256=816d00bf48c138b4efe05baab4ed7b4d89ccfaf0ce0b734c9036deefd9cf828b
+  Stored in directory: /home/ai_admin/.cache/pip/wheels/a0/db/49/9a730c2ea293e73af08972ec1c59e0686a1d4d011be8ea55f8
+Successfully built readability
+Installing collected packages: readability
+Successfully installed readability-0.3.2
+Collecting textblob
+  Downloading textblob-0.20.0-py3-none-any.whl.metadata (4.0 kB)
+Requirement already satisfied: nltk in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (3.9.4)
+Requirement already satisfied: click in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk) (8.4.1)
+Requirement already satisfied: joblib in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk) (1.5.3)
+Requirement already satisfied: regex>=2021.8.3 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk) (2026.5.9)
+Requirement already satisfied: tqdm in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk) (4.67.3)
+Downloading textblob-0.20.0-py3-none-any.whl (624 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 625.0/625.0 kB 222.8 kB/s  0:00:01
+Installing collected packages: textblob
+Successfully installed textblob-0.20.0

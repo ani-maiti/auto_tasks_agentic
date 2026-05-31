@@ -1,0 +1,1 @@
+print("Task completed successfully. The latest NASA Astronomy Picture of the Day title is:")

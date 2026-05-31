@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_236/step_2.py", line 4, in <module>
+    with open(json_files[0], 'r') as file:
+              ^^^^^^^^^^
+NameError: name 'json_files' is not defined

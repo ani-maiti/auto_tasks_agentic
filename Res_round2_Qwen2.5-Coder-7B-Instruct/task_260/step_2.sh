@@ -1,0 +1,1 @@
+cat xml_files.txt | xargs grep -oP ' [^ ]+="' | sed 's/.$//' | sort | uniq -c | sort -nr > attribute_frequencies.txt

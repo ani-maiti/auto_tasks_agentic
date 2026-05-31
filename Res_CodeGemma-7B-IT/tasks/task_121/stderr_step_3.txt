@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/./tasks/task_121/step_3.py", line 13
+    Latest tmux release: 3.6b
+                           ^
+SyntaxError: invalid decimal literal

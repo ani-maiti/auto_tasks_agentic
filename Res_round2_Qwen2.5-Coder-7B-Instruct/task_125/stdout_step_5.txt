@@ -1,0 +1,1 @@
+Thank you for using this script to retrieve the number of contributors in the requests GitHub repository.

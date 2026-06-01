@@ -1,0 +1,10 @@
+bad_getattr2.py
+step_4.sh
+stdout_step_4.txt
+step_1.sh
+step_3.sh
+step_1.sh
+step_1.sh
+step_1.sh
+step_4.sh
+stdout_step_3.txt

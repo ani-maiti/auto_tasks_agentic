@@ -1,0 +1,18 @@
+filename,archives
+nested_portion1/,./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip
+nested_portion1/foo/,./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip
+nested_portion1/foo/one.py,./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip
+foo/,./cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip
+foo/one.py,"./cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip, ./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip"
+bar/,./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip
+bar/two.py,./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip
+ustar/conttype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/regtype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/dirtype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/dirtype-with-size,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/lnktype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/symtype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/blktype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/chrtype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/fifotype,./cpython/Lib/test/archivetestdata/testtar.tar
+ustar/sparse,./cpython/Lib/test/archivetestdata/testtar.tar

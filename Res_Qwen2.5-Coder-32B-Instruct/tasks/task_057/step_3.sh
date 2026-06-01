@@ -1,0 +1,1 @@
+curl -s https://xkcd.com/info.0.json | grep -Po '(?<="alt": ")[^"]*'

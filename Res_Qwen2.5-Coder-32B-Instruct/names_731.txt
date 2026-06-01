@@ -1,0 +1,3 @@
+_hashlib.vcxproj.filters
+_queue.vcxproj.filters
+select.vcxproj.filters

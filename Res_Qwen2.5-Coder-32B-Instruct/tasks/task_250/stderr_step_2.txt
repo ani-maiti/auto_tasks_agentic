@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_250/step_2.py", line 9, in <module>
+    urls = [get_story_url(story_id) for story_id in top_stories]
+                                                    ^^^^^^^^^^^
+NameError: name 'top_stories' is not defined

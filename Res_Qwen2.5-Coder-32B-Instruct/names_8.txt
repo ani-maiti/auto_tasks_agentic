@@ -1,0 +1,6 @@
+invalid-true-casing.toml
+trailing-comma.toml
+PkgInfo
+PkgInfo
+step_1.sh
+stdout_step_1.txt

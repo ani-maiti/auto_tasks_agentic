@@ -1,0 +1,2 @@
+test_unicode.py
+_sqlite3.vcxproj

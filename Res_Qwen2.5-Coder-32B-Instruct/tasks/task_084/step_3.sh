@@ -1,0 +1,1 @@
+curl -s https://en.wikipedia.org/robots.txt

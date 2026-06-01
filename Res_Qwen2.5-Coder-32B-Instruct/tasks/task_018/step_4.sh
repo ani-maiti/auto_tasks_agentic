@@ -1,0 +1,1 @@
+echo "Final count of directories: 1"

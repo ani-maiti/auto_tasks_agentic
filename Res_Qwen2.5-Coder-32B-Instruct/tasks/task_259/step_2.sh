@@ -1,0 +1,1 @@
+echo "No log files found in the current directory or subdirectories."

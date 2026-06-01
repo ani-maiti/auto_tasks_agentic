@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_171/step_3.py", line 68
+    "./cpython/Lib/idlelib/extend.txt
+    ^
+SyntaxError: unterminated string literal (detected at line 68)

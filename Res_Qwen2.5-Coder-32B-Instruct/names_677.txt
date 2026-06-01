@@ -1,0 +1,3 @@
+pycore_dict_state.h
+lib_d.wixproj
+test_d.wxs

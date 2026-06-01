@@ -1,0 +1,209 @@
+Starting search for Python files containing TODO comments...
+./cpython/PC/layout/support/props.py:85:        # TODO: Filter contents of props file according to included/excluded items
+./cpython/Mac/BuildScript/build-installer.py:34:TODO:
+./cpython/Mac/BuildScript/build-installer.py:1340:    # TODO: make this more robust!  test_sysconfig_module of
+./cpython/Lib/mimetypes.py:128:        # TODO: Deprecate accepting file paths (in particular path-like objects).
+./cpython/Lib/_pydatetime.py:327:                    # TODO(pganssle): Document this
+./cpython/Lib/gettext.py:37:# TODO:
+./cpython/Lib/pdb.py:3670:        # TODO Add a timeout? Or don't bother since the user can ^C?
+./cpython/Lib/tkinter/__init__.py:2232:                    # TODO: deprecate
+./cpython/Lib/tkinter/__init__.py:2235:            # TODO: deprecate
+./cpython/Lib/smtplib.py:940:        # TODO implement heuristics to guess the correct Resent-* block with an
+./cpython/Lib/test/test_ssl.py:3474:        # TODO: fix TLSv1.3 once SSLContext can restrict signature
+./cpython/Lib/test/test_ssl.py:4847:        # TODO: sessions aren't compatible with TLSv1.3 yet
+./cpython/Lib/test/test_ssl.py:4906:        # TODO: session reuse does not work with TLSv1.3
+./cpython/Lib/test/test_sqlite3/test_hooks.py:33:# TODO(picnixz): increase test coverage for other callbacks
+./cpython/Lib/test/test_bz2.py:85:        # TODO(emmatyping): if it is impossible for a block header to cross
+./cpython/Lib/test/test_asyncio/test_ssl.py:170:        # TODO This warning has to be fixed in asyncio.
+./cpython/Lib/test/test_asyncio/test_taskgroups.py:1152:            # TODO: This behavior is not ideal.  We'd rather have no exception
+./cpython/Lib/test/support/asynchat.py:1:# TODO: This module was deprecated and removed from CPython 3.12
+./cpython/Lib/test/support/smtpd.py:66:# TODO:
+./cpython/Lib/test/support/asyncore.py:1:# TODO: This module was deprecated and removed from CPython 3.12
+./cpython/Lib/test/test_poplib.py:187:                # TODO: SSLError does not expose alert information
+./cpython/Lib/test/test_concurrent_futures/test_future.py:201:        # TODO(brian@sweetapp.com): This test is timing dependent.
+./cpython/Lib/test/test_concurrent_futures/test_future.py:215:        # TODO(brian@sweetapp.com): This test is timing dependent.
+./cpython/Lib/test/test_httpservers.py:460:            # TODO: test the next case and add same case to test_ssl (We
+./cpython/Lib/test/test_curses.py:122:        # TODO: Should be called before initscr() or newterm() are called.
+./cpython/Lib/test/test_curses.py:123:        # TODO: nofilter()
+./cpython/Lib/test/test_curses.py:128:        # TODO: Should be called before initscr() or newterm() are called.
+./cpython/Lib/test/test_curses.py:129:        # TODO: use_tioctl()
+./cpython/Lib/test/test_curses.py:356:        # TODO: Test with real input by writing to master fd.
+./cpython/Lib/test/test_curses.py:376:        # TODO: Test with real input by writing to master fd.
+./cpython/Lib/test/test_curses.py:467:        # TODO: attr_get(), attr_set(), ...
+./cpython/Lib/test/test_curses.py:664:        # TODO: wunctrl()
+./cpython/Lib/test/test_curses.py:722:        # TODO: term_attrs(), erasewchar(), killwchar()
+./cpython/Lib/test/test_curses.py:1024:        # TODO: key_name()
+./cpython/Lib/test/test_io/test_textio.py:1291:        # TODO: txt.reconfigure(encoding='utf-8\0')
+./cpython/Lib/test/test_io/test_textio.py:1292:        # TODO: txt.reconfigure(encoding='nonexisting')
+./cpython/Lib/test/test_io/test_textio.py:1298:        # TODO: txt.reconfigure(errors='ignore\0')
+./cpython/Lib/test/test_io/test_textio.py:1299:        # TODO: txt.reconfigure(errors='nonexisting')
+./cpython/Lib/test/test_io/test_textio.py:1307:            # TODO: Should fail in C too.
+./cpython/Lib/test/test_io/test_textio.py:1311:            # TODO: Use __bool__(), not __index__().
+./cpython/Lib/test/test_dataclasses/__init__.py:3986:        # TODO: This test is for a kinda-buggy behavior.
+./cpython/Lib/test/test_runpy.py:193:# TODO: Use self.addCleanup to get rid of a lot of try-finally blocks
+./cpython/Lib/test/_test_multiprocessing.py:5389:    # TODO: add more tests for deliver/answer challenge.
+./cpython/Lib/test/_test_multiprocessing.py:5447:    # TODO(gpshead): We need integration tests for handshakes between modern
+./cpython/Lib/test/_test_multiprocessing.py:5451:    # TODO(gpshead): properly annotate tests for requires_hashdigest rather than
+./cpython/Lib/test/_test_multiprocessing.py:6839:        # TODO: fix https://bugs.python.org/issue35919
+./cpython/Lib/test/test_smtplib.py:1285:    #TODO: add tests for correct AUTH method fallback now that the
+./cpython/Lib/test/test_decimal.py:5956:    if TODO_TESTS is not None:
+./cpython/Lib/test/test_decimal.py:5966:        if TODO_TESTS is not None and head not in TODO_TESTS:
+./cpython/Lib/test/test_decimal.py:5979:    if TODO_TESTS is None:
+./cpython/Lib/test/test_decimal.py:6019:TODO_TESTS = None
+./cpython/Lib/test/test_decimal.py:6029:    global ARITH, TODO_TESTS, DEBUG
+./cpython/Lib/test/test_decimal.py:6031:    TODO_TESTS = todo_tests
+./cpython/Lib/test/test_trace.py:437:### themselves TODO: Skip tests that do mess with sys.settrace when
+./cpython/Lib/test/test_gettext.py:13:# TODO:
+./cpython/Lib/test/test_ftplib.py:362:                # TODO: SSLError does not expose alert information
+./cpython/Lib/test/test_capi/test_function.py:328:    # TODO: test PyFunction_New()
+./cpython/Lib/test/test_capi/test_function.py:329:    # TODO: test PyFunction_NewWithQualName()
+./cpython/Lib/test/test_capi/test_function.py:330:    # TODO: test PyFunction_SetVectorcall()
+./cpython/Lib/test/test_capi/test_function.py:331:    # TODO: test PyFunction_SetAnnotations()
+./cpython/Lib/test/test_capi/test_function.py:332:    # TODO: test PyClassMethod_New()
+./cpython/Lib/test/test_capi/test_function.py:333:    # TODO: test PyStaticMethod_New()
+./cpython/Lib/test/test_capi/test_run.py:19:    # TODO: Test the following functions:
+./cpython/Lib/test/test_capi/test_unicode.py:92:        # TODO: Test PyUnicode_Fill() with non-modifiable unicode.
+./cpython/Lib/test/test_capi/test_unicode.py:122:        # TODO: Test PyUnicode_WriteChar() with non-modifiable and legacy
+./cpython/Lib/test/test_capi/test_unicode.py:148:        # TODO: Test PyUnicode_Resize() with non-modifiable and legacy unicode
+./cpython/Lib/test/test_capi/test_unicode.py:175:        # TODO: Test PyUnicode_Append() with modifiable unicode
+./cpython/Lib/test/test_capi/test_unicode.py:177:        # TODO: Check reference counts.
+./cpython/Lib/test/test_capi/test_unicode.py:202:        # TODO: Test PyUnicode_AppendAndDel() with modifiable unicode
+./cpython/Lib/test/test_capi/test_unicode.py:204:        # TODO: Check reference counts.
+./cpython/Lib/test/test_capi/test_unicode.py:1721:        # TODO: Test PyUnicode_CopyCharacters() with non-unicode and
+./cpython/Lib/test/test_capi/test_import.py:377:    # TODO: test PyImport_GetImporter()
+./cpython/Lib/test/test_capi/test_import.py:378:    # TODO: test PyImport_ReloadModule()
+./cpython/Lib/test/test_capi/test_import.py:379:    # TODO: test PyImport_ExtendInittab()
+./cpython/Lib/test/test_capi/test_opt.py:840:        # TODO gh-115506: this assertion may change after propagating constants.
+./cpython/Lib/test/test_capi/test_opt.py:862:        # TODO gh-115506: this assertion may change after propagating constants.
+./cpython/Lib/test/test_capi/test_opt.py:884:        # TODO gh-115506: this assertion may change after propagating constants.
+./cpython/Lib/test/test_capi/test_opt.py:2215:        # TODO (gh-143723): After refactoring TO_BOOL_INT to eliminate redundant
+./cpython/Lib/test/test_capi/test_codecs.py:18:    # TODO: Test the following functions:
+./cpython/Lib/test/test_capi/test_codecs.py:75:        # TODO: Test PyUnicode_Decode() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:118:        # TODO: Test PyUnicode_DecodeUTF8() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:139:        # TODO: Test PyUnicode_DecodeUTF8Stateful() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:141:        # TODO: Test PyUnicode_DecodeUTF8Stateful() with NULL as the address of
+./cpython/Lib/test/test_capi/test_codecs.py:197:        # TODO: Test PyUnicode_DecodeUTF16() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:241:        # TODO: Test PyUnicode_DecodeUTF16Stateful() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:243:        # TODO: Test PyUnicode_DecodeUTF16Stateful() with NULL as the address of
+./cpython/Lib/test/test_capi/test_codecs.py:295:        # TODO: Test PyUnicode_DecodeUTF32() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:345:        # TODO: Test PyUnicode_DecodeUTF32Stateful() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:347:        # TODO: Test PyUnicode_DecodeUTF32Stateful() with NULL as the address of
+./cpython/Lib/test/test_capi/test_codecs.py:370:        # TODO: Test PyUnicode_DecodeLatin1() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:397:        # TODO: Test PyUnicode_DecodeASCII() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:431:        # TODO: Test PyUnicode_DecodeCharmap() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:472:        # TODO: Test PyUnicode_DecodeUnicodeEscape() with NULL as data and
+./cpython/Lib/test/test_capi/test_codecs.py:508:        # TODO: Test PyUnicode_DecodeRawUnicodeEscape() with NULL as data and
+./cpython/Lib/test/test_capi/test_sys.py:15:    # TODO: Test the following functions:
+./cpython/Lib/test/test_peg_generator/test_first_sets.py:235:        # TODO: Validate this
+./cpython/Lib/test/test_socket.py:245:        # TODO: gh-110012, we should investigate why this warning is happening
+./cpython/Lib/test/test_socket.py:4380:        with downgrade_malformed_data_warning():  # TODO: gh-110012
+./cpython/Lib/test/test_socket.py:4733:        with downgrade_malformed_data_warning():  # TODO: gh-110012
+./cpython/Lib/test/test_socket.py:4838:        with downgrade_malformed_data_warning():  # TODO: gh-110012
+./cpython/Lib/test/test_sys.py:1847:        # TODO: add check that forces the presence of wchar_t representation
+./cpython/Lib/test/test_sys.py:1848:        # TODO: add check that forces layout of unicodefields
+./cpython/Lib/test/test_logging.py:6673:    # TODO: Test for utc=False.
+./cpython/Lib/test/test_logging.py:6713:    # TODO: Test for utc=False.
+./cpython/Lib/test/test_tkinter/test_text.py:85:        # TODO: Add test for elide=True
+./cpython/Lib/test/test_tkinter/test_text.py:147:        # TODO: Add test for elide=True
+./cpython/Lib/test/test_pyrepl/test_pyrepl.py:1790:        from test.test___all__ import AllTest  # TODO: extract to a helper?
+./cpython/Lib/test/test_pydoc/test_pydoc.py:2387:        with warnings.catch_warnings(record=True) as w: # TODO: remove in 3.20
+./cpython/Lib/test/test_inspect/test_inspect.py:3366:        # TODO: Support type.
+./cpython/Lib/test/test_inspect/test_inspect.py:4591:            # TODO: Support BuiltinMethodType
+./cpython/Lib/test/test_inspect/test_inspect.py:4600:            # TODO: Support MethodWrapperType
+./cpython/Lib/test/test_inspect/test_inspect.py:4604:        # TODO: Test ClassMethodDescriptorType
+./cpython/Lib/test/test_inspect/test_inspect.py:4618:            # TODO: Support WrapperDescriptorType
+./cpython/Lib/test/test_inspect/test_inspect.py:4676:        # TODO: Support type.
+./cpython/Lib/test/test_inspect/test_inspect.py:6806:        # TODO(picnixz): refactor this as it's used by test_repl.py
+./cpython/Lib/urllib/request.py:1299:        # TODO(jhylton): Should this be redesigned to handle
+./cpython/Lib/urllib/robotparser.py:179:        # TODO: The private API is used in order to preserve an empty query.
+./cpython/Lib/getopt.py:24:# TODO for gnu_getopt():
+./cpython/Lib/zoneinfo/_zoneinfo.py:592:    # TODO: These are not actually epoch dates as they are expressed in local time
+./cpython/Lib/mailbox.py:438:        # TODO: check if flags are valid standard flag characters?
+./cpython/Lib/mailbox.py:445:        # TODO: check that flag is a valid standard flag character?
+./cpython/Lib/runpy.py:64:# TODO: Replace these helpers with importlib._bootstrap_external functions.
+./cpython/Lib/multiprocessing/synchronize.py:24:# TODO: Do any platforms still lack a functioning sem_open?
+./cpython/Lib/numbers.py:6:TODO: Fill out more detailed documentation on the operators."""
+./cpython/Lib/_pyrepl/reader.py:591:            # TODO: try to split between words?
+./cpython/Lib/idlelib/search.py:68:        # TODO - why is this here and not in a create_command_buttons?
+./cpython/Lib/idlelib/util.py:9:TODO:
+./cpython/Lib/idlelib/debugger.py:264:                   # TODO redo entire section, tries not needed.
+./cpython/Lib/idlelib/debugger.py:562:            # TODO recheck above; see debugger_r 159ff, debugobj 60.
+./cpython/Lib/idlelib/debugger.py:602:# TODO: htest?
+./cpython/Lib/idlelib/filelist.py:114:def _test():  # TODO check and convert to htest
+./cpython/Lib/idlelib/config.py:26:# TODOs added Oct 2014, tjr
+./cpython/Lib/idlelib/config.py:55:        # TODO Use default as fallback, at least if not None
+./cpython/Lib/idlelib/config.py:160:        self.cfg = {}  # TODO use to select userCfg vs defaultCfg
+./cpython/Lib/idlelib/config.py:212:        # TODO continue without userDIr instead of exit
+./cpython/Lib/idlelib/config.py:308:        # TODO copy theme from a class attribute.
+./cpython/Lib/idlelib/config.py:439:                    if editor_only or shell_only:  # TODO both True contradict
+./cpython/Lib/idlelib/config.py:469:                    extName = extn  # TODO return here?
+./cpython/Lib/idlelib/config.py:582:            # TODO (Ned?): the "Option" modifier does not work properly
+./cpython/Lib/idlelib/config.py:618:# TODO make keyBindings a file or class attribute used for test above
+./cpython/Lib/idlelib/config.py:637:        # TODO: = dict(sorted([(v-event, keys), ...]))?
+./cpython/Lib/idlelib/config.py:916:# TODO Revise test output, write expanded unittest
+./cpython/Lib/idlelib/debugobj.py:98:        # TODO return sorted(self.object)
+./cpython/Lib/idlelib/mainmenu.py:20:#       TODO: Make this more robust
+./cpython/Lib/idlelib/pyshell.py:133:        #TODO: don't read/write this from/to .idlerc when testing
+./cpython/Lib/idlelib/pyshell.py:336:        self.tag_remove("TODO", "1.0", "iomark")
+./cpython/Lib/idlelib/editor.py:947:        # TODO: move to iomenu.
+./cpython/Lib/idlelib/editor.py:1272:            return self.text.tag_prevrange("TODO", text_index) or \
+./cpython/Lib/idlelib/autocomplete.py:32:# TODO Update this here and elsewhere.
+./cpython/Lib/idlelib/colorizer.py:177:            "TODO": {'background': None, 'foreground': None},
+./cpython/Lib/idlelib/colorizer.py:201:        self.tag_add("TODO", index1, index2)
+./cpython/Lib/idlelib/colorizer.py:276:        if self.allow_colorizing and self.tag_nextrange("TODO", "1.0"):
+./cpython/Lib/idlelib/colorizer.py:283:        while todo_tag_range := self.tag_nextrange("TODO", next):
+./cpython/Lib/idlelib/colorizer.py:318:                    self.tag_add("TODO", next)
+./cpython/Lib/idlelib/autocomplete_w.py:498:# TODO: autocomplete/w htest here
+./cpython/Lib/idlelib/parenmatch.py:28:    TODO:
+./cpython/Lib/idlelib/sidebar.py:34:    # TODO: use also in codecontext.py
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:212:                if tag not in ('SYNC', 'TODO'):
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:221:                    if tag in ('SYNC', 'TODO'):
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:365:        # Rescheduled when TODO tag still exists.
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:369:        text.tag_remove('TODO', '1.0', 'end')
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:412:        text.tag_remove('TODO', '1.0', 'end')
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:419:        text.tag_add('TODO', '1.0', 'end')
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:427:        eq(text.tag_nextrange('TODO', '1.0'), ())
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:446:        Note that the irrelevant tags 'sel', 'TODO' and 'SYNC' are
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:454:            text.tag_add('TODO', '1.0', 'end-1c')
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:459:        for tag in set(text.tag_names()) - {'sel', 'TODO', 'SYNC'}:
+./cpython/Lib/idlelib/idle_test/test_colorizer.py:628:        text.tag_add("TODO", "1.0")
+./cpython/Lib/idlelib/idle_test/test_sidebar.py:258:    # TODO: Re-work these tests or remove them from the test suite.
+./cpython/Lib/idlelib/idle_test/test_config.py:376:        # TODO: finish.
+./cpython/Lib/idlelib/idle_test/test_config.py:766:    # TODO: test that save_all calls usercfg Saves.
+./cpython/Lib/idlelib/idle_test/test_config.py:778:        # TODO test for save call.
+./cpython/Lib/idlelib/idle_test/htest.py:59:TODO test these modules and classes:
+./cpython/Lib/idlelib/idle_test/htest.py:82:# TODO implement ^\; adding '<Control-Key-\\>' to function does not work.
+./cpython/Lib/idlelib/idle_test/htest.py:135:# TODO Improve message
+./cpython/Lib/idlelib/idle_test/htest.py:144:# TODO edit wrapper
+./cpython/Lib/idlelib/idle_test/test_configdialog.py:128:        # TODO Improve checks when add IdleConf.get_font_values.
+./cpython/Lib/idlelib/idle_test/test_configdialog.py:1299:#unittest.skip("Nothing here yet TODO")
+./cpython/Lib/idlelib/runscript.py:10:TODO: Specify command line arguments in a dialog box.
+./cpython/Tools/c-analyzer/c_parser/parser/__init__.py:111:TODO:
+./cpython/Tools/cases_generator/plexer.py:33:        # TODO: Return synthetic EOF token instead of None?
+./cpython/Tools/cases_generator/lexer.py:115:char = r"\'.\'"  # TODO: escape sequence
+./cpython/Tools/cases_generator/lexer.py:379:            # TODO: dedent > 0
+./cpython/Tools/ftscalingbench/ftscalingbench.py:246:    # TODO: super() on the same class from multiple threads still doesn't
+./cpython/Tools/clinic/libclinic/cli.py:26:# TODO:
+./cpython/Tools/clinic/libclinic/block_parser.py:68:    output: Any = None  # TODO: Very dynamic; probably untypeable in its current form?
+./cpython/Tools/peg_generator/pegen/sccutils.py:76:        path = path + [node]  # TODO: Make this not quadratic.
+./cpython/Tools/peg_generator/pegen/build.py:22:Incomplete = Any  # TODO: install `types-setuptools` and remove this alias
+./cpython/Tools/peg_generator/pegen/build.py:326:        gen: ParserGenerator = PythonParserGenerator(grammar, file)  # TODO: skip_actions
+./cpython/Tools/peg_generator/pegen/grammar.py:247:        # TODO: Decide whether to use [X] or X? based on type of X
+./cpython/Tools/peg_generator/pegen/grammar.py:273:        # TODO: Decide whether to use (X)* or X* based on type of X
+./cpython/Tools/peg_generator/pegen/grammar.py:286:        # TODO: Decide whether to use (X)+ or X+ based on type of X
+./cpython/Tools/peg_generator/pegen/parser_generator.py:170:        name = f"_tmp_{self.counter}"  # TODO: Pick a nicer name.
+./cpython/Tools/peg_generator/pegen/ast_dump.py:6:TODO: Remove the above-described hack.
+./cpython/Tools/peg_generator/pegen/testutil.py:94:    TODO: express that using a Protocol.
+./cpython/Tools/gdb/libpython.py:1642:    # TODO: repr() puts everything on one line; pformat can be nicer, but
+./cpython/Tools/scripts/summarize_stats.py:35:# TODO: Check for parity
+./cpython/Tools/build/freeze_modules.py:521:        # TODO: Is this necessary any more?
+./cpython/Tools/build/freeze_modules.py:531:        # TODO: Use more obvious markers, e.g.
+./cpython/Tools/build/deepfreeze.py:263:        # TODO: bump python version for this script.
+./cpython/Tools/build/deepfreeze.py:407:        self.write("// TODO: The above tuple should be a frozenset")
+./requests/tests/test_testserver.py:97:        # TODO: figure out why this sometimes fails when using pytest-xdist.
+./requests/src/requests/hooks.py:29:# TODO: response is the only one
+./requests/src/requests/adapters.py:715:                # TODO: Remove this in 3.0.0: see #2811
+./requests/src/requests/models.py:685:                # TODO: can be fixed by flipping the conditionals
+./requests/src/requests/models.py:1012:                # TODO: remove cast after iter_lines rewrite
+./requests/src/requests/_types.py:55:        Buffer,  # TODO: move to collections.abc when Python >= 3.12
+./requests/src/requests/_types.py:56:        TypeIs,  # TODO: move to typing when Python >= 3.13

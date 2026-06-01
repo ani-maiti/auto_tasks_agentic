@@ -1,0 +1,20 @@
+Finding files accessed within the last day in home directory...
+/home/ai_admin/.cache/ksvg-elements
+/home/ai_admin/.cache/event-sound-cache.tdb.61ffbdcbbd9e4a32b1ee000641cac04a.x86_64-pc-linux-gnu
+/home/ai_admin/.cache/discover/qtpipelinecache-x86_64-little_endian-lp64/qqpc_opengl
+/home/ai_admin/.cache/discover/featured-5.9.json
+/home/ai_admin/.cache/discover/qmlcache/eca02f6788764a5239e011c0832e4b15151190ce.qmlc
+/home/ai_admin/.cache/discover/qmlcache/4b96cbdc77be358b50c5beeafd7cb2e1a67b8380.qmlc
+/home/ai_admin/.cache/discover/qmlcache/aa9610464c3850d7caf806ad2ba937cc6c06f5b5.qmlc
+/home/ai_admin/.cache/discover/qmlcache/c30a6f73a13157d82b865ecd363e5361d32752ab.qmlc
+/home/ai_admin/.cache/discover/qmlcache/565340e3219720cea35c10042e75b77d12504b5a.qmlc
+/home/ai_admin/.cache/discover/qmlcache/3289f035ed08c747a0a751b7b1496c7d8d1f0160.qmlc
+/home/ai_admin/.cache/discover/qmlcache/eb2ddd7958f7aba9913013ab80106439ed1c2335.qmlc
+/home/ai_admin/.cache/discover/qmlcache/0d49af3f77430a6a85d9b1515ebe5144bc884a94.qmlc
+/home/ai_admin/.cache/discover/qmlcache/33e1d5a08eb836dea27f9ed1f04f2f88ff228a3e.qmlc
+/home/ai_admin/.cache/discover/qmlcache/3df3202f9138c4c8d84c8b5b3fd0a02014f81a93.qmlc
+/home/ai_admin/.cache/discover/qmlcache/8606393fc7b34b859ed5ea5cb837a2344b7ad43d.qmlc
+/home/ai_admin/.cache/discover/qmlcache/9ae3f4e32c58e852ddbde7e83b0e1ef158cd39e1.qmlc
+/home/ai_admin/.cache/discover/qmlcache/60108529ef49ec47fca862f0ad18efe2d4912ef4.qmlc
+/home/ai_admin/.cache/discover/qmlcache/94f6dc085501f66044033368d13f2152a892ef3f.qmlc
+/home/ai_admin/.cache/discover/qmlcache/5151aa13f61d202be4551c98d591d7ffa2f87788.qmlc

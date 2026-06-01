@@ -1,0 +1,21 @@
+import os
+import ast
+
+def get_python_files(directory):
+    return [os.path.join(root, file) for root, _, files in os.walk(directory) for file in files if file.endswith('.py')]
+
+def parse_functions(file_path):
+    try:
+        with open(file_path, 'r', encoding='latin1') as file:
+            tree = ast.parse(file.read(), filename=file_path)
+        return {node.name: ast.dump(node) for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)}
+    except SyntaxError:
+        print(f"SyntaxError in file: {file_path}")
+        return {}
+    except UnicodeDecodeError:
+        print(f"UnicodeDecodeError in file: {file_path}")
+        return {}
+
+python_files = get_python_files('.')
+functions_by_file = {file: parse_functions(file) for file in python_files}
+print(functions_by_file.keys())

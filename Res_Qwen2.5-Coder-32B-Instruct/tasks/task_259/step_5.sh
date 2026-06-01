@@ -1,0 +1,29 @@
+echo "Found log files:"
+cat <<EOF > log_files.txt
+-13_18-42-46.log
+/home/ai_admin/.local/share/logs/RustDesk/cm/rustdesk_r2026-05-25_07-23-23.log
+/home/ai_admin/.local/share/logs/RustDesk/cm/rustdesk_r2026-05-24_22-31-17.log
+/home/ai_admin/.local/share/logs/RustDesk/cm/rustdesk_r2026-05-24_15-15-50.log
+/home/ai_admin/.local/share/logs/RustDesk/cm/rustdesk_r2026-05-24_10-31-06.log
+/home/ai_admin/.local/share/logs/RustDesk/rustdesk_r2026-05-02_19-35-36.log
+/home/ai_admin/.local/share/logs/RustDesk/rustdesk_r2026-05-02_22-03-08.log
+/home/ai_admin/.local/share/logs/RustDesk/rustdesk_r2026-05-03_10-41-54.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_05-31-13.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_09-44-54.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_15-45-02.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_15-30-54.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_18-30-58.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_03-31-11.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_20-31-00.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_14-30-53.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_07-31-16.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_22-31-03.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_19-30-59.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_23-31-05.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_09-38-57.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_04-31-12.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_00-31-06.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-31_08-31-17.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_rCURRENT.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/rustdesk_r2026-05-30_17-30-56.log
+/home/ai_admin/.local/share/logs/RustDesk/check-hwcodec-config/r

@@ -1,0 +1,6 @@
+Files containing 'machine learning':
+1:Starting search for files containing 'machine learning'...
+6:echo "Starting search for files containing 'machine learning'..."
+7:find . -type f -exec grep -l "machine learning" {} \;:mod:`!statistics` --- Mathematical statistics functions
+1131:Normal distributions commonly arise in machine learning problems.
+1360:find all files containing the phrase machine learning

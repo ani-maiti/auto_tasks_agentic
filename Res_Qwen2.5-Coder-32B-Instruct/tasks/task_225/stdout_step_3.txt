@@ -1,0 +1,17 @@
+/etc/pacman.d/gnupg/tofu.db
+/home/ai_admin/.gnupg/public-keys.d/pubring.db
+/home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_CodeGemma-7B-IT/database.db
+/home/ai_admin/.config/libaccounts-glib/accounts.db
+/home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/key4.db
+/home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/cert9.db
+/home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/logins.db
+/home/ai_admin/.local/share/nautilus/tags/meta.db
+/home/ai_admin/.local/share/jupyter/nbsignatures.db
+/var/lib/PackageKit/alpm/sync/extra.db
+/var/lib/PackageKit/alpm/sync/core.db
+/var/lib/lastlog/lastlog2.db
+/var/lib/colord/mapping.db
+/var/lib/colord/storage.db
+/var/lib/pacman/sync/extra.db
+/var/lib/pacman/sync/core.db
+/usr/lib/avahi/service-types.db

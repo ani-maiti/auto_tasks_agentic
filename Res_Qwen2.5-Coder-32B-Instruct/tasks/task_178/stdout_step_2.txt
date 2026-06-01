@@ -1,0 +1,5 @@
+Report generated successfully.
+Directories sorted by total size:
+991M	cpython/
+26M	tasks/
+19M	requests/

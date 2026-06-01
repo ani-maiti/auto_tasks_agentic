@@ -1,0 +1,2 @@
+test_funcptr.py
+_testclinic_limited.vcxproj

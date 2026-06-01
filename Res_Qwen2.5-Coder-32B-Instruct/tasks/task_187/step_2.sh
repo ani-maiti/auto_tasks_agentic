@@ -1,0 +1,1 @@
+echo "Executable files found and their sizes reported."

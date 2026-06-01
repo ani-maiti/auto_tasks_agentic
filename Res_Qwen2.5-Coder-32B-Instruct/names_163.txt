@@ -1,0 +1,4 @@
+nested_scope.py
+2026-05-18-16-00-41.gh-issue-148260.UwFiIX.rst
+.editorconfig
+step_5.sh

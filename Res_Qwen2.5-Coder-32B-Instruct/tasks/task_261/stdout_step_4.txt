@@ -1,0 +1,3 @@
+Attempting to install jq without updating package list...
+
+PROCESS TIMED OUT

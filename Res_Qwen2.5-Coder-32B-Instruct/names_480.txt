@@ -1,0 +1,3 @@
+pycore_format.h
+gb2312-utf8.txt
+compat.py

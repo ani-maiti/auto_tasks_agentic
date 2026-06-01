@@ -1,0 +1,4 @@
+sndhdr.rst
+test_autocomplete_w.py
+getversion.c
+core_d.wxs

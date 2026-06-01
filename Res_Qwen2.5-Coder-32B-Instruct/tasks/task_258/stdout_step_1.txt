@@ -1,0 +1,4 @@
+Checking if necessary tools are installed...
+curl is installed
+jq is not installed
+python3 is installed

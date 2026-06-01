@@ -1,0 +1,2 @@
+pyporting.rst
+python_exe.rc

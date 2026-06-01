@@ -1,0 +1,2 @@
+test.wixproj
+step_5_log.json

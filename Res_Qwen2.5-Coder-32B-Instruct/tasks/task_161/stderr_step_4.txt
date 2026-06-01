@@ -1,0 +1,1 @@
+grep: /tmp/directory_scan.log: No such file or directory

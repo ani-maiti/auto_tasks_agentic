@@ -1,0 +1,4 @@
+Archive,Files
+./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip,"nested_portion1/, nested_portion1/foo/, nested_portion1/foo/one.py"
+./cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip,"foo/, foo/one.py"
+./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip,"bar/, bar/two.py, foo/one.py"

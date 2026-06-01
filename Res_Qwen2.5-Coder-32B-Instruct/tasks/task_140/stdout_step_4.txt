@@ -1,0 +1,3 @@
+Redirect chain for python.org:
+http://python.org/
+https://www.python.org/

@@ -1,0 +1,1 @@
+echo "Received 403 Forbidden error. Trying a different API."

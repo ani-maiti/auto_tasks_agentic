@@ -1,0 +1,1 @@
+curl -I -L -s openai.com | grep 'Location:'

@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges:  none
+Date: Sun, 31 May 2026 18:51:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kcgs7200097-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1780253478.974684,VS0,VE0
+Location: https://www.python.org/
+Strict-Transport-Security: max-age=315360000; preload
+
+HTTP/2 200 
+x-frame-options: SAMEORIGIN
+server: nginx
+via: 1.1 varnish, 1.1 varnish
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+date: Sun, 31 May 2026 18:51:18 GMT
+age: 933
+x-served-by: cache-iad-kiad7000081-IAD, cache-iad-kiad7000081-IAD, cache-iad-kcgs7200064-IAD
+x-cache: MISS, HIT
+x-cache-hits: 0, 2
+x-timer: S1780253478.024132,VS0,VE0
+vary: Cookie
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+content-length: 53296
+

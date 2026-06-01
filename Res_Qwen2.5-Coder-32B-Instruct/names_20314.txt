@@ -1,0 +1,2 @@
+python.props
+msvcrtmodule.c.h

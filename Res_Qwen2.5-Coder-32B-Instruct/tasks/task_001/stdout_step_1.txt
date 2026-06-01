@@ -1,0 +1,10 @@
+Starting to find the 20 largest files...
+32K	./task_descriptions_all.txt
+8.0K	./generate_code_model_run.py
+8.0K	./generate_code_model_run1.py
+4.0K	./test.py
+4.0K	./tasks/task_001/step_1.sh
+4.0K	./tasks/task_001/stdout_step_1.txt
+4.0K	./task_descriptions.txt
+4.0K	./system_prompt_body.txt
+0	./tasks/task_001/stderr_step_1.txt

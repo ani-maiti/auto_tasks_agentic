@@ -1,0 +1,1 @@
+./tasks/task_164/step_2.sh: line 4: bc: command not found

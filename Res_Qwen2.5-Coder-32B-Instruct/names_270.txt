@@ -1,0 +1,4 @@
+zip_cp437_header.zip
+out_inNsContent_c14nQnameElem.xml
+out_inNsContent_c14nQnameElem.xml
+.ruff.toml

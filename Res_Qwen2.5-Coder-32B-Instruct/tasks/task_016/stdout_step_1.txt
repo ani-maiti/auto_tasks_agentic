@@ -1,0 +1,5 @@
+Starting file extension count report generation.
+      4 .txt
+      3 .py
+      1 .csv
+Report generation complete.

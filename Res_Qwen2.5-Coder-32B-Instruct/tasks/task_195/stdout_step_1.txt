@@ -1,0 +1,2 @@
+Starting the process to find files larger than the average file size.
+94.4583

@@ -1,0 +1,32 @@
+New York, North America
+Los Angeles, North America
+Chicago, North America
+Houston, North America
+Phoenix, North America
+Philadelphia, North America
+San Antonio, North America
+San Diego, North America
+Dallas, North America
+San Jose, North America
+Austin, North America
+Jacksonville, North America
+Fort Worth, North America
+Columbus, North America
+Charlotte, North America
+San Francisco, North America
+Indianapolis, North America
+Seattle, North America
+Denver, North America
+Washington, North America
+London, Europe
+Berlin, Europe
+Madrid, Europe
+Paris, Europe
+Tokyo, Asia
+Delhi, Asia
+Shanghai, Asia
+Sao Paulo, South America
+Mexico City, North America
+Sydney, Oceania
+Lagos, Africa
+Cairo, Africa

@@ -1,0 +1,2 @@
+./cpython/Lib/test/archivetestdata/testtar.tar: POSIX tar archive
+./cpython/Lib/test/archivetestdata/recursion.tar: tar archive

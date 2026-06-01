@@ -1,0 +1,1 @@
+echo "Number of unique file extensions: 3"

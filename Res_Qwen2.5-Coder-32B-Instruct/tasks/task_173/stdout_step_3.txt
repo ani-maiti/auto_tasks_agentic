@@ -1,0 +1,6 @@
+Detailed lines containing 'machine learning':
+./tasks/task_173/stdout_step_1.txt:1:Starting search for files containing 'machine learning'...
+./tasks/task_173/step_1.sh:1:echo "Starting search for files containing 'machine learning'..."
+./tasks/task_173/step_1.sh:2:find . -type f -exec grep -l "machine learning" {} \;
+./cpython/Doc/library/statistics.rst:1125:Normal distributions commonly arise in machine learning problems.
+./task_descriptions_all.txt:173:find all files containing the phrase machine learning

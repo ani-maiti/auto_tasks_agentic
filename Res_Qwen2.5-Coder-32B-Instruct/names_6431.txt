@@ -1,0 +1,3 @@
+pathlib-inheritance.png
+_testlimitedcapi.vcxproj
+step_2_log.json

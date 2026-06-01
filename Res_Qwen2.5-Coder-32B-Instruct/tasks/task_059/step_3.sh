@@ -1,0 +1,1 @@
+curl -s https://nodejs.org/dist/index.json | grep -Po '"version": "\K.*?(?=")' | head -n 1

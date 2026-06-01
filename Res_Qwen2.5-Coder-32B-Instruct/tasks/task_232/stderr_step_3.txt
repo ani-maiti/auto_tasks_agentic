@@ -1,0 +1,2 @@
+./tasks/task_232/step_3.sh: line 2: apt-get: command not found
+./tasks/task_232/step_3.sh: line 4: jq: command not found

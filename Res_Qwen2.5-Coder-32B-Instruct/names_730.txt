@@ -1,0 +1,3 @@
+_lzma.vcxproj.filters
+_testbuffer.vcxproj.filters
+_testclinic.vcxproj.filters

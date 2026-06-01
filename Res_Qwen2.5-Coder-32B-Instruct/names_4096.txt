@@ -1,0 +1,4 @@
+extension.c
+sparse-zip64-c0-0x000000000.part
+sparse-zip64-c0-0x100000000.part
+testrelease.bat

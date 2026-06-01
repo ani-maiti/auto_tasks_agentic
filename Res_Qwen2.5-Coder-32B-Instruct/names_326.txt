@@ -1,0 +1,2 @@
+tokenize_tests-utf8-coding-cookie-and-utf8-bom-sig.txt
+stdout_step_5.txt

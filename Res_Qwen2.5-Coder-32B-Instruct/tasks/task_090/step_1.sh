@@ -1,0 +1,1 @@
+curl -s https://www.investing.com/commodities/gold-price | grep 'last-traded-price'

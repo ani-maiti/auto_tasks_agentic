@@ -1,0 +1,1 @@
+echo "The smallest non-empty file is: ./tasks/task_010/stdout_step_1.txt"

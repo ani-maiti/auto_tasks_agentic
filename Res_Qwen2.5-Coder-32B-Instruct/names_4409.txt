@@ -1,0 +1,2 @@
+_testbuffer.vcxproj
+launcher.wxs

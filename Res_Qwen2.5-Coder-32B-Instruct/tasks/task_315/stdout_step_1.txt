@@ -1,0 +1,1 @@
+Starting the process to retrieve the latest 300 Hacker News stories.

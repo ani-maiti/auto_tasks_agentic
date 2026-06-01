@@ -1,0 +1,2 @@
+_test_nonmodule_cases.py
+python.manifest

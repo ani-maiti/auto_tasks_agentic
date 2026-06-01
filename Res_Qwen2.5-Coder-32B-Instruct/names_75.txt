@@ -1,0 +1,14 @@
+fetch_macholib.bat
+minusnode.gif
+2026-05-12-14-44-39.gh-issue-149720.ccsoW-.rst
+mypy.ini
+variants.yaml
+step_1.sh
+step_1.sh
+stdout_step_2.txt
+step_4.sh
+step_1.sh
+stdout_step_3.txt
+step_2.sh
+step_3.sh
+step_4.sh

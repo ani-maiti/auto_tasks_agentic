@@ -1,0 +1,3 @@
+general.mo
+path.wixproj
+step_2.py

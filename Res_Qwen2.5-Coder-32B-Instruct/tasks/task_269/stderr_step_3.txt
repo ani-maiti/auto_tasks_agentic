@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_269/step_3.py", line 8, in <module>
+    stories = [fetch_story_details(story_id) for story_id in top_stories]
+                                                             ^^^^^^^^^^^
+NameError: name 'top_stories' is not defined

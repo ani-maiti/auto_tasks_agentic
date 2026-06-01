@@ -1,0 +1,8 @@
+Error fetching data. Checking network connectivity...
+PING www.google.com (142.251.154.119) 56(84) bytes of data.
+64 bytes from 142.251.154.119: icmp_seq=1 ttl=119 time=10.4 ms
+64 bytes from 142.251.154.119: icmp_seq=3 ttl=119 time=10.7 ms
+
+--- www.google.com ping statistics ---
+4 packets transmitted, 2 received, 50% packet loss, time 3027ms
+rtt min/avg/max/mdev = 10.396/10.544/10.693/0.148 ms

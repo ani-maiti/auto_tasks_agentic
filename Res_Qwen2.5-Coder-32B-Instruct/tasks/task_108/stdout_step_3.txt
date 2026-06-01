@@ -1,0 +1,3 @@
+Neither dig nor nslookup is installed. Attempting to install dnsutils package...
+
+PROCESS TIMED OUT

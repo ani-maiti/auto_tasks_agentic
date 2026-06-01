@@ -1,0 +1,2 @@
+soft-deprecations.rst
+pycore_lazyimportobject.h

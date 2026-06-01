@@ -1,0 +1,1 @@
+echo "Number of empty files in the current directory tree: 24"

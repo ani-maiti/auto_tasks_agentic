@@ -1,0 +1,3 @@
+shift_jis_2004.py
+shift_jisx0213.py
+release-process.rst

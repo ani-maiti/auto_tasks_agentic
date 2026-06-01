@@ -1,0 +1,11 @@
+Continuing directory listing from root
+/usr/include/libcmis-c-0.6/libcmis-c/error.h
+/usr/include/libcmis-c-0.6/libcmis-c/oauth2-data.h
+/usr/include/libcmis-c-0.6/libcmis-c/property.h
+/usr/include/libcmis-c-0.6/libcmis-c/types.h
+/usr/include/libcmis-c-0.6/libcmis-c/allowable-actions.h
+/usr/include/libcmis-c-0.6/libcmis-c/folder.h
+/usr/include/libcmis-c-0.6/libcmis-c/object.h
+/usr/include/libcmis-c-0.6/libcmis-c/repository.h
+/usr/include/libcmis-c-0.6/libcmis-c/libcmis-c-api.h
+/usr/include/libcmis-c-0.6/libcmis-c/object-type.h

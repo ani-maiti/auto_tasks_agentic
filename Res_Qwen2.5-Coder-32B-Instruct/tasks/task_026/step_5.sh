@@ -1,0 +1,1 @@
+echo "Search complete. No files or directories with non-ASCII characters found."

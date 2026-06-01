@@ -1,0 +1,1 @@
+./tasks/task_259/step_5.sh: line 29: warning: here-document at line 2 delimited by end-of-file (wanted `EOF')

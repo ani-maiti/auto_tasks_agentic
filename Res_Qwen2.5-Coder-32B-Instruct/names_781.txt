@@ -1,0 +1,4 @@
+pycore_global_objects.h
+python.ppm
+python.ppm
+pythonba.def

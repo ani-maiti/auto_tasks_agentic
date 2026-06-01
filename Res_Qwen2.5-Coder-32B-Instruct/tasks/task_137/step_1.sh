@@ -1,0 +1,1 @@
+curl -I github.com 2>/dev/null | head -n 1

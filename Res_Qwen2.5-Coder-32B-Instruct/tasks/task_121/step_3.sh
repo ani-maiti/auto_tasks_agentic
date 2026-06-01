@@ -1,0 +1,1 @@
+echo "Latest release version of tmux is: 3.6b"

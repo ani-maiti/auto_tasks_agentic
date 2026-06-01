@@ -1,0 +1,3 @@
+Parsing the joke...
+Setup: What's the best thing about elevator jokes?
+Punchline: They work on so many levels.

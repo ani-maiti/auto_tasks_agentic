@@ -1,0 +1,1 @@
+for file in $(grep -l "async def" $(find . -type f -name "*.py")); do echo "File: $file"; grep -n "async def" "$file"; done

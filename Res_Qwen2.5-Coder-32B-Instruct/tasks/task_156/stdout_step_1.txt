@@ -1,0 +1,21 @@
+Starting search for files ending with a digit...
+./cpython/aclocal.m4
+./cpython/Lib/test/certdata/capath/6e88d7b8.0
+./cpython/Lib/test/certdata/capath/ceff1710.0
+./cpython/Lib/test/certdata/capath/99d0fa06.0
+./cpython/Lib/test/certdata/capath/5ed36f99.0
+./cpython/Lib/test/certdata/capath/b1930218.0
+./cpython/Lib/test/certdata/capath/4e1295a3.0
+./cpython/Lib/test/configdata/cfgparser.3
+./cpython/Lib/test/configdata/cfgparser.2
+./cpython/Lib/test/configdata/cfgparser.1
+./cpython/Lib/test/archivetestdata/exe_with_z64
+./cpython/Lib/venv/scripts/common/Activate.ps1
+./cpython/PCbuild/env.ps1
+./cpython/Tools/msi/make_cat.ps1
+./cpython/Tools/msi/uploadrelease.ps1
+./cpython/Tools/msi/make_appx.ps1
+./cpython/Tools/msi/sign_build.ps1
+./cpython/Tools/msi/sdktools.psm1
+./cpython/Tools/scripts/pydoc3
+./cpython/Tools/scripts/idle3

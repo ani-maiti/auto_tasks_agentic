@@ -1,0 +1,13 @@
+DeepDiff module not found. Installing via pip...
+Collecting deepdiff
+  Downloading deepdiff-9.1.0-py3-none-any.whl.metadata (8.4 kB)
+Collecting cachebox<6,>=5.2 (from deepdiff)
+  Downloading cachebox-5.2.3-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (27 kB)
+Collecting orderly-set<6,>=5.5.0 (from deepdiff)
+  Downloading orderly_set-5.5.0-py3-none-any.whl.metadata (6.6 kB)
+Downloading deepdiff-9.1.0-py3-none-any.whl (184 kB)
+Downloading cachebox-5.2.3-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (398 kB)
+Downloading orderly_set-5.5.0-py3-none-any.whl (13 kB)
+Installing collected packages: orderly-set, cachebox, deepdiff
+
+Successfully installed cachebox-5.2.3 deepdiff-9.1.0 orderly-set-5.5.0

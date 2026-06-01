@@ -1,0 +1,2 @@
+Counting files modified within the last hour:
+2602

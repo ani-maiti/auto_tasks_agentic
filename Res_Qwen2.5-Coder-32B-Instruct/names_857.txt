@@ -1,0 +1,6 @@
+postflight.framework
+classes.nib
+python.vcxproj.filters
+pythonw_uwp.vcxproj.filters
+venvlauncher.vcxproj.filters
+venvwlauncher.vcxproj.filters

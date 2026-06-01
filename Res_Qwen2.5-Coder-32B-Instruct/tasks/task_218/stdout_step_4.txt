@@ -1,0 +1,11 @@
+Top ten domains:
+cdn.kernel.org,37
+git.kernel.org,22
+www.kernel.org,17
+docs.python.org,12
+github.com,8
+devguide.python.org,3
+peps.python.org,2
+www.python.org,2
+wiki.python.org,2
+unpkg.com,2

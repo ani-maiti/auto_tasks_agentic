@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_248/step_4.py", line 6, in <module>
+    for file1 in column_similarity_matrix:
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'column_similarity_matrix' is not defined

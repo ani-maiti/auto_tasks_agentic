@@ -1,0 +1,2 @@
+Unique file extensions: {'.py', '.txt', '.csv'}
+Number of unique file extensions: 3

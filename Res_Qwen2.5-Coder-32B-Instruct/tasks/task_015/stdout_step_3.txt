@@ -1,0 +1,125 @@
+Checking subdirectories for files with spaces in their filenames...
+/home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/scipy/io/tests/data/Transparent Busy.ani
+/home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/setuptools/command/launcher manifest.xml
+/home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/setuptools/script (dev).tmpl
+/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/scipy/io/tests/data/Transparent Busy.ani
+/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/setuptools/_vendor/jaraco/text/Lorem ipsum.txt
+/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/setuptools/command/launcher manifest.xml
+/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/setuptools/script (dev).tmpl
+/home/ai_admin/aniruddha/nasa_seed/my_experiments/.~lock.Automated Execution-Driven Code.docx#
+/home/ai_admin/aniruddha/nasa_seed/my_experiments/Automated Execution-Driven Code.docx
+/home/ai_admin/aniruddha/experiments/Untitled (1).ipynb
+/home/ai_admin/aniruddha/experiments/.ipynb_checkpoints/Untitled (1)-checkpoint.ipynb
+/home/ai_admin/Downloads/Code of Ethics Form instructor of Cybersecurity.pdf
+/home/ai_admin/.config/session/kwin_saved at previous logout_
+/home/ai_admin/.local/share/Trash/files/generate_code (3rd copy).py
+/home/ai_admin/.local/share/Trash/files/generate_code (another copy).py
+/home/ai_admin/.local/share/Trash/files/generate_code (copy).py
+/home/ai_admin/.local/share/Trash/info/generate_code (3rd copy).py.trashinfo
+/home/ai_admin/.local/share/Trash/info/generate_code (another copy).py.trashinfo
+/home/ai_admin/.local/share/Trash/info/generate_code (copy).py.trashinfo
+/home/ai_admin/.local/share/okular/docdata/146121.Code of Ethics Form instructor of Cybersecurity.pdf.xml
+/home/ai_admin/.local/share/wallpapers/Space Plasma 4K.jpg
+/usr/lib/python3.14/site-packages/setuptools/script (dev).tmpl
+/usr/lib/python3.14/site-packages/setuptools/launcher manifest.xml
+/usr/lib/python3.14/site-packages/jaraco/text/Lorem ipsum.txt
+/usr/lib/firmware/brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt.zst
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.Radxa-ROCK Pi X.txt.zst
+/usr/lib/firmware/brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt.zst
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt.zst
+/usr/lib/firmware/brcm/brcmfmac4356-pcie.Intel Corporation-CHERRYVIEW D1 PLATFORM.txt.zst
+/usr/lib/firmware/brcm/brcmfmac43362-sdio.ASUSTeK COMPUTER INC.-ME176C.txt.zst
+/usr/lib/firmware/brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt.zst
+/usr/lib/firmware/brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt.zst
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5/Librem 5.conf
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/Librem 5 Devkit.conf
+/usr/share/doc/cmake/html/generator/Visual Studio 7 .NET 2003.html
+/usr/share/doc/cmake/html/generator/Watcom WMake.html
+/usr/share/doc/cmake/html/generator/Visual Studio 17 2022.html
+/usr/share/doc/cmake/html/generator/Visual Studio 11 2012.html
+/usr/share/doc/cmake/html/generator/Visual Studio 6.html
+/usr/share/doc/cmake/html/generator/Visual Studio 8 2005.html
+/usr/share/doc/cmake/html/generator/Visual Studio 14 2015.html
+/usr/share/doc/cmake/html/generator/Visual Studio 10 2010.html
+/usr/share/doc/cmake/html/generator/Visual Studio 18 2026.html
+/usr/share/doc/cmake/html/generator/Borland Makefiles.html
+/usr/share/doc/cmake/html/generator/NMake Makefiles.html
+/usr/share/doc/cmake/html/generator/NMake Makefiles JOM.html
+/usr/share/doc/cmake/html/generator/Visual Studio 15 2017.html
+/usr/share/doc/cmake/html/generator/Visual Studio 7.html
+/usr/share/doc/cmake/html/generator/MSYS Makefiles.html
+/usr/share/doc/cmake/html/generator/MinGW Makefiles.html
+/usr/share/doc/cmake/html/generator/Sublime Text 2.html
+/usr/share/doc/cmake/html/generator/Ninja Multi-Config.html
+/usr/share/doc/cmake/html/generator/Eclipse CDT4.html
+/usr/share/doc/cmake/html/generator/Unix Makefiles.html
+/usr/share/doc/cmake/html/generator/Visual Studio 16 2019.html
+/usr/share/doc/cmake/html/generator/Visual Studio 9 2008.html
+/usr/share/doc/cmake/html/generator/Visual Studio 12 2013.html
+/usr/share/doc/cmake/html/generator/Green Hills MULTI.html
+/usr/share/doc/cmake/html/guide/tutorial/A Basic Starting Point.html
+/usr/share/doc/cmake/html/guide/tutorial/In-Depth System Introspection.html
+/usr/share/doc/cmake/html/guide/tutorial/Miscellaneous Features.html
+/usr/share/doc/cmake/html/guide/tutorial/Installation Commands and Concepts.html
+/usr/share/doc/cmake/html/guide/tutorial/Adding System Introspection.html
+/usr/share/doc/cmake/html/guide/tutorial/In-Depth CMake Library Concepts.html
+/usr/share/doc/cmake/html/guide/tutorial/Finding Dependencies.html
+/usr/share/doc/cmake/html/guide/tutorial/In-Depth CMake Target Commands.html
+/usr/share/doc/cmake/html/guide/tutorial/Adding a Custom Command and Generated File.html
+/usr/share/doc/cmake/html/guide/tutorial/Adding Usage Requirements for a Library.html
+/usr/share/doc/cmake/html/guide/tutorial/Packaging Debug and Release.html
+/usr/share/doc/cmake/html/guide/tutorial/CMake Language Fundamentals.html
+/usr/share/doc/cmake/html/guide/tutorial/Selecting Static or Shared Libraries.html
+/usr/share/doc/cmake/html/guide/tutorial/Adding a Library.html
+/usr/share/doc/cmake/html/guide/tutorial/Packaging an Installer.html
+/usr/share/doc/cmake/html/guide/tutorial/Adding Generator Expressions.html
+/usr/share/doc/cmake/html/guide/tutorial/Adding Export Configuration.html
+/usr/share/doc/cmake/html/guide/tutorial/Before You Begin.html
+/usr/share/doc/cmake/html/guide/tutorial/Configuration and Cache Variables.html
+/usr/share/doc/cmake/html/guide/tutorial/Getting Started with CMake.html
+/usr/share/doc/cmake/html/guide/tutorial/Testing and CTest.html
+/usr/share/doc/cmake/html/guide/tutorial/Adding Support for a Testing Dashboard.html
+/usr/share/doc/cmake/html/guide/tutorial/Installing and Testing.html
+/usr/share/doc/cmake/html/guide/tutorial/Custom Commands and Generated Files.html
+/usr/share/plasma/avatars/photos/Air Balloon.png
+/usr/share/plasma/avatars/photos/Air Balloon.png.license
+/usr/share/plasma/avatars/Scientist Konqi.png
+/usr/share/plasma/avatars/Messenger Konqi.png
+/usr/share/plasma/avatars/Bookworm Konqi.png
+/usr/share/plasma/avatars/Card Shark Konqi.png
+/usr/share/plasma/avatars/Mechanic Konqi.png
+/usr/share/plasma/avatars/Journalist Konqi.png
+/usr/share/plasma/avatars/Artist Konqi.png
+/usr/share/plasma/avatars/Virtual Reality Konqi.png
+/usr/share/plasma/avatars/Office Worker Konqi.png
+/usr/share/plasma/avatars/PC Builder Konqi.png
+/usr/share/plasma/avatars/Hacker Konqi.png
+/usr/share/plasma/avatars/Teacher Konqi.png
+/usr/share/plasma/avatars/Musician Konqi.png
+/usr/share/plasma/avatars/Boss Konqi.png
+/usr/share/plasma/avatars/Bug Catcher Konqi.png
+/usr/share/openal/hrtf/Default HRTF.mhr
+/usr/share/cmake/Help/generator/Visual Studio 18 2026.rst
+/usr/share/cmake/Help/generator/Eclipse CDT4.rst
+/usr/share/cmake/Help/generator/Visual Studio 9 2008.rst
+/usr/share/cmake/Help/generator/Visual Studio 11 2012.rst
+/usr/share/cmake/Help/generator/Watcom WMake.rst
+/usr/share/cmake/Help/generator/Visual Studio 17 2022.rst
+/usr/share/cmake/Help/generator/Visual Studio 16 2019.rst
+/usr/share/cmake/Help/generator/Visual Studio 10 2010.rst
+/usr/share/cmake/Help/generator/Visual Studio 8 2005.rst
+/usr/share/cmake/Help/generator/Unix Makefiles.rst
+/usr/share/cmake/Help/generator/MinGW Makefiles.rst
+/usr/share/cmake/Help/generator/Visual Studio 15 2017.rst
+/usr/share/cmake/Help/generator/MSYS Makefiles.rst
+/usr/share/cmake/Help/generator/NMake Makefiles JOM.rst
+/usr/share/cmake/Help/generator/Sublime Text 2.rst
+/usr/share/cmake/Help/generator/Borland Makefiles.rst
+/usr/share/cmake/Help/generator/Visual Studio 7 .NET 2003.rst
+/usr/share/cmake/Help/generator/Visual Studio 14 2015.rst
+/usr/share/cmake/Help/generator/Visual Studio 7.rst
+/usr/share/cmake/Help/generator/NMake Makefiles.rst
+/usr/share/cmake/Help/generator/Ninja Multi-Config.rst
+/usr/share/cmake/Help/generator/Visual Studio 12 2013.rst
+/usr/share/cmake/Help/generator/Visual Studio 6.rst
+/usr/share/cmake/Help/generator/Green Hills MULTI.rst

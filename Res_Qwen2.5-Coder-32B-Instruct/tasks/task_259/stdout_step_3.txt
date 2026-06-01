@@ -1,0 +1,3 @@
+Please provide a path to search for log files:
+
+PROCESS TIMED OUT

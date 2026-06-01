@@ -1,0 +1,1 @@
+grep -l "for line in \"\"\"" *.py

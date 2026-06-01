@@ -1,0 +1,1 @@
+echo "Total number of unique words across all text files: 1839"

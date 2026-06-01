@@ -1,0 +1,1 @@
+echo "Latest release tag from GitHub CLI repository is v2.93.0"

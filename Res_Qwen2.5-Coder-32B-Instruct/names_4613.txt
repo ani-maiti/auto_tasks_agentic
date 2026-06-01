@@ -1,0 +1,2 @@
+test_thread_pool.py
+_testconsole.vcxproj

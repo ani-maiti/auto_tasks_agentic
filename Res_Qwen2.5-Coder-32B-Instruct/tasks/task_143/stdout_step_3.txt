@@ -1,0 +1,10 @@
+   14901 ./cpython/Lib/pydoc_data/topics.py
+   11257 ./cpython/Lib/test/test_typing.py
+    7949 ./cpython/Lib/test/test_argparse.py
+    7741 ./cpython/Lib/test/_test_multiprocessing.py
+    7538 ./cpython/Lib/test/test_socket.py
+    7519 ./cpython/Lib/test/datetimetester.py
+    7366 ./cpython/Lib/test/test_logging.py
+    6859 ./cpython/Lib/test/test_inspect/test_inspect.py
+    6417 ./cpython/Lib/_pydecimal.py
+    6323 ./cpython/Lib/test/test_descr.py

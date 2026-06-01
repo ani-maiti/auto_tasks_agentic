@@ -1,0 +1,2 @@
+Using socket to gethostbyname for github.com
+A record for github.com: 140.82.113.3

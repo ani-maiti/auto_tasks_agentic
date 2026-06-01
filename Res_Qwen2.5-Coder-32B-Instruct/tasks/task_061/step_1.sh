@@ -1,0 +1,1 @@
+curl -s https://www.debian.org/releases/stable/

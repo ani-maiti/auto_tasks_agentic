@@ -1,0 +1,1 @@
+curl -L -o /dev/null -s -w "%{http_code}\n" wikipedia.org

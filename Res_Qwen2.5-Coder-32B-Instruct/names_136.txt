@@ -1,0 +1,11 @@
+c-api-pending-removal-in-3.19.rst
+msg_35.txt
+basic_compatibility_mode_used.py
+out_inNsXml_c14nDefault.xml
+out_inNsXml_c14nDefault.xml
+stdout_step_1.txt
+step_4.sh
+step_2.py
+step_3.sh
+step_4.sh
+step_5.sh

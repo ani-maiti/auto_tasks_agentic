@@ -1,0 +1,1 @@
+echo "No symbolic links found in the current directory"

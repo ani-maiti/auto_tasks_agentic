@@ -1,0 +1,2 @@
+Starting directory search
+./tasks/task_001

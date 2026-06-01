@@ -1,0 +1,2 @@
+echo "Retrieving SSL certificate expiration date for openai.com..."
+openssl s_client -connect openai.com:443 2>/dev/null | openssl x509 -noout -enddate

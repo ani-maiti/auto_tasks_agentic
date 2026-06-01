@@ -1,0 +1,1 @@
+curl -s https://en.wikipedia.org/wiki/Linux | grep -oP '(?<=<title>).*?(?= - Wikipedia</title>)'

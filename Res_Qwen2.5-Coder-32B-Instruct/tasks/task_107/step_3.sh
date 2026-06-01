@@ -1,0 +1,2 @@
+echo "Neither dig nor nslookup is installed. Using Python's socket library to get DNS records..."
+python3 -c "import socket; print('A records for wikipedia.org:', socket.gethostbyname_ex('wikipedia.org')[2])"

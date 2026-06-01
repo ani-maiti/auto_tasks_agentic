@@ -1,0 +1,1 @@
+grep -rl "for line in \"\"\"" .

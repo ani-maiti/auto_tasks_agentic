@@ -1,0 +1,1 @@
+curl ipinfo.io/192.73.23.2

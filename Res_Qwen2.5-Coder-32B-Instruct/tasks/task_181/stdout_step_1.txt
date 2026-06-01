@@ -1,0 +1,2 @@
+Starting duplicate file search based on size and name.
+File sizes and paths saved to file_sizes.txt

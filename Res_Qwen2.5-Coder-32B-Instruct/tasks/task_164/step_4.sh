@@ -1,0 +1,1 @@
+echo "Average file size: $average_size bytes"

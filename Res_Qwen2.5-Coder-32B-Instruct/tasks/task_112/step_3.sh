@@ -1,0 +1,1 @@
+echo "The title of the OpenStreetMap homepage is: OpenStreetMap"

@@ -1,0 +1,1 @@
+echo "No directories with more than 100 files found in the provided output."

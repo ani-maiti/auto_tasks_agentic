@@ -1,0 +1,2 @@
+test_trend_tracker.py
+python-config.sh.in

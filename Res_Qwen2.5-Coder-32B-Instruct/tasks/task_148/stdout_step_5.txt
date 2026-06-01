@@ -1,0 +1,30 @@
+Task completed. List of Python files containing FIXME comments and their respective FIXME lines:
+./cpython/Lib/_pylong.py:    # FIXME: this doesn't support the full syntax that int() supports.
+./cpython/Lib/xml/sax/expatreader.py:            # FIXME: when to invoke error()?
+./cpython/Lib/xml/sax/expatreader.py:            return 0  # FIXME: save error info here?
+./cpython/Lib/xml/etree/ElementInclude.py:                node = copy.copy(node)  # FIXME: this makes little sense with recursive includes
+./cpython/Lib/xml/etree/ElementTree.py:                    # FIXME: can this be handled in XML 1.0?
+./cpython/Lib/xml/etree/ElementPath.py:        # FIXME: raise error if .. is applied at toplevel?
+./cpython/Lib/xml/etree/ElementPath.py:    # FIXME: replace with real parser!!! refs:
+./cpython/Lib/xml/etree/ElementPath.py:                    # FIXME: what if the selector is "*" ?
+./cpython/Lib/xml/etree/ElementPath.py:        path = path + "*" # implicit all (FIXME: keep this?)
+./cpython/Lib/xmlrpc/client.py:            # FIXME: the xml-rpc specification allows us to leave out
+./cpython/Lib/xmlrpc/client.py:        # FIXME: assert standalone == 1 ???
+./cpython/Lib/xmlrpc/client.py:    # FIXME: mostly untested
+./cpython/Lib/importlib/_bootstrap_external.py:    # FIXME: @_check_name is used to define class methods before the
+./cpython/Lib/tkinter/filedialog.py:# FIXME: are the following  perhaps a bit too convenient?
+./cpython/Lib/test/test_with.py:        # FIXME: In the future, we'll try to keep the bound names from leaking
+./cpython/Lib/test/test_ftplib.py:    @skipUnless(False, "FIXME: bpo-32706")
+./cpython/Lib/test/bisect_cmd.py:    # FIXME: document that following arguments are test arguments
+./cpython/Lib/test/test_xml_etree.py:        self.assertEqual(c14n_roundtrip("<doc xmlns='uri'/>"), # FIXME
+./cpython/Lib/test/test_xml_etree.py:                            # FIXME: cET resolves default attributes but ET does not!
+./cpython/Lib/test/test_codecs.py:            if encoding == "idna": # FIXME: See SF bug #1163178
+./cpython/Lib/test/test_sys.py:    # FIXME: testing the code for a lost or replaced excepthook in
+./cpython/Lib/test/test_sys.py:        # FIXME: The non_sequence_fields adjustment is for these flags:
+./cpython/Lib/test/test_email/test_headerregistry.py:    # XXX: FIXME
+./cpython/Lib/test/test_embed.py:        # FIXME: This test does not check if stdlib_dir is calculated correctly.
+./cpython/Lib/test/mapping_tests.py:        # FIXME: Doesn't work with UserDict
+./cpython/Lib/statistics.py:        # FIXME: what do we do if this overflows?
+./cpython/Tools/i18n/pygettext.py:        extractall = 0 # FIXME: currently this option has no effect at all.
+./cpython/Tools/build/generate-build-details.py:        # FIXME: Not sure if windows has a different dll for the stable ABI, and
+./cpython/Tools/unicode/makeunicodedata.py:        # FIXME: <fl> the following tables could be made static, and

@@ -1,0 +1,10 @@
+Source 1: https://techcrunch.com/feed/
+Source 2: https://www.cnet.com/rss/
+Source 3: https://www.theverge.com/rss/index.xml
+Source 4: https://www.wired.com/feed/rss
+Source 5: https://www.engadget.com/rss.xml
+Source 6: https://www.tomshardware.com/rss.xml
+Source 7: https://www.pcworld.com/rss.xml
+Source 8: https://www.cnn.com/business/technology/rss.xml
+Source 9: https://www.forbes.com/technology/?format=rss
+Source 10: https://www.bbc.com/news/technology/rss.xml

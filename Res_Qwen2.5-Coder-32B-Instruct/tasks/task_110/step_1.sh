@@ -1,0 +1,1 @@
+nslookup -type=ns python.org

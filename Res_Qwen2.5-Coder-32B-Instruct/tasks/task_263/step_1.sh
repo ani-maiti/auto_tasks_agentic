@@ -1,0 +1,2 @@
+echo "Discovering archives..."
+find . -type f \( -iname "*.zip" -o -iname "*.tar" -o -iname "*.tar.gz" -o -iname "*.tgz" -o -iname "*.rar" \)

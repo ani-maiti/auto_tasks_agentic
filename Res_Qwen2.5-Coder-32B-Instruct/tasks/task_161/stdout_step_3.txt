@@ -1,0 +1,20 @@
+Scanning root directory for directories with more than 100 files...
+Checking directory: /
+Checking directory: /etc
+Directory /etc contains 157 files
+Checking directory: /etc/libinput
+Checking directory: /etc/sensors.d
+Checking directory: /etc/sddm.conf.d
+Checking directory: /etc/pulse
+Checking directory: /etc/profile.d
+Checking directory: /etc/mkinitcpio.d
+Checking directory: /etc/ppp
+Checking directory: /etc/ppp/ip-up.d
+Checking directory: /etc/ppp/ip-down.d
+Checking directory: /etc/ppp/peers
+Checking directory: /etc/ppp/ipv6-down.d
+Checking directory: /etc/ppp/ipv6-up.d
+Checking directory: /etc/makepkg.d
+Checking directory: /etc/NetworkManager
+Checking directory: /etc/NetworkManager/dnsmasq-shared.d
+Checking directory: /etc/NetworkManager/dispatcher.d

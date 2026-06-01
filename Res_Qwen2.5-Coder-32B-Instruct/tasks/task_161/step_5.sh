@@ -1,0 +1,2 @@
+echo "Scanning root directory for directories with more than 100 files..."
+find / -type d -exec sh -c 'echo "Checking directory: {}"; count=$(ls -1 "{}" 2>/dev/null | wc -l); if [ "$count" -gt 100 ]; then echo "Directory {} contains $count files"; fi' \; 2>/dev/null > /tmp/directory_scan.log

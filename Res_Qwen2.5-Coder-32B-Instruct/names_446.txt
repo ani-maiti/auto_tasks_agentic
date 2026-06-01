@@ -1,0 +1,2 @@
+copyright.rst
+__main__.py

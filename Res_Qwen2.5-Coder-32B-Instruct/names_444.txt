@@ -1,0 +1,3 @@
+pyfpe.h
+gc.stp
+test_frozenmain.py

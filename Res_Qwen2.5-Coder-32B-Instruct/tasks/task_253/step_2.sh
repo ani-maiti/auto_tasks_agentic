@@ -1,0 +1,1 @@
+echo "Choosing The New York Times as the target website..."

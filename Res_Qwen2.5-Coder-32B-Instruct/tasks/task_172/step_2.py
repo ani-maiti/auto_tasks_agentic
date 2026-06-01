@@ -1,0 +1,31 @@
+import re
+
+text_files = [
+    'directory_tree_report.txt',
+    'duplicate_files.txt',
+    'duplicate_sizes.txt',
+    'extension_counts.txt',
+    'extensions.txt',
+    'file_extension_report.txt',
+    'file_sizes.txt',
+    'files_with_multiple_dots.txt',
+    'large_files.txt',
+    'largest_files.txt',
+    'sorted_file_sizes.txt',
+    'system_prompt_body.txt',
+    'task_descriptions_all.txt',
+    'task_descriptions.txt'
+]
+
+url_pattern = re.compile(r'https?://[^\s]+')
+
+urls = []
+
+for file in text_files:
+    with open(file, 'r') as f:
+        content = f.read()
+        urls.extend(url_pattern.findall(content))
+
+print("Extracted URLs:")
+for url in urls:
+    print(url)

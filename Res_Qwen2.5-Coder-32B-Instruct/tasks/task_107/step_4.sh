@@ -1,0 +1,1 @@
+echo "DNS A record for wikipedia.org retrieved successfully."

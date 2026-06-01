@@ -1,0 +1,1 @@
+echo "Least common extension: 1"

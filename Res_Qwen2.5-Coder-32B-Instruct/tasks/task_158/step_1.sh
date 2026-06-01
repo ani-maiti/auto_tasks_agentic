@@ -1,0 +1,1 @@
+find . -type f | grep -E '\.[^/]*\.' | while read file; do echo "Found file: $file"; done

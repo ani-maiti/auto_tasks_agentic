@@ -1,0 +1,1 @@
+cat file_extension_report.txt

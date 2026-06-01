@@ -1,0 +1,4 @@
+Starting directory size report generation...
+991M	cpython/
+26M	tasks/
+19M	requests/

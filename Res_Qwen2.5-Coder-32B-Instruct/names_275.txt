@@ -1,0 +1,5 @@
+Brewfile
+2026-05-15-16-28-00.gh-issue-149819.fixpth.rst
+buffer.h
+stdout_step_2.txt
+stdout_step_1.txt

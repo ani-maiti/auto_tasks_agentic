@@ -1,0 +1,1 @@
+echo "Total number of words across all text files: 20883"

@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_227/step_4.py", line 32
+    './names_1116.txt', './names_1809.txt', './names_13686.txt', './names_13
+                                                                 ^
+SyntaxError: unterminated string literal (detected at line 32)

@@ -1,0 +1,1 @@
+find / -type f -name "*.db" 2>/dev/null

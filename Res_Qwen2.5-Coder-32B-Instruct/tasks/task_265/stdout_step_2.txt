@@ -1,0 +1,2 @@
+Error reading ./report.csv: No columns to parse from file
+Report generated and saved to email_columns_report.csv

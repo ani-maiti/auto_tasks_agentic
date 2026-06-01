@@ -1,0 +1,18 @@
+
+Readability Scores Report:
+------------------------
+File, Flesch-Kincaid Grade, Flesch Reading Ease
+
+Sentiment Scores Report:
+------------------------
+File, Negative, Neutral, Positive, Compound
+
+Lexical Diversity Report:
+-------------------------
+File, Lexical Diversity
+
+Readability Scores:
+
+Sentiment Scores:
+
+Lexical Diversity:

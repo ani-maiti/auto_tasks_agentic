@@ -1,0 +1,1 @@
+echo "Starting the process to retrieve weather data for fifty cities."

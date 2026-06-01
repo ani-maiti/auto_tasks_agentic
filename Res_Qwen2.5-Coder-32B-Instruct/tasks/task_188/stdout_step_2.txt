@@ -1,0 +1,2 @@
+Counting symbolic links in the current directory
+0

@@ -1,0 +1,2 @@
+launcher_files.wxs
+step_3_log.json

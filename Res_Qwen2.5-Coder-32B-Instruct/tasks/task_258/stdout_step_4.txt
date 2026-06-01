@@ -1,0 +1,2 @@
+Language statistics saved to language_stats.json
+{'Jupyter Notebook': 20, 'TypeScript': 2, 'Python': 57, None: 12, 'JavaScript': 2, 'Java': 2, 'HTML': 2, 'C++': 2, 'Go': 1}

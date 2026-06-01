@@ -1,0 +1,2 @@
+python_uwp.vcxproj.filters
+freethreaded_d.wxs

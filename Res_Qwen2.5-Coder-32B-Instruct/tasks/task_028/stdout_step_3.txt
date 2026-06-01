@@ -1,0 +1,11 @@
+Checking the contents of largest_files.csv
+/home/ai_admin/dp_models/coding_models/Codestral-22B-v0.1/consolidated.safetensors,42G
+/home/ai_admin/dp_models/Agri_models/PLLama-13B/pytorch_model.bin,25G
+/home/ai_admin/dp_models/Vision_models/StableDiffusion/ONNX/transformer/fp8/model.onnx_data,16G
+/home/ai_admin/dp_models/Vision_models/StableDiffusion/ONNX/transformer/bf16/fe820521-6e4b-11f0-805c-79ad8d380ae8,16G
+/home/ai_admin/dp_models/7B_models/Llama-8B-Instruct/original/consolidated.00.pth,15G
+/home/ai_admin/dp_models/7B_models/Gemma-8B/model.safetensors,15G
+/home/ai_admin/dp_models/14B_models/Mistral-14B/consolidated.safetensors,15G
+/home/ai_admin/dp_models/Agri_models/PLLama-7B/pytorch_model.bin,13G
+/home/ai_admin/dp_models/7B_models/Mistral-8B/consolidated.safetensors,9.8G
+/home/ai_admin/dp_models/14B_models/Llama-13B/pytorch_model-00002-of-00003.bin,9.3G

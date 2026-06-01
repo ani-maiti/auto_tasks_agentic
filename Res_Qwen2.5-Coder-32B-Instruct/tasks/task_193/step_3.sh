@@ -1,0 +1,1 @@
+echo "Found $(wc -l < <(find . -type f -mtime -30)) files modified within the last month"

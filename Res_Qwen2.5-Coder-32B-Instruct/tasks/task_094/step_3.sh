@@ -1,0 +1,2 @@
+echo "Curl is installed. Attempting to fetch the latest Docker release tag again."
+curl -s https://api.github.com/repos/docker/docker-ce/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'

@@ -1,0 +1,55 @@
+archive,filename,size,modified
+./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip,nested_portion1/,0,"(2012, 5, 3, 18, 51, 16)"
+./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip,nested_portion1/foo/,0,"(2012, 5, 4, 4, 41, 14)"
+./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip,nested_portion1/foo/one.py,26,"(2012, 5, 4, 4, 41, 14)"
+./cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip,foo/,0,"(2012, 5, 4, 4, 48, 12)"
+./cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip,foo/one.py,26,"(2012, 5, 4, 4, 48, 12)"
+./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip,bar/,0,"(2012, 5, 4, 4, 45, 52)"
+./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip,bar/two.py,35,"(2012, 5, 4, 4, 45, 52)"
+./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip,foo/one.py,26,"(2012, 5, 4, 4, 45, 56)"
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/conttype,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/regtype,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/dirtype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/dirtype-with-size,255,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/lnktype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/symtype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/blktype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/chrtype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/fifotype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/sparse,86016,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/umlauts-�������,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/12345/1234567/longname,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,./ustar/linktest2/symtype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,ustar/linktest1/regtype,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,./ustar/linktest2/lnktype,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,symtype2,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,gnu/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/longname,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,gnu/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/longlink,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,gnu/sparse,86016,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,gnu/sparse-0.0,86016,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,gnu/sparse-0.1,86016,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,gnu/sparse-1.0,86016,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,gnu/regtype-gnu-uid,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,misc/regtype-old-v7,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,misc/regtype-hpux-signed-chksum-�������,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,misc/regtype-old-v7-signed-chksum-�������,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,misc/dirtype-old-v7,0,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,misc/regtype-suntar,7011,1041808783.0
+./cpython/Lib/test/archivetestdata/testtar.tar,misc/regtype-xstar,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/longname,7011,1041808783.0
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/123/longlink,0,1041808783.0
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/umlauts-ÄÖÜäöüß,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/regtype1,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/regtype2,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/regtype3,7011,1041808783
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/regtype4,7011,1041808783.0
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/bad-pax-���,7011,1041808783.0
+./cpython/Lib/test/archivetestdata/testtar.tar,pax/hdrcharset-���,7011,1041808783.0
+./cpython/Lib/test/archivetestdata/testtar.tar,misc/eof,0,1041808783
+./cpython/Lib/test/archivetestdata/zipdir.zip,a/,0,"(2009, 1, 5, 23, 23, 58)"
+./cpython/Lib/test/archivetestdata/zipdir.zip,a/b/,0,"(2009, 1, 5, 23, 24, 2)"
+./cpython/Lib/test/archivetestdata/zipdir.zip,a/b/c,0,"(2009, 1, 5, 23, 24, 2)"
+./cpython/Lib/test/archivetestdata/zipdir_backslash.zip,a\b\c,0,"(2024, 3, 21, 16, 30, 14)"
+./cpython/Lib/test/archivetestdata/zipdir_backslash.zip,d\e\,0,"(2024, 3, 21, 16, 32, 36)"
+./cpython/Lib/test/archivetestdata/zip_cp437_header.zip,filename_with_æoå.txt,5,"(2010, 12, 31, 13, 14, 6)"
+./cpython/Lib/test/archivetestdata/zip_cp437_header.zip,filename_without.txt,5,"(2010, 12, 31, 13, 14, 6)"

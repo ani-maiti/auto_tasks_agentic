@@ -1,0 +1,126 @@
+Processing ./cpython/InternalDocs/structure.md
+Processing ./cpython/InternalDocs/asyncio_toc.md
+Processing ./cpython/InternalDocs/interpreter_toc.md
+Processing ./cpython/InternalDocs/exception_handling_toc.md
+Processing ./cpython/InternalDocs/string_interning_toc.md
+Processing ./cpython/InternalDocs/stack_protection.md
+Processing ./cpython/InternalDocs/stack_protection_toc.md
+Processing ./cpython/InternalDocs/generators_toc.md
+Processing ./cpython/InternalDocs/frames.md
+Processing ./cpython/InternalDocs/parser_toc.md
+Processing ./cpython/InternalDocs/interpreter.md
+Processing ./cpython/InternalDocs/stackrefs_toc.md
+Processing ./cpython/InternalDocs/code_objects.md
+Processing ./cpython/InternalDocs/structure_toc.md
+Processing ./cpython/InternalDocs/qsbr.md
+Processing ./cpython/InternalDocs/exception_handling.md
+Processing ./cpython/InternalDocs/compiler_toc.md
+Processing ./cpython/InternalDocs/changing_grammar_toc.md
+Processing ./cpython/InternalDocs/profiling_binary_format.md
+Processing ./cpython/InternalDocs/frames_toc.md
+Processing ./cpython/InternalDocs/garbage_collector_toc.md
+Processing ./cpython/InternalDocs/qsbr_toc.md
+Processing ./cpython/InternalDocs/jit.md
+Processing ./cpython/InternalDocs/compiler.md
+Processing ./cpython/InternalDocs/README_toc.md
+Processing ./cpython/InternalDocs/code_objects_toc.md
+Processing ./cpython/InternalDocs/README.md
+Processing ./cpython/InternalDocs/generators.md
+Processing ./cpython/InternalDocs/jit_toc.md
+Processing ./cpython/InternalDocs/string_interning.md
+Processing ./cpython/InternalDocs/asyncio.md
+Processing ./cpython/InternalDocs/parser.md
+Processing ./cpython/InternalDocs/profiling_binary_format_toc.md
+Processing ./cpython/InternalDocs/changing_grammar.md
+Processing ./cpython/InternalDocs/garbage_collector.md
+Processing ./cpython/InternalDocs/stackrefs.md
+Processing ./cpython/Modules/_hacl/README_toc.md
+Processing ./cpython/Modules/_hacl/README.md
+Processing ./cpython/.github/SECURITY_toc.md
+Processing ./cpython/.github/SECURITY.md
+Processing ./cpython/.github/PULL_REQUEST_TEMPLATE.md
+Processing ./cpython/.github/PULL_REQUEST_TEMPLATE_toc.md
+Processing ./cpython/Objects/mimalloc/prim/readme.md
+Processing ./cpython/Objects/mimalloc/prim/readme_toc.md
+Processing ./cpython/Objects/mimalloc/prim/windows/readme.md
+Processing ./cpython/Objects/mimalloc/prim/windows/readme_toc.md
+Processing ./cpython/Objects/object_layout.md
+Processing ./cpython/Objects/object_layout_toc.md
+Processing ./cpython/Misc/mypy/README_toc.md
+Processing ./cpython/Misc/mypy/README.md
+Processing ./cpython/Misc/rhel7/README_toc.md
+Processing ./cpython/Misc/rhel7/README.md
+Processing ./cpython/Lib/test/test_importlib/namespace_pkgs/foo/README_toc.md
+Processing ./cpython/Lib/test/test_importlib/namespace_pkgs/foo/README.md
+Processing ./cpython/Lib/test/archivetestdata/README_toc.md
+Processing ./cpython/Lib/test/archivetestdata/README.md
+Processing ./cpython/Tools/picklebench/README_toc.md
+Processing ./cpython/Tools/picklebench/README.md
+Processing ./cpython/Tools/cases_generator/interpreter_definition_toc.md
+Processing ./cpython/Tools/cases_generator/interpreter_definition.md
+Processing ./cpython/Tools/cases_generator/README_toc.md
+Processing ./cpython/Tools/cases_generator/README.md
+Processing ./cpython/Tools/jit/jit_infra.md
+Processing ./cpython/Tools/jit/README_toc.md
+Processing ./cpython/Tools/jit/README.md
+Processing ./cpython/Tools/jit/jit_infra_toc.md
+Processing ./cpython/Tools/pixi-packages/README_toc.md
+Processing ./cpython/Tools/pixi-packages/README.md
+Processing ./cpython/Python/vm-state.md
+Processing ./cpython/Python/tier2_engine_toc.md
+Processing ./cpython/Python/tier2_engine.md
+Processing ./cpython/Python/vm-state_toc.md
+Processing ./cpython/Platforms/Apple/iOS/README_toc.md
+Processing ./cpython/Platforms/Apple/iOS/README.md
+Processing ./cpython/Platforms/emscripten/README_toc.md
+Processing ./cpython/Platforms/emscripten/README.md
+Processing ./cpython/Platforms/Android/README_toc.md
+Processing ./cpython/Platforms/Android/README.md
+Processing ./cpython/Platforms/WASI/README_toc.md
+Processing ./cpython/Platforms/WASI/README.md
+Processing ./cross_reference_report.md
+python\n\nif using shell, the response must start with:\n\n
+bash\necho \"Starting search for files containing 'data science'\"\nfind . -type f -exec grep -l \"data science\" {} \\;\n
+bash\necho \"Files containing 'data science':\"\ncat ./tasks/task_175/stdout_step_1.txt ./tasks/task_175/step_1.sh ./task_descriptions_all.txt | grep -n \"data science\"\n
+.*?
+' "$file" | sed 's/^
+(.*?)
+bash\necho \"Files containing 'machine learning':\"\ncat ./tasks/task_173/stdout_step_1.txt ./tasks/task_173/step_1.sh ./cpython/Doc/library/statistics.rst ./task_descriptions_all.txt | grep -n \"machine learning\"\n
+bash\necho \"Detailed lines containing 'machine learning':\"\ngrep -Hn \"machine learning\" ./tasks/task_173/stdout_step_1.txt ./tasks/task_173/step_1.sh ./cpython/Doc/library/statistics.rst ./task_descriptions_all.txt\n
+bash\necho \"Files containing 'machine learning':\"\ncat ./tasks/task_173/stdout_step_1.txt ./tasks/task_173/step_1.sh ./cpython/Doc/library/statistics.rst ./task_descriptions_all.txt | grep -n \"machine learning\"\n
+python\n\nif using shell, the response must start with:\n\n
+bash\necho \"Starting search for files containing 'artificial intelligence'...\"\nfind . -type f -exec grep -l \"artificial intelligence\" {} \\;\n
+bash\necho \"Files containing 'artificial intelligence':\"\ncat ./tasks/task_174/stdout_step_1.txt ./tasks/task_174/step_1.sh ./task_descriptions_all.txt | grep -n \"artificial intelligence\"\n
+python\n\nif using shell, the response must start with:\n\n
+bash\necho \"Starting search for files containing the word TODO\"\ngrep -r \"TODO\" .\n
+python\\n\\nif using shell, the response must start with:\\n\\n
+bash\\n\\nchoose whichever language is most appropriate for the current step.\\n\\ncode should not need sudo permission or ask for it.\\noutput no text outside the code block.\\noutput no explanations.\\noutput no reasoning.\\n\\ntask description:\\n\\ntask description: find all files containing the word TODO\"\n./tasks/task_012/step_1_log.json:      \"content\": \"
+bash\\necho \\\"Starting search for files containing the word TODO\\\"\\ngrep -r \\\"TODO\\\" .\\n
+Processing ./requests/tests/certs/README_toc.md
+Processing ./requests/tests/certs/README.md
+Processing ./requests/tests/certs/mtls/README_toc.md
+Processing ./requests/tests/certs/mtls/README.md
+Processing ./requests/tests/certs/expired/README_toc.md
+Processing ./requests/tests/certs/expired/README.md
+Processing ./requests/HISTORY.md
+Processing ./requests/.github/ISSUE_TEMPLATE_toc.md
+Processing ./requests/.github/SECURITY_toc.md
+Processing ./requests/.github/SECURITY.md
+Processing ./requests/.github/CODE_OF_CONDUCT.md
+Processing ./requests/.github/CONTRIBUTING_toc.md
+Processing ./requests/.github/ISSUE_TEMPLATE.md
+Processing ./requests/.github/AI_POLICY.md
+Processing ./requests/.github/CODE_OF_CONDUCT_toc.md
+Processing ./requests/.github/AI_POLICY_toc.md
+Processing ./requests/.github/CONTRIBUTING.md
+Processing ./requests/.github/ISSUE_TEMPLATE/Feature_request.md
+Processing ./requests/.github/ISSUE_TEMPLATE/Custom_toc.md
+Processing ./requests/.github/ISSUE_TEMPLATE/Bug_report_toc.md
+Processing ./requests/.github/ISSUE_TEMPLATE/Feature_request_toc.md
+Processing ./requests/.github/ISSUE_TEMPLATE/Custom.md
+Processing ./requests/.github/ISSUE_TEMPLATE/Bug_report.md
+Processing ./requests/HISTORY_toc.md
+Processing ./requests/README_toc.md
+Processing ./requests/README.md
+Processing ./primary_key_report.md
+Processing ./command_frequency_report.md

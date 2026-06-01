@@ -1,0 +1,7 @@
+2026-05-21-15-14-59.gh-issue-148294.VtFaW4.rst
+step_3.sh
+step_5.sh
+stdout_step_2.txt
+stdout_step_2.txt
+stdout_step_3.txt
+stdout_step_4.txt

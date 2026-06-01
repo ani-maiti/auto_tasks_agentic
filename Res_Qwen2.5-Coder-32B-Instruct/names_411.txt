@@ -1,0 +1,3 @@
+frameworks.rst
+module_with_getattr.py
+stdout_step_2.txt

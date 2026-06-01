@@ -1,0 +1,11 @@
+Listing files in home directory
+/home/ai_admin/.vim/pack/themes/start/gruvbox/gruvbox_256palette_osx.sh
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/description
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/info/exclude
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/packed-refs
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/hooks/sendemail-validate.sample
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/hooks/prepare-commit-msg.sample
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/hooks/update.sample
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/hooks/pre-receive.sample
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/hooks/pre-push.sample
+/home/ai_admin/.vim/pack/themes/start/gruvbox/.git/hooks/pre-rebase.sample

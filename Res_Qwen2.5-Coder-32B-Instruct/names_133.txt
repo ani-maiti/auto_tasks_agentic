@@ -1,0 +1,11 @@
+__init__.py
+2025-10-12-08-46-26.gh-issue-139398.hESOMl.rst
+clean.bat
+arm64-apple-ios-simulator-cpp
+x86_64-apple-ios-simulator-clang++
+AppDelegate.h
+getplatform.c
+pyproject.toml
+step_3.sh
+stdout_step_4.txt
+step_1.sh

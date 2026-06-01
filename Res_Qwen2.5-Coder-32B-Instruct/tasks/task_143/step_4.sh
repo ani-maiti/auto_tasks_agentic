@@ -1,0 +1,1 @@
+wc -l $(find . -type f -name "*.py") | sort -nr | head -n 11 | tail -n 10 | awk '{print $2 " " $1}'

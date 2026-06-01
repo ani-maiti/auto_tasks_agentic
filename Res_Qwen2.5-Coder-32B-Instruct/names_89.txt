@@ -1,0 +1,11 @@
+hz-utf8.txt
+import_warning.py
+2026-05-09-15-22-32.gh-issue-144957.u1F2aQ.rst
+2026-05-18-18-36-28.gh-issue-148587.-RD3z5.rst
+2026-05-29-17-51-11.gh-issue-144774.jPcixe.rst
+step_5.sh
+step_3.sh
+step_2.sh
+step_1.sh
+step_1.sh
+stdout_step_3.txt

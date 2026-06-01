@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_238/step_2.py", line 55, in <module>
+    call_graph = build_call_graph(files)
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_238/step_2.py", line 31, in build_call_graph
+    tree = parse_file(file)
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_238/step_2.py", line 10, in parse_file
+    tree = ast.parse(file.read(), filename=file_path)
+  File "/usr/lib/python3.14/ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "./tasks/task_147/step_2.py", line 2
+    for line in """\
+                ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 36)

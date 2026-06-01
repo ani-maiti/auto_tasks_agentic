@@ -1,0 +1,4 @@
+Starting directory scan...
+./cpython/.git/refs/tags
+./requests/.git/refs/tags
+./requests/.git/objects/info

@@ -1,0 +1,2 @@
+launcher.svg
+stdout_step_4.txt

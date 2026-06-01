@@ -1,0 +1,3 @@
+Checking if there are any directories with executable files...
+Checking directory: .
+Checking directory: ./tasks

@@ -1,0 +1,2 @@
+uploadrelease.ps1
+step_1_log.json

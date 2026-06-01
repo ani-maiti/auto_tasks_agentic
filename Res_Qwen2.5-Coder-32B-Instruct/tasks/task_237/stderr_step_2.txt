@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_237/step_2.py", line 28, in <module>
+    recursive_functions = main()
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_237/step_2.py", line 23, in main
+    functions = find_recursive_functions_in_file(file)
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_237/step_2.py", line 16, in find_recursive_functions_in_file
+    tree = ast.parse(file.read(), filename=file_path)
+  File "/usr/lib/python3.14/ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "./tasks/task_147/step_2.py", line 2
+    for line in """\
+                ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 36)

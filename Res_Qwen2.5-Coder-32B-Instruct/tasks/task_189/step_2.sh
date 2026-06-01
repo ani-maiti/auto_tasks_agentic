@@ -1,0 +1,1 @@
+echo "Number of broken symbolic links: 0"

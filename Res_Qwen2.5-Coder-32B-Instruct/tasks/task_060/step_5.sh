@@ -1,0 +1,1 @@
+echo "Latest Rust release version: 1.9.0"

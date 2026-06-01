@@ -1,0 +1,2 @@
+pycore_brc.h
+python-config.in

@@ -1,0 +1,1 @@
+echo "Step 1: Identify and list ten technology news sources with RSS feeds."

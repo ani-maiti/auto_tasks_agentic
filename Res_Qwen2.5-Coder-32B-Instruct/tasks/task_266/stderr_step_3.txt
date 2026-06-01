@@ -1,0 +1,8 @@
+./tasks/task_221/step_2.py:8: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+  f for f in os.popen("find . \( -name '*.json' -o -name '*.yaml' -o -name '*.ini' -o -name '*.toml' \)").read().strip().split('\n')
+./cpython/Lib/test/test_import/data/syntax_warnings.py:4: SyntaxWarning: invalid decimal literal
+  x = 1or 0  # line 4
+./cpython/Lib/test/test_import/data/syntax_warnings.py:7: SyntaxWarning: "\z" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\z"? A raw string is also an option.
+  '\z'  # line 7
+./cpython/Lib/test/test_import/data/syntax_warnings.py:10: SyntaxWarning: "\400" is an invalid octal escape sequence. Such sequences will not work in the future. Did you mean "\\400"? A raw string is also an option.
+  '\400'  # line 10

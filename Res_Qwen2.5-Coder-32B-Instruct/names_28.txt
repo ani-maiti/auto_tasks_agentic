@@ -1,0 +1,13 @@
+indirect.py
+three.py
+b.py
+basic-str-ends-in-escape.toml
+redefine-2.toml
+unclosed-string.toml
+fuzzy.mo
+.gitignore
+stdout_step_1.txt
+step_3.sh
+stdout_step_4.txt
+step_1.sh
+step_4.sh

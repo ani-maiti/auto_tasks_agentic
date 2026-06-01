@@ -1,0 +1,12 @@
+./tasks/task_240/step_2.sh: line 4: unzip: command not found
+./tasks/task_240/step_2.sh: line 4: unzip: command not found
+./tasks/task_240/step_2.sh: line 4: unzip: command not found
+tar: Ignoring unknown extended header keyword 'hdrcharset'
+tar: Ignoring unknown extended header keyword 'SCHILY.dev'
+tar: Ignoring unknown extended header keyword 'SCHILY.ino'
+tar: Ignoring unknown extended header keyword 'SCHILY.nlink'
+./tasks/task_240/step_2.sh: line 4: unzip: command not found
+tar: Unexpected EOF in archive
+tar: Error is not recoverable: exiting now
+./tasks/task_240/step_2.sh: line 4: unzip: command not found
+./tasks/task_240/step_2.sh: line 4: unzip: command not found

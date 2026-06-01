@@ -1,0 +1,2232 @@
+File: ./cpython/Modules/_xxtestfuzz/fuzz_pycompile_corpus/input4.py
+1:async def hello(name: str):
+File: ./cpython/Lib/asyncio/queues.py
+125:    async def put(self, item):
+172:    async def get(self):
+239:    async def join(self):
+File: ./cpython/Lib/asyncio/timeouts.py
+83:    async def __aenter__(self) -> "Timeout":
+95:    async def __aexit__(
+File: ./cpython/Lib/asyncio/tasks.py
+405:async def wait(fs, *, timeout=None, return_when=ALL_COMPLETED):
+440:async def wait_for(fut, timeout):
+458:    # async def test_waitfor():
+461:    #     async def func():
+490:async def _wait(fs, timeout, return_when, loop):
+537:async def _cancel_and_wait(fut):
+582:    async def __anext__(self):
+610:    async def _wait_for_one(self, resolve=False):
+687:async def sleep(delay, result=None):
+720:            async def _wrap_awaitable(awaitable):
+File: ./cpython/Lib/asyncio/locks.py
+13:    async def __aenter__(self):
+19:    async def __aexit__(self, exc_type, exc, tb):
+90:    async def acquire(self):
+197:    async def wait(self):
+245:    async def wait(self):
+300:    async def wait_for(self, predicate):
+383:    async def acquire(self):
+500:    async def __aenter__(self):
+505:    async def __aexit__(self, *args):
+508:    async def wait(self):
+531:    async def _block(self):
+547:    async def _release(self):
+555:    async def _wait(self):
+574:    async def reset(self):
+589:    async def abort(self):
+File: ./cpython/Lib/asyncio/events.py
+227:    async def start_serving(self):
+235:    async def serve_forever(self):
+242:    async def wait_closed(self):
+246:    async def __aenter__(self):
+249:    async def __aexit__(self, *exc):
+297:    async def shutdown_asyncgens(self):
+301:    async def shutdown_default_executor(self):
+344:    async def getaddrinfo(self, host, port, *,
+348:    async def getnameinfo(self, sockaddr, flags=0):
+351:    async def create_connection(
+361:    async def create_server(
+423:    async def sendfile(self, transport, file, offset=0, count=None,
+431:    async def start_tls(self, transport, protocol, sslcontext, *,
+443:    async def create_unix_connection(
+451:    async def create_unix_server(
+487:    async def connect_accepted_socket(
+502:    async def create_datagram_endpoint(self, protocol_factory,
+539:    async def connect_read_pipe(self, protocol_factory, pipe):
+552:    async def connect_write_pipe(self, protocol_factory, pipe):
+565:    async def subprocess_shell(self, protocol_factory, cmd, *,
+572:    async def subprocess_exec(self, protocol_factory, *args,
+598:    async def sock_recv(self, sock, nbytes):
+601:    async def sock_recv_into(self, sock, buf):
+604:    async def sock_recvfrom(self, sock, bufsize):
+607:    async def sock_recvfrom_into(self, sock, buf, nbytes=0):
+610:    async def sock_sendall(self, sock, data):
+613:    async def sock_sendto(self, sock, data, address):
+616:    async def sock_connect(self, sock, address):
+619:    async def sock_accept(self, sock):
+622:    async def sock_sendfile(self, sock, file, offset=0, count=None,
+File: ./cpython/Lib/asyncio/runners.py
+98:                async def _wrap_awaitable(awaitable):
+192:        async def main():
+File: ./cpython/Lib/asyncio/staggered.py
+14:async def staggered_race(coro_fns, delay, *, loop=None):
+93:    async def run_one_coro(ok_to_start, previous_failed) -> None:
+File: ./cpython/Lib/asyncio/taskgroups.py
+56:    async def __aenter__(self):
+72:    async def __aexit__(self, et, exc, tb):
+86:    async def _aexit(self, et, exc):
+129:                    #    async def wrapper():
+272:            #    async def foo():
+File: ./cpython/Lib/asyncio/subprocess.py
+135:    async def wait(self):
+148:    async def _feed_stdin(self, input):
+168:    async def _noop(self):
+171:    async def _read_stream(self, fd):
+188:    async def communicate(self, input=None):
+206:async def create_subprocess_shell(cmd, stdin=None, stdout=None, stderr=None,
+218:async def create_subprocess_exec(program, *args, stdin=None, stdout=None,
+File: ./cpython/Lib/asyncio/base_events.py
+225:    async def drain(self):
+265:    async def restore(self):
+366:    async def start_serving(self):
+372:    async def serve_forever(self):
+394:    async def wait_closed(self):
+535:    async def _make_subprocess_transport(self, protocol, args, shell,
+576:    async def shutdown_asyncgens(self):
+601:    async def shutdown_default_executor(self, timeout=None):
+935:    async def getaddrinfo(self, host, port, *,
+945:    async def getnameinfo(self, sockaddr, flags=0):
+949:    async def sock_sendfile(self, sock, file, offset=0, count=None,
+964:    async def _sock_sendfile_native(self, sock, file, offset, count):
+971:    async def _sock_sendfile_fallback(self, sock, file, offset, count):
+1018:    async def _connect_sock(self, exceptions, addr_info, local_addr_infos=None):
+1066:    async def create_connection(
+1216:    async def _create_connection_transport(
+1246:    async def sendfile(self, transport, file, offset=0, count=None,
+1292:    async def _sendfile_native(self, transp, file, offset, count):
+1296:    async def _sendfile_fallback(self, transp, file, offset, count):
+1321:    async def start_tls(self, transport, protocol, sslcontext, *,
+1380:    async def create_datagram_endpoint(self, protocol_factory,
+1514:    async def _ensure_resolved(self, address, *,
+1526:    async def _create_server_getaddrinfo(self, host, port, family, flags):
+1534:    async def create_server(
+1679:    async def connect_accepted_socket(
+1708:    async def connect_read_pipe(self, protocol_factory, pipe):
+1724:    async def connect_write_pipe(self, protocol_factory, pipe):
+1753:    async def subprocess_shell(self, protocol_factory, cmd, *,
+1789:    async def subprocess_exec(self, protocol_factory, program, *args,
+File: ./cpython/Lib/asyncio/windows_events.py
+338:    async def create_pipe_connection(self, protocol_factory, address):
+346:    async def start_serving_pipe(self, protocol_factory, address):
+397:    async def _make_subprocess_transport(self, protocol, args, shell,
+564:        async def accept_coro(future, conn):
+640:    async def connect_pipe(self, address):
+File: ./cpython/Lib/asyncio/base_tasks.py
+37:        # case 1: 'async def' coroutines
+File: ./cpython/Lib/asyncio/streams.py
+26:async def open_connection(host=None, port=None, *,
+54:async def start_server(client_connected_cb, host=None, port=None, *,
+90:    async def open_unix_connection(path=None, *,
+102:    async def start_unix_server(client_connected_cb, path=None, *,
+164:    async def _drain_helper(self):
+355:    async def wait_closed(self):
+361:    async def drain(self):
+386:    async def start_tls(self, sslcontext, *,
+513:    async def _wait_for_data(self, func_name):
+541:    async def readline(self):
+572:    async def readuntil(self, separator=b'\n'):
+684:    async def read(self, n=-1):
+731:    async def readexactly(self, n):
+769:    async def __anext__(self):
+File: ./cpython/Lib/asyncio/base_subprocess.py
+180:    async def _connect_pipes(self, waiter):
+246:    async def _wait(self):
+File: ./cpython/Lib/asyncio/proactor_events.py
+704:    async def sock_recv(self, sock, n):
+707:    async def sock_recv_into(self, sock, buf):
+710:    async def sock_recvfrom(self, sock, bufsize):
+713:    async def sock_recvfrom_into(self, sock, buf, nbytes=0):
+719:    async def sock_sendall(self, sock, data):
+722:    async def sock_sendto(self, sock, data, address):
+725:    async def sock_connect(self, sock, address):
+730:    async def sock_accept(self, sock):
+733:    async def _sock_sendfile_native(self, sock, file, offset, count):
+761:    async def _sendfile_native(self, transp, file, offset, count):
+File: ./cpython/Lib/asyncio/unix_events.py
+198:    async def _make_subprocess_transport(self, protocol, args, shell,
+223:    async def create_unix_connection(
+273:    async def create_unix_server(
+355:    async def _sock_sendfile_native(self, sock, file, offset, count):
+File: ./cpython/Lib/asyncio/selector_events.py
+219:    async def _accept_connection2(
+371:    async def sock_recv(self, sock, n):
+413:    async def sock_recv_into(self, sock, buf):
+451:    async def sock_recvfrom(self, sock, bufsize):
+491:    async def sock_recvfrom_into(self, sock, buf, nbytes=0):
+533:    async def sock_sendall(self, sock, data):
+586:    async def sock_sendto(self, sock, data, address):
+628:    async def sock_connect(self, sock, address):
+701:    async def sock_accept(self, sock):
+733:    async def _sendfile_native(self, transp, file, offset, count):
+File: ./cpython/Lib/asyncio/threads.py
+12:async def to_thread(func, /, *args, **kwargs):
+File: ./cpython/Lib/types.py
+33:    async def _c(): pass
+38:    async def _ag():
+File: ./cpython/Lib/pdb.py
+583:    async def set_trace_async(self, frame=None, *, commands=None):
+1068:            "async def __pdb_await():\n" +
+2902:async def set_trace_async(*, header=None, commands=None):
+File: ./cpython/Lib/contextlib.py
+55:    async def __aenter__(self):
+60:    async def __aexit__(self, exc_type, exc_value, traceback):
+91:            async def asyncgen_inner(*args, **kwds):
+100:            async def async_inner(*args, **kwds):
+133:            async def asyncgen_inner(*args, **kwds):
+144:            async def async_inner(*args, **kwds):
+151:            async def gen_inner(*args, **kwds):
+160:            async def inner(*args, **kwds):
+271:    async def __aenter__(self):
+280:    async def __aexit__(self, typ, value, traceback):
+377:        async def some_async_generator(<arguments>):
+449:    async def __aenter__(self):
+451:    async def __aexit__(self, *exc_info):
+705:        async def _exit_wrapper(exc_type, exc, tb):
+709:    async def enter_async_context(self, cm):
+754:    async def aclose(self):
+758:    async def __aenter__(self):
+761:    async def __aexit__(self, *exc_details):
+840:    async def __aenter__(self):
+843:    async def __aexit__(self, *excinfo):
+File: ./cpython/Lib/unittest/async_case.py
+44:    async def asyncSetUp(self):
+47:    async def asyncTearDown(self):
+60:        # 1. It can be "async def func()" itself
+61:        # 2. Class can implement "async def __call__()" method
+65:    async def enterAsyncContext(self, cm):
+File: ./cpython/Lib/unittest/mock.py
+224:    src = """async def %s(*args, **kwargs):
+1451:        async def patched(*args, **keywargs):
+1913:        async def _inner(*args, **kw):
+2313:    async def _execute_mock_call(self, /, *args, **kwargs):
+3195:    async def __anext__(self):
+File: ./cpython/Lib/_collections_abc.py
+94:async def _coro(): pass
+100:async def _ag(): yield
+218:    async def __anext__(self):
+236:    async def __anext__(self):
+243:    async def asend(self, value):
+250:    async def athrow(self, typ, val=None, tb=None):
+262:    async def aclose(self):
+File: ./cpython/Lib/inspect.py
+326:    Coroutine functions are normally defined with "async def" syntax, but may
+334:    Asynchronous generator functions are defined with "async def"
+File: ./cpython/Lib/test/test_compile.py
+1309:        async def test(aseq):
+1664:        async def name_4():
+2082:            async def f():
+2120:            async def f():
+2158:            async def f():
+File: ./cpython/Lib/test/test_type_annotations.py
+369:        async def func(x: undefined, /, y: undefined, *args: undefined, z: undefined, **kwargs: undefined) -> undefined:
+421:            "async def f():\n ",
+438:            "async def f(): ",
+File: ./cpython/Lib/test/test_types.py
+2231:        # Test that types.coroutine passes 'async def' coroutines
+2234:        async def foo(): pass
+2428:        async def corofunc():
+File: ./cpython/Lib/test/test_asyncgen.py
+45:    async def iterate():
+71:    async def anext_impl():
+88:        code = '''async def foo():
+97:        code = '''async def foo():
+105:        code = '''async def foo():
+115:        code = '''async def foo():
+124:        code = '''async def foo():
+180:        async def gen():
+192:        async def gen():
+221:        async def gen():
+231:        async def gen():
+252:        async def gen():
+261:        async def gen():
+280:        async def async_gen():
+303:        async def async_gen():
+328:        async def async_gen():
+343:        async def gen():
+364:        async def async_gen():
+368:        async def async_gen_wrapper():
+381:        async def gen():
+410:        async def agenfn():
+443:        async def agenfn():
+476:        async def agenfn():
+514:        async def agenfn():
+542:        async def gen():
+553:        async def gen():
+581:        async def agenfn():
+605:        async def agenfn():
+642:        async def consume():
+653:        async def test_2():
+682:        async def test_throw():
+692:        async def agen():
+704:            async def __anext__(self):
+732:        async def gen():
+736:        async def consume():
+744:            async def __aiter__(self):
+748:        async def consume():
+759:        async def gen():
+766:        async def gen():
+768:        async def call_with_too_few_args():
+770:        async def call_with_too_many_args():
+772:        async def call_with_wrong_type_args():
+774:        async def call_with_kwarg():
+786:        async def bad_awaitable():
+806:    async def check_anext_returning_iterator(self, aiter_class):
+843:        async def do_test():
+862:        async def agenfn():
+905:            async def agenfn():
+926:            async def agenfn():
+945:            async def agenfn():
+968:        async def gen():
+970:        async def call_with_too_few_args():
+972:        async def call_with_too_many_args():
+974:        async def call_with_wrong_type_arg():
+983:    async def to_list(self, gen):
+990:        async def gen():
+1002:        async def gen():
+1016:            async def __aiter__(self):
+1025:        async def foo():
+1036:        async def run1():
+1048:        async def run2():
+1067:        async def foo():
+1072:        async def run():
+1117:        async def gen():
+1125:        async def run():
+1137:        async def foo():
+1143:        async def run():
+1159:        async def foo():
+1163:        async def run():
+1193:        async def foo():
+1199:        async def run():
+1216:        async def foo():
+1224:        async def run():
+1238:        async def foo():
+1249:        async def run():
+1263:        async def foo():
+1276:        async def run():
+1292:        async def gen():
+1301:        async def run():
+1331:        async def gen():
+1339:        async def run():
+1366:        async def gen():
+1375:        async def run():
+1389:        async def target():
+1393:        async def foo():
+1404:        async def run():
+1426:        async def gen():
+1440:        async def run():
+1458:        async def sleep_n_crash(delay):
+1462:        async def gen():
+1475:        async def run():
+1490:        async def sleep_n_crash(delay):
+1496:        async def gen():
+1509:        async def run():
+1542:        async def gen():
+1559:        async def run():
+1580:        async def sleep_n_crash(delay):
+1586:        async def gen():
+1602:        async def run():
+1636:        async def gen():
+1644:        async def run():
+1656:        async def gen():
+1662:        async def run():
+1674:        async def gen():
+1680:        async def run():
+1695:        async def waiter(timeout):
+1704:        async def wait():
+1732:        async def async_iterate():
+1737:        async def main():
+1754:        async def async_iterate():
+1762:        async def main():
+1783:        async def async_iterate():
+1790:        async def main():
+1808:        async def arange(n):
+1817:        async def run():
+1824:        async def wrap(n):
+1832:        async def run():
+1845:        async def async_iterate():
+1849:        async def main():
+1862:        async def async_iterate():
+1866:        async def run():
+1881:        async def async_iterate():
+1885:        async def run():
+1898:        async def async_iterate():
+1914:        async def async_iterate():
+1934:        async def async_iterate():
+1955:        async def async_iterate():
+1959:        async def run():
+1968:        async def async_iterate():
+1972:        async def run():
+1981:        async def async_generator():
+1984:        async def run():
+1997:        async def gen():
+2015:        async def gen():
+2025:        async def gen():
+2034:        async def gen():
+2044:        async def gen():
+2063:        async def agenfn():
+2087:        async def agenfn():
+File: ./cpython/Lib/test/test_traceback.py
+1813:        ("async def foo():\n  awaid fetch_data()", "await"),
+File: ./cpython/Lib/test/test_asyncio/test_ssl.py
+191:    async def wait_closed(self, obj):
+215:        async def handle_client(reader, writer):
+231:        async def test_client(addr):
+260:        async def start_server():
+322:        async def client(addr):
+341:        async def client_sock(addr):
+367:            async def _gather(*tasks):
+402:        async def client(addr):
+442:        async def client(addr):
+478:        async def client(addr):
+527:        async def client(addr):
+654:        async def client(addr):
+718:        async def client(addr):
+779:        async def client(addr):
+867:        async def client(addr):
+938:        async def client(addr):
+1002:        async def main(proto, on_con, on_eof, on_con_lost):
+1018:        async def run_main():
+1057:        async def handle_client(reader, writer):
+1094:        async def test_client(addr):
+1151:        async def start_server():
+1205:        async def client(addr):
+1227:            async def _gather(*tasks):
+1274:        async def client(addr):
+1386:        async def client(addr):
+1518:        async def client(addr):
+1596:        async def test():
+1625:        async def test(ctx):
+1663:        async def client(addr, ctx):
+1727:        async def client(addr):
+File: ./cpython/Lib/test/test_asyncio/test_locks.py
+28:    async def test_repr(self):
+37:    async def test_lock(self):
+48:    async def test_lock_doesnt_accept_loop_parameter(self):
+67:    async def test_lock_by_with_statement(self):
+86:    async def test_acquire(self):
+92:        async def c1(result):
+97:        async def c2(result):
+102:        async def c3(result):
+137:    async def test_acquire_cancel(self):
+147:    async def test_cancel_race(self):
+164:        async def lockit(name, blocker):
+194:    async def test_cancel_release_race(self):
+203:        async def lockit():
+239:    async def test_finished_waiter_cancelled(self):
+262:    async def test_release_not_acquired(self):
+267:    async def test_release_no_waiters(self):
+275:    async def test_context_manager(self):
+301:    async def test_wait(self):
+307:        async def c1(result):
+311:        async def c2(result):
+315:        async def c3(result):
+338:    async def test_wait_on_set(self):
+345:    async def test_wait_cancel(self):
+354:    async def test_clear(self):
+364:    async def test_clear_with_waiters(self):
+368:        async def c1(result):
+395:    async def test_wait(self):
+399:        async def c1(result):
+405:        async def c2(result):
+411:        async def c3(result):
+458:    async def test_wait_cancel(self):
+469:    async def test_wait_cancel_contested(self):
+494:    async def test_wait_cancel_after_notify(self):
+500:        async def wait_on_cond():
+520:    async def test_wait_unacquired(self):
+525:    async def test_wait_for(self):
+534:        async def c1(result):
+562:    async def test_wait_for_unacquired(self):
+572:    async def test_notify(self):
+576:        async def c1(result):
+583:        async def c2(result):
+590:        async def c3(result):
+624:    async def test_notify_all(self):
+629:        async def c1(result):
+636:        async def c2(result):
+668:    async def test_repr(self):
+684:    async def test_context_manager(self):
+691:    async def test_explicit_lock(self):
+692:        async def f(lock=None, cond=None):
+717:    async def test_ambiguous_loops(self):
+721:        async def wrong_loop_in_lock():
+738:        async def wrong_loop_in_cond():
+755:    async def test_timeout_in_block(self):
+761:    async def test_cancelled_error_wakeup(self):
+768:        async def func():
+787:    async def test_cancelled_error_re_aquire(self):
+794:        async def func():
+819:    async def test_cancelled_wakeup(self):
+826:        async def consumer():
+863:    async def test_cancelled_wakeup_relock(self):
+870:        async def consumer():
+917:    async def test_repr(self):
+938:    async def test_semaphore(self):
+954:    async def test_acquire(self):
+962:        async def c1(result):
+967:        async def c2(result):
+972:        async def c3(result):
+977:        async def c4(result):
+1015:    async def test_acquire_cancel(self):
+1026:    async def test_acquire_cancel_before_awoken(self):
+1051:    async def test_acquire_hang(self):
+1065:    async def test_acquire_no_hang(self):
+1069:        async def c1():
+1074:        async def c2():
+1092:    async def test_release_no_waiters(self):
+1100:    async def test_acquire_fifo_order(self):
+1104:        async def coro(tag):
+1125:    async def test_acquire_fifo_order_2(self):
+1129:        async def c1(result):
+1134:        async def c2(result):
+1142:        async def c3(result):
+1160:    async def test_acquire_fifo_order_3(self):
+1164:        async def c1(result):
+1169:        async def c2(result):
+1174:        async def c3(result):
+1196:    async def test_acquire_fifo_order_4(self):
+1203:        async def c1(result):
+1215:        async def c2(result):
+1228:        async def c3(result):
+1234:        async def c4(result):
+1255:    async def asyncSetUp(self):
+1263:    async def gather_tasks(self, n, coro):
+1268:    async def test_barrier(self):
+1279:    async def test_repr(self):
+1286:        async def wait(barrier):
+1330:    async def test_barrier_parties(self):
+1336:    async def test_context_manager(self):
+1341:        async def coro():
+1351:    async def test_filling_one_task(self):
+1354:        async def f():
+1364:    async def test_filling_one_task_twice(self):
+1380:    async def test_filling_task_by_task(self):
+1402:    async def test_filling_tasks_wait_twice(self):
+1406:        async def coro():
+1422:    async def test_filling_tasks_check_return_value(self):
+1427:        async def coro():
+1446:    async def test_draining_state(self):
+1450:        async def coro():
+1464:    async def test_blocking_tasks_while_draining(self):
+1472:        async def coro():
+1493:    async def test_filling_tasks_cancel_one(self):
+1498:        async def coro():
+1530:    async def test_reset_barrier(self):
+1539:    async def test_reset_barrier_while_tasks_waiting(self):
+1543:        async def coro():
+1549:        async def coro_reset():
+1566:    async def test_reset_barrier_when_tasks_half_draining(self):
+1571:        async def coro():
+1590:    async def test_reset_barrier_when_tasks_half_draining_half_blocking(self):
+1597:        async def coro():
+1630:    async def test_reset_barrier_while_tasks_waiting_and_waiting_again(self):
+1635:        async def coro1():
+1644:        async def coro2():
+1668:    async def test_reset_barrier_while_tasks_draining(self):
+1675:        async def coro():
+1713:    async def test_abort_barrier(self):
+1722:    async def test_abort_barrier_when_tasks_half_draining_half_blocking(self):
+1729:        async def coro():
+1756:    async def test_abort_barrier_when_exception(self):
+1762:        async def coro():
+1782:    async def test_abort_barrier_when_exception_then_resetting(self):
+1790:        async def coro():
+File: ./cpython/Lib/test/test_asyncio/test_windows_events.py
+81:        async def coro():
+125:    async def _test_pipe(self):
+266:    async def _test_client_pipe_stat(self):
+270:        async def probe():
+330:        async def main():
+345:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_eager_task_factory.py
+32:        async def coro_runner():
+49:        async def noop(): pass
+51:        async def run():
+60:        async def set_result(fut, val):
+63:        async def run():
+74:        async def coro():
+77:        async def run():
+87:        async def coro():
+91:        async def run():
+102:        async def coro():
+105:        async def run():
+117:        async def coro():
+121:        async def run():
+135:        async def coro():
+142:        async def run():
+153:        async def coro():
+157:        async def run():
+167:        async def coro(fut1, fut2):
+173:        async def run():
+191:        async def coro():
+204:        async def run():
+219:        async def fail():
+223:        async def blocked():
+227:        async def run():
+246:        async def fail():
+249:        async def run():
+269:        async def asyncfn():
+273:        async def main():
+339:       async def coro():
+342:       async def run():
+351:        async def coro():
+355:        async def main():
+384:async def awaitable_chain(depth):
+390:async def recursive_taskgroups(width, depth):
+401:async def recursive_gather(width, depth):
+530:        async def asyncfn():
+534:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_base_events.py
+538:        async def foo(delay):
+632:        async def zero_error_coro():
+771:        async def coro():
+826:        async def test():
+845:        async def test():
+856:        async def test():
+871:        async def test():
+887:        async def raise_keyboard_interrupt():
+905:        async def raise_keyboard_interrupt():
+1011:    async def leave_unfinalized_asyncgen(self):
+1021:        async def agen():
+1032:        async def iter_one():
+1086:        async def getaddrinfo(*args, **kw):
+1090:        async def sock_connect(sock, address):
+1118:        async def getaddrinfo(*args, **kw):
+1122:        async def sock_connect(sock, address):
+1230:        async def getaddrinfo(*args, **kw):
+1290:        async def getaddrinfo(*args, **kw):
+1304:            async def mock_race(coro_fns, delay, loop):
+1357:        async def main():
+1387:        async def getaddrinfo(*args, **kw):
+1399:        async def getaddrinfo(*args, **kw):
+1425:        async def getaddrinfo(*args, **kw):
+1447:        async def getaddrinfo(*args, **kw):
+1483:        async def getaddrinfo(*args, **kw):
+1619:        async def getaddrinfo(host, *args, **kw):
+1767:        async def getaddrinfo(*args, **kw):
+2113:        async def simple_coroutine():
+2138:        async def stop_loop_coro(loop):
+2165:        async def runner(loop):
+2204:        async def wait_closed(self):
+File: ./cpython/Lib/test/test_asyncio/test_pep492.py
+53:        async def test(lock):
+75:        async def test(lock):
+99:        async def reader():
+112:        async def foo(): pass
+128:        async def bar():
+130:        async def foo():
+143:        async def start():
+160:        async def coro():
+171:        async def foo():
+178:        async def runner():
+186:        async def afunc():
+189:        async def runner():
+File: ./cpython/Lib/test/test_asyncio/test_sock_lowlevel.py
+139:    async def _basetest_sock_recv_racing(self, httpd, sock):
+155:    async def _basetest_sock_recv_into_racing(self, httpd, sock):
+175:    async def _basetest_sock_send_racing(self, listener, sock):
+206:            async def recv_all():
+230:    async def _basetest_sock_connect_racing(self, listener, sock):
+283:    async def _basetest_huge_content(self, address):
+332:    async def _basetest_huge_content_recvinto(self, address):
+387:    async def _basetest_datagram_recvfrom(self, server_address):
+403:    async def _basetest_datagram_recvfrom_into(self, server_address):
+430:    async def _basetest_datagram_recvfrom_into_wrong_size(self, server_address):
+451:    async def _basetest_datagram_sendto_blocking(self, server_address):
+587:        async def _basetest_datagram_send_to_non_listening_address(self,
+646:            async def recvfrom(socket):
+656:            async def recvfrom_into(socket):
+File: ./cpython/Lib/test/test_asyncio/test_staggered.py
+15:    async def test_empty(self):
+25:    async def test_one_successful(self):
+26:        async def coro(index):
+41:    async def test_first_error_second_successful(self):
+42:        async def coro(index):
+61:    async def test_first_timeout_second_successful(self):
+62:        async def coro(index):
+81:    async def test_none_successful(self):
+82:        async def coro(index):
+100:    async def test_multiple_winners(self):
+103:        async def coro(index):
+107:        async def do_set():
+127:    async def test_cancelled(self):
+131:                async def coro_fn():
+File: ./cpython/Lib/test/test_asyncio/test_server_context.py
+28:        async def test():
+31:            async def handle_client(reader, writer):
+42:            async def client(addr):
+60:        async def test():
+63:            async def handle_client(reader, writer):
+74:            async def client(addr):
+94:        async def test():
+98:            async def handle_client(reader, writer):
+107:            async def client(addr):
+128:        async def test():
+144:            async def client(addr):
+162:        async def test():
+182:            async def client(addr, expected):
+239:            async def asgi(self):
+255:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_proactor_events.py
+1001:        async def wait_closed(self):
+File: ./cpython/Lib/test/test_asyncio/test_futures.py
+173:        async def test():
+611:        async def test():
+File: ./cpython/Lib/test/test_asyncio/test_graph.py
+51:    async def test_stack_tgroup(self):
+59:        async def c4():
+63:        async def c3():
+66:        async def c2():
+69:        async def c1(task):
+72:        async def main():
+114:    async def test_stack_async_gen(self):
+118:        async def gen_nested_call():
+122:        async def gen():
+128:        async def main():
+150:    async def test_stack_gather(self):
+154:        async def deep():
+159:        async def c1():
+163:        async def c2():
+166:        async def main():
+179:    async def test_stack_shield(self):
+183:        async def deep():
+188:        async def c1():
+192:        async def main():
+205:    async def test_stack_timeout(self):
+209:        async def inner():
+214:        async def c1():
+219:        async def main():
+232:    async def test_stack_wait(self):
+236:        async def inner():
+241:        async def c1():
+246:        async def c2():
+250:        async def main(t1, t2):
+275:    async def test_stack_task(self):
+279:        async def inner():
+284:        async def c1():
+287:        async def c2():
+290:        async def main():
+301:    async def test_stack_future(self):
+305:        async def a2(fut):
+308:        async def a1(fut):
+311:        async def b1(fut):
+314:        async def main():
+349:    async def test_capture_call_graph_positive_limit(self):
+352:        async def c3():
+356:        async def c2():
+359:        async def c1():
+365:    async def test_capture_call_graph_negative_limit(self):
+368:        async def c3():
+372:        async def c2():
+375:        async def c1():
+381:    async def test_capture_call_graph_zero_limit(self):
+384:        async def inner():
+399:    async def test_capture_call_graph_no_current_task(self):
+412:    async def test_capture_call_graph_current_task_not_future(self):
+418:    async def test_build_graph_for_future_positive_limit(self):
+422:        async def deep():
+425:        async def mid():
+428:        async def runner():
+431:        async def main():
+443:    async def test_build_graph_for_future_negative_limit(self):
+447:        async def deep():
+450:        async def mid():
+453:        async def runner():
+456:        async def main():
+468:    async def test_format_call_graph_regular_generator(self):
+475:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_streams.py
+597:        async def set_err():
+627:            async def handle_client(self, client_reader, client_writer):
+660:        async def client(addr):
+699:            async def handle_client(self, client_reader, client_writer):
+726:        async def client(path):
+768:            async def handle_client(self, client_reader, client_writer):
+795:        async def client(addr):
+826:        async def server_handler(client_reader, client_writer):
+839:        async def client(addr):
+850:        async def run_test():
+871:        async def test():
+896:        async def test():
+915:        async def drainer(stream):
+920:        async def main():
+950:        async def client(host, port):
+1063:        async def inner(httpd):
+1083:        async def inner(httpd):
+1124:        async def inner(httpd):
+1147:        async def inner(httpd):
+1180:        async def inner(rd, wr):
+1188:        async def outer():
+1210:        async def client():
+1217:        async def main():
+1229:        async def handle_echo(reader, writer):
+1236:        async def handle_echo(reader, writer):
+1244:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_subprocess.py
+152:        async def run(data):
+178:        async def run(data):
+196:        async def run():
+298:            async def send_signal(proc):
+345:        async def write_stdin(proc, data):
+379:        async def test_pause_reading():
+388:            async def connect_read_pipe_mock(*args, **kw):
+422:        async def len_message(message):
+441:        async def empty_input():
+460:        async def empty_input():
+479:        async def empty_output():
+498:        async def empty_error():
+519:        async def devstdin_input(message):
+539:        async def cancel_wait():
+561:        async def cancel_make_transport():
+578:        async def cancel_make_transport():
+597:        async def kill_running():
+634:        async def kill_running():
+666:    async def _test_popen_error(self, stdin):
+698:        async def execute():
+720:        async def execute():
+737:        async def execute():
+753:        async def execute():
+763:    async def check_stdout_output(self, coro, output):
+773:        async def main() -> None:
+786:        async def main() -> None:
+800:        async def main() -> None:
+853:        async def main() -> None:
+882:        async def get_command_stdout(cmd, *args):
+889:        async def main():
+900:        async def main():
+914:        async def main():
+925:        async def main():
+936:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_events.py
+56:    async def doit():
+277:        async def coro1():
+280:        async def coro2():
+303:        async def cb():
+799:        async def getaddrinfo(host, port, *args, **kwargs):
+821:        async def getaddrinfo(host, port, *args, **kwargs):
+918:        async def getaddrinfo(host, port, *args, **kw):
+1515:            async def wait_for_datagram_received(self):
+1592:        async def connect():
+1630:        async def connect():
+1661:        async def connect():
+1879:        async def main():
+1912:        async def wait():
+1953:        async def close_loop(loop):
+1963:        async def test():
+2264:        async def connect(**kwds):
+2279:        async def connect(cmd=None, **kwds):
+2787:        async def inner():
+3000:            async def main():
+3018:        async def main():
+3056:            async def func():
+3094:            async def func():
+File: ./cpython/Lib/test/test_asyncio/test_server.py
+39:        async def serve(reader, writer):
+46:        async def main(srv):
+90:        async def serve(reader, writer):
+97:        async def main(srv):
+127:    async def test_wait_closed_basic(self):
+128:        async def serve(rd, wr):
+168:    async def test_wait_closed_race(self):
+170:        async def serve(rd, wr):
+190:    async def test_close_clients(self):
+191:        async def serve(rd, wr):
+215:    async def test_abort_clients(self):
+216:        async def serve(rd, wr):
+269:    async def test_close_with_hanging_client(self):
+305:    async def test_unix_server_addr_cleanup(self):
+308:            async def serve(*args):
+317:    async def test_unix_server_sock_cleanup(self):
+320:            async def serve(*args):
+332:    async def test_unix_server_cleanup_gone(self):
+335:            async def serve(*args):
+348:    async def test_unix_server_cleanup_replaced(self):
+351:            async def serve(*args):
+364:    async def test_unix_server_cleanup_prevented(self):
+367:            async def serve(*args):
+File: ./cpython/Lib/test/test_asyncio/test_waitfor.py
+24:    async def run(self):
+42:    async def test_asyncio_wait_for_cancelled(self):
+53:    async def test_asyncio_wait_for_timeout(self):
+63:    async def test_wait_for_timeout_less_then_0_or_0_future_done(self):
+74:    async def test_wait_for_timeout_less_then_0_or_0_coroutine_do_not_started(self):
+77:        async def foo():
+86:    async def test_wait_for_timeout_less_then_0_or_0(self):
+94:                async def foo():
+115:    async def test_wait_for(self):
+118:        async def foo():
+136:    async def test_wait_for_blocking(self):
+137:        async def coro():
+143:    async def test_wait_for_race_condition(self):
+152:    async def test_wait_for_cancellation_race_condition(self):
+153:        async def inner():
+161:    async def test_wait_for_waits_for_task_cancellation(self):
+164:        async def inner():
+183:    async def test_wait_for_waits_for_task_cancellation_w_timeout_0(self):
+186:        async def foo():
+187:            async def inner():
+208:    async def test_wait_for_reraises_exception_during_cancellation(self):
+212:        async def foo():
+213:            async def inner():
+226:    async def _test_cancel_wait_for(self, timeout):
+229:        async def blocking_coroutine():
+245:    async def test_cancel_blocking_wait_for(self):
+248:    async def test_cancel_wait_for(self):
+251:    async def test_wait_for_cancel_suppressed(self):
+257:        async def return_42():
+267:    async def test_wait_for_issue86296(self):
+272:        async def inner():
+278:        async def wait_for_coro():
+298:    async def test_zero_timeout(self):
+305:        async def coro():
+324:    async def test_none_timeout(self):
+327:        async def coro():
+337:    async def test_shielded_timeout(self):
+339:        async def coro():
+File: ./cpython/Lib/test/test_asyncio/test_threads.py
+15:    async def test_to_thread(self):
+19:    async def test_to_thread_exception(self):
+26:    async def test_to_thread_once(self):
+32:    async def test_to_thread_concurrent(self):
+45:    async def test_to_thread_args_kwargs(self):
+53:    async def test_to_thread_contextvars(self):
+File: ./cpython/Lib/test/test_asyncio/test_free_threading.py
+23:        async def main():
+27:            async def coro():
+67:        async def coro():
+73:        async def main():
+101:        async def func():
+129:        async def main():
+142:        async def coro():
+150:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_runners.py
+54:        async def shutdown_asyncgens():
+79:        async def main():
+86:        async def main():
+101:        async def main(expected):
+115:        async def main():
+129:        async def leftover():
+132:        async def main():
+144:        async def leftover():
+150:        async def main():
+174:        async def fidget():
+179:        async def spin():
+188:        async def main():
+207:        async def main():
+253:        async def main():
+270:        async def main():
+277:        async def main():
+303:        async def f():
+339:            async def run():
+371:        async def f(arg):
+390:        async def f(val):
+396:        async def get_context():
+406:        async def g():
+409:        async def f():
+430:        async def coro():
+445:        async def coro(fut):
+463:        async def subtask(task):
+468:        async def coro():
+480:        async def coro():
+495:        async def coro():
+516:        async def coro():
+File: ./cpython/Lib/test/test_asyncio/test_taskgroups.py
+62:    async def test_taskgroup_01(self):
+64:        async def foo1():
+68:        async def foo2():
+79:    async def test_taskgroup_02(self):
+81:        async def foo1():
+85:        async def foo2():
+97:    async def test_taskgroup_03(self):
+99:        async def foo1():
+103:        async def foo2():
+119:    async def test_taskgroup_04(self):
+125:        async def foo1():
+129:        async def foo2():
+138:        async def runner():
+156:    async def test_cancel_children_on_child_error(self):
+164:        async def foo1():
+168:        async def foo2():
+177:        async def runner():
+203:    async def test_cancellation(self):
+207:        async def foo():
+215:        async def runner():
+230:    async def test_taskgroup_07(self):
+234:        async def foo():
+242:        async def runner():
+264:    async def test_taskgroup_08(self):
+266:        async def foo():
+272:        async def runner():
+288:    async def test_taskgroup_09(self):
+292:        async def foo1():
+296:        async def foo2():
+300:        async def runner():
+318:    async def test_taskgroup_10(self):
+322:        async def foo1():
+326:        async def foo2():
+330:        async def runner():
+347:    async def test_taskgroup_11(self):
+349:        async def foo():
+355:        async def runner():
+374:    async def test_taskgroup_12(self):
+376:        async def foo():
+382:        async def runner():
+403:    async def test_taskgroup_13(self):
+405:        async def crash_after(t):
+409:        async def runner():
+422:    async def test_taskgroup_14(self):
+424:        async def crash_after(t):
+428:        async def runner():
+442:    async def test_taskgroup_15(self):
+444:        async def crash_soon():
+448:        async def runner():
+466:    async def test_taskgroup_16(self):
+468:        async def crash_soon():
+472:        async def nested_runner():
+481:        async def runner():
+494:    async def test_taskgroup_17(self):
+497:        async def runner():
+516:    async def test_taskgroup_18(self):
+519:        async def runner():
+545:    async def test_taskgroup_19(self):
+546:        async def crash_soon():
+550:        async def nested():
+556:        async def runner():
+569:    async def test_taskgroup_20(self):
+570:        async def crash_soon():
+574:        async def nested():
+580:        async def runner():
+588:    async def test_taskgroup_20a(self):
+589:        async def crash_soon():
+593:        async def nested():
+599:        async def runner():
+611:    async def _test_taskgroup_21(self):
+619:        async def crash_soon():
+623:        async def nested():
+629:        async def runner():
+637:    async def test_taskgroup_21a(self):
+639:        async def crash_soon():
+643:        async def nested():
+649:        async def runner():
+659:    async def test_taskgroup_22(self):
+661:        async def foo1():
+665:        async def foo2():
+669:        async def runner():
+681:    async def test_taskgroup_23(self):
+683:        async def do_job(delay):
+695:    async def test_taskgroup_24(self):
+697:        async def root(g):
+702:        async def coro1(delay):
+705:        async def runner():
+711:    async def test_taskgroup_25(self):
+714:        async def hydra(g):
+721:        async def hercules():
+726:        async def runner():
+737:    async def test_taskgroup_task_name(self):
+738:        async def coro():
+744:    async def test_taskgroup_task_context(self):
+747:        async def coro(val):
+761:    async def test_taskgroup_no_create_task_after_failure(self):
+762:        async def coro1():
+765:        async def coro2(g):
+779:    async def test_taskgroup_context_manager_exit_raises(self):
+784:        async def raise_exc():
+788:        async def database():
+794:        async def main():
+810:    async def test_taskgroup_already_entered(self):
+817:    async def test_taskgroup_double_enter(self):
+825:    async def test_taskgroup_finished(self):
+826:        async def create_task_after_tg_finish():
+840:    async def test_taskgroup_not_entered(self):
+846:    async def test_taskgroup_without_parent_task(self):
+854:    async def test_coro_closed_when_tg_closed(self):
+855:        async def run_coro_after_tg_closes():
+864:    async def test_cancelling_level_preserved(self):
+865:        async def raise_after(t, e):
+876:    async def test_nested_groups_both_cancelled(self):
+877:        async def raise_after(t, e):
+898:    async def test_error_and_cancel(self):
+901:        async def raise_error():
+906:        async def inner():
+918:        async def outer():
+930:    async def test_exception_refcycles_direct(self):
+948:    async def test_exception_refcycles_errors(self):
+966:    async def test_exception_refcycles_parent_task(self):
+974:        async def coro_fn():
+988:    async def test_exception_refcycles_parent_task_wr(self):
+996:        async def coro_fn():
+1011:    async def test_exception_refcycles_propagate_cancellation_error(self):
+1026:    async def test_exception_refcycles_base_error(self):
+1043:    async def test_name(self):
+1046:        async def asyncfn():
+1056:    async def test_cancels_task_if_created_during_creation(self):
+1065:                async def third_task():
+1068:                async def second_task():
+1084:    async def test_cancellation_does_not_leak_out_of_tg(self):
+1088:        async def throw_error():
+1105:    async def test_taskgroup_cancel_children(self):
+1114:    async def test_taskgroup_cancel_body(self):
+1123:    async def test_taskgroup_cancel_idempotent(self):
+1133:    async def test_taskgroup_cancel_after_exit(self):
+1139:    async def test_taskgroup_cancel_before_enter(self):
+1149:    async def test_taskgroup_cancel_before_create_task(self):
+1157:    async def test_taskgroup_cancel_before_exception(self):
+1158:        async def raise_exc(parent_tg: asyncio.TaskGroup):
+1167:    async def test_taskgroup_cancel_after_exception(self):
+1168:        async def raise_exc(parent_tg: asyncio.TaskGroup):
+1179:    async def test_taskgroup_body_cancel_before_exception(self):
+1185:    async def test_taskgroup_body_cancel_after_exception(self):
+1193:    async def test_taskgroup_cancel_one_winner(self):
+1194:        async def race(*fns):
+1196:            async def run(fn):
+1208:        async def fn_1():
+1214:        async def fn_2():
+1220:        async def fn_3():
+File: ./cpython/Lib/test/test_asyncio/utils.py
+85:    async def once():
+591:async def await_without_task(coro):
+File: ./cpython/Lib/test/test_asyncio/test_queues.py
+14:    async def _test_repr_or_str(self, fn, expect_id):
+56:    async def test_repr(self):
+59:    async def test_str(self):
+67:    async def test_empty(self):
+75:    async def test_full(self):
+83:    async def test_order(self):
+91:    async def test_maxsize(self):
+96:        async def putter():
+122:    async def test_blocking_get(self):
+128:    async def test_get_with_putters(self):
+141:    async def test_blocking_get_wait(self):
+147:        async def queue_get():
+171:    async def test_get_cancelled_race(self):
+185:    async def test_get_with_waiting_putters(self):
+192:    async def test_why_are_getters_waiting(self):
+193:        async def consumer(queue, num_expected):
+197:        async def producer(queue, num_items):
+208:    async def test_cancelled_getters_not_being_held_in_self_getters(self):
+219:    async def test_blocking_put(self):
+226:    async def test_blocking_put_wait(self):
+231:        async def queue_put():
+251:    async def test_get_cancel_drop_one_pending_reader(self):
+273:    async def test_get_cancel_drop_many_pending_readers(self):
+295:    async def test_put_cancel_drop(self):
+324:    async def test_float_maxsize(self):
+337:    async def test_put_cancelled(self):
+340:        async def queue_put():
+350:    async def test_put_cancelled_race(self):
+370:    async def test_put_with_waiting_getters(self):
+377:    async def test_why_are_putters_waiting(self):
+380:        async def putter(item):
+383:        async def getter():
+396:    async def test_cancelled_puts_not_being_held_in_self_putters(self):
+413:    async def test_cancelled_put_silence_value_error_exception(self):
+437:    async def test_order(self):
+448:    async def test_order(self):
+465:    async def test_task_done(self):
+476:        async def worker():
+496:    async def test_join_empty_queue(self):
+505:    async def test_format(self):
+531:    async def test_format(self):
+536:    async def test_shutdown_empty(self):
+570:    async def test_shutdown_nonempty(self):
+626:    async def test_shutdown_immediate(self):
+662:    async def test_shutdown_immediate_with_unfinished(self):
+File: ./cpython/Lib/test/test_asyncio/test_futures2.py
+15:    async def test_future_traceback(self):
+17:        async def raise_exc():
+31:    async def test_task_exc_handler_correct_context(self):
+41:        async def task():
+51:    async def test_handle_exc_handler_correct_context(self):
+81:    async def test_recursive_repr_for_pending_tasks(self):
+86:        async def func():
+File: ./cpython/Lib/test/test_asyncio/test_sslproto.py
+145:        async def main():
+147:            async def write():
+323:        async def client(addr):
+388:        async def client(addr):
+474:        async def client(addr):
+545:        async def client(addr):
+617:        async def main(proto, on_con, on_con_lost, on_got_hello):
+636:        async def run_main():
+659:        async def main():
+688:        async def client(addr):
+731:        async def client(addr):
+769:        async def client(addr):
+804:        async def client(addr):
+File: ./cpython/Lib/test/test_asyncio/test_timeouts.py
+16:    async def test_timeout_basic(self):
+22:    async def test_timeout_at_basic(self):
+32:    async def test_nested_timeouts(self):
+49:    async def test_waiter_cancelled(self):
+60:    async def test_timeout_not_called(self):
+69:    async def test_timeout_disabled(self):
+76:    async def test_timeout_at_disabled(self):
+83:    async def test_timeout_zero(self):
+93:    async def test_timeout_zero_sleep_zero(self):
+103:    async def test_timeout_in_the_past_sleep_zero(self):
+113:    async def test_foreign_exception_passed(self):
+119:    async def test_timeout_exception_context(self):
+135:    async def test_foreign_exception_on_timeout(self):
+136:        async def crash():
+154:    async def test_foreign_exception_on_timeout_2(self):
+182:    async def test_foreign_cancel_doesnt_timeout_if_not_expired(self):
+189:    async def test_outer_task_is_not_cancelled(self):
+190:        async def outer() -> None:
+200:    async def test_nested_timeouts_concurrent(self):
+209:    async def test_nested_timeouts_loop_busy(self):
+228:    async def test_reschedule(self):
+234:        async def f():
+254:    async def test_repr_active(self):
+258:    async def test_repr_expired(self):
+264:    async def test_repr_finished(self):
+270:    async def test_repr_disabled(self):
+274:    async def test_nested_timeout_in_finally(self):
+300:    async def test_timeout_after_cancellation(self):
+311:    async def test_cancel_in_timeout_after_cancellation(self):
+323:    async def test_timeout_already_entered(self):
+329:    async def test_timeout_double_enter(self):
+336:    async def test_timeout_finished(self):
+342:    async def test_timeout_expired(self):
+349:    async def test_timeout_expiring(self):
+356:    async def test_timeout_not_entered(self):
+361:    async def test_timeout_without_task(self):
+368:    async def test_timeout_taskgroup(self):
+369:        async def task():
+File: ./cpython/Lib/test/test_asyncio/test_unix_events.py
+99:        async def simple_coroutine():
+479:        async def wait_closed(self):
+1144:        async def runner():
+1271:        async def main():
+1281:            async def func():
+1305:        async def child_main():
+1326:        async def child_main():
+File: ./cpython/Lib/test/test_asyncio/test_buffered_proto.py
+39:        async def client(addr):
+55:        async def on_server_client(reader, writer):
+File: ./cpython/Lib/test/test_asyncio/test_context.py
+14:        async def fractions(t, precision, x, y):
+22:        async def main():
+File: ./cpython/Lib/test/test_asyncio/test_sendfile.py
+90:    async def wait_closed(self):
+239:                async def _sock_sendfile_fail(sock, file, offset, count):
+567:        async def coro():
+File: ./cpython/Lib/test/test_asyncio/test_tasks.py
+30:async def coroutine_function():
+110:        async def coro():
+125:        async def coro():
+142:        async def run():
+154:        async def run(fut):
+166:        async def test():
+176:        async def notmuch():
+193:        async def notmuch():
+206:        async def test():
+245:        async def notmuch():
+272:        async def coro():
+311:        async def foo():
+314:        async def bar():
+329:        async def runner():
+339:        async def notmuch():
+388:        async def notmuch():
+408:        async def notmuch():
+418:        async def notmuch():
+429:        async def wait_for(fut):
+443:        async def outer():
+448:        async def inner1():
+451:        async def inner2():
+464:        async def raise_error():
+467:        async def run():
+493:        async def process_exc(exc):
+496:        async def run():
+521:        async def task():
+545:        async def task():
+587:        #     async def make_request_with_timeout():
+600:        async def make_request_with_timeout(*, sleep: float, timeout: float):
+691:        async def coro():
+722:        async def task():
+748:                async def sleep():
+751:                async def coro():
+782:                async def sleep():
+785:                async def coro():
+807:        async def sleep():
+811:        async def coro():
+834:        async def sleep():
+837:        async def coro():
+855:        async def task():
+872:        async def task():
+887:        async def task():
+908:        async def task():
+932:        async def task():
+961:        async def task():
+982:        async def task():
+1009:        async def nested():
+1012:        async def coro():
+1042:        async def nested():
+1046:        async def coro():
+1069:        async def nested():
+1073:        async def coro():
+1107:        async def task():
+1128:        async def coro():
+1150:        async def foo():
+1167:        async def coro(s):
+1225:        async def coro1():
+1228:        async def coro2():
+1257:        async def exc():
+1288:        async def exc():
+1317:        async def sleeper():
+1323:        async def foo():
+1352:        async def foo():
+1405:        async def foo():
+1417:        async def func(a):
+1422:        async def main():
+1439:        async def sleeper(dt, x):
+1448:        async def try_iterator(awaitables):
+1454:        async def try_async_iterator(awaitables):
+1483:        async def try_async_iterator(awaitables):
+1489:        async def coro(i):
+1529:        async def try_iterator():
+1541:        async def try_async_iterator():
+1576:        async def try_iterator():
+1581:        async def try_async_iterator():
+1597:        async def try_iterator(awaitables):
+1613:        async def try_async_iterator(awaitables):
+1629:        async def coro(i):
+1656:        async def test():
+1680:        async def try_iterator(fs):
+1683:        async def try_async_iterator(fs):
+1692:                async def test():
+1705:        async def coro(s):
+1708:        async def try_iterator():
+1715:        async def try_async_iterator():
+1731:        async def coro():
+1744:        async def coro():
+1747:        async def test():
+1765:        async def sleeper(dt, arg):
+1783:        async def sleeper():
+1830:        async def sleep(dt):
+1833:        async def doit():
+1850:        async def coro():
+1865:        async def notmuch():
+1896:        async def wait_for_future():
+1920:        async def sleeper():
+1925:        async def notmutch():
+1944:        async def func():
+1958:        async def func():
+1961:        async def coro():
+1973:        async def coro(loop):
+1989:        async def coro1(loop):
+1995:        async def coro2(loop):
+2015:        async def inner():
+2025:        async def outer():
+2047:        async def inner():
+2052:        async def outer():
+2151:        async def inner():
+2156:        async def outer():
+2202:        async def coro():
+2211:        async def coro():
+2214:        async def test():
+2223:        async def coro():
+2250:        async def try_async_iterator(aw):
+2279:        async def kill_me(loop):
+2325:        async def corofn():
+2343:        async def coro():
+2346:        async def runner():
+2374:        async def create():
+2377:            async def child_coro():
+2412:                async def test():
+2421:                async def main():
+2445:        async def foo():
+2448:        async def main():
+2461:        async def coro():
+2493:        async def coro():
+2519:        async def inner():
+2522:        async def coro():
+2532:        async def coro_noop():
+2535:        async def coro():
+2545:        async def sub():
+2550:        async def main():
+2568:        async def main():
+2604:        async def sub(num):
+2610:        async def main():
+2629:        async def coro(val):
+2633:        async def main():
+2657:        async def coro(val):
+2661:        async def main():
+2685:        async def coro(val):
+2689:        async def main():
+2713:        async def asyncfn():
+2717:        async def main():
+2726:        async def asyncfn():
+2730:        async def main():
+2761:        async def foo():
+2797:        async def func():
+2836:        async def foo():
+2863:        async def foo():
+2895:        async def coro():
+2983:        async def coro():
+3016:        async def coro_fn ():
+3193:        async def coro():
+3363:        async def gather():
+3447:            async def coro(fut=fut):
+3453:        async def coro():
+3458:        async def coro():
+3468:        async def coro():
+3472:        async def gather():
+3480:        async def coro():
+3491:        async def coro(s):
+3503:        async def inner():
+3512:        async def outer():
+3533:        async def inner(f):
+3540:        async def outer():
+3555:            async def coro(s):
+3574:    async def add(self, a, b, fail=False, cancel=False):
+3675:        async def target():
+3706:        async def coro():
+File: ./cpython/Lib/test/test_positional_only_arg.py
+49:        check_syntax_error(self, "async def f(a, b = 5, /, c): pass", "parameter without a default follows parameter with a default")
+50:        check_syntax_error(self, "async def f(a = 5, b, /, c): pass", "parameter without a default follows parameter with a default")
+51:        check_syntax_error(self, "async def f(a = 5, b=1, /, c, d=2): pass", "parameter without a default follows parameter with a default")
+52:        check_syntax_error(self, "async def f(a = 5, b, /): pass", "parameter without a default follows parameter with a default")
+53:        check_syntax_error(self, "async def f(a, /, b = 5, c): pass", "parameter without a default follows parameter with a default")
+54:        check_syntax_error(self, "async def f(*args, /): pass")
+55:        check_syntax_error(self, "async def f(*args, a, /): pass")
+56:        check_syntax_error(self, "async def f(**kwargs, /): pass")
+57:        check_syntax_error(self, "async def f(/, a = 1): pass")
+58:        check_syntax_error(self, "async def f(/, a): pass")
+59:        check_syntax_error(self, "async def f(/): pass")
+60:        check_syntax_error(self, "async def f(*, a, /): pass")
+61:        check_syntax_error(self, "async def f(*, /, a): pass")
+62:        check_syntax_error(self, "async def f(a, /, a): pass", "duplicate parameter 'a' in function definition")
+63:        check_syntax_error(self, "async def f(a, /, *, a): pass", "duplicate parameter 'a' in function definition")
+64:        check_syntax_error(self, "async def f(a, b/2, c): pass")
+65:        check_syntax_error(self, "async def f(a, /, c, /): pass")
+66:        check_syntax_error(self, "async def f(a, /, c, /, d): pass")
+67:        check_syntax_error(self, "async def f(a, /, c, /, d, *, e): pass")
+68:        check_syntax_error(self, "async def f(a, *, c, /, d, e): pass")
+387:        async def f(a=1, /, b=2):
+File: ./cpython/Lib/test/test_builtin.py
+312:        async def f_all():
+315:        async def f_any():
+318:        async def f_tuple():
+321:        async def f_list():
+324:        async def f_set():
+514:        async def arange(n):
+519:            async def __aenter__(self):
+522:            async def __aexit__(self, *exc_info):
+525:        async def sleep(delay, result=None):
+590:        async def arange(n):
+595:            async def __aenter__(self):
+598:            async def __aexit__(self, *exc_info):
+634:        code = dedent("""async def ticker():
+File: ./cpython/Lib/test/test_with.py
+20:async def do_async_with(obj):
+150:            async def __aenter__(self): ...
+151:            async def __aexit__(self, type, value, traceback): ...
+162:            async def __aexit__(self, type, value, traceback): ...
+172:            async def __aenter__(self): ...
+File: ./cpython/Lib/test/test_contextlib_async.py
+25:    async def test_enter(self):
+27:            async def __aexit__(self, *args):
+37:    async def test_slots(self):
+41:            async def __aexit__(self, *args):
+49:    async def test_async_gen_propagates_generator_exit(self):
+53:        async def ctx():
+56:        async def gen():
+75:            async def __aenter__(self):
+77:            async def __aexit__(self, exc_type, exc_value, traceback):
+83:            async def __aexit__(self, *args):
+102:    async def test_contextmanager_plain(self):
+105:        async def woohoo():
+116:    async def test_contextmanager_finally(self):
+119:        async def woohoo():
+134:    async def test_contextmanager_traceback(self):
+136:        async def f():
+190:    async def test_contextmanager_no_reraise(self):
+192:        async def whee():
+200:    async def test_contextmanager_trap_yield_after_throw(self):
+202:        async def whoo():
+216:    async def test_contextmanager_trap_no_yield(self):
+218:        async def whoo():
+226:    async def test_contextmanager_trap_second_yield(self):
+228:        async def whoo():
+240:    async def test_contextmanager_non_normalised(self):
+242:        async def whoo():
+254:    async def test_contextmanager_except(self):
+257:        async def woohoo():
+272:    async def test_contextmanager_except_stopiter(self):
+274:        async def woohoo():
+299:    async def test_contextmanager_wrap_runtimeerror(self):
+301:        async def woohoo():
+327:        async def baz(spam):
+344:    async def test_instance_docstring_given_cm_docstring(self):
+351:    async def test_keywords(self):
+354:        async def woohoo(self, func, args, kwds):
+360:    async def test_recursive(self):
+365:        async def woohoo():
+377:        async def recursive():
+387:    async def test_decorator(self):
+391:        async def context():
+398:        async def test():
+406:    async def test_decorator_decorate_sync_function(self):
+408:        async def context():
+423:    async def test_decorator_decorate_generator_function(self):
+425:        async def context():
+443:    async def test_decorator_decorate_asyncgen_function(self):
+445:        async def context():
+452:        async def test(x):
+463:    async def test_decorator_decorate_asyncgen_function_exception(self):
+465:        async def context():
+474:        async def test():
+485:    async def test_decorator_decorate_asyncgen_function_early_stop(self):
+487:        async def context():
+496:        async def test():
+513:    async def test_decorator_decorate_asyncgen_function_asend_athrow(self):
+515:        async def context():
+519:        async def test():
+544:    async def test_decorator_with_exception(self):
+548:        async def context():
+557:        async def test():
+567:    async def test_decorating_method(self):
+570:        async def context():
+577:            async def method(self, a, b, c=None):
+610:    async def test_aclosing(self):
+613:            async def aclose(self):
+622:    async def test_aclosing_error(self):
+625:            async def aclose(self):
+636:    async def test_aclosing_bpo41229(self):
+646:        async def agenfunc():
+682:    async def test_async_callback(self):
+692:        async def _exit(*args, **kwds):
+725:    async def test_async_push(self):
+727:        async def _expect_exc(exc_type, exc, exc_tb):
+729:        async def _suppress_exc(*exc_details):
+731:        async def _expect_ok(exc_type, exc, exc_tb):
+738:            async def __aenter__(self):
+740:            async def __aexit__(self, *exc_details):
+761:    async def test_enter_async_context(self):
+763:            async def __aenter__(self):
+765:            async def __aexit__(self, *exc_details):
+773:            async def _exit():
+783:    async def test_enter_async_context_classmethod(self):
+786:            async def __aenter__(cls):
+789:            async def __aexit__(cls, *exc_details):
+807:    async def test_enter_async_context_staticmethod(self):
+810:            async def __aenter__():
+813:            async def __aexit__(*exc_details):
+830:    async def test_enter_async_context_slots(self):
+834:                async def enter():
+836:                async def exit(*exc_details):
+855:    async def test_enter_async_context_errors(self):
+859:            async def __aexit__(self, *exc_info):
+862:            async def __aenter__(self):
+875:    async def test_async_exit_exception_chaining(self):
+877:        async def raise_exc(exc):
+881:        async def suppress_exc(*exc_details):
+907:    async def test_async_exit_exception_explicit_none_context(self):
+915:        async def my_cm():
+926:        async def my_cm_with_exit_stack():
+942:    async def test_instance_bypass_async(self):
+956:    async def test_async_nullcontext(self):
+File: ./cpython/Lib/test/test_future_stmt/test_future.py
+213:        async def f2() -> {ann}:
+215:        async def g2(arg: {ann}) -> None:
+495:            self._exec_future("async def test() -> something((a := b)): pass")
+File: ./cpython/Lib/test/test_typing.py
+6650:    async def __anext__(self) -> T_a:
+6658:    async def __aenter__(self) -> int:
+6660:    async def __aexit__(self, etype, eval, tb):
+6760:async def g_with(am: typing.AsyncContextManager[int]):
+7588:        async def foo() -> typing.Awaitable[int]:
+7596:        async def foo():
+7891:        async def f():
+7980:        async def g(): yield 0
+File: ./cpython/Lib/test/test_funcattrs.py
+78:        async def C(): yield
+79:        async def D(x): await x
+File: ./cpython/Lib/test/test_regrtest.py
+1743:                async def asyncSetUp(self):
+1746:                async def test_success(self):
+1764:                async def asyncTearDown(self):
+1767:                async def test_success(self):
+File: ./cpython/Lib/test/test_symtable.py
+70:async def glob_assigned_async_meth(): pass
+71:async def glob_assigned_async_meth_pep_695[T](): pass
+85:async def glob_assigned_async_meth_ignore(): pass
+86:async def glob_assigned_async_meth_pep_695_ignore[T](): pass
+102:    async def an_async_method(self): pass
+103:    async def an_async_method_pep_695[T](self): pass
+111:    async def an_async_classmethod(cls): pass
+113:    async def an_async_classmethod_pep_695[T](self): pass
+121:    async def an_async_staticmethod(): pass
+123:    async def an_async_staticmethod_pep_695[T](self): pass
+131:    async def an_async_fakemethod(): pass
+132:    async def an_async_fakemethod_pep_695[T](): pass
+139:    async def glob_unassigned_async_meth(): pass
+140:    async def glob_unassigned_async_meth_pep_695[T](): pass
+145:    async def glob_assigned_async_meth(): pass
+146:    async def glob_assigned_async_meth_pep_695[T](): pass
+157:    async def glob_unassigned_async_meth_ignore(): pass
+159:    async def glob_unassigned_async_meth_pep_695_ignore[T](): pass
+167:    async def glob_assigned_async_meth_ignore(): pass
+169:    async def glob_assigned_async_meth_pep_695_ignore[T](): pass
+File: ./cpython/Lib/test/test_coroutines.py
+36:async def asynciter(iterable):
+93:            """async def foo():
+97:            """async def foo():
+101:            """async def foo(a=await something()):
+105:            """async def foo(a:await something()):
+109:            """async def foo():
+114:            """async def foo():
+119:            """async def foo():
+125:            """async def foo():
+132:            """async def foo():
+139:            """async def foo():
+144:            """async def foo():
+150:            """async def foo():
+157:            """async def foo():
+162:            """async def foo():
+226:            """async def foo():
+230:            """async def foo():
+235:            """async def foo():
+241:            """async def foo():
+248:                   async def bar(): pass
+254:                   async def bar(): pass
+260:                   async def bar(): pass
+267:                   async def bar(): pass
+272:            """async def foo():
+275:                   async def bar(): pass
+284:                   async def bar(): pass
+289:            """async def foo():
+293:                   async def bar(): pass
+298:            """async def foo():
+302:            """async def foo():
+306:            """async def foo():
+311:            """async def foo():
+315:            """async def foo():
+321:            """async def foo(a=await b):
+325:            """async def foo(a:await b):
+330:                   async def foo(a=await b):
+334:            """async def foo(async):
+338:            """async def foo():
+344:            """async def foo():
+352:                   async def bar():
+354:                        async def baz():
+363:            """async def foo():
+371:                        async def baz():
+375:            """async def foo(await):
+381:                   async def bar(): pass
+387:                   async def bar():
+456:                async def foo(): pass
+457:                async def foo():
+463:                async def foo(): pass
+464:                async def foo(): pass
+470:                async def foo(): pass
+472:                async def foo(): pass
+479:                async def foo(): \
+482:                async def foo(): pass
+490:                async def bar(): return await_
+518:        # one 'async def' following them is OK
+519:        buf += '\nasync def foo():\n    return'
+533:        async def foo():
+550:        async def foo():
+559:        async def foo():
+567:        async def foo():
+600:        async def foo():
+625:        async def foo():
+635:        async def bar():
+655:        async def foo():
+663:        async def foo():
+699:        async def foo():
+727:        async def func(): pass
+737:        async def g():
+746:        async def g():
+761:        async def coro():
+775:        async def spammer():
+777:        async def reader(coro):
+795:        async def send():
+798:        async def read(coro):
+823:        async def coroutine():
+846:        async def coroutine():
+895:        async def coroutine():
+914:        async def foo():
+921:        async def foo():
+937:        async def c():
+940:        async def b():
+968:        async def f(): pass
+975:        async def foo():
+981:        async def foo():
+987:        async def foo():
+994:        async def bar():
+997:        async def foo():
+1007:        async def foo():
+1020:        async def foo():
+1031:        async def foo():
+1040:        async def foo(): return await Awaitable()
+1051:        async def bar():
+1054:        async def foo():
+1063:        async def foo2():
+1070:        async def baz():
+1073:        async def bar():
+1076:        async def foo():
+1085:        async def bar():
+1088:        async def foo():
+1091:        async def foo2():
+1097:        async def coro():
+1105:        async def foo():
+1119:        async def foo():
+1143:        async def coro1():
+1148:        async def coro2():
+1166:        async def coroutine():
+1169:        async def waiter(coro):
+1182:        async def f():
+1185:        async def g():
+1197:            async def __anext__(self):
+1210:            async def __aenter__(self):
+1215:            async def __aexit__(self, *args):
+1223:        async def foo():
+1237:        async def foo():
+1251:        async def foo():
+1267:        async def foo():
+1282:        async def foo():
+1298:            async def __aenter__(self):
+1301:            async def __aexit__(self, *exc):
+1304:        async def func():
+1319:        async def foo():
+1332:            async def __aenter__(self):
+1339:        async def foo():
+1360:            async def __aenter__(self):
+1367:        async def foo():
+1379:        async def foo():
+1393:        async def foo():
+1407:        async def foo():
+1424:            async def __aenter__(self):
+1427:            async def __aexit__(self, *e):
+1430:        async def foo():
+1444:            async def __aenter__(self):
+1447:            async def __aexit__(self, *e):
+1450:        async def foo():
+1470:            async def __aenter__(self):
+1473:            async def __aexit__(self, *e):
+1476:        async def foo():
+1492:            async def __aenter__(self):
+1495:            async def __aexit__(self, *e):
+1498:        async def foo():
+1510:            async def __aenter__(self):
+1513:            async def __aexit__(self, *e):
+1516:        async def foo():
+1539:            async def __anext__(self):
+1552:        async def test1():
+1564:        async def test2():
+1582:        async def test3():
+1603:        async def foo():
+1622:        async def foo():
+1645:        async def foo():
+1661:            async def __aenter__(self):
+1665:            async def __aexit__(self, *args):
+1676:            async def __anext__(self):
+1689:        async def main():
+1709:        async def main():
+1727:        async def main():
+1754:        async def foo():
+1768:        async def foo():
+1790:        async def main():
+1808:            async def __anext__(self):
+1815:        async def foo():
+1831:            async def __anext__(self):
+1838:        async def foo():
+1848:        async def f(i):
+1851:        async def run_list():
+1854:        async def run_set():
+1857:        async def run_dict1():
+1860:        async def run_dict2():
+1869:        async def f(i):
+1872:        async def run_list():
+1880:        async def run_set():
+1891:        async def run_set2():
+1901:        async def f(it):
+1905:        async def run_list():
+1911:        async def run_set():
+1917:        async def run_dict():
+1923:        async def run_gen():
+1931:        async def f(it):
+1935:        async def run_list():
+1941:        async def run_set():
+1947:        async def run_dict():
+1953:        async def run_gen():
+1961:        async def f(it):
+1965:        async def run_list():
+1971:        async def run_set():
+1977:        async def run_dict():
+1983:        async def run_gen():
+1991:        async def f(it):
+1995:        async def run_list():
+2003:        async def f(it):
+2007:        async def run_list():
+2016:        async def f():
+2021:        async def run_list():
+2028:        async def f():
+2036:        async def gen():
+2039:        async def f():
+2048:        async def f():
+2057:        async def run_list_inside_list():
+2063:        async def run_set_inside_list():
+2069:        async def run_list_inside_set():
+2075:        async def run_dict_inside_dict():
+2081:        async def run_list_inside_gen():
+2088:        async def run_gen_inside_list():
+2095:        async def run_gen_inside_gen():
+2102:        async def run_list_inside_list_inside_list():
+2111:        async def func(): pass
+2124:        async def func(): pass
+2140:        async def func(): pass
+2160:        async def source():
+2163:        async def run_for():
+2171:        async def run_list():
+2178:        async def run_gen():
+2192:        async def badpairs():
+2195:        async def run_for():
+2203:        async def run_list():
+2210:        async def run_gen():
+2222:        async def f():
+2230:        async def f():
+2238:        async def f():
+2247:        async def a():
+2250:        async def b():
+2275:        async def coro():
+2300:            async def __aenter__(self):
+2306:            async def __aexit__(self, exc_type, exc_val, exc_tb):
+2310:        async def f():
+2337:            async def corofn():
+2381:        async def corofn():
+2426:        async def corofn():
+2463:                "async def f(): pass\n"
+2464:                "async def t(): asyncio.gather(f())\n"
+2469:                "async def f(): pass\n"
+2474:                "async def f(): pass\n"
+2487:        async def foo():
+2502:        async def foo():
+File: ./cpython/Lib/test/test_unittest/test_async_case.py
+23:    async def __aenter__(self):
+27:    async def __aexit__(self, *exc_info):
+34:    async def __aexit__(self, *exc_info):
+37:    async def __aenter__(self):
+72:            async def asyncSetUp(self):
+79:            async def test_func(self):
+86:            async def asyncTearDown(self):
+103:            async def on_cleanup2(self):
+113:            async def on_cleanup4(self):
+123:            async def on_cleanup6(self):
+149:            async def asyncSetUp(self):
+154:            async def test_func(self):
+157:            async def asyncTearDown(self):
+160:            async def on_cleanup(self):
+186:            async def asyncSetUp(self):
+189:            async def test_func(self):
+194:            async def asyncTearDown(self):
+197:            async def on_cleanup(self):
+222:            async def asyncSetUp(self):
+225:            async def test_func(self):
+229:            async def asyncTearDown(self):
+233:            async def on_cleanup(self):
+259:            async def asyncSetUp(self):
+262:            async def test_func(self):
+267:            async def asyncTearDown(self):
+270:            async def on_cleanup1(self):
+274:            async def on_cleanup2(self):
+305:            async def test1(self):
+307:            async def test2(self):
+309:            async def test3(self):
+337:            async def test_func(self):
+343:            async def on_sync_cleanup(self, val):
+346:            async def on_async_cleanup(self, val):
+359:            async def test_base(self):
+364:            async def test_no_err(self):
+367:            async def test_cancel(self):
+385:            async def test_leaking_task(self):
+386:                async def coro():
+405:            async def test_func(slf):
+419:            async def test_func(slf):
+433:            async def asyncSetUp(self):
+434:                async def coro():
+440:            async def test_func(self):
+444:            async def asyncTearDown(self):
+447:            async def cleanup(self, fut):
+485:            async def test_demo1(self):
+498:            async def test_demo1(self):
+File: ./cpython/Lib/test/test_unittest/test_case.py
+351:            async def test1(self):
+File: ./cpython/Lib/test/test_unittest/testmock/testasync.py
+23:    async def async_method(self): pass
+27:    async def async_class_method(cls): pass
+30:    async def async_static_method(): pass
+36:async def async_func(): pass
+38:async def async_func_args(a, b, *, c): pass
+106:        async def test_async(func_args_mock, func_mock):
+145:        async def test_async():
+155:        async def test_async():
+163:        async def test_async():
+176:        async def foo(): pass
+222:        async def main():
+252:        async def main():
+268:        async def test_async():
+449:    async def test_add_return_value(self):
+450:        async def addition(self, var): pass
+457:    async def test_add_side_effect_exception(self):
+459:        async def addition(var): pass
+464:    async def test_add_side_effect_coroutine(self):
+465:        async def addition(var):
+471:    async def test_add_side_effect_normal_function(self):
+478:    async def test_add_side_effect_iterable(self):
+487:    async def test_add_side_effect_exception_iterable(self):
+498:    async def test_return_value_AsyncMock(self):
+504:    async def test_return_value_awaitable(self):
+511:    async def test_side_effect_awaitable_values(self):
+522:    async def test_side_effect_is_AsyncMock(self):
+529:    async def test_wraps_coroutine(self):
+533:        async def inner():
+544:    async def test_wraps_normal_function(self):
+559:    async def test_await_args_list_order(self):
+611:        async def __aenter__(self, *args, **kwargs): pass
+613:        async def __aexit__(self, *args, **kwargs): pass
+625:        async def main(self):
+652:            async def use_context_manager():
+679:        async def use_context_manager():
+689:        async def enter_coroutine(*args):
+693:        async def exit_coroutine(*args):
+703:        async def use_context_manager():
+712:        async def raise_in(context_manager):
+729:        async def __anext__(self): pass
+734:        async def main():
+757:        async def iterate(iterator):
+795:    async def _runnable_test(self, *args, **kwargs):
+798:    async def _await_coroutine(self, coroutine):
+1056:        async def _custom_mock_runnable_test(*args):
+1091:        async def f(x=None): pass
+File: ./cpython/Lib/test/test_unittest/testmock/testmock.py
+2425:            async def class_method(cls):
+2428:            async def static_method():
+2430:            async def method(self):
+File: ./cpython/Lib/test/test_os/test_os.py
+3622:    async def chunks(reader):
+3626:    async def handle_new_client(self, reader, writer):
+3631:    async def asyncSetUp(self):
+3643:    async def asyncTearDown(self):
+3650:    async def async_sendfile(*args, **kwargs):
+3654:    async def sendfile_wrapper(*args, **kwargs):
+3671:    async def test_send_whole_file(self):
+3693:    async def test_send_at_certain_offset(self):
+3716:    async def test_offset_overflow(self):
+3733:    async def test_invalid_offset(self):
+3738:    async def test_invalid_count(self):
+3743:    async def test_keywords(self):
+3755:    async def test_headers(self):
+3779:    async def test_trailers(self):
+3795:    async def test_headers_overflow_32bits(self):
+3804:    async def test_trailers_overflow_32bits(self):
+3814:    async def test_flags(self):
+File: ./cpython/Lib/test/test_syntax.py
+66:>>> async def __debug__(): pass
+1324:   >>> async def f:
+1332:   >>> async def f -> int:  # type: int
+1336:   >>> async def f[T]:
+1904:>>> async def foo():
+2590:   >>> async def some[]:  # type: int
+2610:   >>> async def f[T: (x:=3)](): pass
+2615:   >>> async def f[T: ((x:= 3), int)](): pass
+2620:   >>> async def f[T = ((x:=3))](): pass
+3246:                async def bug():
+3568:async def async_func():
+3573:async def async_func():
+File: ./cpython/Lib/test/test_frame.py
+250:        async def t3():
+File: ./cpython/Lib/test/test_type_comments.py
+17:async def foo():
+21:async def bar():  # type: () -> int
+31:async def foo(xs):
+File: ./cpython/Lib/test/test_sys_settrace.py
+39:    async def __aenter__(self):
+42:    async def __aexit__(self, *exc_info):
+45:async def asynciter(iterable):
+52:    async def wrapper(*args, **kwargs):
+575:            async def __anext__(self):
+581:        async def doit_async():
+644:        async def arange(n):
+647:        async def f():
+2170:    async def test_jump_out_of_async_for_block_forwards(output, asynciter):
+2179:    async def test_jump_out_of_async_for_block_backwards(output, asynciter):
+2268:    async def test_jump_forwards_out_of_async_with_block(output):
+2280:    async def test_jump_backwards_out_of_async_with_block(output):
+2369:    async def test_jump_across_async_with(output):
+2386:    async def test_jump_out_of_async_with_block_within_for_block(output):
+2404:    async def test_jump_out_of_async_with_block_within_with_block(output):
+2423:    async def test_jump_out_of_async_with_block_within_finally_block(output):
+2456:    async def test_jump_out_of_async_with_assignment(output):
+2503:    async def test_jump_over_async_for_block_before_else(output):
+2565:    async def test_no_jump_forwards_into_async_for_block(output):
+2579:    async def test_no_jump_backwards_into_async_for_block(output):
+2591:    async def test_no_jump_forwards_into_async_with_block(output):
+2603:    async def test_no_jump_backwards_into_async_with_block(output):
+2747:    async def test_jump_between_async_with_blocks(output):
+2776:    async def test_no_jump_into_async_for_block_before_else(output):
+2882:    async def test_jump_forward_over_async_listcomp(output):
+2888:    async def test_jump_backward_over_async_listcomp(output):
+2894:    async def test_jump_backward_over_async_listcomp_v2(output):
+File: ./cpython/Lib/test/_code_definitions.py
+302:async def async_spam():
+308:async def asyncgen_spam(*args):
+File: ./cpython/Lib/test/test_capi/test_misc.py
+1729:                async def foo(arg): return await arg  # Py 3.5
+File: ./cpython/Lib/test/test_capi/test_opt.py
+5853:                async def __anext__(self):
+5859:                async def async_for_driver():
+File: ./cpython/Lib/test/test_code.py
+146:>>> async def async_func_docstring(x: str, y: str):
+1482:            async def async_func():
+1531:        async def afunc():
+File: ./cpython/Lib/test/test_unparse.py
+130:    "async def foo():\n    ",
+549:            "async def x(): # type: () -> None\n\tpass",
+550:            "async def x(y): # type: (int) -> None and more\n\tpass",
+564:            "async def x(): # type: ignore\n\tpass",
+565:            "async def x(y): # type: ignore and more\n\tpass",
+626:            "async def x():\n    pass",
+627:            "async def x(y):\n    pass",
+663:            "async def x():",
+664:            "async def x(y):",
+985:        self.assertEqual(ast.unparse(node), "async def f():\n    pass")
+997:        self.assertEqual(ast.unparse(node), "async def f[T]():\n    pass")
+1011:        self.assertEqual(ast.unparse(node), "async def f[T = 1, *Ts = *1, **P = 1]():\n    pass")
+File: ./cpython/Lib/test/test_opcache.py
+1633:            async def __aenter__(self):
+1636:            async def __aexit__(self, *exc):
+1639:        async def send_with():
+1680:        async def g():
+1683:        async def send_for():
+File: ./cpython/Lib/test/test_ast/test_ast.py
+254:            async def some():
+258:            async def some():
+324:            async def some():
+1892:        node = ast.parse('async def foo():\n  """spam\n  ham"""', optimize=False)
+1895:        node = ast.parse('async def foo():\n  """spam\n  ham"""', optimize=False)
+1920:        node = ast.parse('async def foo():\n  pass')
+1922:        node = ast.parse('async def foo():\n  x = "not docstring"')
+1925:        node = ast.parse('async def foo():\n  42')
+3074:            async def f():
+File: ./cpython/Lib/test/test_ast/snippets.py
+162:    "async def f():\n 'async function'\n await something()",
+164:    "async def f():\n async for e in i: 1\n else: 2",
+166:    "async def f():\n async with a as b: 1",
+174:    "async def f():\n [i async for b in c]",
+178:    "@deco1\n@deco2()\n@deco3(1)\nasync def f(): pass",
+File: ./cpython/Lib/test/test_pdb.py
+2131:            >>> async def test():
+2154:            >>> async def test():
+2160:            >>> async def main():
+2218:            >>> async def test():
+2223:            >>> async def main():
+2269:            >>> async def get_var():
+2272:            >>> async def set_var(val):
+2276:            >>> async def main():
+2327:        >>> async def test_coro():
+2332:        >>> async def test_main():
+2357:        -> async def test_coro():
+2384:        >>> async def agen():
+2389:        >>> async def test_coro():
+2393:        >>> async def test_main():
+2418:        -> async def test_coro():
+2506:        >>> async def test_coro():
+2511:        >>> async def test_main():
+2533:        -> async def test_coro():
+2599:        >>> async def test_coro():
+2608:        >>> async def test_main():
+2629:        -> async def test_coro():
+4747:            async def main():
+File: ./cpython/Lib/test/test_external_inspection.py
+651:            async def c4():
+655:            async def c3():
+658:            async def c2():
+661:            async def c1(task):
+664:            async def main():
+852:            async def gen_nested_call():
+855:            async def gen():
+861:            async def main():
+933:            async def deep():
+937:            async def c1():
+941:            async def c2():
+944:            async def main():
+1051:            async def deep():
+1055:            async def c1():
+1059:            async def c2():
+1062:            async def main():
+1205:            async def echo_client(message):
+1217:            async def echo_client_spam(server):
+1227:            async def main():
+1457:            async def worker_main():
+1535:            async def worker_task():
+1539:            async def worker_main():
+File: ./cpython/Lib/test/test_warnings/__init__.py
+1736:        async def run_a():
+1748:        async def run_b():
+1760:        async def run_tasks():
+1776:        async def run_child1():
+1783:        async def run_child2():
+1791:        async def run_parent():
+2198:        async def coro():
+2207:            async def coro(self):
+File: ./cpython/Lib/test/test_type_params.py
+139:        check_syntax_error(self, "async def f(): type X = (yield)")
+1062:            async def coroutine[B]():
+File: ./cpython/Lib/test/test_collections.py
+798:        async def new_coro():
+850:        async def new_coro():
+953:            async def __anext__(self):
+964:            async def __anext__(self):
+1270:            async def __anext__(self): return None
+1271:            async def aclose(self): pass
+1272:            async def asend(self, value): return value
+1273:            async def athrow(self, typ, val=None, tb=None): pass
+1276:            async def asend(self, value):
+1278:            async def athrow(self, typ, val=None, tb=None):
+1281:        async def gen():
+1311:            async def asend(self, value): return value
+1312:            async def athrow(self, *args): raise ValueError
+1318:            async def asend(self, value): return value
+1319:            async def athrow(self, *args): pass
+File: ./cpython/Lib/test/test_logging.py
+5456:    async def _make_record_async(self, assertion):
+5784:        async def log_record():
+File: ./cpython/Lib/test/test_contextlib.py
+796:        async def test(x):
+816:        async def test(x):
+File: ./cpython/Lib/test/test_profiling/test_sampling_profiler/test_integration.py
+761:async def sleeping_leaf():
+765:async def cpu_leaf():
+772:async def supervisor():
+File: ./cpython/Lib/test/test_tools/test_i18n.py
+383:        async def _(x):
+File: ./cpython/Lib/test/test_dis.py
+601:async def _asyncwith(c):
+792:async def _ag(x):
+795:async def _co(x):
+1305:        async def afunc():
+1625:async def async_def():
+File: ./cpython/Lib/test/test_generators.py
+248:        async def f():
+254:        async def f():
+File: ./cpython/Lib/test/test_repl.py
+440:        user_input2 = "async def set_var(): var.set('ok')\n"
+File: ./cpython/Lib/test/test_tokenize.py
+1009:        self.check_tokenize("async def foo(): pass", """\
+1020:async def foo():
+1064:async def foo():
+1084:        self.check_tokenize('''async def foo(async): await''', """\
+1099:  async def bar(): pass
+1133:async def f():
+1136:  async def bar(): pass
+2978:        self.check_tokenize('async def foo(): pass', """\
+2989:async def foo():
+3032:        self.check_tokenize('async def foo():\n  async for i in 1: pass', """\
+3051:        self.check_tokenize('async def foo(async): await', """\
+3066:  async def bar(): pass
+3098:async def f():
+3101:  async def bar(): pass
+File: ./cpython/Lib/test/test_pydoc/test_pydoc.py
+1843:        async def coro_function(ign) -> int:
+1855:        async def an_async_generator():
+File: ./cpython/Lib/test/test_grammar.py
+1984:        async def test():
+1998:        async def test2():
+2010:            async def __anext__(self):
+2013:        async def foo():
+2031:            async def __aenter__(self):
+2033:            async def __aexit__(self, *exc):
+2036:        async def foo():
+File: ./cpython/Lib/test/test_monitoring.py
+989:            async def async_generator():
+994:            async def async_loop():
+1997:            async def gen():
+2001:            async def foo():
+2153:        async def gen():
+2157:        async def foo():
+File: ./cpython/Lib/test/test_inspect/inspect_fodder2.py
+225:async def func225():
+232:    async def func232(self):
+File: ./cpython/Lib/test/test_inspect/inspect_fodder.py
+75:async def lobbest(grenade):
+109:    async def asyncf(self):
+File: ./cpython/Lib/test/test_inspect/test_inspect.py
+133:async def async_generator_function_example(self):
+137:async def coroutine_function_example(self):
+293:        async def _fn3():
+308:            async def __call__(self):
+312:        # instances with async def __call__ are NOT recognised.
+2916:        async def coroutine():
+2965:        async def func(a=None):
+2981:        async def number_asyncgen():
+2986:    async def asyncTearDown(self):
+2999:    async def test_suspended(self):
+3004:    async def test_closed_after_exhaustion(self):
+3012:    async def test_closed_after_immediate_exception(self):
+3017:    async def test_running(self):
+3018:        async def running_check_asyncgen():
+3039:    async def test_getasyncgenlocals(self):
+3040:        async def each(lst, a=None):
+3066:    async def test_getasyncgenlocals_empty(self):
+3067:        async def yield_one():
+File: ./cpython/Lib/pydoc_data/topics.py
+326:Functions defined with "async def" syntax are always coroutine
+334:   async def func(param1, param2):
+3310:Functions defined with "async def" syntax are always coroutine
+3318:   async def func(param1, param2):
+3433:   async def amax[T](args: list[T]) -> T:
+4322:      async def f():
+12661:A function or method which is defined using "async def" is called a
+12671:A function or method which is defined using "async def" and which uses
+File: ./cpython/Lib/_ast_unparse.py
+421:        self._function_helper(node, "async def")
+File: ./cpython/Lib/idlelib/idle_test/test_colorizer.py
+29:    async def f(): await g()
+File: ./cpython/Tools/inspection/benchmark_external_inspection.py
+165:async def leaf_task(seed):
+171:async def parent_task(seed):
+182:async def main():
+File: ./cpython/Tools/jit/_llvm.py
+26:    async def wrapper(
+40:async def _run(tool: str, args: typing.Iterable[str], echo: bool = False) -> str | None:
+68:async def _check_tool_version(
+79:async def _get_brew_llvm_prefix(llvm_version: str, *, echo: bool = False) -> str | None:
+85:async def _find_tool(
+125:async def maybe_run(
+138:async def run(
+File: ./cpython/Tools/jit/_dwarf.py
+148:    async def _read_objdump(self, output: pathlib.Path) -> str:
+157:    async def _read_eh_frame(self, output: pathlib.Path) -> str:
+230:    async def extract(self, output: pathlib.Path) -> UnwindInfo:
+File: ./cpython/Tools/jit/_targets.py
+140:    async def _parse(self, path: pathlib.Path) -> _stencils.StencilGroup:
+232:    async def _build_stencil_group(
+279:    async def _build_shim_object(self, output: pathlib.Path) -> None:
+303:    async def _get_shim_unwind_info(
+308:    async def _build_stencils(self) -> dict[str, _stencils.StencilGroup]:
+511:    async def _get_shim_unwind_info(
+File: ./cpython/Platforms/Android/__main__.py
+419:async def async_process(*args, **kwargs):
+443:async def async_check_output(*args, **kwargs):
+459:async def list_devices():
+482:async def find_device(context, initial_devices):
+506:async def find_pid(serial):
+536:async def logcat_task(context, initial_devices):
+599:async def read_logcat(stream):
+600:    async def read_bytes(size):
+603:    async def read_int(size):
+638:async def gradle_task(context):
+707:async def run_testbed(context):

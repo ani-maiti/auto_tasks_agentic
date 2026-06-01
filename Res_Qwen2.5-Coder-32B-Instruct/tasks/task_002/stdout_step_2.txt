@@ -1,0 +1,5 @@
+Counting lines in each .py file...
+  287 ./generate_code_model_run.py
+  111 ./test.py
+  279 ./generate_code_model_run1.py
+  677 total

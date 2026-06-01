@@ -1,0 +1,2 @@
+Fetching latest release tag from GitHub CLI repository using curl
+v2.93.0

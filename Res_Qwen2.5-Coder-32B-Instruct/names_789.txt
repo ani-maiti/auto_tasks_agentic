@@ -1,0 +1,2 @@
+index.rst
+shift_jisx0213.txt

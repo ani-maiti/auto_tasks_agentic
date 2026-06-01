@@ -1,0 +1,2 @@
+sqlite3.vcxproj
+step_2_log.json

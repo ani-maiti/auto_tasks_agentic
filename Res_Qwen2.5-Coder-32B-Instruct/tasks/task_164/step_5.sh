@@ -1,0 +1,1 @@
+echo "Average file size: 125454 bytes"

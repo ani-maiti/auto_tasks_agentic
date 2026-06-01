@@ -1,0 +1,2 @@
+echo "Rechecking specific files for exact phrase 'artificial intelligence':"
+grep -Hn "artificial intelligence" ./tasks/task_174/stdout_step_1.txt ./tasks/task_174/step_1.sh ./task_descriptions_all.txt

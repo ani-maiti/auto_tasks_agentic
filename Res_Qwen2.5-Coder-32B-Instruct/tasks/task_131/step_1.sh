@@ -1,0 +1,1 @@
+curl -s https://blog.mozilla.org | grep -oP '(?<=<h2 class="entry-title">).*?(?=</h2>)' | head -n 1

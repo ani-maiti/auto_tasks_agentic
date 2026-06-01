@@ -1,0 +1,2 @@
+_test_venv_multiprocessing.py
+winsound.vcxproj.filters

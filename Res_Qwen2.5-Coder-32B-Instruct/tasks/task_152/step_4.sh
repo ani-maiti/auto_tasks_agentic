@@ -1,0 +1,1 @@
+echo "Total number of comment lines across all Python files: $total_comments"

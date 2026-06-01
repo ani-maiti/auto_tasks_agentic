@@ -1,0 +1,3 @@
+_testcapi_feature_macros.inc
+sqlite3.rc
+make_cat.ps1

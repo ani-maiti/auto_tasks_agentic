@@ -1,0 +1,4 @@
+delegator.py
+README.md
+pyshellext.vcxproj.filters
+Info.plist.in

@@ -1,0 +1,2 @@
+echo "Files containing 'machine learning':"
+cat ./tasks/task_173/stdout_step_1.txt ./tasks/task_173/step_1.sh ./cpython/Doc/library/statistics.rst ./task_descriptions_all.txt | grep -n "machine learning"

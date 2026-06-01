@@ -1,0 +1,4 @@
+./tasks/task_147/step_2.py
+./tasks/task_147/stderr_step_2.txt
+./tasks/task_237/stderr_step_2.txt
+./tasks/task_238/stderr_step_2.txt

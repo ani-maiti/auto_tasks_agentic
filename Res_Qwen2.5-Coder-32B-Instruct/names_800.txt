@@ -1,0 +1,2 @@
+mypy.ini
+_wmi.vcxproj.filters

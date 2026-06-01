@@ -1,0 +1,1 @@
+curl -s https://github.blog | grep -oP '(?<=<h2 class="f3 lh-condensed mb-0">).*(?=</h2>)' | head -n 1

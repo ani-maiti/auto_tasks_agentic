@@ -1,0 +1,1 @@
+echo "Found $(wc -l < <(find . -type f -size -100c)) files smaller than 100 bytes."

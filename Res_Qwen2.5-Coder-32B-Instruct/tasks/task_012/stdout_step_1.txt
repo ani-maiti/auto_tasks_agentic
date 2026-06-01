@@ -1,0 +1,5 @@
+Starting search for files containing the word TODO
+./tasks/task_012/step_1.sh:echo "Starting search for files containing the word TODO"
+./tasks/task_012/step_1.sh:grep -r "TODO" .
+./task_descriptions_all.txt:find all files containing the word TODO
+./task_descriptions_all.txt:find all Python files that contain TODO comments

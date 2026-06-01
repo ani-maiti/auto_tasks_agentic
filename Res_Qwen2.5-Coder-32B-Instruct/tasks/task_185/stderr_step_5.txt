@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_185/step_5.py", line 10
+    files = [
+            ^
+SyntaxError: '[' was never closed

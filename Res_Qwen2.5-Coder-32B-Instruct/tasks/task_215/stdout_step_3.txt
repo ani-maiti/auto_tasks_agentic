@@ -1,0 +1,19 @@
+File ./report.csv is empty.
+Missing value percentages by column:
+File: ./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv
+  Column: header 1, Missing: 3.70%
+  Column: header 2, Missing: 3.70%
+  Column: header 3, Missing: 3.70%
+  Column: quoted header, Missing: 7.41%
+  Column:  trailing commas, Missing: 7.41%
+  Column: Unnamed: 5, Missing: 11.11%
+  Column: Unnamed: 6, Missing: 11.11%
+  Column: Unnamed: 7, Missing: 11.11%
+  Column: Unnamed: 8, Missing: 11.11%
+File: ./python_files_line_counts.csv
+  Column: ./generate_code_model_run.py, Missing: 0.00%
+  Column: 287, Missing: 0.00%
+File: ./largest_files.csv
+  Column: /home/ai_admin/dp_models/coding_models/Codestral-22B-v0.1/consolidated.safetensors, Missing: 0.00%
+  Column: 42G, Missing: 0.00%
+File: ./report.csv

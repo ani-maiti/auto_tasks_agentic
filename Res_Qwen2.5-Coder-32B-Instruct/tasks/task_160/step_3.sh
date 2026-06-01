@@ -1,0 +1,2 @@
+echo "Checking if there are any other empty directories..."
+find . -type d -empty -not -path "./cpython/.git/refs/tags" -not -path "./requests/.git/refs/tags" -not -path "./requests/.git/objects/info" -print

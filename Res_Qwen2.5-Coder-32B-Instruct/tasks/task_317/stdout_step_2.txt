@@ -1,0 +1,7 @@
+The website does not have a sitemap.xml. We will use a web crawler to find pages.
+Let's install the required Python package: requests
+Requirement already satisfied: requests in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (3.16)
+Requirement already satisfied: urllib3<3,>=1.26 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (2026.5.20)

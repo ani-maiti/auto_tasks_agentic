@@ -1,0 +1,4 @@
+euc_kr.txt
+readme.md
+__init__.py
+stdout_step_3.txt

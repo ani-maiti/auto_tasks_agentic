@@ -1,0 +1,3 @@
+echo "Found file larger than 50MB: ./cpython/.git/objects/pack/pack-288e8d85db84c9b0f3f2f8dfd788a37ae03b0e09.pack"
+echo "Continuing search..."
+find . -type f -size +50M | grep -v "./cpython/.git/objects/pack/pack-288e8d85db84c9b0f3f2f8dfd788a37ae03b0e09.pack"

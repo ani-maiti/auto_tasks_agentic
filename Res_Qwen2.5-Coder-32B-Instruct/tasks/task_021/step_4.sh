@@ -1,0 +1,1 @@
+echo "No directories larger than 10 MB found."

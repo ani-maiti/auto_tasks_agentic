@@ -1,0 +1,14 @@
+Discovering all CSV files...
+./archive_inventory.csv
+./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv
+./largest_cities.csv
+./common_keys_report.csv
+./python_files_line_counts.csv
+./largest_files.csv
+./archive_comparison.csv
+./email_columns_report.csv
+./results.csv
+./domain_analysis.csv
+./metrics_results.csv
+./report.csv
+./image_hashes.csv

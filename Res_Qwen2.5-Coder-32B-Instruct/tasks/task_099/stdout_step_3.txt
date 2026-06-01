@@ -1,0 +1,4 @@
+Retrieving SSL certificate expiration date for python.org...
+notAfter=Feb 14 13:03:45 2027 GMT
+
+PROCESS TIMED OUT

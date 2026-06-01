@@ -1,0 +1,1 @@
+echo "The contents of robots.txt from en.wikipedia.org have been printed."

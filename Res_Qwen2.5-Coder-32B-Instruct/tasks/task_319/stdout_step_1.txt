@@ -1,0 +1,7 @@
+Checking available network connectivity...
+PING google.com (172.253.62.139) 56(84) bytes of data.
+64 bytes from bc-in-f139.1e100.net (172.253.62.139): icmp_seq=1 ttl=111 time=11.1 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 11.135/11.135/11.135/0.000 ms

@@ -1,0 +1,3 @@
+example_stub.pyi
+step_3.sh
+stdout_step_4.txt

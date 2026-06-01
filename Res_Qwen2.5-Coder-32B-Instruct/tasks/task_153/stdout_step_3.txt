@@ -1,0 +1,3 @@
+Finding the most common extension...
+   2395 py
+Most common extension found.

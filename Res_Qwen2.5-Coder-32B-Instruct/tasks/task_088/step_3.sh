@@ -1,0 +1,1 @@
+curl -s https://en.wikipedia.org/wiki/Python_(programming_language) | grep -o '<title>.*</title>' | sed 's/<[^>]*>//g'

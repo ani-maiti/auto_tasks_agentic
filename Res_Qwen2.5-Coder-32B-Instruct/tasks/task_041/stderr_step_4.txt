@@ -1,0 +1,4 @@
+grep: */*.txt: No such file or directory
+grep: tasks/task_041/stdout_step_4.txt: input file is also the output
+grep: */*/*/*.txt: No such file or directory
+grep: */*/*/*/*.txt: No such file or directory

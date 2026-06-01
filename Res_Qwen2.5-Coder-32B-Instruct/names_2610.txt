@@ -1,0 +1,2 @@
+pycore_list.h
+launcher.wixproj

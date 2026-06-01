@@ -1,0 +1,3 @@
+gdb_jit_sample.py
+core.wixproj
+exe_d.wxs

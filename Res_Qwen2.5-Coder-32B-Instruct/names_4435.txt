@@ -1,0 +1,2 @@
+_queue.vcxproj
+_zoneinfo.vcxproj

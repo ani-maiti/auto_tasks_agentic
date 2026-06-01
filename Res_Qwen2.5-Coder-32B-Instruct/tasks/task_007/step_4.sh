@@ -1,0 +1,1 @@
+echo "Deepest directory path: ./tasks/task_001"

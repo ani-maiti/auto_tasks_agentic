@@ -1,0 +1,2 @@
+pycore_pathconfig.h
+full.wixproj

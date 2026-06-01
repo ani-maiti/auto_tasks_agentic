@@ -1,0 +1,2 @@
+Saving report to file_extension_report.txt
+Report saved.

@@ -1,0 +1,2 @@
+pending-removal-in-3.19.rst
+pycore_semaphore.h

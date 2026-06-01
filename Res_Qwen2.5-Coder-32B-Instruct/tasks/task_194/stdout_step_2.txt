@@ -1,0 +1,20 @@
+Finding files accessed within the last day...
+/etc/host.conf
+/etc/pulse/client.conf
+/etc/profile.d/locale.sh
+/etc/profile.d/perlbin.sh
+/etc/profile.d/cuda.sh
+/etc/profile.d/gpm.sh
+/etc/profile.d/flatpak.sh
+/etc/profile.d/freetype2.sh
+/etc/profile.d/flatpak-bindir.sh
+/etc/profile.d/gawk.sh
+/etc/profile.d/debuginfod.sh
+/etc/profile.d/libreoffice-still.sh
+/etc/gai.conf
+/etc/profile
+/etc/security/pam_env.conf
+/etc/security/faillock.conf
+/etc/mime.types
+/etc/OpenCL/vendors/nvidia.icd
+/etc/nsswitch.conf

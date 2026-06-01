@@ -1,0 +1,2 @@
+Starting task: Discovering all text files
+Text files found and listed in text_files.txt

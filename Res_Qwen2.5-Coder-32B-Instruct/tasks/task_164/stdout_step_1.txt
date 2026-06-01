@@ -1,0 +1,2 @@
+Starting to find average file size across the current directory tree.
+Total size: 1060464294 Number of files: 8453

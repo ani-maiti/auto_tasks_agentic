@@ -1,0 +1,1 @@
+echo "The homepage of example.com contains 1 link."

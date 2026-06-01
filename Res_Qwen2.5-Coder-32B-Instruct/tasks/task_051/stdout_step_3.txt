@@ -1,0 +1,3 @@
+Checking current directory name length...
+Current directory name: nasa_seed
+Current directory name length: 9

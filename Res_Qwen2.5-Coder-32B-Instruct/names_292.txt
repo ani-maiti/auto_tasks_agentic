@@ -1,0 +1,4 @@
+init.rst
+python.pc.in
+stdout_step_4.txt
+step_5.sh

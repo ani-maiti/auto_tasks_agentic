@@ -1,0 +1,5 @@
+Row counts for each file:
+ 100 largest_files.csv
+   0 report.csv
+ 100 total
+Total row count across all CSV files: 100

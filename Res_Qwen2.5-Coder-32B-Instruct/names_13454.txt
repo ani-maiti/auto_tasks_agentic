@@ -1,0 +1,2 @@
+mac_cyrillic.py
+generate_slots.py

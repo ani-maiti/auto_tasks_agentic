@@ -1,0 +1,2 @@
+Visiting: https://en.wikipedia.org/wiki/Web_scraping
+Graph saved to wiki_graph.json

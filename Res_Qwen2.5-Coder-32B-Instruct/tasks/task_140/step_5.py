@@ -1,0 +1,1 @@
+print("Final redirect URL:", redirect_chain[-1])

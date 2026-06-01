@@ -1,0 +1,2 @@
+iso2022_jp.txt
+tcltk_en-US.wxl_template

@@ -1,0 +1,1 @@
+curl -L -I wikipedia.org | head -n 1

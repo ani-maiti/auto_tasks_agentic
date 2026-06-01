@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Debian -- Debian &ldquo;trixie&rdquo; Release Information </title>
+  <link rel="author" href="mailto:webmaster@debian.org">
+  <meta name="Generator" content="WML 2.32.0">
+  <meta name="Modified" content="2026-05-16 17:11:44">
+  <meta name="viewport" content="width=device-width">
+  <meta name="mobileoptimized" content="300">
+  <meta name="HandheldFriendly" content="true">
+<link href="../../debian.css" rel="stylesheet" type="text/css">
+  <link href="../../debian-en.css" rel="stylesheet" type="text/css" media="all">
+<link rel="search" type="application/opensearchdescription+xml" title="Debian website search" href="../../search.en.xml">
+</head>
+<body>
+<div id="header">
+  <div id="upperheader">
+    <div id="logo">
+    <a href="../../" title="Debian Home"><img src="../../Pics/openlogo-50.png" alt="Debian" width="50" height="61"></a>
+    </div> <!-- end logo -->
+    <div id="searchbox">
+      <form name="p" method="get" action="https://search.debian.org/cgi-bin/omega">
+      <p>
+<input type="hidden" name="DB" value="en">
+        <input name="P" value="" size="14">
+        <input type="submit" value="Search">
+      </p>
+      </form>
+    </div>   <!-- end sitetools -->
+  </div> <!-- end upperheader -->
+  <!--UdmComment-->
+  <div id="navbar">
+    <p class="hidecss"><a href="#content">Skip Quicknav</a></p>
+    <ul>
+      <!-- Link to Debian's own Social Media resources -->
+      <li><a href="https://bits.debian.org/" title="Bits from Debian">Blog</a></li>
+      <li><a href="https://micronews.debian.org" title="Micronews from Debian">Micronews</a></li>
+      <li><a href="https://planet.debian.org/" title="The Planet of Debian">Planet</a></li>
+      <li><a href="https://wiki.debian.org/" title="The Debian Wiki">Wiki</a></li>
+    </ul>
+  </div> <!-- end navbar -->
+<p id="breadcrumbs"><a href="../">Debian Releases</a>
+ &#x2F;
+Debian &ldquo;trixie&rdquo; Release Information</p>
+</div> <!-- end header -->
+<!--/UdmComment-->
+<div id="content">
+<h1>Debian &ldquo;trixie&rdquo; Release Information</h1>
+<p>Debian 13.5 was
+released on <a href="../../News/2026/20260516">May 16th, 2026</a>.
+Debian 13.0 was initially released on August 9th, 2025.
+The release included many major
+changes, described in
+our <a href="../../News/2025/20250809">press release</a> and
+the <a href="releasenotes">Release Notes</a>.</p>
+<p>
+The Debian 13 life cycle encompasses five years: the initial three years of
+full Debian support, until August 9th, 2028, and two years of
+Long Term Support (LTS), until June 30th, 2030. The set of
+supported architectures is reduced during the LTS term. For more information,
+please refer to the <a href="../../security/">Security Information</a> webpage and
+the <a href="https://wiki.debian.org/LTS">LTS section of the Debian Wiki</a>.
+</p>
+<p>To obtain and install Debian, see
+the <a href="debian-installer/">installation information</a> page and the
+<a href="installmanual">Installation Guide</a>. To upgrade from an older
+Debian release, see the instructions in the
+<a href="releasenotes">Release Notes</a>.</p>
+<p>Computer architectures supported at initial release of trixie:</p>
+<ul>
+<li><a href="../../ports/amd64/">64-bit PC (amd64)</a>
+<li><a href="../../ports/arm64/">64-bit ARM (AArch64)</a>
+<li><a href="../../ports/armhf/">Hard Float ABI ARM (armhf)</a>
+<li><a href="../../ports/ppc64el/">POWER Processors</a>
+<li><a href="../../ports/riscv64/">RISC-V 64-bit little endian (riscv64)</a>
+<li><a href="../../ports/s390x/">IBM System z</a>
+</ul>
+<p>Additionally:</p>
+<ul>
+<li>The legacy <a href="../../ports/i386/">32-bit PC (i386)</a> architecture is supported only as a co-architecture for running 32-bit software on amd64
+<li>The <a href="../../ports/armel/">EABI ARM (armel)</a> architecture is supported only for upgrades and not new installations.
+</ul>
+<p>Both architectures will be removed in a future release.</p>
+<p>Contrary to our wishes, there may be some problems that exist in the
+release, even though it is declared <em>stable</em>. We've made
+<a href="errata">a list of the major known problems</a>, and you can always
+<a href="../reportingbugs">report other issues</a> to us.</p>
+<p>Last but not least, we have a list of <a href="credits">people who take
+credit</a> for making this release happen.</p>
+<div class="clr"></div>
+</div> <!-- end content -->
+<div id="footer">
+<hr class="hidecss">
+<p>Back to the <a href="../../">Debian Project homepage</a>.</p>
+<hr>
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+This page is also available in the following languages:
+<div id="langContainer">
+<select onchange="location = this.value;">
+<option value="" disabled selected>Select your language</option>
+ <option value="index.de.html" title="German" lang="de">Deutsch</option>
+ <option value="index.es.html" title="Spanish" lang="es">espa&ntilde;ol</option>
+ <option value="index.fr.html" title="French" lang="fr">fran&ccedil;ais</option>
+ <option value="index.it.html" title="Italian" lang="it">Italiano</option>
+ <option value="index.nl.html" title="Dutch" lang="nl">Nederlands</option>
+ <option value="index.pl.html" title="Polish" lang="pl">polski</option>
+ <option value="index.pt.html" title="Portuguese" lang="pt">Portugu&ecirc;s</option>
+ <option value="index.sv.html" title="Swedish" lang="sv">svenska</option>
+ <option value="index.zh-cn.html" title="Chinese (China)" lang="zh-CN">&#20013;&#25991;(&#31616;)</option>
+ <option value="index.zh-hk.html" title="Chinese (Hong Kong)" lang="zh-HK">&#20013;&#25991;(HK)</option>
+ <option value="index.zh-tw.html" title="Chinese (Taiwan)" lang="zh-TW">&#20013;&#25991;(&#32321;)</option>
+ <option value="index.ko.html" title="Korean" lang="ko">&#54620;&#44397;&#50612; (Korean)</option>
+ <option value="index.el.html" title="Greek" lang="el">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Ellinika)</option>
+</select>
+</div>
+How to set <a href="../../intro/cn">the default document language</a>
+</div></div><!--/UdmComment-->
+<hr>
+<div id="footermap">
+<!--UdmComment-->
+<p><strong><a href="/">Home</a></strong></p>
+    <ul id="footermap-cola">
+		<li><a href="../../intro/about">About</a>
+		  <ul>
+		  <li><a href="../../social_contract">Social Contract</a></li>
+		  <li><a href="../../code_of_conduct">Code of Conduct</a></li>
+		  <li><a href="../../intro/free">Free Software</a></li>
+          <li><a href="../../legal">Legal Info</a></li>
+		  </ul>
+		</li>
+        <li><a href="../../intro/help">Help Debian</a></li>
+    </ul>
+	<ul id="footermap-colb">
+			<li><a href="../../distrib/">Getting Debian</a>
+			  <ul>
+			  <li><a href="../../distrib/netinst">Network install</a></li>
+			  <li><a href="../../CD/">CD/USB ISO images</a></li>
+            <li><a href="../../blends/">Pure Blends</a></li>
+			<li><a href="../../distrib/packages">Debian Packages</a></li>
+			<li><a href="../../devel/">Developers' Corner</a></li>
+			  </ul>
+			</li>
+	</ul>
+	<ul id="footermap-colc">
+		<li><a href="../../News/">News</a>
+		  <ul>
+		  <li><a href="../../News/weekly/">Project News</a></li>
+		  <li><a href="../../events/">Events</a></li>
+		  </ul>
+		</li>
+    <li><a href="../../doc/">Documentation</a>
+      <ul>
+      <li><a href="../../releases/">Release Info</a></li>
+      <li><a href="https://wiki.debian.org/">Debian Wiki</a></li>
+      </ul>
+    </li>
+   </ul>
+   <ul id="footermap-cold">
+    <li><a href="../../support">Support</a>
+	  <ul>
+			  <li><a href="../../international/">Debian International</a></li>
+			  <li><a href="../../security/">Security Information</a></li>
+			  <li><a href="../../Bugs/">Bug reports</a></li>
+			  <li><a href="../../MailingLists/">Mailing Lists</a></li>
+      </ul>
+    </li>
+</ul>
+<ul id="footermap-cole">
+  <li><a href="../../sitemap">Site map</a></li>
+  <li><a href="https://search.debian.org/">Search</a></li>
+  <li><a href="https://bits.debian.org">The Debian Blog</a></li>
+  <li><a href="https://micronews.debian.org">Debian Micronews</a></li>
+  <li><a href="https://planet.debian.org">Debian Planet</a></li>
+</ul>
+<!--/UdmComment-->
+</div> <!-- end footermap -->
+<div id="fineprint">
+<!--UdmComment-->
+  <p>See our <a href="../../contact">contact page</a> to get in touch. Web site source code is <a href="https://salsa.debian.org/webmaster-team/webwml">available</a>.</p>
+<p>
+Last Modified: Sun, Mar 8 16:34:14 UTC 2026
+&emsp;
+Last Built: Sat, May 16 17:11:44 UTC 2026
+  <br>
+  Copyright &copy; 1997-2026 <a href="https://www.spi-inc.org/">SPI</a> and others; See <a href="../../license" rel="copyright">license terms</a><br>
+  Debian is a registered <a href="../../trademark">trademark</a> of Software in the Public Interest, Inc.
+</p>
+<!--/UdmComment-->
+</div>
+</div> <!-- end footer -->
+</body>
+</html>

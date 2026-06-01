@@ -1,0 +1,2 @@
+sequence.rst
+fancycompleter.py

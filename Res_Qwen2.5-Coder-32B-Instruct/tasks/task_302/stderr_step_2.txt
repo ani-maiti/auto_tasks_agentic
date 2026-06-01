@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_302/step_2.py", line 28
+    './names
+    ^
+SyntaxError: unterminated string literal (detected at line 28)

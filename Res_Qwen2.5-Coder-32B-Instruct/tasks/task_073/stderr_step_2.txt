@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_073/step_2.py", line 6, in <module>
+    print(story_data['title'])
+          ~~~~~~~~~~^^^^^^^^^
+KeyError: 'title'

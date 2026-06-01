@@ -1,0 +1,1 @@
+curl -I -L -s -o /dev/null -w "%{redirect_url}\n" openai.com

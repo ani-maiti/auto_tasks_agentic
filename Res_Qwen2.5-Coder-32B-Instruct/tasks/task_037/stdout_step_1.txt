@@ -1,0 +1,2 @@
+Starting directory size check
+881G	/home

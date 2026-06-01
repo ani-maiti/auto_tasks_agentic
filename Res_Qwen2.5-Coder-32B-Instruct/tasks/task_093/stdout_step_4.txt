@@ -1,0 +1,6 @@
+Fetching top 5 most starred Rust repositories from GitHub without jq...
+claw-code
+MIT License
+rustdesk
+GNU Affero General Public License v3.0
+rust

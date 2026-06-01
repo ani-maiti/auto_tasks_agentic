@@ -1,0 +1,4 @@
+File extension report generated successfully:
+      4 .txt
+      3 .py
+      1 .csv

@@ -1,0 +1,1 @@
+echo "Identifying a public news website to crawl..."

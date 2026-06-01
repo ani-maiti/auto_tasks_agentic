@@ -1,0 +1,19 @@
+Community module not found. Installing python-louvain package.
+Collecting python-louvain
+  Downloading python-louvain-0.16.tar.gz (204 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: networkx in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from python-louvain) (3.6.1)
+Requirement already satisfied: numpy in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from python-louvain) (2.4.6)
+Building wheels for collected packages: python-louvain
+  Building wheel for python-louvain (pyproject.toml): started
+  Building wheel for python-louvain (pyproject.toml): finished with status 'done'
+  Created wheel for python-louvain: filename=python_louvain-0.16-py3-none-any.whl size=9459 sha256=104d449ddc4b86f63d78bff60bbe3f90b0753d32a8c4b48c22d793b603cc1493
+  Stored in directory: /home/ai_admin/.cache/pip/wheels/ae/22/72/95110a1ec427d179bc90c8ae1bcf245568db417ac2f34dee63
+Successfully built python-louvain
+Installing collected packages: python-louvain
+Successfully installed python-louvain-0.16

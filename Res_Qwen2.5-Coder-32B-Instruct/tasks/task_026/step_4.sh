@@ -1,0 +1,1 @@
+echo "No directories with non-ASCII characters found."

@@ -1,0 +1,3 @@
+out_inC14N3_c14nTrim.xml
+out_inC14N3_c14nTrim.xml
+stdout_step_4.txt

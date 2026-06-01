@@ -1,0 +1,1 @@
+openssl s_client -connect python.org:443 -servername python.org 2>/dev/null | openssl x509 -issuer -noout

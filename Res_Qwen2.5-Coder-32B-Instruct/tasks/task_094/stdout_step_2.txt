@@ -1,0 +1,2 @@
+No output received. Checking if curl is installed and accessible.
+/usr/bin/curl

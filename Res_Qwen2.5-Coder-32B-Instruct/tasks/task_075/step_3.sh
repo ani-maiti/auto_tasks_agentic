@@ -1,0 +1,1 @@
+echo "Retrieved public IP address successfully."

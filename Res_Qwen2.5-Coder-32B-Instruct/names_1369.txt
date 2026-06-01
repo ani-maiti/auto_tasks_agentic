@@ -1,0 +1,2 @@
+raw_unicode_escape.py
+test_freeze.py

@@ -1,0 +1,1 @@
+curl -s https://api.exchangerate-api.com/v4/latest/GBP | jq '.rates.USD'

@@ -1,0 +1,5 @@
+Files containing 'artificial intelligence':
+1:Starting search for files containing 'artificial intelligence'...
+5:echo "Starting search for files containing 'artificial intelligence'..."
+6:find . -type f -exec grep -l "artificial intelligence" {} \;find the 20 largest files under the current directory and print their paths and sizes
+179:find all files containing the phrase artificial intelligence

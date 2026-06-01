@@ -1,0 +1,2 @@
+fuzzy.po
+.warningignore_macos

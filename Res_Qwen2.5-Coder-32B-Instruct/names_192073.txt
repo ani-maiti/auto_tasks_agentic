@@ -1,0 +1,2 @@
+requests-logo-compressed.png
+requests-logo.png

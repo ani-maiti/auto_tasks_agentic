@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges:  none
+Date: Sun, 31 May 2026 18:11:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kcgs7200062-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1780251073.890369,VS0,VE0
+Location: https://www.python.org/
+Strict-Transport-Security: max-age=315360000; preload
+

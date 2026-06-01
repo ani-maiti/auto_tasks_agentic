@@ -1,0 +1,1 @@
+curl -s https://github.blog | grep -oP '(?<=<h2 class="post-title">).*(?=</h2>)' | head -n 1

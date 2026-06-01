@@ -1,0 +1,1 @@
+cat email_columns_report.csv

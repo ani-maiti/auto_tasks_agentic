@@ -1,0 +1,1 @@
+curl -s https://xkcd.com/info.0.json | jq -r '.alt'

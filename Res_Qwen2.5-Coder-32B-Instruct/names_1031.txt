@@ -1,0 +1,2 @@
+idle_16.png
+ucrt.wixproj

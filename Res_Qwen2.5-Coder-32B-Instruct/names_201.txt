@@ -1,0 +1,3 @@
+test_misc.py
+stdout_step_2.txt
+step_3.sh

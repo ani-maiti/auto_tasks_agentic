@@ -1,0 +1,3 @@
+trace.py
+python3dll.vcxproj.filters
+packages.py

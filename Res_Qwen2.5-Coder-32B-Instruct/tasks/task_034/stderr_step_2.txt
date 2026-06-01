@@ -1,0 +1,6 @@
+ls: cannot access '*.jpg': No such file or directory
+ls: cannot access '*.jpeg': No such file or directory
+ls: cannot access '*.png': No such file or directory
+ls: cannot access '*.gif': No such file or directory
+ls: cannot access '*.bmp': No such file or directory
+ls: cannot access '*.tiff': No such file or directory

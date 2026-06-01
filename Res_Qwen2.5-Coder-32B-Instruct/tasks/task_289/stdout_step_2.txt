@@ -1,0 +1,3 @@
+Error reading ./email_columns_report.csv: No columns to parse from file
+Error reading ./report.csv: No columns to parse from file
+{'./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv': ['Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8'], './python_files_line_counts.csv': ['287'], './results.csv': ['database', 'table', 'date_column', 'year', 'count'], './domain_analysis.csv': ['Count']}

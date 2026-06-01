@@ -1,0 +1,2 @@
+pytime.h
+pythonx86.nuspec

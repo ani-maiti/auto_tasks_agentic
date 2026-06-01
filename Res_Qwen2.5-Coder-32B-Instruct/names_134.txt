@@ -1,0 +1,5 @@
+input6.py
+x86_64-apple-ios-simulator-cpp
+stdout_step_2.txt
+step_4.sh
+stdout_step_2.txt

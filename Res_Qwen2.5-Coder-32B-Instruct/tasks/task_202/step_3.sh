@@ -1,0 +1,2 @@
+echo "Filtering out non-log files..."
+find . -type f -iname "*log*" ! -name "*.json" ! -name "*.c" ! -name "*.py" ! -name "*.decTest" ! -name "*.png" ! -name "*.svg" ! -name "*.ai" ! -name "*.rst" ! -name "*.js"

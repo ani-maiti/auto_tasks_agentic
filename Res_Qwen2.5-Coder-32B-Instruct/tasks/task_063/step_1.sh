@@ -1,0 +1,1 @@
+curl -s https://api.coindesk.com/v1/bpi/currentprice/BTC.json

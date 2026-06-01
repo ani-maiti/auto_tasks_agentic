@@ -1,0 +1,10 @@
+./cpython/Modules/_multiprocessing/clinic/multiprocessing.c.h
+./cpython/Modules/_multiprocessing/clinic/semaphore.c.h
+./cpython/Modules/_multiprocessing/clinic/posixshmem.c.h
+./cpython/Modules/_testcapi/clinic/watchers.c.h
+./cpython/Modules/_testcapi/clinic/long.c.h
+./cpython/Modules/_testcapi/clinic/exceptions.c.h
+./cpython/Modules/_testcapi/clinic/file.c.h
+./cpython/Modules/_testcapi/clinic/vectorcall.c.h
+./cpython/Modules/_testcapi/clinic/float.c.h
+./cpython/Modules/_ssl/clinic/cert.c.h

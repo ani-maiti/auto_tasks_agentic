@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_241/step_3.py", line 70
+    "./cpython/Doc
+    ^
+SyntaxError: unterminated string literal (detected at line 70)

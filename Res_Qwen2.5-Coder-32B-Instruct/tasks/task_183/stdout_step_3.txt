@@ -1,0 +1,5 @@
+CSV files and their row counts:
+4
+2394
+100
+0

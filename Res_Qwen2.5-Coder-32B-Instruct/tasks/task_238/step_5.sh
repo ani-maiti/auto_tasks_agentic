@@ -1,0 +1,1 @@
+cat ./tasks/task_147/step_2.py

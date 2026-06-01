@@ -1,0 +1,3 @@
+test_collections.py
+freethreaded_d.wixproj
+ucrt.wxs

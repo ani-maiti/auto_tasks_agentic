@@ -1,0 +1,4 @@
+Contents of file_extension_report.txt:
+      5 .txt
+      3 .py
+      1 .csv

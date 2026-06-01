@@ -1,0 +1,17 @@
+Installing textstat package...
+Collecting textstat
+  Downloading textstat-0.7.13-py3-none-any.whl.metadata (15 kB)
+Collecting pyphen (from textstat)
+  Downloading pyphen-0.17.2-py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: nltk in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from textstat) (3.9.4)
+Requirement already satisfied: setuptools in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from textstat) (81.0.0)
+Requirement already satisfied: click in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (8.4.1)
+Requirement already satisfied: joblib in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (1.5.3)
+Requirement already satisfied: regex>=2021.8.3 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (2026.5.9)
+Requirement already satisfied: tqdm in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (4.67.3)
+Downloading textstat-0.7.13-py3-none-any.whl (177 kB)
+Downloading pyphen-0.17.2-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 18.3 MB/s  0:00:00
+Installing collected packages: pyphen, textstat
+
+Successfully installed pyphen-0.17.2 textstat-0.7.13

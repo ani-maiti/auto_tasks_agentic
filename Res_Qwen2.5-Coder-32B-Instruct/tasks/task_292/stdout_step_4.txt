@@ -1,0 +1,39 @@
+Checking if wget is installed...
+GNU Wget 1.25.0 built on linux-gnu.
+
+-cares +digest -gpgme +https +ipv6 +iri +large-file -metalink +nls 
++ntlm +opie +psl +ssl/gnutls 
+
+Wgetrc: 
+    /etc/wgetrc (system)
+Locale: 
+    /usr/share/locale 
+Compile: 
+    gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC="/etc/wgetrc" 
+    -DLOCALEDIR="/usr/share/locale" -I. -I../lib -I../lib 
+    -I/usr/include/p11-kit-1 -DHAVE_LIBGNUTLS -DNDEBUG -march=x86-64 
+    -mtune=generic -O2 -pipe -fno-plt -fexceptions 
+    -Wp,-D_FORTIFY_SOURCE=3 -Wformat -Werror=format-security 
+    -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer 
+    -mno-omit-leaf-frame-pointer -g 
+    -ffile-prefix-map=/build/wget/src=/usr/src/debug/wget -flto=auto 
+Link: 
+    gcc -I/usr/include/p11-kit-1 -DHAVE_LIBGNUTLS -DNDEBUG 
+    -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions 
+    -Wp,-D_FORTIFY_SOURCE=3 -Wformat -Werror=format-security 
+    -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer 
+    -mno-omit-leaf-frame-pointer -g 
+    -ffile-prefix-map=/build/wget/src=/usr/src/debug/wget -flto=auto 
+    -Wl,-O1 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now 
+    -Wl,-z,pack-relative-relocs -flto=auto -lpcre2-8 -luuid -lidn2 
+    -lnettle -lgnutls -lz -lpsl ../lib/libgnu.a 
+    /usr/lib/libunistring.so 
+
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later
+<http://www.gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Originally written by Hrvoje Niksic <hniksic@xemacs.org>.
+Please send bug reports and questions to <bug-wget@gnu.org>.

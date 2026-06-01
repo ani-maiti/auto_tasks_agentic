@@ -1,0 +1,1 @@
+find . -name "*.sqlite" -o -name "*.db"

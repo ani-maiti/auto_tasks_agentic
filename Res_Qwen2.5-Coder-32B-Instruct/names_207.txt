@@ -1,0 +1,7 @@
+test_misc.py
+lib_memzero0.h
+step_5.sh
+step_3.sh
+stderr_step_4.txt
+stderr_step_5.txt
+step_3.sh

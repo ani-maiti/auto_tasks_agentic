@@ -1,0 +1,4 @@
+Report saved. Displaying contents of directory_size_report.txt
+991M	cpython/
+26M	tasks/
+19M	requests/

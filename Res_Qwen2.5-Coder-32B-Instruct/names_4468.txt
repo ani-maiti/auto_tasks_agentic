@@ -1,0 +1,3 @@
+atexit.rst
+test_copyreg.py
+python3tdll.vcxproj

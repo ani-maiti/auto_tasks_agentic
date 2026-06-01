@@ -1,0 +1,13 @@
+x86_64-apple-ios-simulator-strip
+pydoc3
+step_2.sh
+step_5.sh
+step_2.sh
+step_2.sh
+step_3.sh
+stdout_step_2.txt
+step_1.sh
+step_2.sh
+step_2.sh
+step_2.sh
+step_2.sh

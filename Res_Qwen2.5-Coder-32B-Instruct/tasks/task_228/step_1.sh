@@ -1,0 +1,1 @@
+echo "Step 1: Identify twenty major cities and their continents"

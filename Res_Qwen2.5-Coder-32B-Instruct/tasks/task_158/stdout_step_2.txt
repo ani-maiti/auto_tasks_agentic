@@ -1,0 +1,1 @@
+Found 615 files with more than one dot in their filenames.

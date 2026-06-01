@@ -1,0 +1,17 @@
+Starting search for duplicate filenames...
+stderr_step_1.txt
+stderr_step_2.txt
+stderr_step_3.txt
+stderr_step_4.txt
+stdout_step_1.txt
+stdout_step_2.txt
+stdout_step_3.txt
+stdout_step_4.txt
+step_1_log.json
+step_1.sh
+step_2_log.json
+step_2.sh
+step_3_log.json
+step_3.sh
+step_4_log.json
+step_4.sh

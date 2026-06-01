@@ -1,0 +1,1 @@
+./tasks/task_070/step_5.sh: line 2: nslookup: command not found

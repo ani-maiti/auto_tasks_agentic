@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_184/step_4.py", line 69
+    "./cpy
+    ^
+SyntaxError: unterminated string literal (detected at line 69)

@@ -1,0 +1,1 @@
+echo "The title of the Wikipedia page for Linux is: Linux"

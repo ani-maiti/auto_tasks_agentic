@@ -1,0 +1,1 @@
+{'by': 'jwecker', 'id': 422, 'kids': [540], 'parent': 194, 'text': "OK, here's the question, pg, is this site actually running on a lightweight webserver written in ARC, or did you tie ARC into apache or something for the application logic and storage?  Or did you use ARC as a markup language?  Just curious.", 'time': 1172101942, 'type': 'comment'}

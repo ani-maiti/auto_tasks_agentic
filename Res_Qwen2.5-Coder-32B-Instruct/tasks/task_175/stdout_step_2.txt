@@ -1,0 +1,5 @@
+Files containing 'data science':
+1:Starting search for files containing 'data science'
+5:echo "Starting search for files containing 'data science'"
+6:find . -type f -exec grep -l "data science" {} \;find the 20 largest files under the current directory and print their paths and sizes
+180:find all files containing the phrase data science

@@ -1,0 +1,2 @@
+pythondaily.symbols.nuspec
+step_4_log.json

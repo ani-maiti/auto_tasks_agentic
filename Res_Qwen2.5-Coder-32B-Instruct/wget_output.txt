@@ -1,0 +1,12 @@
+Spider mode enabled. Check if remote file exists.
+--2026-05-31 17:36:42--  https://example.com/docs
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving example.com (example.com)... 104.20.23.154, 172.66.147.243, 2606:4700:10::ac42:93f3, ...
+Connecting to example.com (example.com)|104.20.23.154|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+Remote file does not exist -- broken link!!!
+
+Found 1 broken link.
+
+https://example.com/docs
+

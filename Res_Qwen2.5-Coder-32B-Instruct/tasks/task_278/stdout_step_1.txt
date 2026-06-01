@@ -1,0 +1,11 @@
+Starting task: discovering all CSV files in the current directory tree.
+./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv
+./common_keys_report.csv
+./python_files_line_counts.csv
+./largest_files.csv
+./archive_comparison.csv
+./email_columns_report.csv
+./results.csv
+./domain_analysis.csv
+./report.csv
+./image_hashes.csv

@@ -1,0 +1,1 @@
+echo "No directories found with names longer than 20 characters."

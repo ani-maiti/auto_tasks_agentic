@@ -1,0 +1,3 @@
+pycore_stats.h
+_uuid.vcxproj
+xxlimited.vcxproj

@@ -1,0 +1,5 @@
+Found occurrences of 'data science' in files:
+./tasks/task_175/stdout_step_1.txt:Starting search for files containing 'data science'
+./tasks/task_175/step_1.sh:echo "Starting search for files containing 'data science'"
+./tasks/task_175/step_1.sh:find . -type f -exec grep -l "data science" {} \;
+./task_descriptions_all.txt:find all files containing the phrase data science

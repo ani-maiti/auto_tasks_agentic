@@ -1,0 +1,1 @@
+echo "Total disk usage of the current directory: 7.4M"

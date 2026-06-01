@@ -1,0 +1,4 @@
+Requests package is already installed. Let's also install BeautifulSoup for parsing HTML.
+Requirement already satisfied: beautifulsoup4 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (4.14.3)
+Requirement already satisfied: soupsieve>=1.6.1 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from beautifulsoup4) (2.8.4)
+Requirement already satisfied: typing-extensions>=4.0.0 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from beautifulsoup4) (4.15.0)

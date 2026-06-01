@@ -1,0 +1,1 @@
+curl -s https://kubernetes.io/blog/ | grep -oP '(?<=<h2 class="post-title entry-title">).*?(?=</h2>)'

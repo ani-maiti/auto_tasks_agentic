@@ -1,0 +1,21 @@
+{
+    "./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv": {
+        "header 1": "str",
+        "header 2": "str",
+        "header 3": "str",
+        "quoted header": "str",
+        " trailing commas": "str",
+        "Unnamed: 5": "float64",
+        "Unnamed: 6": "float64",
+        "Unnamed: 7": "float64",
+        "Unnamed: 8": "float64"
+    },
+    "./python_files_line_counts.csv": {
+        "./generate_code_model_run.py": "str",
+        "287": "int64"
+    },
+    "./largest_files.csv": {
+        "/home/ai_admin/dp_models/coding_models/Codestral-22B-v0.1/consolidated.safetensors": "str",
+        "42G": "str"
+    }
+}

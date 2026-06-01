@@ -1,0 +1,1 @@
+echo "Directory tree structure report has been successfully generated and displayed."

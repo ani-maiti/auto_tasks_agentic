@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_278/step_3.py", line 4, in <module>
+    potential_foreign_keys = defaultdict(list)
+                             ^^^^^^^^^^^
+NameError: name 'defaultdict' is not defined

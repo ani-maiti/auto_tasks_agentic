@@ -1,0 +1,1 @@
+echo "The number of open issues in the pandas GitHub repository is 3235."

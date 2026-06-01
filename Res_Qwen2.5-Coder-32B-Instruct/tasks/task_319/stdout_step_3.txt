@@ -1,0 +1,2 @@
+Failed to fetch data from https://v6.exchangerate-api.com/v6/1d58f1b1a0b1a0b1a0b1a0b1/latest/USD: 403 Client Error: Forbidden for url: https://v6.exchangerate-api.com/v6/1d58f1b1a0b1a0b1a0b1a0b1/latest/USD
+{'exchangerate-api': None, 'fixer': {'success': False, 'error': {'code': 101, 'type': 'invalid_access_key', 'info': 'You have not supplied a valid API Access Key. [Technical Support: support@apilayer.com]'}}}

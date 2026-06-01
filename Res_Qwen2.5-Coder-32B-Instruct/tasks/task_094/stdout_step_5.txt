@@ -1,0 +1,1 @@
+Network to github.com seems fine. Attempting to fetch the latest Docker release tag again.

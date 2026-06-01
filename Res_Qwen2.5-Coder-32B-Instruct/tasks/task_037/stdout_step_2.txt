@@ -1,0 +1,2 @@
+Checking /home for largest subdirectory
+881G	/home/ai_admin

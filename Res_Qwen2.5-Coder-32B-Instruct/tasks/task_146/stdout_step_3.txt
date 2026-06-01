@@ -1,0 +1,23 @@
+Found Python files importing requests:
+./tasks/task_140/step_2.py
+./tasks/task_140/step_4.py
+./tasks/task_080/step_2.py
+./tasks/task_073/step_3.py
+./tasks/task_073/step_2.py
+./tasks/task_073/step_4.py
+./tasks/task_074/step_3.py
+./tasks/task_081/step_3.py
+./tasks/task_081/step_5.py
+./tasks/task_096/step_2.py
+./requests/tests/test_adapters.py
+./requests/tests/test_testserver.py
+./requests/tests/test_requests.py
+./requests/tests/test_packages.py
+./requests/tests/test_lowlevel.py
+./requests/src/requests/__init__.py
+./requests/src/requests/status_codes.py
+./requests/src/requests/sessions.py
+./requests/src/requests/adapters.py
+./requests/src/requests/models.py
+./requests/src/requests/api.py
+./requests/docs/conf.py

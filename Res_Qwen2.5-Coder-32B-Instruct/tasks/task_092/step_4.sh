@@ -1,0 +1,2 @@
+echo "Fetching top 5 most starred Python repositories from GitHub without jq..."
+curl -s "https://api.github.com/search/repositories?q=language:python&sort=stars&order=desc" | grep -oP '(?<="name":")[^"]+' | head -n 5

@@ -1,0 +1,4 @@
+pycore_audit.h
+pycore_sysmodule.h
+_testimportmultiple.vcxproj.filters
+.readthedocs.yaml

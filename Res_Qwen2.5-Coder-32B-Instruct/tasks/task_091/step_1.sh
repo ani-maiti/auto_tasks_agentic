@@ -1,0 +1,1 @@
+curl -s https://www.investing.com/commodities/silver-price | grep 'last_last'

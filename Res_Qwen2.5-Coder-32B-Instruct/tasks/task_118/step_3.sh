@@ -1,0 +1,1 @@
+echo "Latest release version of curl from GitHub is: curl-8_20_0"

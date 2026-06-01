@@ -1,0 +1,2 @@
+pycore_dtoa.h
+pycore_index_pool.h

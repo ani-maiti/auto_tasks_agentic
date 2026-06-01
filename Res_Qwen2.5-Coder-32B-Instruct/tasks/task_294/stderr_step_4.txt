@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_294/step_4.py", line 10, in <module>
+    for filename, archives in inventory.items():
+                              ^^^^^^^^^
+NameError: name 'inventory' is not defined

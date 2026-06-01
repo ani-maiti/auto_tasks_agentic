@@ -1,0 +1,1 @@
+echo "JSON summary of all files and sizes has been generated and saved to file_summary.json."

@@ -1,0 +1,2 @@
+Total number of lines across all .py files:
+677

@@ -1,0 +1,2 @@
+pycore_faulthandler.h
+prepare_protocol.c

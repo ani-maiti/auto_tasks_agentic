@@ -1,0 +1,12 @@
+Failed to connect to worldtimeapi.org
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/8.20.0", 
+    "X-Amzn-Trace-Id": "Root=1-6a1c7528-10eb1db3506bc59a703e2612"
+  }, 
+  "origin": "192.73.23.2", 
+  "url": "https://httpbin.org/get"
+}

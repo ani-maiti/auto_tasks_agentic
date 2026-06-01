@@ -1,0 +1,2 @@
+echo "Fetching top 5 most starred Python repositories from GitHub..."
+curl -s "https://api.github.com/search/repositories?q=language:python&sort=stars&order=desc" | jq '.items[] | {name: .name, stars: .stargazers_count}' | head -n 5

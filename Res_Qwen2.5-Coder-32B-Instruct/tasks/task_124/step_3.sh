@@ -1,0 +1,1 @@
+echo "Number of stars in the numpy GitHub repository: 32118"

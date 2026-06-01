@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_320/step_2.py", line 13, in <module>
+    functions_by_file = {file: parse_functions(file) for file in python_files}
+                               ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_320/step_2.py", line 9, in parse_functions
+    tree = ast.parse(file.read(), filename=file_path)
+  File "/usr/lib/python3.14/ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "./tasks/task_147/step_2.py", line 2
+    for line in """\
+                ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 36)

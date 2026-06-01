@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_294/step_2.py", line 25, in <module>
+    with tarfile.open(archive, 'r') as t:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/tarfile.py", line 1925, in open
+    raise ReadError(f"file could not be opened successfully:\n{error_msgs_summary}")
+tarfile.ReadError: file could not be opened successfully:
+- method gz: ReadError('not a gzip file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method zst: ReadError('not a zstd file')
+- method tar: ReadError('invalid header')

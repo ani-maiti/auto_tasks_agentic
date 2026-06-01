@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_140/step_5.py", line 1, in <module>
+    print("Final redirect URL:", redirect_chain[-1])
+                                 ^^^^^^^^^^^^^^
+NameError: name 'redirect_chain' is not defined

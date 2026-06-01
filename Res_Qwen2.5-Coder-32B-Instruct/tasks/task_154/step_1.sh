@@ -1,0 +1,1 @@
+find . -type f | awk -F. 'NF>1 {print $NF}' | sort | uniq -c | sort -n | head -n 1

@@ -1,0 +1,10 @@
+./merged_articles.json
+./exchange_rates.json
+./python_files_sizes.json
+./wiki_graph.json
+./tasks/task_147/step_1_log.json
+./tasks/task_147/step_3_log.json
+./tasks/task_147/step_2_log.json
+./tasks/task_235/step_1_log.json
+./tasks/task_235/step_3_log.json
+./tasks/task_235/step_2_log.json

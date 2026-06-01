@@ -1,0 +1,2 @@
+echo "Searching for files containing email addresses, excluding known problematic files..."
+find . -type f ! -name "stdout_step_*.txt" -exec grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b" {} +

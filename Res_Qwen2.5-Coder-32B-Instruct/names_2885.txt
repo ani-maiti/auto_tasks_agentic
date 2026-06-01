@@ -1,0 +1,2 @@
+remoteDeploy.bat
+step_4_log.json

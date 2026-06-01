@@ -1,0 +1,2 @@
+PythonLauncher.icns
+PythonInterpreter.icns

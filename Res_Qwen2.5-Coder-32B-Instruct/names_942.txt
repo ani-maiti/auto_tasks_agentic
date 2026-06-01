@@ -1,0 +1,2 @@
+docstrings.pot
+python_ver_rc.h

@@ -1,0 +1,1 @@
+echo "The number of open issues in the requests GitHub repository is: 229"

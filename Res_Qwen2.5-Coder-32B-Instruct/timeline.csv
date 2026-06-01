@@ -1,0 +1,522 @@
+Timestamp,File,Event
+1970-01-06 17:55:06.282000,/var/log/Xorg.0.log,[514506.282] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.282000,/var/log/Xorg.0.log,[514506.282] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.282000,/var/log/Xorg.0.log,[514506.282] (II) config/udev: Adding input device American Megatreds Inc. Virtual Keyboard and Mouse Gadget (/dev/input/mouse1)
+1970-01-06 17:55:06.283000,/var/log/Xorg.0.log,[514506.283] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.283000,/var/log/Xorg.0.log,[514506.283] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.283000,/var/log/Xorg.0.log,[514506.283] (II) config/udev: Adding input device Corsair CORSAIR M65 RGB ULTRA Gaming Mouse (/dev/input/mouse0)
+1970-01-06 17:55:06.290000,/var/log/Xorg.0.log,[514506.290] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.290000,/var/log/Xorg.0.log,[514506.290] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.290000,/var/log/Xorg.0.log,[514506.290] (II) config/udev: Adding input device HD-Audio Generic Line Out (/dev/input/event20)
+1970-01-06 17:55:06.292000,/var/log/Xorg.0.log,[514506.292] (II) config/udev: removing device Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard
+1970-01-06 17:55:06.293000,/var/log/Xorg.0.log,[514506.293] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.293000,/var/log/Xorg.0.log,[514506.293] (II) config/udev: removing device Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard
+1970-01-06 17:55:06.294000,/var/log/Xorg.0.log,[514506.294] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: device removed
+1970-01-06 17:55:06.307000,/var/log/Xorg.0.log,[514506.307] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.307000,/var/log/Xorg.0.log,[514506.307] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.307000,/var/log/Xorg.0.log,[514506.307] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: always reports core events
+1970-01-06 17:55:06.307000,/var/log/Xorg.0.log,[514506.307] (**) Option "Device" "/dev/input/event3"
+1970-01-06 17:55:06.307000,/var/log/Xorg.0.log,[514506.307] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.307000,/var/log/Xorg.0.log,[514506.307] (II) Using input driver 'libinput' for 'Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard'
+1970-01-06 17:55:06.307000,/var/log/Xorg.0.log,[514506.307] (II) config/udev: Adding input device Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard (/dev/input/event3)
+1970-01-06 17:55:06.308000,/var/log/Xorg.0.log,[514506.308] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: device is a keyboard
+1970-01-06 17:55:06.308000,/var/log/Xorg.0.log,[514506.308] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: device removed
+1970-01-06 17:55:06.308000,/var/log/Xorg.0.log,[514506.308] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: (accel) acceleration factor: 2.000
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: (accel) acceleration threshold: 4
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: (accel) selected scheme none/0
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (**) Option "AccelerationScheme" "none"
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-4/7-4:1.3/0003:1B1C:1B9E.0004/input/input3/event3"
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (II) XINPUT: Adding extended input device "Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard" (type: MOUSE, id 7)
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: device is a keyboard
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.334000,/var/log/Xorg.0.log,[514506.334] (II) libinput: Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: needs a virtual subdevice
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: always reports core events
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Option "Device" "/dev/input/event3"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-4/7-4:1.3/0003:1B1C:1B9E.0004/input/input3/event3"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Option "xkb_layout" "us"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Option "xkb_model" "pc105+inet"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (II) Using input driver 'libinput' for 'Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard'
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (II) XINPUT: Adding extended input device "Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard" (type: KEYBOARD, id 15)
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (II) config/udev: removing device Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (II) config/udev: removing device Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: device removed
+1970-01-06 17:55:06.335000,/var/log/Xorg.0.log,[514506.335] (II) libinput: Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: is a virtual subdevice
+1970-01-06 17:55:06.358000,/var/log/Xorg.0.log,[514506.358] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.358000,/var/log/Xorg.0.log,[514506.358] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.358000,/var/log/Xorg.0.log,[514506.358] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: always reports core events
+1970-01-06 17:55:06.358000,/var/log/Xorg.0.log,[514506.358] (**) Option "Device" "/dev/input/event5"
+1970-01-06 17:55:06.358000,/var/log/Xorg.0.log,[514506.358] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.358000,/var/log/Xorg.0.log,[514506.358] (II) Using input driver 'libinput' for 'Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard'
+1970-01-06 17:55:06.358000,/var/log/Xorg.0.log,[514506.358] (II) config/udev: Adding input device Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard (/dev/input/event5)
+1970-01-06 17:55:06.359000,/var/log/Xorg.0.log,[514506.359] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: device is a keyboard
+1970-01-06 17:55:06.359000,/var/log/Xorg.0.log,[514506.359] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: device removed
+1970-01-06 17:55:06.359000,/var/log/Xorg.0.log,[514506.359] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: (accel) acceleration factor: 2.000
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: (accel) acceleration threshold: 4
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: (accel) selected scheme none/0
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (**) Option "AccelerationScheme" "none"
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-5/7-5:1.1/0003:046D:C341.0006/input/input5/event5"
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (II) XINPUT: Adding extended input device "Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard" (type: MOUSE, id 9)
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: device is a keyboard
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.370000,/var/log/Xorg.0.log,[514506.370] (II) libinput: Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: needs a virtual subdevice
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: always reports core events
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Option "Device" "/dev/input/event5"
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-5/7-5:1.1/0003:046D:C341.0006/input/input5/event5"
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Option "xkb_layout" "us"
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Option "xkb_model" "pc105+inet"
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) Using input driver 'libinput' for 'Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard'
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) XINPUT: Adding extended input device "Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard" (type: KEYBOARD, id 16)
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) config/udev: Adding input device HD-Audio Generic Front Headphone (/dev/input/event21)
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) config/udev: removing device Eee PC WMI hotkeys
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) event9  - Eee PC WMI hotkeys: device removed
+1970-01-06 17:55:06.371000,/var/log/Xorg.0.log,[514506.371] (II) libinput: Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: is a virtual subdevice
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (**) Eee PC WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (**) Eee PC WMI hotkeys: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (**) Eee PC WMI hotkeys: always reports core events
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (**) Option "Device" "/dev/input/event9"
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (II) Using input driver 'libinput' for 'Eee PC WMI hotkeys'
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (II) config/udev: Adding input device Eee PC WMI hotkeys (/dev/input/event9)
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (II) event9  - Eee PC WMI hotkeys: device is a keyboard
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (II) event9  - Eee PC WMI hotkeys: device removed
+1970-01-06 17:55:06.406000,/var/log/Xorg.0.log,[514506.406] (II) event9  - Eee PC WMI hotkeys: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (**) Option "config_info" "udev:/sys/devices/platform/eeepc-wmi/input/input9/event9"
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (**) Option "xkb_layout" "us"
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (**) Option "xkb_model" "pc105+inet"
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (II) XINPUT: Adding extended input device "Eee PC WMI hotkeys" (type: KEYBOARD, id 14)
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (II) config/udev: removing device Power Button
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (II) event0  - Power Button: device removed
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (II) event9  - Eee PC WMI hotkeys: device is a keyboard
+1970-01-06 17:55:06.421000,/var/log/Xorg.0.log,[514506.421] (II) event9  - Eee PC WMI hotkeys: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (**) Option "Device" "/dev/input/event0"
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (**) Power Button: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (**) Power Button: always reports core events
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (II) Using input driver 'libinput' for 'Power Button'
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (II) event0  - Power Button: device is a keyboard
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (II) event0  - Power Button: device removed
+1970-01-06 17:55:06.431000,/var/log/Xorg.0.log,[514506.431] (II) event0  - Power Button: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C0C:00/input/input0/event0"
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (**) Option "xkb_layout" "us"
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (**) Option "xkb_model" "pc105+inet"
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 13)
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) config/udev: Adding input device HD-Audio Generic Rear Mic (/dev/input/event19)
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) config/udev: removing device Logitech Mechanical keyboard Logitech Mechanical keyboard
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) event0  - Power Button: device is a keyboard
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) event0  - Power Button: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.438000,/var/log/Xorg.0.log,[514506.438] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: device removed
+1970-01-06 17:55:06.444000,/var/log/Xorg.0.log,[514506.444] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.444000,/var/log/Xorg.0.log,[514506.444] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.444000,/var/log/Xorg.0.log,[514506.444] (**) Logitech Mechanical keyboard Logitech Mechanical keyboard: always reports core events
+1970-01-06 17:55:06.444000,/var/log/Xorg.0.log,[514506.444] (**) Option "Device" "/dev/input/event4"
+1970-01-06 17:55:06.444000,/var/log/Xorg.0.log,[514506.444] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.444000,/var/log/Xorg.0.log,[514506.444] (II) Using input driver 'libinput' for 'Logitech Mechanical keyboard Logitech Mechanical keyboard'
+1970-01-06 17:55:06.444000,/var/log/Xorg.0.log,[514506.444] (II) config/udev: Adding input device Logitech Mechanical keyboard Logitech Mechanical keyboard (/dev/input/event4)
+1970-01-06 17:55:06.445000,/var/log/Xorg.0.log,[514506.445] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: device is a keyboard
+1970-01-06 17:55:06.445000,/var/log/Xorg.0.log,[514506.445] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: device removed
+1970-01-06 17:55:06.445000,/var/log/Xorg.0.log,[514506.445] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-5/7-5:1.0/0003:046D:C341.0005/input/input4/event4"
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (**) Option "xkb_layout" "us"
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (**) Option "xkb_model" "pc105+inet"
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (II) XINPUT: Adding extended input device "Logitech Mechanical keyboard Logitech Mechanical keyboard" (type: KEYBOARD, id 8)
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (II) config/udev: removing device American Megatreds Inc. Virtual Keyboard and Mouse Gadget
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: device is a keyboard
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.456000,/var/log/Xorg.0.log,[514506.456] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device removed
+1970-01-06 17:55:06.468000,/var/log/Xorg.0.log,[514506.468] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: Applying InputClass "libinput pointer catchall"
+1970-01-06 17:55:06.468000,/var/log/Xorg.0.log,[514506.468] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: always reports core events
+1970-01-06 17:55:06.468000,/var/log/Xorg.0.log,[514506.468] (**) Option "Device" "/dev/input/event6"
+1970-01-06 17:55:06.468000,/var/log/Xorg.0.log,[514506.468] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.468000,/var/log/Xorg.0.log,[514506.468] (II) Using input driver 'libinput' for 'American Megatreds Inc. Virtual Keyboard and Mouse Gadget'
+1970-01-06 17:55:06.468000,/var/log/Xorg.0.log,[514506.468] (II) config/udev: Adding input device American Megatreds Inc. Virtual Keyboard and Mouse Gadget (/dev/input/event6)
+1970-01-06 17:55:06.469000,/var/log/Xorg.0.log,[514506.469] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device is a pointer
+1970-01-06 17:55:06.469000,/var/log/Xorg.0.log,[514506.469] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device removed
+1970-01-06 17:55:06.469000,/var/log/Xorg.0.log,[514506.469] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: is tagged by udev as: Mouse
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: (accel) acceleration factor: 2.000
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: (accel) acceleration threshold: 4
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: (accel) selected scheme none/0
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (**) Option "AccelerationScheme" "none"
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-6/7-6.4/7-6.4:1.0/0003:046B:FF10.0008/input/input6/event6"
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (II) XINPUT: Adding extended input device "American Megatreds Inc. Virtual Keyboard and Mouse Gadget" (type: MOUSE, id 10)
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device is a pointer
+1970-01-06 17:55:06.484000,/var/log/Xorg.0.log,[514506.484] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: is tagged by udev as: Mouse
+1970-01-06 17:55:06.485000,/var/log/Xorg.0.log,[514506.485] (II) config/udev: removing device Corsair CORSAIR M65 RGB ULTRA Gaming Mouse
+1970-01-06 17:55:06.485000,/var/log/Xorg.0.log,[514506.485] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: device removed
+1970-01-06 17:55:06.501000,/var/log/Xorg.0.log,[514506.501] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: Applying InputClass "libinput pointer catchall"
+1970-01-06 17:55:06.501000,/var/log/Xorg.0.log,[514506.501] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: always reports core events
+1970-01-06 17:55:06.501000,/var/log/Xorg.0.log,[514506.501] (**) Option "Device" "/dev/input/event2"
+1970-01-06 17:55:06.501000,/var/log/Xorg.0.log,[514506.501] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.501000,/var/log/Xorg.0.log,[514506.501] (II) Using input driver 'libinput' for 'Corsair CORSAIR M65 RGB ULTRA Gaming Mouse'
+1970-01-06 17:55:06.501000,/var/log/Xorg.0.log,[514506.501] (II) config/udev: Adding input device Corsair CORSAIR M65 RGB ULTRA Gaming Mouse (/dev/input/event2)
+1970-01-06 17:55:06.553000,/var/log/Xorg.0.log,[514506.553] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: device is a pointer
+1970-01-06 17:55:06.553000,/var/log/Xorg.0.log,[514506.553] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: device removed
+1970-01-06 17:55:06.553000,/var/log/Xorg.0.log,[514506.553] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: is tagged by udev as: Mouse
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: (accel) acceleration factor: 2.000
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: (accel) acceleration threshold: 4
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (**) Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: (accel) selected scheme none/0
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (**) Option "AccelerationScheme" "none"
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-4/7-4:1.0/0003:1B1C:1B9E.0001/input/input2/event2"
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (II) XINPUT: Adding extended input device "Corsair CORSAIR M65 RGB ULTRA Gaming Mouse" (type: MOUSE, id 6)
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (II) libinput: Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (II) libinput: Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+1970-01-06 17:55:06.565000,/var/log/Xorg.0.log,[514506.565] (II) libinput: Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+1970-01-06 17:55:06.616000,/var/log/Xorg.0.log,[514506.616] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: device is a pointer
+1970-01-06 17:55:06.616000,/var/log/Xorg.0.log,[514506.616] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: is tagged by udev as: Mouse
+1970-01-06 17:55:06.617000,/var/log/Xorg.0.log,[514506.617] (II) config/udev: removing device American Megatreds Inc. Virtual Keyboard and Mouse Gadget
+1970-01-06 17:55:06.617000,/var/log/Xorg.0.log,[514506.617] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device removed
+1970-01-06 17:55:06.631000,/var/log/Xorg.0.log,[514506.631] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.631000,/var/log/Xorg.0.log,[514506.631] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.631000,/var/log/Xorg.0.log,[514506.631] (**) American Megatreds Inc. Virtual Keyboard and Mouse Gadget: always reports core events
+1970-01-06 17:55:06.631000,/var/log/Xorg.0.log,[514506.631] (**) Option "Device" "/dev/input/event7"
+1970-01-06 17:55:06.631000,/var/log/Xorg.0.log,[514506.631] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.631000,/var/log/Xorg.0.log,[514506.631] (II) Using input driver 'libinput' for 'American Megatreds Inc. Virtual Keyboard and Mouse Gadget'
+1970-01-06 17:55:06.631000,/var/log/Xorg.0.log,[514506.631] (II) config/udev: Adding input device American Megatreds Inc. Virtual Keyboard and Mouse Gadget (/dev/input/event7)
+1970-01-06 17:55:06.632000,/var/log/Xorg.0.log,[514506.632] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device is a keyboard
+1970-01-06 17:55:06.632000,/var/log/Xorg.0.log,[514506.632] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device removed
+1970-01-06 17:55:06.632000,/var/log/Xorg.0.log,[514506.632] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.641000,/var/log/Xorg.0.log,[514506.641] (**) Option "config_info" "udev:/sys/devices/pci0000:40/0000:40:01.4/0000:aa:00.0/0000:ab:0c.0/0000:ac:00.0/usb7/7-6/7-6.4/7-6.4:1.1/0003:046B:FF10.0009/input/input7/event7"
+1970-01-06 17:55:06.641000,/var/log/Xorg.0.log,[514506.641] (**) Option "xkb_layout" "us"
+1970-01-06 17:55:06.641000,/var/log/Xorg.0.log,[514506.641] (**) Option "xkb_model" "pc105+inet"
+1970-01-06 17:55:06.641000,/var/log/Xorg.0.log,[514506.641] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+1970-01-06 17:55:06.641000,/var/log/Xorg.0.log,[514506.641] (II) XINPUT: Adding extended input device "American Megatreds Inc. Virtual Keyboard and Mouse Gadget" (type: KEYBOARD, id 11)
+1970-01-06 17:55:06.641000,/var/log/Xorg.0.log,[514506.641] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device is a keyboard
+1970-01-06 17:55:06.641000,/var/log/Xorg.0.log,[514506.641] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.642000,/var/log/Xorg.0.log,[514506.642] (II) config/udev: removing device Power Button
+1970-01-06 17:55:06.642000,/var/log/Xorg.0.log,[514506.642] (II) event1  - Power Button: device removed
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (**) Option "Device" "/dev/input/event1"
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (**) Power Button: Applying InputClass "system-keyboard"
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (**) Power Button: always reports core events
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (II) UnloadModule: "libinput"
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (II) Using input driver 'libinput' for 'Power Button'
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (II) event1  - Power Button: device is a keyboard
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (II) event1  - Power Button: device removed
+1970-01-06 17:55:06.652000,/var/log/Xorg.0.log,[514506.652] (II) event1  - Power Button: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (**) Option "config_info" "udev:/sys/devices/platform/LNXPWRBN:00/input/input1/event1"
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (**) Option "xkb_layout" "us"
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (**) Option "xkb_model" "pc105+inet"
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 12)
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) config/udev: Adding input device HD-Audio Generic Front Mic (/dev/input/event18)
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event15)
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event13)
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) event1  - Power Button: device is a keyboard
+1970-01-06 17:55:06.659000,/var/log/Xorg.0.log,[514506.659] (II) event1  - Power Button: is tagged by udev as: Keyboard
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) No input driver specified, ignoring this device.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) This device may have been added with another device file.
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event10)
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event14)
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event11)
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event12)
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event16)
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event17)
+1970-01-06 17:55:06.660000,/var/log/Xorg.0.log,[514506.660] (II) config/udev: Adding input device PC Speaker (/dev/input/event8)
+1970-01-06 18:13:11.418000,/var/log/Xorg.0.log,[515591.418] [dix] EventToCore: Not implemented yet
+1970-01-06 19:46:30.267000,/var/log/Xorg.0.log,[521190.267] [dix] EventToCore: Not implemented yet
+1970-01-07 05:08:03.793000,/var/log/Xorg.0.log,[554883.793] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-08 19:49:32.133000,/var/log/Xorg.0.log,[694172.133] (EE) client bug: timer button-debounce-debounce-event2: scheduled expiry is in the past (-218ms), your system is too slow
+1970-01-08 19:49:32.133000,/var/log/Xorg.0.log,[694172.133] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-08 19:49:35.601000,/var/log/Xorg.0.log,[694175.601] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-08 20:06:50.109000,/var/log/Xorg.0.log,[695210.109] (EE) client bug: timer button-debounce-debounce-event2: scheduled expiry is in the past (-138ms), your system is too slow
+1970-01-08 20:06:50.109000,/var/log/Xorg.0.log,[695210.109] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-08 20:28:45.110000,/var/log/Xorg.0.log,[696525.110] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-08 20:58:10.217000,/var/log/Xorg.0.log,[698290.217] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-10 06:34:34.185000,/var/log/Xorg.0.log,[819274.185] (EE) client bug: timer button-debounce-debounce-event2: scheduled expiry is in the past (-33ms), your system is too slow
+1970-01-10 06:34:34.185000,/var/log/Xorg.0.log,[819274.185] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-10 06:56:25.271000,/var/log/Xorg.0.log,[820585.271] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-10 07:36:23.997000,/var/log/Xorg.0.log,[822983.997] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-10 07:36:24.939000,/var/log/Xorg.0.log,[822984.939] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-10 07:36:24.941000,/var/log/Xorg.0.log,[822984.941] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: device removed
+1970-01-10 07:36:24.958000,/var/log/Xorg.0.log,[822984.958] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: device removed
+1970-01-10 07:36:24.964000,/var/log/Xorg.0.log,[822984.964] (II) event9  - Eee PC WMI hotkeys: device removed
+1970-01-10 07:36:24.987000,/var/log/Xorg.0.log,[822984.987] (II) event0  - Power Button: device removed
+1970-01-10 07:36:24.997000,/var/log/Xorg.0.log,[822984.997] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: device removed
+1970-01-10 07:36:25.011000,/var/log/Xorg.0.log,[822985.011] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device removed
+1970-01-10 07:36:25.047000,/var/log/Xorg.0.log,[822985.047] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: device removed
+1970-01-10 07:36:25.083000,/var/log/Xorg.0.log,[822985.083] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device removed
+1970-01-10 07:36:25.094000,/var/log/Xorg.0.log,[822985.094] (II) event1  - Power Button: device removed
+1970-01-10 07:36:39.253000,/var/log/Xorg.0.log,[822999.253] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.253000,/var/log/Xorg.0.log,[822999.253] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.253000,/var/log/Xorg.0.log,[822999.253] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): Internal DisplayPort
+1970-01-10 07:36:39.253000,/var/log/Xorg.0.log,[822999.253] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): connected
+1970-01-10 07:36:39.256000,/var/log/Xorg.0.log,[822999.256] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.256000,/var/log/Xorg.0.log,[822999.256] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.256000,/var/log/Xorg.0.log,[822999.256] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+1970-01-10 07:36:39.256000,/var/log/Xorg.0.log,[822999.256] (--) NVIDIA(GPU-0): DFP-1: disconnected
+1970-01-10 07:36:39.257000,/var/log/Xorg.0.log,[822999.257] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.257000,/var/log/Xorg.0.log,[822999.257] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.257000,/var/log/Xorg.0.log,[822999.257] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): Internal DisplayPort
+1970-01-10 07:36:39.257000,/var/log/Xorg.0.log,[822999.257] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): connected
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-3: disconnected
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-4: 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-4: disconnected
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-5: disconnected
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-6: 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+1970-01-10 07:36:39.259000,/var/log/Xorg.0.log,[822999.259] (--) NVIDIA(GPU-0): DFP-6: disconnected
+1970-01-10 07:36:39.260000,/var/log/Xorg.0.log,[822999.260] (--) NVIDIA(GPU-0):
+1970-01-10 07:36:39.260000,/var/log/Xorg.0.log,[822999.260] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.260000,/var/log/Xorg.0.log,[822999.260] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+1970-01-10 07:36:39.260000,/var/log/Xorg.0.log,[822999.260] (--) NVIDIA(GPU-0): DFP-7: disconnected
+1970-01-10 07:36:39.280000,/var/log/Xorg.0.log,[822999.280] (II) NVIDIA(0): Setting mode "DP-2: nvidia-auto-select @1600x900 +1600+0 {ViewPortIn=1600x900, ViewPortOut=1600x900+0+0}, DP-0: nvidia-auto-select @1600x900 +0+0 {ViewPortIn=1600x900, ViewPortOut=1600x900+0+0}"
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0):     Config Options in the README.
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+1970-01-10 07:36:39.534000,/var/log/Xorg.0.log,[822999.534] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-0: 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-0: Internal DisplayPort
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-0: disconnected
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-1: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-1: Internal TMDS
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-1: disconnected
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-2: 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-2: Internal DisplayPort
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-2: disconnected
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-3: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-3: Internal TMDS
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-3: disconnected
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-4: 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-4: Internal DisplayPort
+1970-01-10 07:36:39.535000,/var/log/Xorg.0.log,[822999.535] (--) NVIDIA(GPU-1): DFP-4: disconnected
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1):
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-5: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-5: Internal TMDS
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-5: disconnected
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-6: 9520.0 MHz maximum pixel clock
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-6: Internal DisplayPort
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-6: disconnected
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-7: 165.0 MHz maximum pixel clock
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-7: Internal TMDS
+1970-01-10 07:36:39.536000,/var/log/Xorg.0.log,[822999.536] (--) NVIDIA(GPU-1): DFP-7: disconnected
+1970-01-10 07:36:39.541000,/var/log/Xorg.0.log,[822999.541] (II) NVIDIA(G0): Setting mode "NULL"
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0):     Config Options in the README.
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+1970-01-10 07:36:39.544000,/var/log/Xorg.0.log,[822999.544] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+1970-01-10 07:36:39.588000,/var/log/Xorg.0.log,[822999.588] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: device is a keyboard
+1970-01-10 07:36:39.588000,/var/log/Xorg.0.log,[822999.588] (II) event3  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse Keyboard: is tagged by udev as: Keyboard
+1970-01-10 07:36:39.589000,/var/log/Xorg.0.log,[822999.589] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: device is a keyboard
+1970-01-10 07:36:39.589000,/var/log/Xorg.0.log,[822999.589] (II) event5  - Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard: is tagged by udev as: Keyboard
+1970-01-10 07:36:39.589000,/var/log/Xorg.0.log,[822999.589] (II) event9  - Eee PC WMI hotkeys: device is a keyboard
+1970-01-10 07:36:39.589000,/var/log/Xorg.0.log,[822999.589] (II) event9  - Eee PC WMI hotkeys: is tagged by udev as: Keyboard
+1970-01-10 07:36:39.590000,/var/log/Xorg.0.log,[822999.590] (II) event0  - Power Button: device is a keyboard
+1970-01-10 07:36:39.590000,/var/log/Xorg.0.log,[822999.590] (II) event0  - Power Button: is tagged by udev as: Keyboard
+1970-01-10 07:36:39.590000,/var/log/Xorg.0.log,[822999.590] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: device is a keyboard
+1970-01-10 07:36:39.590000,/var/log/Xorg.0.log,[822999.590] (II) event4  - Logitech Mechanical keyboard Logitech Mechanical keyboard: is tagged by udev as: Keyboard
+1970-01-10 07:36:39.591000,/var/log/Xorg.0.log,[822999.591] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device is a pointer
+1970-01-10 07:36:39.591000,/var/log/Xorg.0.log,[822999.591] (II) event6  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: is tagged by udev as: Mouse
+1970-01-10 07:36:39.643000,/var/log/Xorg.0.log,[822999.643] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: device is a pointer
+1970-01-10 07:36:39.643000,/var/log/Xorg.0.log,[822999.643] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: is tagged by udev as: Mouse
+1970-01-10 07:36:39.644000,/var/log/Xorg.0.log,[822999.644] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: device is a keyboard
+1970-01-10 07:36:39.644000,/var/log/Xorg.0.log,[822999.644] (II) event7  - American Megatreds Inc. Virtual Keyboard and Mouse Gadget: is tagged by udev as: Keyboard
+1970-01-10 07:36:39.645000,/var/log/Xorg.0.log,[822999.645] (II) event1  - Power Button: device is a keyboard
+1970-01-10 07:36:39.645000,/var/log/Xorg.0.log,[822999.645] (II) event1  - Power Button: is tagged by udev as: Keyboard
+1970-01-10 19:43:13.041000,/var/log/Xorg.0.log,[866593.041] (II) event2  - Corsair CORSAIR M65 RGB ULTRA Gaming Mouse: SYN_DROPPED event - some input events have been lost.
+1970-01-10 19:43:13.042000,/var/log/Xorg.0.log,[866593.042] (EE) client bug: timer button-debounce-debounce-event2: scheduled expiry is in the past (-124ms), your system is too slow
+1970-01-10 21:02:49.707000,/var/log/Xorg.0.log,[871369.707] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.707000,/var/log/Xorg.0.log,[871369.707] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.707000,/var/log/Xorg.0.log,[871369.707] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): Internal DisplayPort
+1970-01-10 21:02:49.707000,/var/log/Xorg.0.log,[871369.707] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): connected
+1970-01-10 21:02:49.711000,/var/log/Xorg.0.log,[871369.711] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.711000,/var/log/Xorg.0.log,[871369.711] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.711000,/var/log/Xorg.0.log,[871369.711] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+1970-01-10 21:02:49.711000,/var/log/Xorg.0.log,[871369.711] (--) NVIDIA(GPU-0): DFP-1: disconnected
+1970-01-10 21:02:49.712000,/var/log/Xorg.0.log,[871369.712] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.712000,/var/log/Xorg.0.log,[871369.712] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.712000,/var/log/Xorg.0.log,[871369.712] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): Internal DisplayPort
+1970-01-10 21:02:49.712000,/var/log/Xorg.0.log,[871369.712] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): connected
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0): DFP-3: disconnected
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0): DFP-4: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+1970-01-10 21:02:49.715000,/var/log/Xorg.0.log,[871369.715] (--) NVIDIA(GPU-0): DFP-4: disconnected
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-5: disconnected
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-6: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-6: disconnected
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+1970-01-10 21:02:49.717000,/var/log/Xorg.0.log,[871369.717] (--) NVIDIA(GPU-0): DFP-7: disconnected
+1970-01-10 21:02:49.718000,/var/log/Xorg.0.log,[871369.718] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.718000,/var/log/Xorg.0.log,[871369.718] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.718000,/var/log/Xorg.0.log,[871369.718] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): Internal DisplayPort
+1970-01-10 21:02:49.718000,/var/log/Xorg.0.log,[871369.718] (--) NVIDIA(GPU-0): DELL E2014H (DFP-0): connected
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): Internal DisplayPort
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0): DELL E2014H (DFP-2): connected
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+1970-01-10 21:02:49.721000,/var/log/Xorg.0.log,[871369.721] (--) NVIDIA(GPU-0): DFP-1: disconnected
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-3: disconnected
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-4: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-4: disconnected
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-5: disconnected
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-6: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+1970-01-10 21:02:49.724000,/var/log/Xorg.0.log,[871369.724] (--) NVIDIA(GPU-0): DFP-6: disconnected
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-0):
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-0): DFP-7: disconnected
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-1): DFP-0: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-1): DFP-0: Internal DisplayPort
+1970-01-10 21:02:49.725000,/var/log/Xorg.0.log,[871369.725] (--) NVIDIA(GPU-1): DFP-0: disconnected
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1): DFP-1: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1): DFP-1: Internal TMDS
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1): DFP-1: disconnected
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1): DFP-2: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1): DFP-2: Internal DisplayPort
+1970-01-10 21:02:49.730000,/var/log/Xorg.0.log,[871369.730] (--) NVIDIA(GPU-1): DFP-2: disconnected
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1): DFP-3: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1): DFP-3: Internal TMDS
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1): DFP-3: disconnected
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1): DFP-4: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1): DFP-4: Internal DisplayPort
+1970-01-10 21:02:49.731000,/var/log/Xorg.0.log,[871369.731] (--) NVIDIA(GPU-1): DFP-4: disconnected
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1): DFP-5: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1): DFP-5: Internal TMDS
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1): DFP-5: disconnected
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1): DFP-6: 9520.0 MHz maximum pixel clock
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1): DFP-6: Internal DisplayPort
+1970-01-10 21:02:49.732000,/var/log/Xorg.0.log,[871369.732] (--) NVIDIA(GPU-1): DFP-6: disconnected
+1970-01-10 21:02:49.733000,/var/log/Xorg.0.log,[871369.733] (--) NVIDIA(GPU-1):
+1970-01-10 21:02:49.733000,/var/log/Xorg.0.log,[871369.733] (--) NVIDIA(GPU-1): DFP-7: 165.0 MHz maximum pixel clock
+1970-01-10 21:02:49.733000,/var/log/Xorg.0.log,[871369.733] (--) NVIDIA(GPU-1): DFP-7: Internal TMDS
+1970-01-10 21:02:49.733000,/var/log/Xorg.0.log,[871369.733] (--) NVIDIA(GPU-1): DFP-7: disconnected
+1970-01-10 21:02:49.843000,/var/log/Xorg.0.log,[871369.843] (EE) NVIDIA(0):     recover...
+1970-01-10 21:02:49.843000,/var/log/Xorg.0.log,[871369.843] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:02:52.861000,/var/log/Xorg.0.log,[871372.861] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:02:55.880000,/var/log/Xorg.0.log,[871375.880] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:02:58.926000,/var/log/Xorg.0.log,[871378.926] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:01.967000,/var/log/Xorg.0.log,[871381.967] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:02.001000,/var/log/Xorg.0.log,[871382.001] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.081000,/var/log/Xorg.0.log,[871382.081] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.081000,/var/log/Xorg.0.log,[871382.081] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.148000,/var/log/Xorg.0.log,[871382.148] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.324000,/var/log/Xorg.0.log,[871382.324] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.324000,/var/log/Xorg.0.log,[871382.324] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.339000,/var/log/Xorg.0.log,[871382.339] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.365000,/var/log/Xorg.0.log,[871382.365] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.365000,/var/log/Xorg.0.log,[871382.365] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.379000,/var/log/Xorg.0.log,[871382.379] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.426000,/var/log/Xorg.0.log,[871382.426] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.426000,/var/log/Xorg.0.log,[871382.426] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.462000,/var/log/Xorg.0.log,[871382.462] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.490000,/var/log/Xorg.0.log,[871382.490] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.490000,/var/log/Xorg.0.log,[871382.490] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.504000,/var/log/Xorg.0.log,[871382.504] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.530000,/var/log/Xorg.0.log,[871382.530] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.530000,/var/log/Xorg.0.log,[871382.530] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.551000,/var/log/Xorg.0.log,[871382.551] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.576000,/var/log/Xorg.0.log,[871382.576] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.576000,/var/log/Xorg.0.log,[871382.576] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.589000,/var/log/Xorg.0.log,[871382.589] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.614000,/var/log/Xorg.0.log,[871382.614] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.614000,/var/log/Xorg.0.log,[871382.614] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.627000,/var/log/Xorg.0.log,[871382.627] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.670000,/var/log/Xorg.0.log,[871382.670] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.670000,/var/log/Xorg.0.log,[871382.670] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.684000,/var/log/Xorg.0.log,[871382.684] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.714000,/var/log/Xorg.0.log,[871382.714] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.714000,/var/log/Xorg.0.log,[871382.714] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.728000,/var/log/Xorg.0.log,[871382.728] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.780000,/var/log/Xorg.0.log,[871382.780] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.780000,/var/log/Xorg.0.log,[871382.780] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:02.792000,/var/log/Xorg.0.log,[871382.792] (II) NVIDIA(0): Error recovery was successful.
+1970-01-10 21:03:02.858000,/var/log/Xorg.0.log,[871382.858] (EE) NVIDIA(0):     recover...
+1970-01-10 21:03:02.858000,/var/log/Xorg.0.log,[871382.858] (EE) NVIDIA(0): The NVIDIA X driver has encountered an error; attempting to
+1970-01-10 21:03:05.894000,/var/log/Xorg.0.log,[871385.894] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:08.927000,/var/log/Xorg.0.log,[871388.927] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:11.988000,/var/log/Xorg.0.log,[871391.988] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:15.044000,/var/log/Xorg.0.log,[871395.044] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:18.808000,/var/log/Xorg.0.log,[871398.808] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:21.862000,/var/log/Xorg.0.log,[871401.862] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:24.915000,/var/log/Xorg.0.log,[871404.915] (EE) NVIDIA(GPU-0): Failed to idle DMA.
+1970-01-10 21:03:24.966000,/var/log/Xorg.0.log,[871404.966] (II) NVIDIA(0): Error recovery was successful.

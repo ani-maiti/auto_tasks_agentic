@@ -1,0 +1,14 @@
+c-api-pending-removal-in-3.16.rst
+__init__.py
+broken_module.py
+lazy_with.py
+out_inC14N2_c14nTrim.xml
+2026-05-13-12-16-54.gh-issue-149473.nOQZqn.rst
+out_inC14N2_c14nTrim.xml
+step_2.sh
+step_2.sh
+stdout_step_2.txt
+step_2.sh
+step_1.sh
+step_4.sh
+step_4.sh

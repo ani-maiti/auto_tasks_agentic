@@ -1,0 +1,3 @@
+euc_jp-utf8.txt
+iso2022_jp-utf8.txt
+shift_jis-utf8.txt

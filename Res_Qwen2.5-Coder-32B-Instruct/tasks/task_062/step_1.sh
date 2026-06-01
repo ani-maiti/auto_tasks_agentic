@@ -1,0 +1,1 @@
+curl -s https://ubuntu.com/download/desktop | grep 'Latest version' | awk -F '>' '{print $2}' | awk -F '<' '{print $1}'

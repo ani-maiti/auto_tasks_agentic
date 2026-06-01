@@ -1,0 +1,1 @@
+curl -I -L -s -o /dev/null -w "%{url_effective}\n" openai.com

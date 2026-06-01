@@ -1,0 +1,2 @@
+Largest subdirectory in cpython is Lib with size 56M
+39M	cpython/Lib/test/

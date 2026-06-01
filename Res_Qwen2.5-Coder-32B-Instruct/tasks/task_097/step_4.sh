@@ -1,0 +1,1 @@
+echo "It seems like I was blocked by network security. Let's try a different approach."

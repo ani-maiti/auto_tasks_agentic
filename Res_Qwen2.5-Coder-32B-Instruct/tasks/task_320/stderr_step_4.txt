@@ -1,0 +1,11 @@
+./tasks/task_221/step_2.py:8: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+  f for f in os.popen("find . \( -name '*.json' -o -name '*.yaml' -o -name '*.ini' -o -name '*.toml' \)").read().strip().split('\n')
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_320/step_4.py", line 17, in <module>
+    functions_by_file = {file: parse_functions(file) for file in python_files}
+                               ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_320/step_4.py", line 10, in parse_functions
+    tree = ast.parse(file.read(), filename=file_path)
+                     ~~~~~~~~~^^
+  File "<frozen codecs>", line 325, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf6 in position 8: invalid start byte

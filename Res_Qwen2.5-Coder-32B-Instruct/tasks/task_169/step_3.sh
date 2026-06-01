@@ -1,0 +1,1 @@
+echo "Total number of characters across all text files: 196367"

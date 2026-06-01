@@ -1,0 +1,2 @@
+echo "Checking for even more specific date patterns..."
+find . -type f -name '*[0-9][0-9][0-9][0-9]_[0-9][0-9]_[0-9][0-9]*' -o -name '*[0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]*'

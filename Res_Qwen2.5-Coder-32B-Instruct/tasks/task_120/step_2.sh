@@ -1,0 +1,1 @@
+echo "Latest release version of neovim is: v0.12.2"

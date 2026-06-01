@@ -1,0 +1,2 @@
+echo "Extracting commands from shell scripts..."
+grep -oE '\b[a-zA-Z0-9_-]+\b' $(find . -type f \( -name "*.sh" -o -name "*.bash" \)) | grep -vE '^[a-zA-Z0-9_-]*[0-9][a-zA-Z0-9_-]*$' | sort | uniq -c | sort -nr > command_frequency.txt

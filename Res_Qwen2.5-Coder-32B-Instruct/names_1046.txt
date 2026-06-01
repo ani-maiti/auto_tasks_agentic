@@ -1,0 +1,4 @@
+testcodec.py
+pylauncher.vcxproj.filters
+pywlauncher.vcxproj.filters
+.ruff.toml

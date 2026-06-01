@@ -1,0 +1,11 @@
+subpackage.py
+2026-05-08-08-24-01.gh-issue-149537.hVFVnt.rst
+arm64-apple-ios-simulator-strip
+step_1.sh
+stdout_step_3.txt
+stdout_step_3.txt
+stdout_step_1.txt
+stdout_step_3.txt
+stdout_step_2.txt
+step_5.sh
+stdout_step_3.txt

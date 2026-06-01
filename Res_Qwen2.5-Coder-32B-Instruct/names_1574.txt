@@ -1,0 +1,2 @@
+minidom-example.py
+_ctypes.vcxproj.filters

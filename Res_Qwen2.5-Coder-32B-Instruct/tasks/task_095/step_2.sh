@@ -1,0 +1,1 @@
+echo "Latest Kubernetes release tag: v1.36.1"

@@ -1,0 +1,7 @@
+Date columns found:
+./python_files_line_counts.csv: ['287']
+./domain_analysis.csv: ['Count']
+
+Date ranges:
+./python_files_line_counts.csv, 287: 1970-01-01 00:00:00 to 1970-01-01 00:00:00.000014901
+./domain_analysis.csv, Count: 1970-01-01 00:00:00.000000001 to 1970-01-01 00:00:00.000000037

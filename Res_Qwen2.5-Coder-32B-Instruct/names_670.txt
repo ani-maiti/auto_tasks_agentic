@@ -1,0 +1,3 @@
+docstrings.py
+dev_d.wxs
+pip.wixproj

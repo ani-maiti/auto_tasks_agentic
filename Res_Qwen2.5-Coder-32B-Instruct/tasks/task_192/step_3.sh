@@ -1,0 +1,1 @@
+echo "Found $(wc -l < <(find . -type f -mtime -7)) files modified within the last week"

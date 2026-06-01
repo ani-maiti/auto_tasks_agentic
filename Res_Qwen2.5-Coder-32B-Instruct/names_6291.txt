@@ -1,0 +1,2 @@
+pycore_typeobject.h
+stdout_step_1.txt

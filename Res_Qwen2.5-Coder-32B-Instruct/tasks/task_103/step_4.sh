@@ -1,0 +1,1 @@
+echo "SSL certificate issuer for python.org: C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 DV TLS CA 2025 Q4"

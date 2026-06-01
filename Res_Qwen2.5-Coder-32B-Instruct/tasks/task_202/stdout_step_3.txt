@@ -1,0 +1,3 @@
+Filtering out non-log files...
+./cpython/Modules/clinic/syslogmodule.c.h
+./cpython/Lib/idlelib/ChangeLog

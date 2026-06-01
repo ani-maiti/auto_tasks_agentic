@@ -1,0 +1,2 @@
+echo "Detailed lines containing 'machine learning':"
+grep -Hn "machine learning" ./tasks/task_173/stdout_step_1.txt ./tasks/task_173/step_1.sh ./cpython/Doc/library/statistics.rst ./task_descriptions_all.txt

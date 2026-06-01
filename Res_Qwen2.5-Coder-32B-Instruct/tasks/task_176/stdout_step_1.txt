@@ -1,0 +1,2 @@
+Starting file extension frequency report generation.
+Report generated and saved to file_extension_report.txt

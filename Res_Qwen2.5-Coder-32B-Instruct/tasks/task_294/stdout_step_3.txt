@@ -1,0 +1,2 @@
+Failed to read ./cpython/Lib/test/archivetestdata/recursion.tar as tar
+Inventory built

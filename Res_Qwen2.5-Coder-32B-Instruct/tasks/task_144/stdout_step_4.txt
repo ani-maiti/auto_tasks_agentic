@@ -1,0 +1,88 @@
+File: ./cpython/Lib/test/test_grammar.py
+Line 1984: async def test():
+Line 1998: async def test2():
+Line 2010: async def __anext__(self):
+Line 2013: async def foo():
+Line 2031: async def __aenter__(self):
+Line 2033: async def __aexit__(self, *exc):
+Line 2036: async def foo():
+File: ./cpython/Lib/test/test_monitoring.py
+Line 989: async def async_generator():
+Line 994: async def async_loop():
+Line 1997: async def gen():
+Line 2001: async def foo():
+Line 2153: async def gen():
+Line 2157: async def foo():
+File: ./cpython/Lib/test/test_inspect/inspect_fodder2.py
+Line 225: async def func225():
+Line 232: async def func232(self):
+File: ./cpython/Lib/test/test_inspect/inspect_fodder.py
+Line 75: async def lobbest(grenade):
+Line 109: async def asyncf(self):
+File: ./cpython/Lib/test/test_inspect/test_inspect.py
+Line 133: async def async_generator_function_example(self):
+Line 137: async def coroutine_function_example(self):
+Line 293: async def _fn3():
+Line 308: async def __call__(self):
+Line 312: # instances with async def __call__ are NOT recognised.
+Line 2916: async def coroutine():
+Line 2965: async def func(a=None):
+Line 2981: async def number_asyncgen():
+Line 2986: async def asyncTearDown(self):
+Line 2999: async def test_suspended(self):
+Line 3004: async def test_closed_after_exhaustion(self):
+Line 3012: async def test_closed_after_immediate_exception(self):
+Line 3017: async def test_running(self):
+Line 3018: async def running_check_asyncgen():
+Line 3039: async def test_getasyncgenlocals(self):
+Line 3040: async def each(lst, a=None):
+Line 3066: async def test_getasyncgenlocals_empty(self):
+Line 3067: async def yield_one():
+File: ./cpython/Lib/pydoc_data/topics.py
+Line 326: Functions defined with "async def" syntax are always coroutine
+Line 334: async def func(param1, param2):
+Line 3310: Functions defined with "async def" syntax are always coroutine
+Line 3318: async def func(param1, param2):
+Line 3433: async def amax[T](args: list[T]) -> T:
+Line 4322: async def f():
+Line 12661: A function or method which is defined using "async def" is called a
+Line 12671: A function or method which is defined using "async def" and which uses
+File: ./cpython/Lib/_ast_unparse.py
+Line 421: self._function_helper(node, "async def")
+File: ./cpython/Lib/idlelib/idle_test/test_colorizer.py
+Line 29: async def f(): await g()
+File: ./cpython/Tools/inspection/benchmark_external_inspection.py
+Line 165: async def leaf_task(seed):
+Line 171: async def parent_task(seed):
+Line 182: async def main():
+File: ./cpython/Tools/jit/_llvm.py
+Line 26: async def wrapper(
+Line 40: async def _run(tool: str, args: typing.Iterable[str], echo: bool = False) -> str | None:
+Line 68: async def _check_tool_version(
+Line 79: async def _get_brew_llvm_prefix(llvm_version: str, *, echo: bool = False) -> str | None:
+Line 85: async def _find_tool(
+Line 125: async def maybe_run(
+Line 138: async def run(
+File: ./cpython/Tools/jit/_dwarf.py
+Line 148: async def _read_objdump(self, output: pathlib.Path) -> str:
+Line 157: async def _read_eh_frame(self, output: pathlib.Path) -> str:
+Line 230: async def extract(self, output: pathlib.Path) -> UnwindInfo:
+File: ./cpython/Tools/jit/_targets.py
+Line 140: async def _parse(self, path: pathlib.Path) -> _stencils.StencilGroup:
+Line 232: async def _build_stencil_group(
+Line 279: async def _build_shim_object(self, output: pathlib.Path) -> None:
+Line 303: async def _get_shim_unwind_info(
+Line 308: async def _build_stencils(self) -> dict[str, _stencils.StencilGroup]:
+Line 511: async def _get_shim_unwind_info(
+File: ./cpython/Platforms/Android/__main__.py
+Line 419: async def async_process(*args, **kwargs):
+Line 443: async def async_check_output(*args, **kwargs):
+Line 459: async def list_devices():
+Line 482: async def find_device(context, initial_devices):
+Line 506: async def find_pid(serial):
+Line 536: async def logcat_task(context, initial_devices):
+Line 599: async def read_logcat(stream):
+Line 600: async def read_bytes(size):
+Line 603: async def read_int(size):
+Line 638: async def gradle_task(context):
+Line 707: async def run_testbed(context):

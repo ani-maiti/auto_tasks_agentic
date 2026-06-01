@@ -1,0 +1,1 @@
+echo "No log files found in the current directory tree. Please ensure there are log files with the .log extension."

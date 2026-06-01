@@ -1,0 +1,2 @@
+echo "Found files containing the word TODO:"
+cat ./tasks/task_012/step_1_log.json ./tasks/task_012/step_3_log.json ./tasks/task_012/step_2_log.json ./tasks/task_012/step_2.sh ./tasks/task_012/step_4.sh ./tasks/task_012/step_3.sh ./tasks/task_012/step_1.sh | grep "TODO"

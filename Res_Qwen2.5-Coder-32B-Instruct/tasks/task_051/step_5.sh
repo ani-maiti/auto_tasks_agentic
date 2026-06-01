@@ -1,0 +1,1 @@
+echo "No subdirectories found with names longer than 20 characters."

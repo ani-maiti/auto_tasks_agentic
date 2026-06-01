@@ -1,0 +1,1 @@
+curl -s https://api.coingecko.com/api/v3/simple/price?ids=silver&vs_currencies=usd

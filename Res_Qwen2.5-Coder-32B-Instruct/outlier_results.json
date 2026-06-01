@@ -1,0 +1,19 @@
+{
+    "./cpython/Modules/_xxtestfuzz/fuzz_csv_reader_corpus/test.csv": {},
+    "./python_files_line_counts.csv": {
+        "287": {
+            "z_score_outliers": 46,
+            "iqr_outliers": 271,
+            "total_outliers": 317,
+            "outlier_ratio": 0.13246970330129546
+        }
+    },
+    "./domain_analysis.csv": {
+        "Count": {
+            "z_score_outliers": 1,
+            "iqr_outliers": 5,
+            "total_outliers": 6,
+            "outlier_ratio": 0.15789473684210525
+        }
+    }
+}

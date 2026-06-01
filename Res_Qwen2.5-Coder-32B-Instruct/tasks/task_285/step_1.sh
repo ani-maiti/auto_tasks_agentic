@@ -1,0 +1,1 @@
+echo "Starting the process to retrieve the latest two hundred Hacker News stories."

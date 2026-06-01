@@ -1,0 +1,3 @@
+core_pdb.wixproj
+test_d.wixproj
+test_pdb.wxs

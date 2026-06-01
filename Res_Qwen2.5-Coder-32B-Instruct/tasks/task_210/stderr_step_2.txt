@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_210/step_2.py", line 4, in <module>
+    story_ids = [int(id) for id in open('topstories.json').read().strip().split(', ')[:50]]
+                                   ~~~~^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'topstories.json'

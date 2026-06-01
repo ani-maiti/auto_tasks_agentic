@@ -1,0 +1,2 @@
+Error reading ./report.csv: No columns to parse from file
+Combined schema report generated and saved to combined_schema_report.json

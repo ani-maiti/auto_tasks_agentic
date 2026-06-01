@@ -1,0 +1,4 @@
+SHA256 hash of large_files.txt: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+SHA256 hash of system_prompt_body.txt: be7e0651fa6e333aa1f14c41ee3a4ca7ebf5b4718c3fa6999160bb4d0eaf8aed
+SHA256 hash of task_descriptions_all.txt: e96fadb2d16cc741be080254f926b32a7476847da55a52aad4595cc25ac0b564
+SHA256 hash of task_descriptions.txt: eab5a7c7ae52acf83ed80422abeed51f9317efb9254813c7ee313ff7f9f30dca

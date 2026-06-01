@@ -1,0 +1,2 @@
+idle_16.gif
+step_3.sh

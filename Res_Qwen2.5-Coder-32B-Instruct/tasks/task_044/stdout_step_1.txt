@@ -1,0 +1,20 @@
+Listing files and their sizes...
+total 220
+-rw-r--r--  1 ai_admin ai_admin 36261 May 31 13:39 file_summary.json
+-rw-r--r--  1 ai_admin ai_admin 32299 May 31 12:59 task_descriptions_all.txt
+-rw-r--r--  1 ai_admin ai_admin 26265 May 31 13:45 directory_tree_report.txt
+-rw-r--r--  1 ai_admin ai_admin 18823 May 31 13:43 file_sizes.txt
+-rw-r--r--  1 ai_admin ai_admin 18823 May 31 13:43 sorted_file_sizes.txt
+-rw-r--r--  1 ai_admin ai_admin 17483 May 31 13:44 duplicate_files.txt
+-rw-r--r--  1 ai_admin ai_admin  9105 May 31 13:42 largest_files.csv
+-rw-r--r--  1 ai_admin ai_admin  9105 May 31 13:42 largest_files.txt
+-rw-r--r--  1 ai_admin ai_admin  7641 May 31 13:30 generate_code_model_run.py
+-rw-r--r--  1 ai_admin ai_admin  7406 May 31 13:06 generate_code_model_run1.py
+drwxr-xr-x 46 ai_admin ai_admin  4096 May 31 13:47 tasks
+-rw-r--r--  1 ai_admin ai_admin  2721 May 31 13:11 test.py
+-rw-r--r--  1 ai_admin ai_admin  2204 May 31 13:29 system_prompt_body.txt
+-rw-r--r--  1 ai_admin ai_admin   366 May 31 13:43 duplicate_sizes.txt
+-rw-r--r--  1 ai_admin ai_admin   332 May 31 11:33 task_descriptions.txt
+-rw-r--r--  1 ai_admin ai_admin    38 May 31 13:35 file_extension_report.txt
+-rw-r--r--  1 ai_admin ai_admin     0 May 31 13:32 large_files.txt
+-rw-r--r--  1 ai_admin ai_admin     0 May 31 13:32 report.csv

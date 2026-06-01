@@ -1,0 +1,1 @@
+echo "MX records for outlook.com retrieved successfully."

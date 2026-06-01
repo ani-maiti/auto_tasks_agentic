@@ -1,0 +1,2 @@
+linecache.rst
+emu_jisx0213_2000.h

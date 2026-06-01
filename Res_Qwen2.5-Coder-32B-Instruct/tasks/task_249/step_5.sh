@@ -1,0 +1,1 @@
+find . -type f -name "*.sqlite3" -o -name "*.sqlite" -o -name "*.db" -o -name "*.s3db"

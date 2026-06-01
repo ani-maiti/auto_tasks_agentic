@@ -1,0 +1,1 @@
+echo "SSL certificate for openai.com expires on: Aug 26 19:33:25 2026 GMT"

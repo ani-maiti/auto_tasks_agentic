@@ -1,0 +1,1 @@
+echo "Found $(wc -l < text_files.txt) text files"

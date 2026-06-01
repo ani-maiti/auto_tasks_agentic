@@ -1,0 +1,1 @@
+echo "Directory size report generation complete."

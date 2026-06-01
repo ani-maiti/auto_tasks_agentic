@@ -1,0 +1,1 @@
+echo "No SQLite databases found."

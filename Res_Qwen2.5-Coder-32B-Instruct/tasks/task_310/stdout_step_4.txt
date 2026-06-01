@@ -1,0 +1,8 @@
+Installing opencv-python...
+Collecting opencv-python
+  Downloading opencv_python-4.13.0.92-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+Requirement already satisfied: numpy>=2 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from opencv-python) (2.4.6)
+Downloading opencv_python-4.13.0.92-cp37-abi3-manylinux_2_28_x86_64.whl (72.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.9/72.9 MB 21.7 MB/s  0:00:03
+Installing collected packages: opencv-python
+Successfully installed opencv-python-4.13.0.92

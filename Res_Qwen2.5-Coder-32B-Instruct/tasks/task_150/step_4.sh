@@ -1,0 +1,1 @@
+echo "The JSON file has been successfully created and contains the expected data."

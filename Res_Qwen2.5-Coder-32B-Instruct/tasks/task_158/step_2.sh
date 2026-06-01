@@ -1,0 +1,1 @@
+echo "Found $(wc -l < <(find . -type f | grep -E '\.[^/]*\.')) files with more than one dot in their filenames."

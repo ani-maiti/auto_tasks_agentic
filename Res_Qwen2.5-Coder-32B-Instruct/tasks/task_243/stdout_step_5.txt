@@ -1,0 +1,2 @@
+Step 2: Use a predefined API key for demonstration
+API key set to: demo_api_key

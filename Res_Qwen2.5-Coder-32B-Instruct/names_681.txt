@@ -1,0 +1,2 @@
+test_codecencodings_tw.py
+lib_pdb.wixproj

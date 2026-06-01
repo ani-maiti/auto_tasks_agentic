@@ -1,0 +1,3 @@
+crypt.rst
+revocation.crl
+_uuid.vcxproj.filters

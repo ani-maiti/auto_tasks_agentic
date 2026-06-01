@@ -1,0 +1,233 @@
+{
+    "unknown": {
+        "count": 57,
+        "blocks": [
+            "+-------+  <--- Top of machine stack\n         |       |\n         |       |\n\n            ~~\n\n         |       |\n         |       |\n         +-------+  <--- Soft limit\n         |       |\n         |       |     _PyOS_STACK_MARGIN_BYTES\n         |       |\n         +-------+  <---  Hard limit\n         |       |\n         |       |     _PyOS_STACK_MARGIN_BYTES\n         |       |\n         +-------+  <--- Bottom of machine stack",
+            "start   (up to 30 bits)\nsize    (up to 30 bits)\ntarget  (up to 30 bits)\ndepth   (up to ~8 bits)\nlasti   (1 bit)",
+            "start:              20\nend:                28\ntarget:             100\ndepth:              3\nlasti:              False",
+            "start:              20\nsize:               8\ntarget:             100\ndepth<<1+lasti:     6",
+            "148     (MSB + 20 for start)\n8       (size)\n65      (Extend bit + 1)\n36      (Remainder of target, 100 == (1<<6)+36)\n6",
+            "+------------------+  Offset 0\n|     Header       |  64 bytes (fixed)\n+------------------+  Offset 64\n|                  |\n|   Sample Data    |  Variable size (optionally compressed)\n|                  |\n+------------------+  string_table_offset\n|   String Table   |  Variable size\n+------------------+  frame_table_offset\n|   Frame Table    |  Variable size\n+------------------+  file_size - 32\n|     Footer       |  32 bytes (fixed)\n+------------------+  file_size",
+            "Offset   Size   Type      Description\n+--------+------+---------+----------------------------------------+\n|    0   |  4   | uint32  | Magic number (0x54414348 = \"TACH\")     |\n|    4   |  4   | uint32  | Format version                         |\n|    8   |  4   | bytes   | Python version (major, minor, micro,   |\n|        |      |         | reserved)                              |\n|   12   |  8   | uint64  | Start timestamp (microseconds)         |\n|   20   |  8   | uint64  | Sample interval (microseconds)         |\n|   28   |  4   | uint32  | Total sample count                     |\n|   32   |  4   | uint32  | Thread count                           |\n|   36   |  8   | uint64  | String table offset                    |\n|   44   |  8   | uint64  | Frame table offset                     |\n|   52   |  4   | uint32  | Compression type (0=none, 1=zstd)      |\n|   56   |  8   | bytes   | Reserved (zero-filled)                 |\n+--------+------+---------+----------------------------------------+",
+            "+-----------------+-----------+----------------------------------------+\n| thread_id       | 8 bytes   | Thread identifier (uint64, fixed)      |\n| interpreter_id  | 4 bytes   | Interpreter ID (uint32, fixed)         |\n| encoding        | 1 byte    | 0x00 (REPEAT)                          |\n| count           | varint    | Number of samples in this RLE group    |\n| samples         | varies    | Interleaved: [delta: varint, status: 1]|\n|                 |           | repeated count times                   |\n+-----------------+-----------+----------------------------------------+",
+            "+-----------------+-----------+----------------------------------------+\n| thread_id       | 8 bytes   | Thread identifier (uint64, fixed)      |\n| interpreter_id  | 4 bytes   | Interpreter ID (uint32, fixed)         |\n| encoding        | 1 byte    | 0x01 (FULL)                            |\n| timestamp_delta | varint    | Microseconds since thread's last sample|\n| status          | 1 byte    | Thread state flags                     |\n| stack_depth     | varint    | Number of frames in call stack         |\n| frame_indices   | varint[]  | Array of frame table indices           |\n+-----------------+-----------+----------------------------------------+",
+            "+-----------------+-----------+----------------------------------------+\n| thread_id       | 8 bytes   | Thread identifier (uint64, fixed)      |\n| interpreter_id  | 4 bytes   | Interpreter ID (uint32, fixed)         |\n| encoding        | 1 byte    | 0x02 (SUFFIX)                          |\n| timestamp_delta | varint    | Microseconds since thread's last sample|\n| status          | 1 byte    | Thread state flags                     |\n| shared_count    | varint    | Frames shared from bottom of prev stack|\n| new_count       | varint    | New frames at top of stack             |\n| new_frames      | varint[]  | Array of new_count frame indices       |\n+-----------------+-----------+----------------------------------------+",
+            "+-----------------+-----------+----------------------------------------+\n| thread_id       | 8 bytes   | Thread identifier (uint64, fixed)      |\n| interpreter_id  | 4 bytes   | Interpreter ID (uint32, fixed)         |\n| encoding        | 1 byte    | 0x03 (POP_PUSH)                        |\n| timestamp_delta | varint    | Microseconds since thread's last sample|\n| status          | 1 byte    | Thread state flags                     |\n| pop_count       | varint    | Frames to remove from top of prev stack|\n| push_count      | varint    | New frames to add at top               |\n| new_frames      | varint[]  | Array of push_count frame indices      |\n+-----------------+-----------+----------------------------------------+",
+            "+----------------+\n| length: varint |\n| data: bytes    |\n+----------------+  (repeated for each string)",
+            "+----------------------------+\n| filename_idx: varint       |\n| funcname_idx: varint       |\n| lineno: svarint            |\n| end_lineno_delta: svarint  |\n| column: svarint            |\n| end_column_delta: svarint  |\n| opcode: u8                 |\n+----------------------------+  (repeated for each frame)",
+            "Offset   Size   Type      Description\n+--------+------+---------+----------------------------------------+\n|    0   |  4   | uint32  | String count                           |\n|    4   |  4   | uint32  | Frame count                            |\n|    8   |  8   | uint64  | Total file size                        |\n|   16   | 16   | bytes   | Checksum (reserved, currently zeros)   |\n+--------+------+---------+----------------------------------------+",
+            "Value        Encoded bytes\n0-127        [0xxxxxxx]                    (1 byte)\n128-16383    [1xxxxxxx] [0xxxxxxx]         (2 bytes)\n16384+       [1xxxxxxx] [1xxxxxxx] ...     (3+ bytes)",
+            "0 -> 0    -1 -> 1     1 -> 2    -2 -> 3     2 -> 4",
+            "module Python\n   {\n       stmt = FunctionDef(identifier name, arguments args, stmt* body,\n                          expr* decorators)\n              | Return(expr? value) | Yield(expr? value)\n              attributes (int lineno)\n   }",
+            "typedef struct _stmt *stmt_ty;\n\n  struct _stmt {\n        enum { FunctionDef_kind=1, Return_kind=2, Yield_kind=3 } kind;\n        union {\n                struct {\n                        identifier name;\n                        arguments_ty args;\n                        asdl_seq *body;\n                } FunctionDef;\n\n                struct {\n                        expr_ty value;\n                } Return;\n\n                struct {\n                        expr_ty value;\n                } Yield;\n        } v;\n        int lineno;\n   }",
+            "// This is the production rule (from python.gram) the rule function\n   // corresponds to:\n   // import_name: 'import' dotted_as_names\n   static stmt_ty\n   import_name_rule(Parser *p)\n   {\n       ...\n       stmt_ty _res = NULL;\n       { // 'import' dotted_as_names\n           ...\n           Token * _keyword;\n           asdl_alias_seq* a;\n           // The tokenizing steps.\n           if (\n               (_keyword = _PyPegen_expect_token(p, 513))  // token='import'\n               &&\n               (a = dotted_as_names_rule(p))  // dotted_as_names\n           )\n           {\n               ...\n               // Generate an AST for the import statement.\n               _res = _PyAST_Import ( a , ...);\n               ...\n               goto done;\n           }\n           ...\n       }\n       _res = NULL;\n     done:\n       ...\n       return _res;\n   }",
+            "rule: A | B | C",
+            "first_rule:  ( 'a' | 'aa' ) 'a'\n    second_rule: ('aa' | 'a'  ) 'a'",
+            "my_rule:\n      | 'if' expression 'then' block\n      | 'if' expression 'then' block 'else' block",
+            "my_rule:\n      | 'if' expression 'then' block 'else' block\n      | 'if' expression 'then' block",
+            "rule_name: expression",
+            "rule_name[return_type]: expression",
+            "rule1: rule2 | 'a'\n    rule2: rule3 | 'b'\n    rule3: rule1 | 'c'",
+            "rule: 'optional'? rule '@' some_other_rule",
+            "rule_name[return_type]: '(' a=some_other_rule ')' { a }",
+            "rule_name[return_type]:\n       | first_alt1 first_alt2 { first_alt1 }\n       | second_alt1 second_alt2 { second_alt1 }",
+            "start[Grammar]: grammar ENDMARKER { grammar }\n\n    grammar[Grammar]:\n        | metas rules { Grammar(rules, metas) }\n        | rules { Grammar(rules, []) }\n\n    metas[MetaList]:\n        | meta metas { [meta] + metas }\n        | meta { [meta] }\n\n    meta[MetaTuple]:\n        | \"@\" NAME NEWLINE { (name.string, None) }\n        | \"@\" a=NAME b=NAME NEWLINE { (a.string, b.string) }\n        | \"@\" NAME STRING NEWLINE { (name.string, literal_eval(string.string)) }\n\n    rules[RuleList]:\n        | rule rules { [rule] + rules }\n        | rule { [rule] }\n\n    rule[Rule]:\n        | rulename \":\" alts NEWLINE INDENT more_alts DEDENT {\n                Rule(rulename[0], rulename[1], Rhs(alts.alts + more_alts.alts)) }\n        | rulename \":\" NEWLINE INDENT more_alts DEDENT { Rule(rulename[0], rulename[1], more_alts) }\n        | rulename \":\" alts NEWLINE { Rule(rulename[0], rulename[1], alts) }\n\n    rulename[RuleName]:\n        | NAME '[' type=NAME '*' ']' {(name.string, type.string+\"*\")}\n        | NAME '[' type=NAME ']' {(name.string, type.string)}\n        | NAME {(name.string, None)}\n\n    alts[Rhs]:\n        | alt \"|\" alts { Rhs([alt] + alts.alts)}\n        | alt { Rhs([alt]) }\n\n    more_alts[Rhs]:\n        | \"|\" alts NEWLINE more_alts { Rhs(alts.alts + more_alts.alts) }\n        | \"|\" alts NEWLINE { Rhs(alts.alts) }\n\n    alt[Alt]:\n        | items '$' action { Alt(items + [NamedItem(None, NameLeaf('ENDMARKER'))], action=action) }\n        | items '$' { Alt(items + [NamedItem(None, NameLeaf('ENDMARKER'))], action=None) }\n        | items action { Alt(items, action=action) }\n        | items { Alt(items, action=None) }\n\n    items[NamedItemList]:\n        | named_item items { [named_item] + items }\n        | named_item { [named_item] }\n\n    named_item[NamedItem]:\n        | NAME '=' ~ item {NamedItem(name.string, item)}\n        | item {NamedItem(None, item)}\n        | it=lookahead {NamedItem(None, it)}\n\n    lookahead[LookaheadOrCut]:\n        | '&' ~ atom {PositiveLookahead(atom)}\n        | '!' ~ atom {NegativeLookahead(atom)}\n        | '~' {Cut()}\n\n    item[Item]:\n        | '[' ~ alts ']' {Opt(alts)}\n        |  atom '?' {Opt(atom)}\n        |  atom '*' {Repeat0(atom)}\n        |  atom '+' {Repeat1(atom)}\n        |  sep=atom '.' node=atom '+' {Gather(sep, node)}\n        |  atom {atom}\n\n    atom[Plain]:\n        | '(' ~ alts ')' {Group(alts)}\n        | NAME {NameLeaf(name.string) }\n        | STRING {StringLeaf(string.string)}\n\n    # Mini-grammar for the actions\n\n    action[str]: \"{\" ~ target_atoms \"}\" { target_atoms }\n\n    target_atoms[str]:\n        | target_atom target_atoms { target_atom + \" \" + target_atoms }\n        | target_atom { target_atom }\n\n    target_atom[str]:\n        | \"{\" ~ target_atoms \"}\" { \"{\" + target_atoms + \"}\" }\n        | NAME { name.string }\n        | NUMBER { number.string }\n        | STRING { string.string }\n        | \"?\" { \"?\" }\n        | \":\" { \":\" }",
+            "start[mod_ty]: a=expr_stmt* ENDMARKER { _PyAST_Module(a, NULL, p->arena) }\n    expr_stmt[stmt_ty]: a=expr NEWLINE { _PyAST_Expr(a, EXTRA) }\n\n    expr[expr_ty]:\n        | l=expr '+' r=term { _PyAST_BinOp(l, Add, r, EXTRA) }\n        | l=expr '-' r=term { _PyAST_BinOp(l, Sub, r, EXTRA) }\n        | term\n\n    term[expr_ty]:\n        | l=term '*' r=factor { _PyAST_BinOp(l, Mult, r, EXTRA) }\n        | l=term '/' r=factor { _PyAST_BinOp(l, Div, r, EXTRA) }\n        | factor\n\n    factor[expr_ty]:\n        | '(' e=expr ')' { e }\n        | atom\n\n    atom[expr_ty]:\n        | NAME\n        | NUMBER",
+            "start[ast.Module]: a=expr_stmt* ENDMARKER { ast.Module(body=a or [] }\n    expr_stmt: a=expr NEWLINE { ast.Expr(value=a, EXTRA) }\n\n    expr:\n        | l=expr '+' r=term { ast.BinOp(left=l, op=ast.Add(), right=r, EXTRA) }\n        | l=expr '-' r=term { ast.BinOp(left=l, op=ast.Sub(), right=r, EXTRA) }\n        | term\n\n    term:\n        | l=term '*' r=factor { ast.BinOp(left=l, op=ast.Mult(), right=r, EXTRA) }\n        | l=term '/' r=factor { ast.BinOp(left=l, op=ast.Div(), right=r, EXTRA) }\n        | factor\n\n    factor:\n        | '(' e=expr ')' { e }\n        | atom\n\n    atom:\n        | NAME\n        | NUMBER",
+            "rule_name[typr] (memo):\n  ...",
+            "<valid python code> $ 42",
+            "invalid_print: \"print\" expression",
+            "<indentation> ('>'|'-'|'+'|'!') <rule_name>[<token_location>]: <alternative> ...",
+            "object -----> +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ \\\n                  |                    ob_refcnt                  | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ | PyObject_HEAD\n                  |                    *ob_type                   | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ /\n                  |                      ...                      |",
+            "+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ \\\n                  |                    *_gc_next                  | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ | PyGC_Head\n                  |                    *_gc_prev                  | |\n    object -----> +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ /\n                  |                    ob_refcnt                  | \\\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ | PyObject_HEAD\n                  |                    *ob_type                   | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ /\n                  |                      ...                      |",
+            "object -----> +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ \\\n                  |                     ob_tid                    | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ |\n                  | pad | ob_mutex | ob_gc_bits |  ob_ref_local   | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ | PyObject_HEAD\n                  |                  ob_ref_shared                | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ |\n                  |                    *ob_type                   | |\n                  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ /\n                  |                      ...                      |",
+            "Prefetch window stats\nmean 52.1\nmedian 14.0\nmax 256\n   25.60 |65,304  | ******************************\n   51.20 |5,590   | **\n   76.80 |3,562   | *\n  102.40 |2,683   | *\n  128.00 |2,278   | *\n  153.60 |2,285   | *\n  179.20 |2,377   | *\n  204.80 |2,238   | *\n  230.40 |2,753   | *\n  256.00 |5,930   | **\n-------- |------- | -------\n      N= |95,000",
+            "gh-NNNNNN: Summary of the changes made",
+            "[X.Y] <title from the original PR> (GH-NNNNNN)",
+            "> wpr -start src\\prim\\windows\\etw-mimalloc.wprp -filemode\n  > <my mimalloc program>\n  > wpr -stop test.etl",
+            "zip -0 zip2.zip testdata_module_inside_zip.py\ncat header.sh zip2.zip >exe_with_zip\nrm zip2.zip",
+            "zip -0 <testdata_module_inside_zip.py >zip64.zip\ncat header.sh zip64.zip >exe_with_z64\nrm zip64.zip",
+            "100MB Claimed (actual: 1KB)\n  binbytes8_100MB_claim\n    Peak memory:     1.00 MB (claimed: 100 MB, saved: 99.00 MB, 99.0%)\n    Error: UnpicklingError  \u2190 Expected!\n\nSummary:\n  Average claimed: 126.2 MB\n  Average peak:    0.54 MB\n  Average saved:   125.7 MB (99.6% reduction)\nProtection Status: \u2713 Memory DoS attacks mitigated by chunked reading",
+            "1.00MiB Test Results\n  bytes_1.00MiB:     ~0.3ms, 1.00MiB peak  (just at threshold)\n\n2.00MiB Test Results\n  bytes_2.00MiB:     ~0.8ms, 2.00MiB peak  (chunked: 1MiB \u2192 2MiB)\n\n10.00MiB Test Results\n  bytes_10.00MiB:    ~3-5ms, 10.00MiB peak (chunked: 1\u21922\u21924\u21928\u219210 MiB)",
+            "file:\n    (definition | family | pseudo)+\n\n  definition:\n    \"inst\" \"(\" NAME \",\" stack_effect \")\" \"{\" C-code \"}\"\n    |\n    \"op\" \"(\" NAME \",\" stack_effect \")\" \"{\" C-code \"}\"\n    |\n    \"macro\" \"(\" NAME \")\" \"=\" uop (\"+\" uop)* \";\"\n\n  stack_effect:\n    \"(\" [inputs] \"--\" [outputs] \")\"\n\n  inputs:\n    input (\",\" input)*\n\n  outputs:\n    output (\",\" output)*\n\n  input:\n    object | stream | array\n\n  output:\n    object | array\n\n  uop:\n    NAME | stream\n\n  object:\n    NAME [\":\" type] [ \"if\" \"(\" C-expression \")\" ]\n\n  type:\n    NAME [\"*\"]\n\n  stream:\n    NAME \"/\" size\n\n  size:\n    INTEGER\n\n  array:\n    object \"[\" C-expression \"]\"\n\n  family:\n    \"family\" \"(\" NAME \")\" = \"{\" NAME (\",\" NAME)+ [\",\"] \"}\" \";\"\n\n  pseudo:\n    \"pseudo\" \"(\" NAME \",\" stack_effect [\",\" \"(\" flags \")\"]\")\" = \"{\" NAME (\",\" NAME)+ [\",\"] \"}\" \";\"\n\n  flags:\n    flag (\"|\" flag)*\n\n  flag:\n    HAS_ARG | HAS_DEOPT | etc..",
+            "FATAL: ThreadSanitizer: unexpected memory mapping 0x7977bd072000-0x7977bd500000",
+            "export PATH=\"$(pwd)/Platforms/Apple/iOS/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin\"\n./configure \\\n    --enable-framework \\\n    --host=arm64-apple-ios-simulator \\\n    --build=arm64-apple-darwin \\\n    --with-build-python=/path/to/python.exe\nmake\nmake install",
+            "make all\nmake install\nmake testios",
+            "python cross-build/iOS/testbed clone my-testbed",
+            "python Platforms/Apple/testbed clone --platform iOS --framework <path/to/framework> my-testbed",
+            "python my-testbed run -- test -W test_os",
+            "open my-testbed/iOSTestbed.xcodeproj",
+            "make clean\nmake all",
+            "<paste here>"
+        ]
+    },
+    "python": {
+        "count": 13,
+        "blocks": [
+            "python\nkb_used = (stack_top - stack_pointer)>>10\nif stack_pointer < bottom_of_machine_stack:\n    pass # Our stack limits could be wrong so it is safest to do nothing.\nelif stack_pointer < hard_limit:\n    FatalError(f\"Unrecoverable stack overflow (used {kb_used} kB)\")\nelif stack_pointer < soft_limit:\n    raise RecursionError(f\"Stack overflow (used {kb_used} kB)\")",
+            "python\ntry:\n    g(0)\nexcept:\n    res = \"fail\"",
+            "python\n                  RESUME                   0\n\n     1            SETUP_FINALLY            8 (to L1)\n\n     2            LOAD_NAME                0 (g)\n                  PUSH_NULL\n                  LOAD_CONST               0 (0)\n                  CALL                     1\n                  POP_TOP\n                  POP_BLOCK\n\n    --   L1:      PUSH_EXC_INFO\n\n     3            POP_TOP\n\n     4            LOAD_CONST               1 ('fail')\n                  STORE_NAME               1 (res)",
+            "python\nif x < 10:\n    f1()\n    f2()\nelse:\n    g()\nend()",
+            "python\nimport asyncio\n\nasync def agen():\n    try:\n        yield 1\n        yield 2\n    finally:\n        print(\"executing finally block\")\n\nasync def main():\n    async for item in agen():\n        print(item)\n        break  # not fully iterated\n\nasyncio.run(main())",
+            "python\nimport os, sys\n\nif sys.platform == \"emscripten\":\n    # Python on Emscripten\n    ...\n\nif os.name == \"posix\":\n    # WASM platforms identify as POSIX-like.\n    # Windows does not provide os.uname().\n    machine = os.uname().machine\n    if machine.startswith(\"wasm\"):\n        # WebAssembly (wasm32, wasm64 potentially in the future)",
+            "python\n>>> import os, sys\n>>> os.uname()\nposix.uname_result(\n    sysname='Emscripten',\n    nodename='emscripten',\n    release='4.0.2',\n    version='#1',\n    machine='wasm32'\n)\n>>> os.name\n'posix'\n>>> sys.platform\n'emscripten'\n>>> sys._emscripten_info\nsys._emscripten_info(\n    emscripten_version=(3, 1, 10),\n    runtime='Mozilla/5.0 (X11; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0',\n    pthreads=False,\n    shared_memory=False\n)",
+            "python\n>>> sys._emscripten_info\nsys._emscripten_info(\n    emscripten_version=(3, 1, 19),\n    runtime='Node.js v14.18.2',\n    pthreads=True,\n    shared_memory=True\n)",
+            "python\nimport os, sys\n\nif sys.platform == \"wasi\":\n    # Python on WASI\n    ...\n\nif os.name == \"posix\":\n    # WASM platforms identify as POSIX-like.\n    # Windows does not provide os.uname().\n    machine = os.uname().machine\n    if machine.startswith(\"wasm\"):\n        # WebAssembly (wasm32, wasm64 potentially in the future)",
+            "python\n>>> import os, sys\n>>> os.uname()\nposix.uname_result(\n    sysname='wasi',\n    nodename='(none)',\n    release='0.0.0',\n    version='0.0.0',\n    machine='wasm32'\n)\n>>> os.name\n'posix'\n>>> sys.platform\n'wasi'",
+            "python\n>>> import requests\n>>> r = requests.get('https://httpbin.org/basic-auth/user/pass', auth=('user', 'pass'))\n>>> r.status_code\n200\n>>> r.headers['content-type']\n'application/json; charset=utf8'\n>>> r.encoding\n'utf-8'\n>>> r.text\n'{\"authenticated\": true, ...'\n>>> r.json()\n{'authenticated': True, ...}",
+            "python\nimport requests",
+            "python\nimport requests"
+        ]
+    },
+    "c": {
+        "count": 5,
+        "blocks": [
+            "c\n    _Py_CODEUNIT *first_instr = code->co_code_adaptive;\n    _Py_CODEUNIT *next_instr = first_instr;\n    while (1) {\n        _Py_CODEUNIT word = *next_instr++;\n        unsigned char opcode = _Py_OPCODE(word);\n        unsigned int oparg = _Py_OPARG(word);\n        switch (opcode) {\n        // ... A case for each opcode ...\n        }\n    }",
+            "c\n    while (opcode == EXTENDED_ARG) {\n        word = *next_instr++;\n        opcode = _Py_OPCODE(word);\n        oparg = (oparg << 8) | _Py_OPARG(word);\n    }",
+            "c\n    /* Dictionary containing tasks that are currently active in\n       all running event loops.  {EventLoop: Task} */\n    PyObject *current_tasks;\n\n    /* WeakSet containing all tasks scheduled to run on event loops. */\n    PyObject *scheduled_tasks;",
+            "c\ntypedef struct TaskObj {\n    ...\n    struct llist_node asyncio_node;\n} TaskObj;\n\ntypedef struct PyThreadState {\n    ...\n    struct llist_node asyncio_tasks_head;\n} PyThreadState;\n\ntypedef struct PyInterpreterState {\n    ...\n    struct llist_node asyncio_tasks_head;\n    PyMutex asyncio_tasks_lock;\n} PyInterpreterState;",
+            "c\ntypedef struct PyThreadState {\n    ...\n    PyObject *asyncio_current_loop;\n    PyObject *asyncio_current_task;\n} PyThreadState;"
+        ]
+    },
+    "py": {
+        "count": 5,
+        "blocks": [
+            "py\ndef encode_varint(s):\n    ret = []\n    while s >= 64:\n        ret.append(((s & 0x3F) | 0x40) & 0x3F)\n        s >>= 6\n    ret.append(s & 0x3F)\n    return bytes(ret)",
+            "py\ndef decode_varint(chunks):\n    ret = 0\n    for chunk in reversed(chunks):\n        ret = (ret << 6) | chunk\n    return ret",
+            "py\ndef svarint_to_varint(s):\n    if s < 0:\n        return ((-s) << 1) | 1\n    else:\n        return s << 1",
+            "py\ndef varint_to_svarint(uval):\n    return -(uval >> 1) if uval & 1 else (uval >> 1)",
+            "py\nimport asyncio\n\nasync def agen():\n    try:\n        yield 1\n    finally:\n        await asyncio.sleep(1)\n        print(\"finally executed\")\n\n\nasync def main():\n    async for i in agen():\n        break\n\nloop = asyncio.EventLoop()\nloop.run_until_complete(main())"
+        ]
+    },
+    "mermaid": {
+        "count": 2,
+        "blocks": [
+            "mermaid\n\nflowchart TD\n    subgraph one[\"Executing Thread\"]\n        A[\"task = asyncio.create_task(coro())\"] -->B(\"register_task(task)\")\n        B --> C{\"task->task_state?\"}\n        C -->|pending| D[\"task_step(task)\"]\n        C -->|done| F[\"unregister_task(task)\"]\n        C -->|cancelled| F[\"unregister_task(task)\"]\n        D --> C\n        F --> G{\"free-threading?\"}\n        G --> |false| H[\"unregister_task_safe(task)\"]\n        G --> |true| J{\"correct thread? <br>task->task_tid == _Py_ThreadId()\"}\n        J --> |true| H\n        J --> |false| I[\"stop the world <br> pause all threads\"]\n        I --> H[\"unregister_task_safe(task)\"]\n    end\n    subgraph two[\"Thread deallocating\"]\n        A1{\"thread's task list empty? <br> llist_empty(tstate->asyncio_tasks_head)\"}\n        A1 --> |true| B1[\"deallocate thread<br>free_threadstate(tstate)\"]\n        A1 --> |false| C1[\"add tasks to interpreter's task list<br> llist_concat(&tstate->interp->asyncio_tasks_head,\n        &tstate->asyncio_tasks_head)\"]\n        C1 --> B1\n    end\n\n    one --> two",
+            "mermaid\nflowchart TD\n    subgraph one[\"Loop running\"]\n        A[\"asyncio.run(main())\"] --> B\n        B[\"set async generator hooks <br> sys.set_asyncgen_hooks()\"] --> C\n        C[\"async for item in agen\"] --> F\n        F{\"first iteration?\"} --> |true|D\n        F{\"first iteration?\"} --> |false|H\n        D[\"calls firstiter hook<br>loop._asyncgen_firstiter_hook(agen)\"] --> E\n        E[\"add agen to WeakSet<br> loop._asyncgens.add(agen)\"] --> H\n        H[\"item = await agen.\\_\\_anext\\_\\_()\"] --> J\n        J{\"StopAsyncIteration?\"} --> |true|M\n        J{\"StopAsyncIteration?\"} --> |false|I\n        I[\"print(item)\"] --> S\n        S{\"continue iterating?\"} --> |true|C\n        S{\"continue iterating?\"} --> |false|M\n        M{\"agen is no longer referenced?\"} --> |true|N\n        M{\"agen is no longer referenced?\"} --> |false|two\n        N[\"finalize agen<br>_PyGen_Finalize(agen)\"] --> O\n        O[\"calls finalizer hook<br>loop._asyncgen_finalizer_hook(agen)\"] --> P\n        P[\"remove agen from WeakSet<br>loop._asyncgens.discard(agen)\"] --> Q\n        Q[\"schedule task to close it<br>self.create_task(agen.aclose())\"] --> R\n        R[\"print('executing finally block')\"] --> E1\n\n    end\n\n    subgraph two[\"Loop shutting down\"]\n        A1{\"check for alive async generators?\"} --> |true|B1\n        B1[\"close all async generators <br> await asyncio.gather\\(*\\[ag.aclose\\(\\) for ag in loop._asyncgens\\]\"] --> R\n        A1{\"check for alive async generators?\"} --> |false|E1\n        E1[\"loop.close()\"]\n    end"
+        ]
+    },
+    "shell": {
+        "count": 13,
+        "blocks": [
+            "shell\n$ make regen-pegen",
+            "shell\n$ make regen-pegen-metaparser",
+            "shell\n$ make regen-token",
+            "shell\n$ python -m pegen python <PATH TO YOUR GRAMMAR FILE>",
+            "shell\n$ python parse.py file_with_source_code_to_test.py",
+            "shell\n$ python -d file_to_test.py",
+            "shell\nsudo yum install pkgconfig 'tcl-devel >= 8.5.12' 'tk-devel >= 8.5.12' openssl11-devel",
+            "shell\nPKG_CONFIG_PATH=Misc/rhel7 ./configure -C",
+            "shell\n./cross-build/wasm32-emscripten/build/python/python.sh -m test -uall",
+            "shell\n./Platforms/emscripten/browser_test/run_test.sh",
+            "shell\n    pip install \"requests[use_chardet_on_py3]\"",
+            "shell\ngit clone -c fetch.fsck.badTimezone=ignore https://github.com/psf/requests.git",
+            "shell\ngit config --global fetch.fsck.badTimezone ignore"
+        ]
+    },
+    "dos": {
+        "count": 3,
+        "blocks": [
+            "dos\nPCbuild/build.bat --regen",
+            "dos\nPCbuild/build.bat --regen",
+            "dos\nPCbuild/build.bat --regen"
+        ]
+    },
+    "pycon": {
+        "count": 10,
+        "blocks": [
+            "pycon\n>>> class = 3\nFile \"<stdin>\", line 1\n    class = 3\n        ^\nSyntaxError: invalid syntax\n>>> foo(class=3)\nFile \"<stdin>\", line 1\n    foo(class=3)\n        ^^^^^\nSyntaxError: invalid syntax",
+            "pycon\n>>> match = 45\n>>> foo(match=\"Yeah!\")",
+            "pycon\n>>> import keyword\n>>> keyword.kwlist\n['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break',\n'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for',\n'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or',\n'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']",
+            "pycon\n>>> import keyword\n>>> keyword.softkwlist\n['_', 'case', 'match']",
+            "pycon\n>>> x = object()\n>>> sys.getrefcount(x)\n2\n>>> y = x\n>>> sys.getrefcount(x)\n3\n>>> del y\n>>> sys.getrefcount(x)\n2",
+            "pycon\n>>> container = []\n>>> container.append(container)\n>>> sys.getrefcount(container)\n3\n>>> del container",
+            "pycon\n>>> import gc\n>>>\n>>> class Link:\n...    def __init__(self, next_link=None):\n...        self.next_link = next_link\n...\n>>> link_3 = Link()\n>>> link_2 = Link(link_3)\n>>> link_1 = Link(link_2)\n>>> link_3.next_link = link_1\n>>> A = link_1\n>>> del link_1, link_2, link_3\n>>>\n>>> link_4 = Link()\n>>> link_4.next_link = link_4\n>>> del link_4\n>>>\n>>> # Collect the unreachable Link object (and its .__dict__ dict).\n>>> gc.collect()\n2",
+            "pycon\n>>> import gc\n>>> gc.get_threshold()\n(2000, 10, 10)",
+            "pycon\n>>> import gc\n>>> class MyObj:\n...     pass\n...\n>>> # Move everything to the old generation so it's easier to inspect\n>>> # the younger generation.\n>>> gc.collect()\n0\n>>> # Create a reference cycle.\n>>> x = MyObj()\n>>> x.self = x\n>>>\n>>> # Initially the object is in the youngest generation.\n>>> gc.get_objects(generation=0)\n[..., <__main__.MyObj object at 0x7fbcc12a3400>, ...]\n>>>\n>>> # After a collection of the youngest generation the object\n>>> # moves to the next generation.\n>>> gc.collect(generation=0)\n0\n>>> gc.get_objects(generation=0)\n[]\n>>> gc.get_objects(generation=1)\n[..., <__main__.MyObj object at 0x7fbcc12a3400>, ...]",
+            "pycon\n>>> gc.is_tracked(0)\nFalse\n>>> gc.is_tracked(\"a\")\nFalse\n>>> gc.is_tracked([])\nTrue\n>>> gc.is_tracked(())\nFalse\n>>> gc.is_tracked({})\nTrue\n>>> gc.is_tracked({\"a\": 1})\nTrue"
+        ]
+    },
+    "bash": {
+        "count": 8,
+        "blocks": [
+            "bash\n# Run full benchmark suite (1MiB \u2192 200MiB, takes several minutes)\nbuild/python Tools/picklebench/memory_dos_impact.py\n\n# Test just a few sizes (quick test: 1, 10, 50 MiB)\nbuild/python Tools/picklebench/memory_dos_impact.py --sizes 1 10 50\n\n# Test smaller range for faster results\nbuild/python Tools/picklebench/memory_dos_impact.py --sizes 1 5 10\n\n# Output as markdown for reports\nbuild/python Tools/picklebench/memory_dos_impact.py --format markdown > results.md\n\n# Test with protocol 4 instead of 5\nbuild/python Tools/picklebench/memory_dos_impact.py --protocol 4",
+            "bash\n# Quick DoS protection test (claims 10, 50, 100 MB but provides 1KB)\nbuild/python Tools/picklebench/memory_dos_impact.py --antagonistic --sizes 10 50 100\n\n# Full DoS test (default: 10, 50, 100, 500, 1000, 5000 MB claimed)\nbuild/python Tools/picklebench/memory_dos_impact.py --antagonistic",
+            "bash\n# Build the baseline (main branch without PR)\ngit checkout main\nmkdir -p build-main\ncd build-main && ../configure && make -j $(nproc) && cd ..\n\n# Build the current version (with PR)\ngit checkout unpickle-overallocate\nmkdir -p build\ncd build && ../configure && make -j $(nproc) && cd ..\n\n# Run automatic comparison (quick test with a few sizes)\nbuild/python Tools/picklebench/memory_dos_impact.py \\\n  --baseline build-main/python \\\n  --sizes 1 10 50\n\n# Full comparison (all default sizes)\nbuild/python Tools/picklebench/memory_dos_impact.py \\\n  --baseline build-main/python",
+            "bash\n# Baseline results\nbuild-main/python Tools/picklebench/memory_dos_impact.py --format json > baseline.json\n\n# Current results\nbuild/python Tools/picklebench/memory_dos_impact.py --format json > current.json\n\n# Manual comparison\ndiff -y <(jq '.' baseline.json) <(jq '.' current.json)",
+            "bash\n# Test only 5MiB and 10MiB objects\nbuild/python Tools/picklebench/memory_dos_impact.py --sizes 5 10\n\n# Test large objects: 50, 100, 200 MiB\nbuild/python Tools/picklebench/memory_dos_impact.py --sizes 50 100 200",
+            "bash\n# Run 10 iterations per test for better statistics\nbuild/python Tools/picklebench/memory_dos_impact.py --iterations 10 --sizes 1 10",
+            "bash\n# Generate JSON for programmatic analysis\nbuild/python Tools/picklebench/memory_dos_impact.py --format json | python -m json.tool",
+            "bash\n   # For x86_64 (AMD64)\n   tar -xf clang+llvm-21.1.4-x86_64-pc-windows-msvc.tar.xz\n   mv clang+llvm-21.1.4-x86_64-pc-windows-msvc llvm-21.1.4.0\n   tar -cf - llvm-21.1.4.0 | pv | xz > llvm-21.1.4.0-x64.tar.xz\n   rm -rf llvm-21.1.4.0\n\n   # For ARM64\n   tar -xf clang+llvm-21.1.4-aarch64-pc-windows-msvc.tar.xz\n   mv clang+llvm-21.1.4-aarch64-pc-windows-msvc llvm-21.1.4.0\n   tar -cf - llvm-21.1.4.0 | pv | xz > llvm-21.1.4.0-ARM64.tar.xz"
+        ]
+    },
+    "cc": {
+        "count": 1,
+        "blocks": [
+            "cc\n    res = PyObject_Add(left, right);\n    if (res == NULL) {\n        DECREF_INPUTS();\n        ERROR_IF(true);\n    }"
+        ]
+    },
+    "C": {
+        "count": 17,
+        "blocks": [
+            "C\n    inst ( LOAD_FAST, (-- value) ) {\n        value = frame->f_localsplus[oparg];\n        Py_INCREF(value);\n    }",
+            "C\n    TARGET(LOAD_FAST) {\n        PyObject *value;\n        value = frame->f_localsplus[oparg];\n        Py_INCREF(value);\n        PUSH(value);\n        DISPATCH();\n    }",
+            "C\n    inst ( STORE_FAST, (value --) ) {\n        SETLOCAL(oparg, value);\n    }",
+            "C\n    TARGET(STORE_FAST) {\n        PyObject *value = PEEK(1);\n        SETLOCAL(oparg, value);\n        STACK_SHRINK(1);\n        DISPATCH();\n    }",
+            "C\n    op ( CHECK_OBJECT_TYPE, (owner, type_version/2 -- owner) ) {\n        PyTypeObject *tp = Py_TYPE(owner);\n        assert(type_version != 0);\n        DEOPT_IF(tp->tp_version_tag != type_version);\n    }",
+            "C\n    TARGET(CHECK_OBJECT_TYPE) {\n        PyObject *owner = PEEK(1);\n        uint32 type_version = read32(next_instr);\n        PyTypeObject *tp = Py_TYPE(owner);\n        assert(type_version != 0);\n        DEOPT_IF(tp->tp_version_tag != type_version);\n        next_instr += 2;\n        DISPATCH();\n    }",
+            "C\n    op ( CHECK_HAS_INSTANCE_VALUES, (owner -- owner) ) {\n        PyDictOrValues dorv = *_PyObject_DictOrValuesPointer(owner);\n        DEOPT_IF(!_PyDictOrValues_IsValues(dorv));\n    }",
+            "C\n    op ( LOAD_INSTANCE_VALUE, (owner, index/1 -- null if (oparg & 1), res) ) {\n        res = _PyDictOrValues_GetValues(dorv)->values[index];\n        DEOPT_IF(res == NULL);\n        Py_INCREF(res);\n        null = NULL;\n        Py_DECREF(owner);\n    }",
+            "C\n    macro ( LOAD_ATTR_INSTANCE_VALUE ) =\n        counter/1 + CHECK_OBJECT_TYPE + CHECK_HAS_INSTANCE_VALUES +\n        LOAD_INSTANCE_VALUE + unused/4 ;",
+            "C\n    op ( LOAD_SLOT, (owner, index/1 -- null if (oparg & 1), res) ) {\n        char *addr = (char *)owner + index;\n        res = *(PyObject **)addr;\n        DEOPT_IF(res == NULL);\n        Py_INCREF(res);\n        null = NULL;\n        Py_DECREF(owner);\n    }",
+            "C\n    macro ( LOAD_ATTR_SLOT ) = counter/1 + CHECK_OBJECT_TYPE + LOAD_SLOT + unused/4;",
+            "C\n    inst ( BUILD_TUPLE, (items[oparg] -- tuple) ) {\n        tuple = _PyTuple_FromArraySteal(items, oparg);\n        ERROR_IF(tuple == NULL);\n    }",
+            "C\n    inst ( PRINT_EXPR ) {\n        PyObject *value = POP();\n        PyObject *hook = _PySys_GetAttr(tstate, &_Py_ID(displayhook));\n        PyObject *res;\n        if (hook == NULL) {\n            _PyErr_SetString(tstate, PyExc_RuntimeError,\n                                \"lost sys.displayhook\");\n            Py_DECREF(value);\n            goto error;\n        }\n        res = PyObject_CallOneArg(hook, value);\n        Py_DECREF(value);\n        ERROR_IF(res == NULL);\n        Py_DECREF(res);\n    }",
+            "C\n    family(load_attr) = { LOAD_ATTR, LOAD_ATTR_INSTANCE_VALUE, LOAD_SLOT };",
+            "C\n    pseudo(JUMP) = { JUMP_FORWARD, JUMP_BACKWARD };",
+            "C\n    {\n        PyObject *owner = stack_pointer[-1];\n        PyDictOrValues dorv = *_PyObject_DictOrValuesPointer(owner);\n        DEOPT_IF(!_PyDictOrValues_IsValues(dorv));\n    }",
+            "C\n    case LOAD_ATTR_SLOT: {\n        PyObject *s1 = stack_pointer[-1];\n        /* CHECK_OBJECT_TYPE */\n        {\n            PyObject *owner = s1;\n            uint32_t type_version = read32(next_instr + 1);\n            PyTypeObject *tp = Py_TYPE(owner);\n            assert(type_version != 0);\n            if (tp->tp_version_tag != type_version) goto deopt;\n        }\n        /* LOAD_SLOT */\n        {\n            PyObject *owner = s1;\n            uint16_t index = *(next_instr + 1 + 2);\n            char *addr = (char *)owner + index;\n            PyObject *null;\n            PyObject *res = *(PyObject **)addr;\n            if (res == NULL) goto deopt;\n            Py_INCREF(res);\n            null = NULL;\n            Py_DECREF(owner);\n            if (oparg & 1) {\n                stack_pointer[0] = null;\n                stack_pointer += 1;\n            }\n            s1 = res;\n        }\n        next_instr += (1 + 1 + 2 + 1 + 4);\n        stack_pointer[-1] = s1;\n        DISPATCH();\n    }"
+        ]
+    },
+    "sh": {
+        "count": 11,
+        "blocks": [
+            "sh\nwget https://apt.llvm.org/llvm.sh\nchmod +x llvm.sh\nsudo ./llvm.sh 21",
+            "sh\nsudo dnf install 'clang(major) = 21' 'llvm(major) = 21'",
+            "sh\nbrew install llvm@21",
+            "sh\nset PreferredToolArchitecture=AMD64\nPCbuild\\build.bat --experimental-jit",
+            "sh\nchoco install llvm --version=21.1.0",
+            "sh\npython3 Platforms/Android configure-build\npython3 Platforms/Android make-build\npython3 Platforms/Android configure-host HOST\npython3 Platforms/Android make-host HOST",
+            "sh\npython3 Platforms/Android build HOST",
+            "sh\npython3 Platforms/Android build HOST -- -C --with-pydebug",
+            "sh\npython3 Platforms/Android package HOST",
+            "sh\n  python3 Platforms/Android test --connected emulator-5554",
+            "sh\n  python3 Platforms/Android test --managed maxVersion"
+        ]
+    },
+    "toml": {
+        "count": 1,
+        "blocks": [
+            "toml\n[dependencies]\npython.git = \"https://github.com/python/cpython\"\npython.subdirectory = \"Tools/pixi-packages/asan\""
+        ]
+    },
+    "console": {
+        "count": 2,
+        "blocks": [
+            "console\n$ sudo sysctl vm.mmap_rnd_bits\nvm.mmap_rnd_bits = 32  # too high for TSan\n$ sudo sysctl vm.mmap_rnd_bits=28  # reduce it\nvm.mmap_rnd_bits = 28",
+            "console\n$ python -m pip install requests"
+        ]
+    },
+    "js": {
+        "count": 2,
+        "blocks": [
+            "js\nimport createEmscriptenModule from \"./python.mjs\";\n\nawait createEmscriptenModule({\n    preRun(Module) {\n        Module.FS.mount(\n            Module.FS.filesystems.NODEFS,\n            { root: \"/path/to/python/stdlib\" },\n            \"/lib/\",\n        );\n    },\n});",
+            "js\nimport createEmscriptenModule from \"./python.mjs\";\n\nawait createEmscriptenModule({\n  async preRun(Module) {\n    Module.FS.mkdirTree(\"/lib/python3.14/lib-dynload/\");\n    Module.addRunDependency(\"install-stdlib\");\n    const resp = await fetch(\"python3.14.zip\");\n    const stdlibBuffer = await resp.arrayBuffer();\n    Module.FS.writeFile(`/lib/python314.zip`, new Uint8Array(stdlibBuffer), {\n      canOwn: true,\n    });\n    Module.removeRunDependency(\"install-stdlib\");\n  },\n});"
+        ]
+    },
+    "json": {
+        "count": 1,
+        "blocks": [
+            "json\n{\n  \"paste\": \"here\"\n}"
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_199/step_4.py", line 4
+    json_files = [
+                 ^
+SyntaxError: '[' was never closed

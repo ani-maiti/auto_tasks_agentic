@@ -1,0 +1,1 @@
+cat combined_schema_report.json

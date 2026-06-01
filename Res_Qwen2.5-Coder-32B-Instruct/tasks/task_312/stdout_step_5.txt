@@ -1,0 +1,2 @@
+Weather response status: 401
+Geolocation response status: 401

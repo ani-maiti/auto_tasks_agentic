@@ -1,0 +1,1 @@
+echo "No files found starting with a digit."

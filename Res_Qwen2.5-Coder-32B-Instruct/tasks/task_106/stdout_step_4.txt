@@ -1,0 +1,2 @@
+Attempting to resolve all A records for github.com using socket.getaddrinfo
+A record for github.com: 140.82.113.3

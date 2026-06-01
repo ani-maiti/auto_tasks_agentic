@@ -1,0 +1,2 @@
+Failed to read tar file: ./cpython/Lib/test/archivetestdata/recursion.tar
+Inventory created and saved to inventory.csv

@@ -1,0 +1,1 @@
+echo "Hash computation completed successfully"

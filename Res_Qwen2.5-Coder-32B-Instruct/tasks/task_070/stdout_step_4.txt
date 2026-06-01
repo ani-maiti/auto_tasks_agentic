@@ -1,0 +1,6 @@
+Timeout issue persists. Checking network connectivity...
+PING api.nasa.gov.external-domains-production.cloud.gov (40.38.110.72) 56(84) bytes of data.
+
+--- api.nasa.gov.external-domains-production.cloud.gov ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3096ms
+

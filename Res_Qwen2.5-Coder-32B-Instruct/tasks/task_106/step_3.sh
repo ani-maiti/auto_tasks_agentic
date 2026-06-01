@@ -1,0 +1,1 @@
+echo "Retrieved A record for github.com using socket: 140.82.113.3"

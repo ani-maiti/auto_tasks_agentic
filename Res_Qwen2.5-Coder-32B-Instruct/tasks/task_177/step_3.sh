@@ -1,0 +1,1 @@
+echo "Report of the 100 largest files has been successfully generated and displayed."

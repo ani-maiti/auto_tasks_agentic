@@ -1,0 +1,1 @@
+echo "SSL certificate issuer for github.com is: C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV E36"

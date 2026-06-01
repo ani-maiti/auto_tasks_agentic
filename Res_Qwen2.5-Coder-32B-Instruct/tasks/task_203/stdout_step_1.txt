@@ -1,0 +1,8 @@
+./cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip
+./cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip
+./cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip
+./cpython/Lib/test/archivetestdata/testtar.tar
+./cpython/Lib/test/archivetestdata/zipdir.zip
+./cpython/Lib/test/archivetestdata/recursion.tar
+./cpython/Lib/test/archivetestdata/zipdir_backslash.zip
+./cpython/Lib/test/archivetestdata/zip_cp437_header.zip

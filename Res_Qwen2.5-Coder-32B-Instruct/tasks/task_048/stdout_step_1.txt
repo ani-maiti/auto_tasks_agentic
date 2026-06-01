@@ -1,0 +1,11 @@
+Starting directory listing from root
+/etc/mkinitcpio.conf
+/etc/rhashrc
+/etc/host.conf
+/etc/subgid
+/etc/inputrc
+/etc/netconfig
+/etc/bindresvport.blacklist
+/etc/services
+/etc/sddm.conf.d/session.conf
+/etc/pulse/client.conf

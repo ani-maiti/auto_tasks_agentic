@@ -1,0 +1,3 @@
+It seems names_5821.txt contains log files. Checking other files.
+_types.py
+step_2_log.json

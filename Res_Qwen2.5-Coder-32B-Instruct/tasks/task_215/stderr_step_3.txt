@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_215/step_3.py", line 24, in <module>
+    worst_column = min((col for file in missing_value_report for col in missing_value_report[file]), key=lambda x: missing_value_report[x.split(',')[0]][x.split(',')[1]], default=None)
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_215/step_3.py", line 24, in <lambda>
+    worst_column = min((col for file in missing_value_report for col in missing_value_report[file]), key=lambda x: missing_value_report[x.split(',')[0]][x.split(',')[1]], default=None)
+                                                                                                                   ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'header 1'

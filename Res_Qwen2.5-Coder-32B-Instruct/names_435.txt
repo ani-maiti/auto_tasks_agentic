@@ -1,0 +1,5 @@
+distribution.rst
+pycore_namespace.h
+final_a.py
+final_b.py
+__version__.py

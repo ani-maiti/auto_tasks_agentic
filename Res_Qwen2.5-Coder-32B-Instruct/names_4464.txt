@@ -1,0 +1,2 @@
+python3dll.vcxproj
+AI_POLICY.md

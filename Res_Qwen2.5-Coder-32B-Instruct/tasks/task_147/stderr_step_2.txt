@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_147/step_2.py", line 2
+    for line in """\
+                ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 36)

@@ -1,0 +1,20 @@
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:20: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df[col], errors='coerce').dropna()
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:20: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df[col], errors='coerce').dropna()
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:20: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df[col], errors='coerce').dropna()
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:20: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df[col], errors='coerce').dropna()
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:20: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df[col], errors='coerce').dropna()
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:37: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[col] = pd.to_datetime(df[col], errors='coerce')
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:37: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[col] = pd.to_datetime(df[col], errors='coerce')
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:37: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[col] = pd.to_datetime(df[col], errors='coerce')
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:37: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[col] = pd.to_datetime(df[col], errors='coerce')
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_289/step_4.py:37: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[col] = pd.to_datetime(df[col], errors='coerce')

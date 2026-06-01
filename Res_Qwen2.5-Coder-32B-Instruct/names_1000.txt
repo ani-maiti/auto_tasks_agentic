@@ -1,0 +1,2 @@
+pydoc_mod.py
+_sqlite3.connect.c.h

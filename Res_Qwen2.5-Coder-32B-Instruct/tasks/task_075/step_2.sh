@@ -1,0 +1,1 @@
+echo "Current public IP address: 192.73.23.2"

@@ -1,0 +1,7 @@
+Headings count by level:
+Level 1: 64
+Level 2: 135
+Level 3: 99
+Level 4: 20
+Level 5: 0
+Level 6: 0

@@ -1,0 +1,4 @@
+No log files found in the current directory. Searching in common log directories...
+/var/log/Xorg.0.log
+/var/log/pacman.log
+/var/log/pacman.PackageKit.log

@@ -1,0 +1,2 @@
+prepare-commit-msg.sample
+prepare-commit-msg.sample

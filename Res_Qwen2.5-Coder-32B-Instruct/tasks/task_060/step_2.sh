@@ -1,0 +1,1 @@
+curl -s https://static.rust-lang.org/dist/channel-rust-stable.toml | grep 'version =' | head -n 1

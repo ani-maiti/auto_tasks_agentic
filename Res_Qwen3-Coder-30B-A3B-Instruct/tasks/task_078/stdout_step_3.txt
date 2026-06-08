@@ -1,0 +1,5 @@
+[
+  {
+    "name": "v3.15.0b1",
+    "zipball_url": "https://api.github.com/repos/python/cpython/zipball/refs/tags/v3.15.0b1",
+    "tarball_url": "https://api.github.com/repos/python/cpython/tarball/refs/tags/v3.15.0b1",

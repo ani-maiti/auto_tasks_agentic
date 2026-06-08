@@ -1,0 +1,1 @@
+find . -name "*.py" -type f -exec wc -l {} \; | sort -nr | head -10

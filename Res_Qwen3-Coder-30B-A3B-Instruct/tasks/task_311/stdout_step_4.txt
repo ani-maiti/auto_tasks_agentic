@@ -1,0 +1,10 @@
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing lib64 kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing lost+found kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing srv kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing opt kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing boot kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing sbin kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing root kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing etc kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing home kernel headers for module nvidia/595.71.05.
+/var/log/pacman.log:[2026-05-01T19:17:01+0000] [ALPM-SCRIPTLET] ==> ERROR: Missing bin kernel headers for module nvidia/595.71.05.

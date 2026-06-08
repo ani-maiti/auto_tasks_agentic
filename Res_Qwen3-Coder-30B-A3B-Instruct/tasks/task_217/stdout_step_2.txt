@@ -1,0 +1,4 @@
+Average stars: 63659.20
+Average forks: 21571.60
+Average open issues: 2474.20
+Most starred repository: django/django with 87611 stars

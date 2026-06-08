@@ -1,0 +1,1 @@
+print("Task completed successfully. Found the top 5 most starred Python repositories on GitHub.")

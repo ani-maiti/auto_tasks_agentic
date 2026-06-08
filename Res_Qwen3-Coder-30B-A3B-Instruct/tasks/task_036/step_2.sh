@@ -1,0 +1,1 @@
+find . -type f -mtime +365 -print0 | xargs -0 ls -l

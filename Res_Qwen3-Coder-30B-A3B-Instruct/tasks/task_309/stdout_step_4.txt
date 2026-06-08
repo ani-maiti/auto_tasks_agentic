@@ -1,0 +1,3 @@
+Asset with highest volatility: LAB (lab)
+Volatility: 51.31%
+Market cap rank: 23

@@ -1,0 +1,1 @@
+find . -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" -o -name "*.bmp" \) -print0 | xargs -0 identify 2>/dev/null | head -10

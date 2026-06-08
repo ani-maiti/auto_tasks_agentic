@@ -1,0 +1,10 @@
+./tasks/task_167/step_2.sh
+./tasks/task_167/stdout_step_2.txt
+./tasks/task_167/step_2_log.json
+./tasks/task_167/stderr_step_3.txt
+./tasks/task_167/step_3.py
+./tasks/task_167/stdout_step_3.txt
+./tasks/task_167/step_3_log.json
+./tasks/task_167/stderr_step_4.txt
+./tasks/task_167/stdout_step_4.txt
+./tasks/task_167/step_4.sh

@@ -1,0 +1,1 @@
+nslookup -type=MX outlook.com

@@ -1,0 +1,2 @@
+Least common extensions: ['xml']
+Count: 1

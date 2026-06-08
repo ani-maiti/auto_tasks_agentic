@@ -1,0 +1,1 @@
+find /home/ai_admin -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.bmp" \) -print0 | head -10

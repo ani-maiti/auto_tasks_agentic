@@ -1,0 +1,5 @@
+0 ./tasks/task_100/step_1.sh
+0 ./tasks/task_177/step_2.sh
+2 ./tasks/task_177/step_3.sh
+0 ./tasks/task_177/step_1.sh
+9 ./doc_crawl/fetch_titles.sh

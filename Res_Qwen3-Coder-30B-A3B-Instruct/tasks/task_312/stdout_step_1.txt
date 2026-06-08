@@ -1,0 +1,28 @@
+Weather API error: 401
+Geolocation API error: 401
+Error fetching timezone data: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Data saved to city_data.json
+
+City Data Report for London
+==========================
+
+Timestamp: 2026-06-02T05:03:31.295394
+
+Weather Information:
+Not available
+
+Geolocation Information:
+Not available
+
+Timezone Information:
+Not available
+
+
+Most Complete Record:
+{
+  "city": "London",
+  "timestamp": "2026-06-02T05:03:31.295394",
+  "weather": null,
+  "geolocation": null,
+  "timezone": null
+}

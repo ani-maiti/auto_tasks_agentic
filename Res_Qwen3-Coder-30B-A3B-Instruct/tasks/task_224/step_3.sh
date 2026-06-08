@@ -1,0 +1,1 @@
+find /home -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" -o -name "*.bmp" \) -printf '%T@ %p\n' 2>/dev/null | sort -n | head -10

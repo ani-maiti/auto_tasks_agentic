@@ -1,0 +1,17 @@
+Top 10 companies mentioned:
+NVIDIA: 3
+Microsoft: 2
+Red Hat: 1
+GitHub: 1
+Medium: 1
+Apple: 1
+Dell: 1
+
+All company counts:
+NVIDIA: 3
+Microsoft: 2
+Red Hat: 1
+GitHub: 1
+Medium: 1
+Apple: 1
+Dell: 1

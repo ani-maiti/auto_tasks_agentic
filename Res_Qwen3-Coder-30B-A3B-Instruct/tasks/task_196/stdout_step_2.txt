@@ -1,0 +1,5 @@
+2801 .
+2789 ./tasks
+20 ./tasks/task_187
+20 ./tasks/task_182
+20 ./tasks/task_179

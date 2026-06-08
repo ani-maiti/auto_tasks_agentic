@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -print0 | xargs -0 cat | tr '[:space:]' '\n' | grep -v '^$' | sort | uniq | wc -l

@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/psf/requests/contributors | python3 -c "import sys, json; print(len(json.load(sys.stdin)))"

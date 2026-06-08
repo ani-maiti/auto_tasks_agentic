@@ -1,0 +1,1 @@
+curl -s https://www.postgresql.org/blog/ | grep -o '<h2>.*</h2>' | head -1

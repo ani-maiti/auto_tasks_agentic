@@ -1,0 +1,8 @@
+File Extension Report (sorted by frequency):
+----------------------------------------
+txt: 1256
+json: 625
+sh: 424
+py: 203
+csv: 2
+xml: 1

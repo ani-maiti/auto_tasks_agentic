@@ -1,0 +1,5 @@
+Starting crawl...
+Found 33 links on homepage
+Crawled 10 pages
+Crawled 20 pages
+Collected 24 page titles

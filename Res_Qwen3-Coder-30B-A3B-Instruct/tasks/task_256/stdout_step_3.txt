@@ -1,0 +1,2 @@
+Found 1894 text files
+First 5 files: ['./largest_files.txt', './file_list.txt', './task_descriptions.txt', './keyword_analysis.txt', './readability_report.txt']

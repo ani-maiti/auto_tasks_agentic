@@ -1,0 +1,11 @@
+Retrieved data for New York
+Retrieved data for London
+Retrieved data for Tokyo
+Retrieved data for Paris
+Retrieved data for Sydney
+Retrieved data for Dubai
+Retrieved data for Moscow
+Retrieved data for Rio de Janeiro
+Retrieved data for Cairo
+Retrieved data for Mumbai
+All raw responses saved.

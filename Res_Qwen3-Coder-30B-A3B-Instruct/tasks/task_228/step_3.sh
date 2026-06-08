@@ -1,0 +1,1 @@
+echo "Since we don't have access to a real API key, let's create some mock weather data to demonstrate the functionality."

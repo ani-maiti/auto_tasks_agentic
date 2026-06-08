@@ -1,0 +1,5 @@
+44494620752	/home/ai_admin/dp_models/coding_models/Codestral-22B-v0.1/consolidated.safetensors
+26031888493	/home/ai_admin/dp_models/Agri_models/PLLama-13B/pytorch_model.bin
+16720058368	/home/ai_admin/dp_models/Vision_models/StableDiffusion/ONNX/transformer/bf16/fe820521-6e4b-11f0-805c-79ad8d380ae8
+16292541952	/home/ai_admin/dp_models/Vision_models/StableDiffusion/ONNX/transformer/fp8/model.onnx_data
+16060617592	/home/ai_admin/dp_models/7B_models/Llama-8B-Instruct/original/consolidated.00.pth

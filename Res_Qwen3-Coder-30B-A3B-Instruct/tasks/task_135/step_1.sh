@@ -1,0 +1,1 @@
+curl -o sitemap.xml https://www.python.org/sitemap.xml

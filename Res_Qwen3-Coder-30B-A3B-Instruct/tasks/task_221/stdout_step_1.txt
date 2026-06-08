@@ -1,0 +1,20 @@
+./Sydney_weather.json
+./Rio de Janeiro_weather.json
+./hacker_news_classification.json
+./tasks/task_147/step_1_log.json
+./tasks/task_147/step_3_log.json
+./tasks/task_147/step_2_log.json
+./tasks/task_216/step_1_log.json
+./tasks/task_216/step_3_log.json
+./tasks/task_216/step_2_log.json
+./tasks/task_216/step_4_log.json
+./tasks/task_178/step_1_log.json
+./tasks/task_178/step_3_log.json
+./tasks/task_178/step_2_log.json
+./tasks/task_200/step_1_log.json
+./tasks/task_200/step_3_log.json
+./tasks/task_200/step_2_log.json
+./tasks/task_091/step_1_log.json
+./tasks/task_091/step_3_log.json
+./tasks/task_091/step_2_log.json
+./tasks/task_091/step_4_log.json

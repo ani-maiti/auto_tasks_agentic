@@ -1,0 +1,1 @@
+curl -s https://ubuntu.com/download/server | grep -o 'Ubuntu [0-9]*\.[0-9]*' | head -1

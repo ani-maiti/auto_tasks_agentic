@@ -1,0 +1,1 @@
+find /home -type f -size +10M -exec ls -lh {} \; 2>/dev/null | head -20

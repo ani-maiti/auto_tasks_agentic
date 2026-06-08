@@ -1,0 +1,1 @@
+curl -s "https://feeds.feedburner.com/TechCrunch" | grep -E "<title>|<link>" | head -n 20

@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_308/step_3.py", line 141
+    print(f"Total examples collected: {len
+                                      ^
+SyntaxError: '{' was never closed

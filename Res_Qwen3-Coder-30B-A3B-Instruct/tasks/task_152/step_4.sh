@@ -1,0 +1,1 @@
+find . -name "*.py" -type f -exec grep -c "^#" {} \; | awk '{sum += $1} END {print sum}'

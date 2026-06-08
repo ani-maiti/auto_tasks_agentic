@@ -1,0 +1,1 @@
+find / -type l 2>/dev/null | head -20

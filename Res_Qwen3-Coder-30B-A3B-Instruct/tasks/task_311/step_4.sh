@@ -1,0 +1,1 @@
+grep -r "ERROR\|WARN" /var/log/*.log | head -10

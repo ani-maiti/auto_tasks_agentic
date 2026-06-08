@@ -1,0 +1,1550 @@
+[
+  {
+    "path": "./generate_code_model_run.py",
+    "size": 7796
+  },
+  {
+    "path": "./task_descriptions.txt",
+    "size": 332
+  },
+  {
+    "path": "./task_descriptions_all.txt",
+    "size": 32299
+  },
+  {
+    "path": "./system_prompt_body.txt",
+    "size": 2204
+  },
+  {
+    "path": "./tasks/task_023/step_1_log.json",
+    "size": 5399
+  },
+  {
+    "path": "./tasks/task_023/stdout_step_2.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_023/step_5.py",
+    "size": 345
+  },
+  {
+    "path": "./tasks/task_023/step_3_log.json",
+    "size": 1452
+  },
+  {
+    "path": "./tasks/task_023/stdout_step_5.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_023/step_2_log.json",
+    "size": 6305
+  },
+  {
+    "path": "./tasks/task_023/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_023/stdout_step_1.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_023/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_023/step_2.py",
+    "size": 382
+  },
+  {
+    "path": "./tasks/task_023/step_4.sh",
+    "size": 60
+  },
+  {
+    "path": "./tasks/task_023/step_3.sh",
+    "size": 65
+  },
+  {
+    "path": "./tasks/task_023/stdout_step_3.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_023/step_4_log.json",
+    "size": 1430
+  },
+  {
+    "path": "./tasks/task_023/step_1.sh",
+    "size": 74
+  },
+  {
+    "path": "./tasks/task_023/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_023/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_023/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_023/step_5_log.json",
+    "size": 1687
+  },
+  {
+    "path": "./tasks/task_023/stdout_step_4.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_019/step_1_log.json",
+    "size": 5281
+  },
+  {
+    "path": "./tasks/task_019/stdout_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_019/step_3_log.json",
+    "size": 1005
+  },
+  {
+    "path": "./tasks/task_019/step_2_log.json",
+    "size": 5512
+  },
+  {
+    "path": "./tasks/task_019/step_2.sh",
+    "size": 43
+  },
+  {
+    "path": "./tasks/task_019/stdout_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_019/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_019/step_4.sh",
+    "size": 6
+  },
+  {
+    "path": "./tasks/task_019/step_3.sh",
+    "size": 3
+  },
+  {
+    "path": "./tasks/task_019/stdout_step_3.txt",
+    "size": 45
+  },
+  {
+    "path": "./tasks/task_019/step_4_log.json",
+    "size": 1890
+  },
+  {
+    "path": "./tasks/task_019/step_1.sh",
+    "size": 43
+  },
+  {
+    "path": "./tasks/task_019/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_019/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_019/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_019/stdout_step_4.txt",
+    "size": 475
+  },
+  {
+    "path": "./tasks/task_013/step_3.py",
+    "size": 428
+  },
+  {
+    "path": "./tasks/task_013/step_1_log.json",
+    "size": 5669
+  },
+  {
+    "path": "./tasks/task_013/stdout_step_2.txt",
+    "size": 3
+  },
+  {
+    "path": "./tasks/task_013/step_3_log.json",
+    "size": 1997
+  },
+  {
+    "path": "./tasks/task_013/step_2_log.json",
+    "size": 5789
+  },
+  {
+    "path": "./tasks/task_013/step_2.sh",
+    "size": 47
+  },
+  {
+    "path": "./tasks/task_013/stdout_step_1.txt",
+    "size": 137
+  },
+  {
+    "path": "./tasks/task_013/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_013/stdout_step_3.txt",
+    "size": 3
+  },
+  {
+    "path": "./tasks/task_013/step_1.sh",
+    "size": 37
+  },
+  {
+    "path": "./tasks/task_013/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_013/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/step_1_log.json",
+    "size": 5261
+  },
+  {
+    "path": "./tasks/task_021/stdout_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/step_5.sh",
+    "size": 71
+  },
+  {
+    "path": "./tasks/task_021/step_3_log.json",
+    "size": 9091
+  },
+  {
+    "path": "./tasks/task_021/stdout_step_5.txt",
+    "size": 3579
+  },
+  {
+    "path": "./tasks/task_021/step_2_log.json",
+    "size": 5513
+  },
+  {
+    "path": "./tasks/task_021/step_2.sh",
+    "size": 44
+  },
+  {
+    "path": "./tasks/task_021/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/stdout_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/step_4.sh",
+    "size": 60
+  },
+  {
+    "path": "./tasks/task_021/step_3.sh",
+    "size": 41
+  },
+  {
+    "path": "./tasks/task_021/stdout_step_3.txt",
+    "size": 34250
+  },
+  {
+    "path": "./tasks/task_021/step_4_log.json",
+    "size": 13160
+  },
+  {
+    "path": "./tasks/task_021/step_1.sh",
+    "size": 25
+  },
+  {
+    "path": "./tasks/task_021/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_021/step_5_log.json",
+    "size": 16361
+  },
+  {
+    "path": "./tasks/task_021/stdout_step_4.txt",
+    "size": 51528
+  },
+  {
+    "path": "./tasks/task_001/step_1_log.json",
+    "size": 5965
+  },
+  {
+    "path": "./tasks/task_001/stdout_step_2.txt",
+    "size": 378
+  },
+  {
+    "path": "./tasks/task_001/step_3_log.json",
+    "size": 2844
+  },
+  {
+    "path": "./tasks/task_001/step_2_log.json",
+    "size": 6760
+  },
+  {
+    "path": "./tasks/task_001/step_2.sh",
+    "size": 53
+  },
+  {
+    "path": "./tasks/task_001/stdout_step_1.txt",
+    "size": 231
+  },
+  {
+    "path": "./tasks/task_001/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_001/step_3.sh",
+    "size": 53
+  },
+  {
+    "path": "./tasks/task_001/stdout_step_3.txt",
+    "size": 525
+  },
+  {
+    "path": "./tasks/task_001/step_1.sh",
+    "size": 53
+  },
+  {
+    "path": "./tasks/task_001/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_001/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/step_1_log.json",
+    "size": 5326
+  },
+  {
+    "path": "./tasks/task_022/stdout_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/step_3_log.json",
+    "size": 1008
+  },
+  {
+    "path": "./tasks/task_022/step_2_log.json",
+    "size": 5563
+  },
+  {
+    "path": "./tasks/task_022/step_2.sh",
+    "size": 38
+  },
+  {
+    "path": "./tasks/task_022/stdout_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/step_4.sh",
+    "size": 46
+  },
+  {
+    "path": "./tasks/task_022/step_3.sh",
+    "size": 49
+  },
+  {
+    "path": "./tasks/task_022/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/step_4_log.json",
+    "size": 1031
+  },
+  {
+    "path": "./tasks/task_022/step_1.sh",
+    "size": 26
+  },
+  {
+    "path": "./tasks/task_022/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_022/stdout_step_4.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_017/step_3.py",
+    "size": 624
+  },
+  {
+    "path": "./tasks/task_017/step_1_log.json",
+    "size": 9813
+  },
+  {
+    "path": "./tasks/task_017/stdout_step_2.txt",
+    "size": 1622
+  },
+  {
+    "path": "./tasks/task_017/step_3_log.json",
+    "size": 12024
+  },
+  {
+    "path": "./tasks/task_017/step_2_log.json",
+    "size": 11223
+  },
+  {
+    "path": "./tasks/task_017/step_2.sh",
+    "size": 81
+  },
+  {
+    "path": "./tasks/task_017/stdout_step_1.txt",
+    "size": 2172
+  },
+  {
+    "path": "./tasks/task_017/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_017/step_4.sh",
+    "size": 71
+  },
+  {
+    "path": "./tasks/task_017/stdout_step_3.txt",
+    "size": 2872
+  },
+  {
+    "path": "./tasks/task_017/step_4_log.json",
+    "size": 9651
+  },
+  {
+    "path": "./tasks/task_017/step_1.sh",
+    "size": 64
+  },
+  {
+    "path": "./tasks/task_017/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_017/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_017/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_017/stdout_step_4.txt",
+    "size": 1622
+  },
+  {
+    "path": "./tasks/task_004/step_1_log.json",
+    "size": 5392
+  },
+  {
+    "path": "./tasks/task_004/stdout_step_2.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_004/step_5.sh",
+    "size": 66
+  },
+  {
+    "path": "./tasks/task_004/step_3_log.json",
+    "size": 1099
+  },
+  {
+    "path": "./tasks/task_004/stdout_step_5.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_004/step_2_log.json",
+    "size": 5662
+  },
+  {
+    "path": "./tasks/task_004/step_2.sh",
+    "size": 66
+  },
+  {
+    "path": "./tasks/task_004/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_004/stdout_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_004/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_004/step_4.sh",
+    "size": 58
+  },
+  {
+    "path": "./tasks/task_004/step_3.sh",
+    "size": 58
+  },
+  {
+    "path": "./tasks/task_004/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_004/step_4_log.json",
+    "size": 4767
+  },
+  {
+    "path": "./tasks/task_004/step_1.sh",
+    "size": 58
+  },
+  {
+    "path": "./tasks/task_004/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_004/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_004/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_004/step_5_log.json",
+    "size": 2944
+  },
+  {
+    "path": "./tasks/task_004/stdout_step_4.txt",
+    "size": 1775
+  },
+  {
+    "path": "./tasks/task_003/step_3.py",
+    "size": 555
+  },
+  {
+    "path": "./tasks/task_003/step_1_log.json",
+    "size": 7174
+  },
+  {
+    "path": "./tasks/task_003/stdout_step_2.txt",
+    "size": 2604
+  },
+  {
+    "path": "./tasks/task_003/step_3_log.json",
+    "size": 8020
+  },
+  {
+    "path": "./tasks/task_003/step_2_log.json",
+    "size": 11743
+  },
+  {
+    "path": "./tasks/task_003/step_2.sh",
+    "size": 34
+  },
+  {
+    "path": "./tasks/task_003/stdout_step_1.txt",
+    "size": 906
+  },
+  {
+    "path": "./tasks/task_003/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_003/step_4.sh",
+    "size": 50
+  },
+  {
+    "path": "./tasks/task_003/stdout_step_3.txt",
+    "size": 1166
+  },
+  {
+    "path": "./tasks/task_003/step_4_log.json",
+    "size": 10541
+  },
+  {
+    "path": "./tasks/task_003/step_1.sh",
+    "size": 24
+  },
+  {
+    "path": "./tasks/task_003/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_003/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_003/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_003/stdout_step_4.txt",
+    "size": 2536
+  },
+  {
+    "path": "./tasks/task_006/step_1_log.json",
+    "size": 5363
+  },
+  {
+    "path": "./tasks/task_006/stdout_step_1.txt",
+    "size": 3
+  },
+  {
+    "path": "./tasks/task_006/step_1.sh",
+    "size": 29
+  },
+  {
+    "path": "./tasks/task_006/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_008/step_1_log.json",
+    "size": 5305
+  },
+  {
+    "path": "./tasks/task_008/stdout_step_2.txt",
+    "size": 680
+  },
+  {
+    "path": "./tasks/task_008/step_3_log.json",
+    "size": 3672
+  },
+  {
+    "path": "./tasks/task_008/step_2_log.json",
+    "size": 6932
+  },
+  {
+    "path": "./tasks/task_008/step_2.sh",
+    "size": 37
+  },
+  {
+    "path": "./tasks/task_008/stdout_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_008/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_008/step_4.sh",
+    "size": 103
+  },
+  {
+    "path": "./tasks/task_008/step_3.sh",
+    "size": 58
+  },
+  {
+    "path": "./tasks/task_008/stdout_step_3.txt",
+    "size": 955
+  },
+  {
+    "path": "./tasks/task_008/step_4_log.json",
+    "size": 6356
+  },
+  {
+    "path": "./tasks/task_008/step_1.sh",
+    "size": 33
+  },
+  {
+    "path": "./tasks/task_008/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_008/stderr_step_4.txt",
+    "size": 19
+  },
+  {
+    "path": "./tasks/task_008/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_008/stdout_step_4.txt",
+    "size": 1714
+  },
+  {
+    "path": "./tasks/task_007/step_1_log.json",
+    "size": 5351
+  },
+  {
+    "path": "./tasks/task_007/stdout_step_2.txt",
+    "size": 17
+  },
+  {
+    "path": "./tasks/task_007/step_5.sh",
+    "size": 67
+  },
+  {
+    "path": "./tasks/task_007/step_3_log.json",
+    "size": 1143
+  },
+  {
+    "path": "./tasks/task_007/stdout_step_5.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_007/step_2_log.json",
+    "size": 5689
+  },
+  {
+    "path": "./tasks/task_007/step_2.sh",
+    "size": 83
+  },
+  {
+    "path": "./tasks/task_007/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_007/stdout_step_1.txt",
+    "size": 17
+  },
+  {
+    "path": "./tasks/task_007/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_007/step_4.sh",
+    "size": 74
+  },
+  {
+    "path": "./tasks/task_007/step_3.sh",
+    "size": 74
+  },
+  {
+    "path": "./tasks/task_007/stdout_step_3.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_007/step_4_log.json",
+    "size": 1169
+  },
+  {
+    "path": "./tasks/task_007/step_1.sh",
+    "size": 33
+  },
+  {
+    "path": "./tasks/task_007/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_007/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_007/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_007/step_5_log.json",
+    "size": 1133
+  },
+  {
+    "path": "./tasks/task_007/stdout_step_4.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_009/step_1_log.json",
+    "size": 9630
+  },
+  {
+    "path": "./tasks/task_009/stdout_step_2.txt",
+    "size": 269
+  },
+  {
+    "path": "./tasks/task_009/step_3_log.json",
+    "size": 12094
+  },
+  {
+    "path": "./tasks/task_009/step_2_log.json",
+    "size": 9145
+  },
+  {
+    "path": "./tasks/task_009/stdout_step_1.txt",
+    "size": 2107
+  },
+  {
+    "path": "./tasks/task_009/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_009/step_2.py",
+    "size": 471
+  },
+  {
+    "path": "./tasks/task_009/step_3.sh",
+    "size": 91
+  },
+  {
+    "path": "./tasks/task_009/stdout_step_3.txt",
+    "size": 10084
+  },
+  {
+    "path": "./tasks/task_009/step_1.sh",
+    "size": 28
+  },
+  {
+    "path": "./tasks/task_009/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_009/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_024/step_1_log.json",
+    "size": 5467
+  },
+  {
+    "path": "./tasks/task_024/stdout_step_2.txt",
+    "size": 44
+  },
+  {
+    "path": "./tasks/task_024/step_5.sh",
+    "size": 53
+  },
+  {
+    "path": "./tasks/task_024/step_3_log.json",
+    "size": 1247
+  },
+  {
+    "path": "./tasks/task_024/stdout_step_5.txt",
+    "size": 46
+  },
+  {
+    "path": "./tasks/task_024/step_2_log.json",
+    "size": 5747
+  },
+  {
+    "path": "./tasks/task_024/step_2.sh",
+    "size": 50
+  },
+  {
+    "path": "./tasks/task_024/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_024/stdout_step_1.txt",
+    "size": 35
+  },
+  {
+    "path": "./tasks/task_024/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_024/step_4.sh",
+    "size": 19
+  },
+  {
+    "path": "./tasks/task_024/step_3.sh",
+    "size": 30
+  },
+  {
+    "path": "./tasks/task_024/stdout_step_3.txt",
+    "size": 72
+  },
+  {
+    "path": "./tasks/task_024/step_4_log.json",
+    "size": 1147
+  },
+  {
+    "path": "./tasks/task_024/step_1.sh",
+    "size": 62
+  },
+  {
+    "path": "./tasks/task_024/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_024/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_024/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_024/step_5_log.json",
+    "size": 1200
+  },
+  {
+    "path": "./tasks/task_024/stdout_step_4.txt",
+    "size": 32
+  },
+  {
+    "path": "./tasks/task_010/step_3.py",
+    "size": 331
+  },
+  {
+    "path": "./tasks/task_010/step_1_log.json",
+    "size": 7441
+  },
+  {
+    "path": "./tasks/task_010/stdout_step_2.txt",
+    "size": 3
+  },
+  {
+    "path": "./tasks/task_010/step_3_log.json",
+    "size": 4991
+  },
+  {
+    "path": "./tasks/task_010/step_2_log.json",
+    "size": 6629
+  },
+  {
+    "path": "./tasks/task_010/step_2.sh",
+    "size": 37
+  },
+  {
+    "path": "./tasks/task_010/stdout_step_1.txt",
+    "size": 1023
+  },
+  {
+    "path": "./tasks/task_010/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_010/step_4.sh",
+    "size": 87
+  },
+  {
+    "path": "./tasks/task_010/stdout_step_3.txt",
+    "size": 1126
+  },
+  {
+    "path": "./tasks/task_010/step_4_log.json",
+    "size": 4978
+  },
+  {
+    "path": "./tasks/task_010/step_1.sh",
+    "size": 29
+  },
+  {
+    "path": "./tasks/task_010/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_010/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_010/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_010/stdout_step_4.txt",
+    "size": 1159
+  },
+  {
+    "path": "./tasks/task_020/step_1_log.json",
+    "size": 5433
+  },
+  {
+    "path": "./tasks/task_020/stdout_step_2.txt",
+    "size": 1
+  },
+  {
+    "path": "./tasks/task_020/step_5.sh",
+    "size": 44
+  },
+  {
+    "path": "./tasks/task_020/step_3_log.json",
+    "size": 1133
+  },
+  {
+    "path": "./tasks/task_020/stdout_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_020/step_2_log.json",
+    "size": 5713
+  },
+  {
+    "path": "./tasks/task_020/step_2.sh",
+    "size": 87
+  },
+  {
+    "path": "./tasks/task_020/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_020/stdout_step_1.txt",
+    "size": 1
+  },
+  {
+    "path": "./tasks/task_020/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_020/step_4.sh",
+    "size": 87
+  },
+  {
+    "path": "./tasks/task_020/step_3.sh",
+    "size": 51
+  },
+  {
+    "path": "./tasks/task_020/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_020/step_4_log.json",
+    "size": 1171
+  },
+  {
+    "path": "./tasks/task_020/step_1.sh",
+    "size": 87
+  },
+  {
+    "path": "./tasks/task_020/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_020/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_020/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_020/step_5_log.json",
+    "size": 1077
+  },
+  {
+    "path": "./tasks/task_020/stdout_step_4.txt",
+    "size": 1
+  },
+  {
+    "path": "./tasks/task_016/step_1_log.json",
+    "size": 13632
+  },
+  {
+    "path": "./tasks/task_016/stdout_step_2.txt",
+    "size": 79
+  },
+  {
+    "path": "./tasks/task_016/step_3_log.json",
+    "size": 6042
+  },
+  {
+    "path": "./tasks/task_016/step_2_log.json",
+    "size": 11172
+  },
+  {
+    "path": "./tasks/task_016/stdout_step_1.txt",
+    "size": 8784
+  },
+  {
+    "path": "./tasks/task_016/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_016/step_2.py",
+    "size": 651
+  },
+  {
+    "path": "./tasks/task_016/step_3.sh",
+    "size": 71
+  },
+  {
+    "path": "./tasks/task_016/stdout_step_3.txt",
+    "size": 47
+  },
+  {
+    "path": "./tasks/task_016/step_1.sh",
+    "size": 75
+  },
+  {
+    "path": "./tasks/task_016/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_016/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_025/step_3.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_025/step_1_log.json",
+    "size": 15855
+  },
+  {
+    "path": "./tasks/task_025/stdout_step_2.txt",
+    "size": 27217
+  },
+  {
+    "path": "./tasks/task_025/step_3_log.json",
+    "size": 22045
+  },
+  {
+    "path": "./tasks/task_025/step_2_log.json",
+    "size": 21344
+  },
+  {
+    "path": "./tasks/task_025/step_1.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_025/stdout_step_1.txt",
+    "size": 26925
+  },
+  {
+    "path": "./tasks/task_025/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_025/step_2.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_025/stdout_step_3.txt",
+    "size": 27509
+  },
+  {
+    "path": "./tasks/task_025/step_4.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_025/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_025/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_025/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_025/stdout_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_015/step_1_log.json",
+    "size": 5294
+  },
+  {
+    "path": "./tasks/task_015/stdout_step_2.txt",
+    "size": 368
+  },
+  {
+    "path": "./tasks/task_015/step_3_log.json",
+    "size": 1549
+  },
+  {
+    "path": "./tasks/task_015/step_2_log.json",
+    "size": 6307
+  },
+  {
+    "path": "./tasks/task_015/step_2.sh",
+    "size": 51
+  },
+  {
+    "path": "./tasks/task_015/stdout_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_015/stderr_step_3.txt",
+    "size": 70
+  },
+  {
+    "path": "./tasks/task_015/step_3.sh",
+    "size": 54
+  },
+  {
+    "path": "./tasks/task_015/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_015/step_1.sh",
+    "size": 26
+  },
+  {
+    "path": "./tasks/task_015/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_015/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_005/step_1_log.json",
+    "size": 5377
+  },
+  {
+    "path": "./tasks/task_005/stdout_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_005/step_3_log.json",
+    "size": 1074
+  },
+  {
+    "path": "./tasks/task_005/step_2_log.json",
+    "size": 5641
+  },
+  {
+    "path": "./tasks/task_005/step_2.sh",
+    "size": 63
+  },
+  {
+    "path": "./tasks/task_005/stdout_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_005/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_005/step_3.sh",
+    "size": 52
+  },
+  {
+    "path": "./tasks/task_005/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_005/step_1.sh",
+    "size": 54
+  },
+  {
+    "path": "./tasks/task_005/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_005/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_002/step_1_log.json",
+    "size": 5478
+  },
+  {
+    "path": "./tasks/task_002/stdout_step_2.txt",
+    "size": 33
+  },
+  {
+    "path": "./tasks/task_002/step_3_log.json",
+    "size": 1155
+  },
+  {
+    "path": "./tasks/task_002/step_2_log.json",
+    "size": 5750
+  },
+  {
+    "path": "./tasks/task_002/step_2.sh",
+    "size": 36
+  },
+  {
+    "path": "./tasks/task_002/stdout_step_1.txt",
+    "size": 29
+  },
+  {
+    "path": "./tasks/task_002/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_002/step_3.sh",
+    "size": 69
+  },
+  {
+    "path": "./tasks/task_002/stdout_step_3.txt",
+    "size": 4
+  },
+  {
+    "path": "./tasks/task_002/step_1.sh",
+    "size": 27
+  },
+  {
+    "path": "./tasks/task_002/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_002/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_011/step_3.py",
+    "size": 7
+  },
+  {
+    "path": "./tasks/task_011/step_1_log.json",
+    "size": 5511
+  },
+  {
+    "path": "./tasks/task_011/stdout_step_2.txt",
+    "size": 72
+  },
+  {
+    "path": "./tasks/task_011/step_3_log.json",
+    "size": 1133
+  },
+  {
+    "path": "./tasks/task_011/step_2_log.json",
+    "size": 5905
+  },
+  {
+    "path": "./tasks/task_011/stdout_step_1.txt",
+    "size": 34
+  },
+  {
+    "path": "./tasks/task_011/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_011/step_2.py",
+    "size": 80
+  },
+  {
+    "path": "./tasks/task_011/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_011/step_1.sh",
+    "size": 66
+  },
+  {
+    "path": "./tasks/task_011/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_011/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_012/step_1_log.json",
+    "size": 5434
+  },
+  {
+    "path": "./tasks/task_012/stdout_step_2.txt",
+    "size": 5324
+  },
+  {
+    "path": "./tasks/task_012/step_5.sh",
+    "size": 41
+  },
+  {
+    "path": "./tasks/task_012/step_3_log.json",
+    "size": 5274
+  },
+  {
+    "path": "./tasks/task_012/stdout_step_5.txt",
+    "size": 330
+  },
+  {
+    "path": "./tasks/task_012/step_2_log.json",
+    "size": 13966
+  },
+  {
+    "path": "./tasks/task_012/step_2.sh",
+    "size": 16
+  },
+  {
+    "path": "./tasks/task_012/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_012/stdout_step_1.txt",
+    "size": 55
+  },
+  {
+    "path": "./tasks/task_012/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_012/step_4.sh",
+    "size": 52
+  },
+  {
+    "path": "./tasks/task_012/step_3.sh",
+    "size": 54
+  },
+  {
+    "path": "./tasks/task_012/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_012/step_4_log.json",
+    "size": 5782
+  },
+  {
+    "path": "./tasks/task_012/step_1.sh",
+    "size": 41
+  },
+  {
+    "path": "./tasks/task_012/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_012/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_012/stderr_step_2.txt",
+    "size": 72
+  },
+  {
+    "path": "./tasks/task_012/step_5_log.json",
+    "size": 1995
+  },
+  {
+    "path": "./tasks/task_012/stdout_step_4.txt",
+    "size": 270
+  },
+  {
+    "path": "./tasks/task_018/step_1_log.json",
+    "size": 5366
+  },
+  {
+    "path": "./tasks/task_018/stdout_step_2.txt",
+    "size": 10
+  },
+  {
+    "path": "./tasks/task_018/step_3_log.json",
+    "size": 1905
+  },
+  {
+    "path": "./tasks/task_018/step_2_log.json",
+    "size": 5592
+  },
+  {
+    "path": "./tasks/task_018/step_2.sh",
+    "size": 26
+  },
+  {
+    "path": "./tasks/task_018/stdout_step_1.txt",
+    "size": 2
+  },
+  {
+    "path": "./tasks/task_018/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_018/step_3.sh",
+    "size": 6
+  },
+  {
+    "path": "./tasks/task_018/stdout_step_3.txt",
+    "size": 475
+  },
+  {
+    "path": "./tasks/task_018/step_1.sh",
+    "size": 34
+  },
+  {
+    "path": "./tasks/task_018/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_018/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/step_1_log.json",
+    "size": 6240
+  },
+  {
+    "path": "./tasks/task_014/stdout_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/step_5.sh",
+    "size": 23
+  },
+  {
+    "path": "./tasks/task_014/step_3_log.json",
+    "size": 1547
+  },
+  {
+    "path": "./tasks/task_014/stdout_step_5.txt",
+    "size": 13801
+  },
+  {
+    "path": "./tasks/task_014/step_2_log.json",
+    "size": 6066
+  },
+  {
+    "path": "./tasks/task_014/step_2.sh",
+    "size": 58
+  },
+  {
+    "path": "./tasks/task_014/stderr_step_5.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/stdout_step_1.txt",
+    "size": 475
+  },
+  {
+    "path": "./tasks/task_014/stderr_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/step_4.sh",
+    "size": 22
+  },
+  {
+    "path": "./tasks/task_014/step_3.sh",
+    "size": 70
+  },
+  {
+    "path": "./tasks/task_014/stdout_step_3.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/step_4_log.json",
+    "size": 1644
+  },
+  {
+    "path": "./tasks/task_014/step_1.sh",
+    "size": 6
+  },
+  {
+    "path": "./tasks/task_014/stderr_step_1.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/stderr_step_4.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/stderr_step_2.txt",
+    "size": 0
+  },
+  {
+    "path": "./tasks/task_014/step_5_log.json",
+    "size": 9423
+  },
+  {
+    "path": "./tasks/task_014/stdout_step_4.txt",
+    "size": 302
+  }
+]

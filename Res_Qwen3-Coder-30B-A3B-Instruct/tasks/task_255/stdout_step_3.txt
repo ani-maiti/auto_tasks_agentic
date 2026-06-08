@@ -1,0 +1,3 @@
+Found 1 markdown files
+Found 0 duplicated headings
+Report saved to duplicated_headings_report.csv

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ML-For-Beginners",
+    "full_name": "microsoft/ML-For-Beginners",
+    "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+    "language": "Jupyter Notebook",
+    "stars": 86200,
+    "forks": 20897,
+    "url": "https://github.com/microsoft/ML-For-Beginners"
+  },
+  {
+    "name": "superset",
+    "full_name": "apache/superset",
+    "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+    "language": "TypeScript",
+    "stars": 73114,
+    "forks": 17460,
+    "url": "https://github.com/apache/superset"
+  },
+  {

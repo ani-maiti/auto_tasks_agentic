@@ -1,0 +1,1 @@
+curl -s https://kubernetes.io/blog/ | grep -o '<title>[^<]*</title>' | head -1

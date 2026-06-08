@@ -1,0 +1,51 @@
+{
+  "city": "London",
+  "timestamp": "2026-06-02T05:07:15.459546",
+  "weather": {
+    "name": "London",
+    "main": {
+      "temp": 280.32,
+      "feels_like": 278.05,
+      "temp_min": 279.15,
+      "temp_max": 281.15,
+      "pressure": 1012,
+      "humidity": 81
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "wind": {
+      "speed": 3.6,
+      "deg": 300
+    }
+  },
+  "geolocation": {
+    "name": "London",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "country": "GB",
+    "state": "England"
+  },
+  "timezone": {
+    "abbreviation": "BST",
+    "client_ip": "192.168.1.1",
+    "datetime": "2026-06-02T06:03:31.295394+01:00",
+    "day_of_week": 2,
+    "day_of_year": 153,
+    "dst": true,
+    "dst_from": "2026-03-29T01:00:00+00:00",
+    "dst_offset": 3600,
+    "dst_until": "2026-10-25T01:00:00+00:00",
+    "raw_offset": 3600,
+    "timezone": "Europe/London",
+    "unixtime": 1780423411,
+    "utc_datetime": "2026-06-02T05:03:31.295394+00:00",
+    "utc_offset": "+01:00",
+    "week_number": 22
+  }
+}

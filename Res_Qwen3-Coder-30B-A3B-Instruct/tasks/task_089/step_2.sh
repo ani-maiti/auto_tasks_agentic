@@ -1,0 +1,1 @@
+curl -s "https://en.wikipedia.org/wiki/Linux" | grep -o '<title>[^<]*</title>' | sed 's/<title>\(.*\)<\/title>/\1/'

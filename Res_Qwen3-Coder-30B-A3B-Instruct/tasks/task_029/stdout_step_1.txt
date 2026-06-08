@@ -1,0 +1,5 @@
+./tasks/task_023/step_4.sh
+./tasks/task_023/step_3.sh
+./tasks/task_023/step_1.sh
+./tasks/task_019/step_2.sh
+./tasks/task_019/step_4.sh

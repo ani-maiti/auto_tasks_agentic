@@ -1,0 +1,5 @@
+size,count
+0-1KB,1802
+1KB-1MB,738
+1MB-1GB,0
+1GB+,0

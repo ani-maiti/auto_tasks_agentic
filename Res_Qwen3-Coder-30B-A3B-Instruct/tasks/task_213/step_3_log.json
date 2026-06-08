@@ -1,0 +1,39 @@
+{
+  "task_id": 213,
+  "step": 3,
+  "max_steps": 5,
+  "timestamp": "2026-05-27T17:27:59.409359",
+  "task_description": "find all Python files, detect functions longer than fifty lines, rank them by length, save the report to CSV, and print the top ten",
+  "code": "find . -name \"*.py\" -type f -exec wc -l {} \\; | sort -nr | head -20",
+  "trace": {
+    "stdout": "297 ./generate_code_model_run.py\n111 ./tasks/task_211/step_3.py\n83 ./tasks/task_131/step_3.py\n81 ./tasks/task_200/step_2.py\n69 ./tasks/task_211/step_1.py\n65 ./tasks/task_090/step_3.py\n62 ./tasks/task_210/step_3.py\n59 ./tasks/task_210/step_2.py\n58 ./tasks/task_213/step_2.py\n56 ./tasks/task_210/step_1.py\n54 ./tasks/task_090/step_4.py\n50 ./tasks/task_207/step_5.py\n46 ./tasks/task_180/step_3.py\n45 ./tasks/task_199/step_2.py\n44 ./tasks/task_180/step_2.py\n43 ./tasks/task_091/step_4.py\n41 ./tasks/task_212/step_1.py\n40 ./tasks/task_211/step_2.py\n40 ./tasks/task_090/step_1.py\n39 ./tasks/task_206/step_3.py\n",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -name \"*.py\" -type f | head -10\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n./generate_code_model_run.py\n./tasks/task_200/step_2.py\n./tasks/task_091/step_3.py\n./tasks/task_091/step_1.py\n./tasks/task_091/step_2.py\n./tasks/task_091/step_4.py\n./tasks/task_122/step_2.py\n./tasks/task_023/step_5.py\n./tasks/task_023/step_2.py\n./tasks/task_086/step_3.py\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport os\nimport re\nimport csv\nfrom collections import namedtuple\n\nFunctionInfo = namedtuple('FunctionInfo', ['file_path', 'function_name', 'line_count'])\n\ndef find_long_functions(directory):\n    long_functions = []\n    \n    # Find all Python files\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.endswith('.py'):\n                file_path = os.path.join(root, file)\n                with open(file_path, 'r', encoding='utf-8') as f:\n                    content = f.read()\n                \n                # Find function definitions\n                function_pattern = r'def\\s+(\\w+)\\s*\\([^)]*\\):'\n                function_matches = list(re.finditer(function_pattern, content))\n                \n                # Get line numbers for each function\n                lines = content.split('\\n')\n                for i, match in enumerate(function_matches):\n                    func_name = match.group(1)\n                    start_line = match.start()\n                    \n                    # Find where this function ends\n                    end_line = len(lines)\n                    if i + 1 < len(function_matches):\n                        end_line = function_matches[i+1].start()\n                    \n                    # Count lines in function body\n                    func_lines = lines[match.end():end_line]\n                    line_count = len([l for l in func_lines if l.strip() != ''])\n                    \n                    if line_count > 50:\n                        long_functions.append(FunctionInfo(file_path, func_name, line_count))\n    \n    return long_functions\n\n# Find all long functions\nlong_functions = find_long_functions('.')\n\n# Sort by line count (descending)\nlong_functions.sort(key=lambda x: x.line_count, reverse=True)\n\n# Save to CSV\nwith open('long_functions_report.csv', 'w', newline='') as csvfile:\n    writer = csv.writer(csvfile)\n    writer.writerow(['File Path', 'Function Name', 'Line Count'])\n    for func in long_functions:\n        writer.writerow([func.file_path, func.function_name, func.line_count])\n\n# Print top 10\nprint(\"Top 10 longest functions:\")\nfor i, func in enumerate(long_functions[:10]):\n    print(f\"{i+1}. {func.file_path}:{func.function_name} ({func.line_count} lines)\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nTop 10 longest functions:\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -name \"*.py\" -type f -exec wc -l {} \\; | sort -nr | head -20\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n297 ./generate_code_model_run.py\n111 ./tasks/task_211/step_3.py\n83 ./tasks/task_131/step_3.py\n81 ./tasks/task_200/step_2.py\n69 ./tasks/task_211/step_1.py\n65 ./tasks/task_090/step_3.py\n62 ./tasks/task_210/step_3.py\n59 ./tasks/task_210/step_2.py\n58 ./tasks/task_213/step_2.py\n56 ./tasks/task_210/step_1.py\n54 ./tasks/task_090/step_4.py\n50 ./tasks/task_207/step_5.py\n46 ./tasks/task_180/step_3.py\n45 ./tasks/task_199/step_2.py\n44 ./tasks/task_180/step_2.py\n43 ./tasks/task_091/step_4.py\n41 ./tasks/task_212/step_1.py\n40 ./tasks/task_211/step_2.py\n40 ./tasks/task_090/step_1.py\n39 ./tasks/task_206/step_3.py\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+curl -L https://wikipedia.org/robots.txt | head -n 20

@@ -1,0 +1,1 @@
+cat cross_reference_report.json | jq '.total_shared_values'

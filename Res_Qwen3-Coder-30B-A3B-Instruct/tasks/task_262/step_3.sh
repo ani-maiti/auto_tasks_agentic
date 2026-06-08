@@ -1,0 +1,1 @@
+grep -E "^\s*(\w+)" ./tasks/task_147/step_1.sh | cut -d' ' -f1

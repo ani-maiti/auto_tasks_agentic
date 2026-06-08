@@ -1,0 +1,1 @@
+echo "The largest directory is the current directory (.) with size 2744"

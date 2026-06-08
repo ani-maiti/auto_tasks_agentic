@@ -1,0 +1,1 @@
+-rw-r--r-- 1 ai_admin ai_admin 3.2K Jun  1 20:24 exchange_rates_raw.json

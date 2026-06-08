@@ -1,0 +1,5 @@
+./tasks/task_023/stdout_step_2.txt
+./tasks/task_023/stdout_step_5.txt
+./tasks/task_023/stderr_step_5.txt
+./tasks/task_023/stdout_step_1.txt
+./tasks/task_023/stderr_step_3.txt

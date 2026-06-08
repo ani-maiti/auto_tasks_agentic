@@ -1,0 +1,1 @@
+grep -c "No release" github_releases.csv

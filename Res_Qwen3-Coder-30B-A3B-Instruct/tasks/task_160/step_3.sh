@@ -1,0 +1,1 @@
+find . -type d -not -path "./.*" -exec sh -c 'test -z "$(find "{}" -maxdepth 1 -type f -print -quit)" && echo "{}"' \;

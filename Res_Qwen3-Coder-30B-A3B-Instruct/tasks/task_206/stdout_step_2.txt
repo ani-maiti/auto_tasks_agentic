@@ -1,0 +1,18 @@
+{
+  "./python_files_line_counts.csv": {
+    "File Path": "str",
+    "Line Count": "int64"
+  },
+  "./largest_files.csv": {
+    "Size (bytes)": "int64",
+    "File Path": "str"
+  },
+  "./file_size_histogram.csv": {
+    "size": "str",
+    "count": "int64"
+  },
+  "./key_analysis.csv": {
+    "Key": "str",
+    "Count": "int64"
+  }
+}

@@ -1,0 +1,2 @@
+MX Records for outlook.com:
+Priority: 5, Exchange: outlook-com.olc.protection.outlook.com.

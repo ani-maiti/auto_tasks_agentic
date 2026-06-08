@@ -1,0 +1,1 @@
+curl -s "https://api.blockchain.info/tobitcoin?currency=USD" | head -c 10

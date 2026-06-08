@@ -1,0 +1,1 @@
+find /home -type f -perm /111 -executable 2>/dev/null | head -10

@@ -1,0 +1,33 @@
+File: ./long_functions_report.csv
+Date columns: []
+
+File: ./python_files_line_counts.csv
+Date columns: ['Line Count']
+  Column 'Line Count': 1970-01-01 00:00:00.000000001 to 1970-01-01 00:00:00.000000297 (0 days)
+
+File: ./largest_files.csv
+Date columns: ['Size (bytes)']
+  Column 'Size (bytes)': 1970-01-01 00:00:04.584408792 to 1970-01-01 00:00:44.494620752 (0 days)
+
+File: ./config_report.csv
+Date columns: ['cod', 'task_id', 'step', 'max_steps', 'timestamp']
+  Column 'cod': 1970-01-01 00:00:00.000000401 to 1970-01-01 00:00:00.000000401 (0 days)
+  Column 'task_id': 1970-01-01 00:00:00.000000001 to 1970-01-01 00:00:00.000000221 (0 days)
+  Column 'step': 1970-01-01 00:00:00.000000001 to 1970-01-01 00:00:00.000000005 (0 days)
+  Column 'max_steps': 1970-01-01 00:00:00.000000003 to 1970-01-01 00:00:00.000000005 (0 days)
+  Column 'timestamp': 2026-05-17 11:49:19.826679 to 2026-05-28 21:50:03.797190 (11 days)
+
+File: ./file_size_histogram.csv
+Date columns: ['count']
+  Column 'count': 1970-01-01 00:00:00 to 1970-01-01 00:00:00.000001802 (0 days)
+
+File: ./repo_metadata.csv
+Date columns: ['stars', 'forks', 'open_issues']
+  Column 'stars': 1970-01-01 00:00:00.000032129 to 1970-01-01 00:00:00.000087611 (0 days)
+  Column 'forks': 1970-01-01 00:00:00.000009938 to 1970-01-01 00:00:00.000034691 (0 days)
+  Column 'open_issues': 1970-01-01 00:00:00.000000003 to 1970-01-01 00:00:00.000009307 (0 days)
+
+File: ./key_analysis.csv
+Date columns: ['Count']
+  Column 'Count': 1970-01-01 00:00:00.000000707 to 1970-01-01 00:00:00.000000707 (0 days)
+

@@ -1,0 +1,7 @@
+./long_functions_report.csv
+./python_files_line_counts.csv
+./largest_files.csv
+./config_report.csv
+./file_size_histogram.csv
+./repo_metadata.csv
+./key_analysis.csv

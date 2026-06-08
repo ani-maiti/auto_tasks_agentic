@@ -1,0 +1,16 @@
+1db6402fdc7fc74297a921986ce33ddc  ./generate_code_model_run.py
+d822da23b91f6623a2c314e06964aaa8  ./tasks/task_023/step_5.py
+433c2ad8522160674c621c0c92f6ce25  ./tasks/task_023/step_2.py
+f3e72e420599f5c2162c9978eca7bcfa  ./tasks/task_013/step_3.py
+c09f959349683cdc7736bec0af9ba728  ./tasks/task_017/step_3.py
+d5f9944d8d9a345252052b5553f21c04  ./tasks/task_003/step_3.py
+e632079a7c6dce592a6e8390a417b396  ./tasks/task_009/step_2.py
+59373fca89fb1be52eb950bb845bd957  ./tasks/task_010/step_3.py
+f8c73ea2636fc7178bbea0e9b57f26f0  ./tasks/task_031/step_2.py
+3f330ca1d8964fc9e9a3d003c3c2c538  ./tasks/task_016/step_2.py
+dca6a3126b70190ee8a0c7238c7ea9c5  ./tasks/task_025/step_3.py
+dca6a3126b70190ee8a0c7238c7ea9c5  ./tasks/task_025/step_1.py
+dca6a3126b70190ee8a0c7238c7ea9c5  ./tasks/task_025/step_2.py
+dca6a3126b70190ee8a0c7238c7ea9c5  ./tasks/task_025/step_4.py
+41f30af16653a1869b465b99e850364b  ./tasks/task_011/step_3.py
+efd7c4e8ccce4130d209fed8ae650941  ./tasks/task_011/step_2.py

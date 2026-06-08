@@ -1,0 +1,2 @@
+Failed to retrieve page: 403
+Gold price: $2.327e-05

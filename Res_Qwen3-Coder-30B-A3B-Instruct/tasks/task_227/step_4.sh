@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -print0 | xargs -0 grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' | head -10

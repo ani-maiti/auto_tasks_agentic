@@ -1,0 +1,2 @@
+CSV files found: 11
+Similarity matrix calculated

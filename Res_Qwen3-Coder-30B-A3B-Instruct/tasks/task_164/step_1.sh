@@ -1,0 +1,1 @@
+find . -type f -exec stat -c "%s" {} \; | awk '{sum += $1; count++} END {print sum/count}'

@@ -1,0 +1,1 @@
+find . -type f | grep -v "^.$" | cut -d'.' -f2- | sort | uniq -c | sort -nr

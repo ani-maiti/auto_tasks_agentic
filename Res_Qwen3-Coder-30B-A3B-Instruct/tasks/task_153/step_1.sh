@@ -1,0 +1,1 @@
+find . -type f -name '*.*' | sed 's/.*\.//' | sort | uniq -c | sort -nr | head -1

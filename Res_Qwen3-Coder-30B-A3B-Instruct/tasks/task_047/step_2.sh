@@ -1,0 +1,1 @@
+find . -type f -exec grep -l "^\s*{.*}" {} \; | head -10

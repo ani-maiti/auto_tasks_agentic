@@ -1,0 +1,1246 @@
+Found 107 sets of duplicate files
+Total duplicate files: 923
+
+Set 1 (hash: d5a90015fa81abfa6156ce1cfd8effa9fec752d3c0ec1d6b9dedb8dd427a7f30):
+  ./python_files_line_counts.csv
+  ./tasks/task_149/stdout_step_3.txt
+
+Set 2 (hash: ebb3dc06a77e80958de07a1c8628a60aeb6cbeff9c11c8b10f442de22361eb2d):
+  ./file_size_histogram.csv
+  ./tasks/task_179/stdout_step_3.txt
+
+Set 3 (hash: 93b32b7080c4dfd17383b51ee3f8c3c7ffb0f4a824334986104ce1a85b739728):
+  ./python_files.json
+  ./tasks/task_150/stdout_step_2.txt
+
+Set 4 (hash: e96fadb2d16cc741be080254f926b32a7476847da55a52aad4595cc25ac0b564):
+  ./task_descriptions_all.txt
+  ./tasks/task_173/stdout_step_4.txt
+
+Set 5 (hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855):
+  ./tasks/task_147/stdout_step_2.txt
+  ./tasks/task_147/stderr_step_3.txt
+  ./tasks/task_147/stdout_step_3.txt
+  ./tasks/task_147/stderr_step_1.txt
+  ./tasks/task_147/stderr_step_2.txt
+  ./tasks/task_178/stderr_step_3.txt
+  ./tasks/task_178/stderr_step_1.txt
+  ./tasks/task_178/stderr_step_2.txt
+  ./tasks/task_091/stderr_step_3.txt
+  ./tasks/task_091/stderr_step_1.txt
+  ./tasks/task_091/stderr_step_4.txt
+  ./tasks/task_091/stderr_step_2.txt
+  ./tasks/task_136/stderr_step_3.txt
+  ./tasks/task_136/stderr_step_1.txt
+  ./tasks/task_136/stderr_step_2.txt
+  ./tasks/task_122/stderr_step_1.txt
+  ./tasks/task_122/stderr_step_2.txt
+  ./tasks/task_023/stderr_step_5.txt
+  ./tasks/task_023/stderr_step_3.txt
+  ./tasks/task_023/stderr_step_1.txt
+  ./tasks/task_023/stderr_step_4.txt
+  ./tasks/task_023/stderr_step_2.txt
+  ./tasks/task_086/stderr_step_3.txt
+  ./tasks/task_086/stderr_step_1.txt
+  ./tasks/task_086/stderr_step_2.txt
+  ./tasks/task_092/stdout_step_5.txt
+  ./tasks/task_092/stderr_step_5.txt
+  ./tasks/task_092/stderr_step_3.txt
+  ./tasks/task_092/stderr_step_1.txt
+  ./tasks/task_092/stderr_step_4.txt
+  ./tasks/task_092/stderr_step_2.txt
+  ./tasks/task_162/stderr_step_3.txt
+  ./tasks/task_162/stdout_step_3.txt
+  ./tasks/task_162/stderr_step_1.txt
+  ./tasks/task_162/stderr_step_2.txt
+  ./tasks/task_019/stdout_step_2.txt
+  ./tasks/task_019/stdout_step_1.txt
+  ./tasks/task_019/stderr_step_3.txt
+  ./tasks/task_019/stderr_step_1.txt
+  ./tasks/task_019/stderr_step_4.txt
+  ./tasks/task_019/stderr_step_2.txt
+  ./tasks/task_097/stderr_step_3.txt
+  ./tasks/task_097/stderr_step_1.txt
+  ./tasks/task_097/stderr_step_2.txt
+  ./tasks/task_171/stderr_step_3.txt
+  ./tasks/task_171/stderr_step_1.txt
+  ./tasks/task_171/stderr_step_2.txt
+  ./tasks/task_013/stderr_step_3.txt
+  ./tasks/task_013/stderr_step_1.txt
+  ./tasks/task_013/stderr_step_2.txt
+  ./tasks/task_021/stdout_step_2.txt
+  ./tasks/task_021/stderr_step_5.txt
+  ./tasks/task_021/stdout_step_1.txt
+  ./tasks/task_021/stderr_step_3.txt
+  ./tasks/task_021/stderr_step_1.txt
+  ./tasks/task_021/stderr_step_4.txt
+  ./tasks/task_021/stderr_step_2.txt
+  ./tasks/task_089/stderr_step_3.txt
+  ./tasks/task_089/stderr_step_1.txt
+  ./tasks/task_089/stderr_step_2.txt
+  ./tasks/task_175/stderr_step_3.txt
+  ./tasks/task_175/stdout_step_3.txt
+  ./tasks/task_175/stderr_step_1.txt
+  ./tasks/task_175/stderr_step_2.txt
+  ./tasks/task_072/stderr_step_1.txt
+  ./tasks/task_072/stderr_step_2.txt
+  ./tasks/task_038/stderr_step_5.txt
+  ./tasks/task_038/stderr_step_3.txt
+  ./tasks/task_038/stderr_step_1.txt
+  ./tasks/task_038/stderr_step_4.txt
+  ./tasks/task_038/stderr_step_2.txt
+  ./tasks/task_101/stderr_step_1.txt
+  ./tasks/task_101/stderr_step_2.txt
+  ./tasks/task_035/stderr_step_3.txt
+  ./tasks/task_035/stderr_step_1.txt
+  ./tasks/task_035/stderr_step_2.txt
+  ./tasks/task_130/stderr_step_5.txt
+  ./tasks/task_130/stderr_step_3.txt
+  ./tasks/task_130/stderr_step_1.txt
+  ./tasks/task_130/stderr_step_4.txt
+  ./tasks/task_130/stderr_step_2.txt
+  ./tasks/task_032/stderr_step_3.txt
+  ./tasks/task_032/stderr_step_1.txt
+  ./tasks/task_032/stderr_step_2.txt
+  ./tasks/task_105/stderr_step_3.txt
+  ./tasks/task_105/stderr_step_1.txt
+  ./tasks/task_105/stderr_step_2.txt
+  ./tasks/task_057/stderr_step_3.txt
+  ./tasks/task_057/stderr_step_1.txt
+  ./tasks/task_057/stderr_step_2.txt
+  ./tasks/task_039/stdout_step_2.txt
+  ./tasks/task_039/stderr_step_3.txt
+  ./tasks/task_039/stdout_step_3.txt
+  ./tasks/task_039/stderr_step_1.txt
+  ./tasks/task_039/stderr_step_2.txt
+  ./tasks/task_079/stderr_step_1.txt
+  ./tasks/task_079/stderr_step_2.txt
+  ./tasks/task_133/stdout_step_2.txt
+  ./tasks/task_133/stdout_step_5.txt
+  ./tasks/task_133/stderr_step_5.txt
+  ./tasks/task_133/stderr_step_3.txt
+  ./tasks/task_133/stdout_step_3.txt
+  ./tasks/task_133/stderr_step_1.txt
+  ./tasks/task_133/stderr_step_4.txt
+  ./tasks/task_133/stderr_step_2.txt
+  ./tasks/task_133/stdout_step_4.txt
+  ./tasks/task_159/stderr_step_5.txt
+  ./tasks/task_159/stderr_step_3.txt
+  ./tasks/task_159/stderr_step_1.txt
+  ./tasks/task_159/stderr_step_4.txt
+  ./tasks/task_159/stderr_step_2.txt
+  ./tasks/task_001/stderr_step_3.txt
+  ./tasks/task_001/stderr_step_1.txt
+  ./tasks/task_001/stderr_step_2.txt
+  ./tasks/task_139/stderr_step_3.txt
+  ./tasks/task_139/stderr_step_1.txt
+  ./tasks/task_139/stderr_step_2.txt
+  ./tasks/task_112/stderr_step_1.txt
+  ./tasks/task_112/stderr_step_2.txt
+  ./tasks/task_022/stdout_step_2.txt
+  ./tasks/task_022/stdout_step_1.txt
+  ./tasks/task_022/stderr_step_3.txt
+  ./tasks/task_022/stdout_step_3.txt
+  ./tasks/task_022/stderr_step_1.txt
+  ./tasks/task_022/stderr_step_4.txt
+  ./tasks/task_022/stderr_step_2.txt
+  ./tasks/task_114/stderr_step_3.txt
+  ./tasks/task_114/stderr_step_1.txt
+  ./tasks/task_114/stderr_step_4.txt
+  ./tasks/task_114/stderr_step_2.txt
+  ./tasks/task_144/stderr_step_3.txt
+  ./tasks/task_144/stdout_step_3.txt
+  ./tasks/task_144/stderr_step_1.txt
+  ./tasks/task_144/stderr_step_4.txt
+  ./tasks/task_144/stderr_step_2.txt
+  ./tasks/task_144/stdout_step_4.txt
+  ./tasks/task_017/stderr_step_3.txt
+  ./tasks/task_017/stderr_step_1.txt
+  ./tasks/task_017/stderr_step_4.txt
+  ./tasks/task_017/stderr_step_2.txt
+  ./tasks/task_165/stderr_step_3.txt
+  ./tasks/task_165/stderr_step_1.txt
+  ./tasks/task_004/stderr_step_5.txt
+  ./tasks/task_004/stdout_step_1.txt
+  ./tasks/task_004/stderr_step_3.txt
+  ./tasks/task_004/stdout_step_3.txt
+  ./tasks/task_004/stderr_step_1.txt
+  ./tasks/task_004/stderr_step_4.txt
+  ./tasks/task_004/stderr_step_2.txt
+  ./tasks/task_075/stderr_step_5.txt
+  ./tasks/task_075/stderr_step_3.txt
+  ./tasks/task_075/stderr_step_1.txt
+  ./tasks/task_075/stderr_step_2.txt
+  ./tasks/task_075/stdout_step_4.txt
+  ./tasks/task_087/stderr_step_5.txt
+  ./tasks/task_087/stderr_step_3.txt
+  ./tasks/task_087/stderr_step_1.txt
+  ./tasks/task_087/stderr_step_4.txt
+  ./tasks/task_087/stderr_step_2.txt
+  ./tasks/task_141/stderr_step_3.txt
+  ./tasks/task_141/stderr_step_1.txt
+  ./tasks/task_141/stderr_step_2.txt
+  ./tasks/task_108/stdout_step_2.txt
+  ./tasks/task_108/stdout_step_1.txt
+  ./tasks/task_108/stderr_step_3.txt
+  ./tasks/task_108/stderr_step_4.txt
+  ./tasks/task_098/stderr_step_1.txt
+  ./tasks/task_098/stderr_step_2.txt
+  ./tasks/task_076/stderr_step_3.txt
+  ./tasks/task_076/stderr_step_1.txt
+  ./tasks/task_076/stderr_step_4.txt
+  ./tasks/task_076/stderr_step_2.txt
+  ./tasks/task_156/stdout_step_2.txt
+  ./tasks/task_156/stdout_step_5.txt
+  ./tasks/task_156/stderr_step_5.txt
+  ./tasks/task_156/stdout_step_1.txt
+  ./tasks/task_156/stderr_step_3.txt
+  ./tasks/task_156/stdout_step_3.txt
+  ./tasks/task_156/stderr_step_1.txt
+  ./tasks/task_156/stderr_step_4.txt
+  ./tasks/task_156/stderr_step_2.txt
+  ./tasks/task_156/stdout_step_4.txt
+  ./tasks/task_003/stderr_step_3.txt
+  ./tasks/task_003/stderr_step_1.txt
+  ./tasks/task_003/stderr_step_4.txt
+  ./tasks/task_003/stderr_step_2.txt
+  ./tasks/task_085/stderr_step_3.txt
+  ./tasks/task_085/stderr_step_1.txt
+  ./tasks/task_085/stderr_step_4.txt
+  ./tasks/task_085/stderr_step_2.txt
+  ./tasks/task_030/stderr_step_5.txt
+  ./tasks/task_030/stderr_step_3.txt
+  ./tasks/task_030/stderr_step_1.txt
+  ./tasks/task_030/stderr_step_4.txt
+  ./tasks/task_030/stderr_step_2.txt
+  ./tasks/task_028/stdout_step_2.txt
+  ./tasks/task_028/stderr_step_5.txt
+  ./tasks/task_028/stderr_step_3.txt
+  ./tasks/task_028/stderr_step_4.txt
+  ./tasks/task_028/stderr_step_2.txt
+  ./tasks/task_028/stdout_step_4.txt
+  ./tasks/task_179/stderr_step_5.txt
+  ./tasks/task_179/stdout_step_1.txt
+  ./tasks/task_179/stderr_step_3.txt
+  ./tasks/task_179/stderr_step_1.txt
+  ./tasks/task_179/stderr_step_4.txt
+  ./tasks/task_179/stderr_step_2.txt
+  ./tasks/task_006/stderr_step_1.txt
+  ./tasks/task_093/stderr_step_3.txt
+  ./tasks/task_093/stderr_step_1.txt
+  ./tasks/task_093/stderr_step_2.txt
+  ./tasks/task_120/stderr_step_1.txt
+  ./tasks/task_120/stderr_step_2.txt
+  ./tasks/task_148/stdout_step_2.txt
+  ./tasks/task_148/stdout_step_5.txt
+  ./tasks/task_148/stderr_step_5.txt
+  ./tasks/task_148/stderr_step_3.txt
+  ./tasks/task_148/stdout_step_3.txt
+  ./tasks/task_148/stderr_step_1.txt
+  ./tasks/task_148/stderr_step_4.txt
+  ./tasks/task_148/stderr_step_2.txt
+  ./tasks/task_148/stdout_step_4.txt
+  ./tasks/task_127/stderr_step_5.txt
+  ./tasks/task_127/stderr_step_3.txt
+  ./tasks/task_127/stderr_step_1.txt
+  ./tasks/task_127/stderr_step_4.txt
+  ./tasks/task_127/stderr_step_2.txt
+  ./tasks/task_090/stderr_step_3.txt
+  ./tasks/task_090/stderr_step_1.txt
+  ./tasks/task_090/stderr_step_4.txt
+  ./tasks/task_090/stderr_step_2.txt
+  ./tasks/task_152/stderr_step_3.txt
+  ./tasks/task_152/stderr_step_1.txt
+  ./tasks/task_152/stderr_step_4.txt
+  ./tasks/task_152/stderr_step_2.txt
+  ./tasks/task_026/stdout_step_2.txt
+  ./tasks/task_026/stdout_step_1.txt
+  ./tasks/task_026/stdout_step_3.txt
+  ./tasks/task_026/stderr_step_1.txt
+  ./tasks/task_026/stderr_step_4.txt
+  ./tasks/task_026/stdout_step_4.txt
+  ./tasks/task_033/stdout_step_2.txt
+  ./tasks/task_033/stderr_step_3.txt
+  ./tasks/task_033/stdout_step_3.txt
+  ./tasks/task_033/stderr_step_1.txt
+  ./tasks/task_033/stderr_step_2.txt
+  ./tasks/task_008/stdout_step_1.txt
+  ./tasks/task_008/stderr_step_3.txt
+  ./tasks/task_008/stderr_step_1.txt
+  ./tasks/task_008/stderr_step_2.txt
+  ./tasks/task_058/stderr_step_3.txt
+  ./tasks/task_058/stderr_step_1.txt
+  ./tasks/task_058/stderr_step_2.txt
+  ./tasks/task_145/stderr_step_5.txt
+  ./tasks/task_145/stderr_step_3.txt
+  ./tasks/task_145/stderr_step_1.txt
+  ./tasks/task_145/stderr_step_4.txt
+  ./tasks/task_145/stderr_step_2.txt
+  ./tasks/task_142/stderr_step_3.txt
+  ./tasks/task_142/stderr_step_1.txt
+  ./tasks/task_142/stderr_step_2.txt
+  ./tasks/task_027/stdout_step_2.txt
+  ./tasks/task_027/stdout_step_1.txt
+  ./tasks/task_027/stderr_step_3.txt
+  ./tasks/task_027/stderr_step_1.txt
+  ./tasks/task_027/stderr_step_4.txt
+  ./tasks/task_027/stderr_step_2.txt
+  ./tasks/task_044/stderr_step_3.txt
+  ./tasks/task_044/stderr_step_1.txt
+  ./tasks/task_044/stderr_step_4.txt
+  ./tasks/task_044/stderr_step_2.txt
+  ./tasks/task_056/stderr_step_3.txt
+  ./tasks/task_056/stderr_step_1.txt
+  ./tasks/task_056/stderr_step_4.txt
+  ./tasks/task_056/stderr_step_2.txt
+  ./tasks/task_047/stdout_step_2.txt
+  ./tasks/task_047/stderr_step_1.txt
+  ./tasks/task_047/stderr_step_4.txt
+  ./tasks/task_047/stderr_step_2.txt
+  ./tasks/task_078/stdout_step_1.txt
+  ./tasks/task_078/stderr_step_3.txt
+  ./tasks/task_078/stderr_step_1.txt
+  ./tasks/task_078/stderr_step_2.txt
+  ./tasks/task_059/stderr_step_1.txt
+  ./tasks/task_059/stderr_step_2.txt
+  ./tasks/task_046/stderr_step_3.txt
+  ./tasks/task_046/stderr_step_1.txt
+  ./tasks/task_046/stderr_step_2.txt
+  ./tasks/task_154/stderr_step_3.txt
+  ./tasks/task_154/stderr_step_1.txt
+  ./tasks/task_154/stderr_step_4.txt
+  ./tasks/task_154/stderr_step_2.txt
+  ./tasks/task_119/stdout_step_1.txt
+  ./tasks/task_119/stderr_step_3.txt
+  ./tasks/task_119/stderr_step_1.txt
+  ./tasks/task_119/stderr_step_2.txt
+  ./tasks/task_043/stderr_step_5.txt
+  ./tasks/task_043/stderr_step_3.txt
+  ./tasks/task_043/stderr_step_1.txt
+  ./tasks/task_043/stderr_step_4.txt
+  ./tasks/task_043/stderr_step_2.txt
+  ./tasks/task_069/stdout_step_2.txt
+  ./tasks/task_069/stderr_step_3.txt
+  ./tasks/task_069/stderr_step_1.txt
+  ./tasks/task_069/stderr_step_2.txt
+  ./tasks/task_113/stderr_step_5.txt
+  ./tasks/task_113/stderr_step_3.txt
+  ./tasks/task_113/stderr_step_1.txt
+  ./tasks/task_113/stderr_step_4.txt
+  ./tasks/task_113/stderr_step_2.txt
+  ./tasks/task_132/stdout_step_2.txt
+  ./tasks/task_132/stderr_step_3.txt
+  ./tasks/task_132/stdout_step_3.txt
+  ./tasks/task_132/stderr_step_1.txt
+  ./tasks/task_132/stderr_step_4.txt
+  ./tasks/task_132/stderr_step_2.txt
+  ./tasks/task_132/stdout_step_4.txt
+  ./tasks/task_107/stdout_step_2.txt
+  ./tasks/task_107/stdout_step_1.txt
+  ./tasks/task_107/stderr_step_3.txt
+  ./tasks/task_107/stderr_step_4.txt
+  ./tasks/task_138/stderr_step_1.txt
+  ./tasks/task_117/stdout_step_1.txt
+  ./tasks/task_117/stderr_step_3.txt
+  ./tasks/task_117/stderr_step_1.txt
+  ./tasks/task_117/stderr_step_4.txt
+  ./tasks/task_117/stderr_step_2.txt
+  ./tasks/task_060/stdout_step_3.txt
+  ./tasks/task_060/stderr_step_1.txt
+  ./tasks/task_060/stderr_step_2.txt
+  ./tasks/task_066/stderr_step_1.txt
+  ./tasks/task_066/stderr_step_2.txt
+  ./tasks/task_067/stderr_step_3.txt
+  ./tasks/task_067/stderr_step_1.txt
+  ./tasks/task_067/stderr_step_4.txt
+  ./tasks/task_067/stderr_step_2.txt
+  ./tasks/task_151/stderr_step_1.txt
+  ./tasks/task_151/stderr_step_2.txt
+  ./tasks/task_083/stderr_step_3.txt
+  ./tasks/task_083/stderr_step_1.txt
+  ./tasks/task_083/stderr_step_4.txt
+  ./tasks/task_083/stderr_step_2.txt
+  ./tasks/task_041/stdout_step_5.txt
+  ./tasks/task_041/stderr_step_3.txt
+  ./tasks/task_041/stderr_step_1.txt
+  ./tasks/task_041/stderr_step_4.txt
+  ./tasks/task_041/stderr_step_2.txt
+  ./tasks/task_007/stderr_step_5.txt
+  ./tasks/task_007/stderr_step_3.txt
+  ./tasks/task_007/stderr_step_1.txt
+  ./tasks/task_007/stderr_step_4.txt
+  ./tasks/task_007/stderr_step_2.txt
+  ./tasks/task_009/stderr_step_3.txt
+  ./tasks/task_009/stderr_step_1.txt
+  ./tasks/task_009/stderr_step_2.txt
+  ./tasks/task_024/stderr_step_5.txt
+  ./tasks/task_024/stderr_step_3.txt
+  ./tasks/task_024/stderr_step_1.txt
+  ./tasks/task_024/stderr_step_4.txt
+  ./tasks/task_024/stderr_step_2.txt
+  ./tasks/task_010/stderr_step_3.txt
+  ./tasks/task_010/stderr_step_1.txt
+  ./tasks/task_010/stderr_step_4.txt
+  ./tasks/task_010/stderr_step_2.txt
+  ./tasks/task_149/stderr_step_3.txt
+  ./tasks/task_149/stderr_step_1.txt
+  ./tasks/task_149/stderr_step_2.txt
+  ./tasks/task_173/stderr_step_3.txt
+  ./tasks/task_173/stderr_step_1.txt
+  ./tasks/task_173/stderr_step_4.txt
+  ./tasks/task_173/stderr_step_2.txt
+  ./tasks/task_140/stderr_step_3.txt
+  ./tasks/task_140/stderr_step_1.txt
+  ./tasks/task_140/stderr_step_2.txt
+  ./tasks/task_155/stdout_step_2.txt
+  ./tasks/task_155/stdout_step_5.txt
+  ./tasks/task_155/stderr_step_5.txt
+  ./tasks/task_155/stdout_step_1.txt
+  ./tasks/task_155/stderr_step_3.txt
+  ./tasks/task_155/stdout_step_3.txt
+  ./tasks/task_155/stderr_step_1.txt
+  ./tasks/task_155/stderr_step_4.txt
+  ./tasks/task_155/stderr_step_2.txt
+  ./tasks/task_155/stdout_step_4.txt
+  ./tasks/task_034/stdout_step_1.txt
+  ./tasks/task_034/stderr_step_3.txt
+  ./tasks/task_034/step_1.sh
+  ./tasks/task_034/stderr_step_1.txt
+  ./tasks/task_034/stderr_step_4.txt
+  ./tasks/task_034/stderr_step_2.txt
+  ./tasks/task_034/stdout_step_4.txt
+  ./tasks/task_050/stderr_step_1.txt
+  ./tasks/task_050/stderr_step_2.txt
+  ./tasks/task_167/stderr_step_3.txt
+  ./tasks/task_167/stderr_step_1.txt
+  ./tasks/task_167/stderr_step_4.txt
+  ./tasks/task_167/stderr_step_2.txt
+  ./tasks/task_080/stderr_step_1.txt
+  ./tasks/task_080/stderr_step_2.txt
+  ./tasks/task_065/stderr_step_1.txt
+  ./tasks/task_065/stderr_step_2.txt
+  ./tasks/task_068/stderr_step_5.txt
+  ./tasks/task_068/stderr_step_3.txt
+  ./tasks/task_068/stderr_step_1.txt
+  ./tasks/task_068/stderr_step_4.txt
+  ./tasks/task_068/stderr_step_2.txt
+  ./tasks/task_073/stderr_step_3.txt
+  ./tasks/task_073/stderr_step_1.txt
+  ./tasks/task_073/stderr_step_4.txt
+  ./tasks/task_073/stderr_step_2.txt
+  ./tasks/task_166/stderr_step_3.txt
+  ./tasks/task_166/stderr_step_1.txt
+  ./tasks/task_166/stderr_step_4.txt
+  ./tasks/task_166/stderr_step_2.txt
+  ./tasks/task_020/stdout_step_5.txt
+  ./tasks/task_020/stderr_step_5.txt
+  ./tasks/task_020/stderr_step_3.txt
+  ./tasks/task_020/stdout_step_3.txt
+  ./tasks/task_020/stderr_step_1.txt
+  ./tasks/task_020/stderr_step_4.txt
+  ./tasks/task_020/stderr_step_2.txt
+  ./tasks/task_146/stdout_step_2.txt
+  ./tasks/task_146/stderr_step_5.txt
+  ./tasks/task_146/stderr_step_3.txt
+  ./tasks/task_146/stderr_step_1.txt
+  ./tasks/task_146/stderr_step_4.txt
+  ./tasks/task_146/stderr_step_2.txt
+  ./tasks/task_146/stdout_step_4.txt
+  ./tasks/task_126/stdout_step_1.txt
+  ./tasks/task_126/stderr_step_3.txt
+  ./tasks/task_126/stderr_step_2.txt
+  ./tasks/task_111/stdout_step_2.txt
+  ./tasks/task_111/stdout_step_1.txt
+  ./tasks/task_111/stdout_step_3.txt
+  ./tasks/task_031/stderr_step_3.txt
+  ./tasks/task_031/stderr_step_1.txt
+  ./tasks/task_031/stderr_step_4.txt
+  ./tasks/task_031/stderr_step_2.txt
+  ./tasks/task_088/stderr_step_3.txt
+  ./tasks/task_088/stderr_step_1.txt
+  ./tasks/task_088/stderr_step_2.txt
+  ./tasks/task_016/stderr_step_3.txt
+  ./tasks/task_016/stderr_step_1.txt
+  ./tasks/task_016/stderr_step_2.txt
+  ./tasks/task_169/stderr_step_3.txt
+  ./tasks/task_169/stderr_step_1.txt
+  ./tasks/task_169/stderr_step_2.txt
+  ./tasks/task_049/stderr_step_3.txt
+  ./tasks/task_049/stderr_step_1.txt
+  ./tasks/task_049/stderr_step_4.txt
+  ./tasks/task_049/stderr_step_2.txt
+  ./tasks/task_025/stderr_step_3.txt
+  ./tasks/task_025/stderr_step_1.txt
+  ./tasks/task_025/stderr_step_4.txt
+  ./tasks/task_025/stderr_step_2.txt
+  ./tasks/task_063/stdout_step_2.txt
+  ./tasks/task_063/stderr_step_5.txt
+  ./tasks/task_063/stderr_step_3.txt
+  ./tasks/task_063/stderr_step_1.txt
+  ./tasks/task_063/stderr_step_4.txt
+  ./tasks/task_115/stdout_step_1.txt
+  ./tasks/task_115/stderr_step_3.txt
+  ./tasks/task_115/stderr_step_1.txt
+  ./tasks/task_115/stderr_step_4.txt
+  ./tasks/task_115/stderr_step_2.txt
+  ./tasks/task_084/stdout_step_1.txt
+  ./tasks/task_125/stdout_step_3.txt
+  ./tasks/task_125/stderr_step_1.txt
+  ./tasks/task_125/stderr_step_4.txt
+  ./tasks/task_125/stderr_step_2.txt
+  ./tasks/task_128/stderr_step_3.txt
+  ./tasks/task_128/stderr_step_1.txt
+  ./tasks/task_128/stderr_step_4.txt
+  ./tasks/task_128/stderr_step_2.txt
+  ./tasks/task_172/stderr_step_3.txt
+  ./tasks/task_172/stderr_step_1.txt
+  ./tasks/task_172/stderr_step_2.txt
+  ./tasks/task_164/stderr_step_1.txt
+  ./tasks/task_164/stderr_step_2.txt
+  ./tasks/task_121/stderr_step_1.txt
+  ./tasks/task_121/stderr_step_2.txt
+  ./tasks/task_094/stdout_step_1.txt
+  ./tasks/task_094/stderr_step_3.txt
+  ./tasks/task_094/stderr_step_1.txt
+  ./tasks/task_094/stderr_step_2.txt
+  ./tasks/task_082/stdout_step_2.txt
+  ./tasks/task_082/stdout_step_1.txt
+  ./tasks/task_082/stderr_step_3.txt
+  ./tasks/task_082/stdout_step_3.txt
+  ./tasks/task_082/stderr_step_1.txt
+  ./tasks/task_082/stderr_step_4.txt
+  ./tasks/task_082/stderr_step_2.txt
+  ./tasks/task_082/stdout_step_4.txt
+  ./tasks/task_051/stdout_step_2.txt
+  ./tasks/task_051/stdout_step_1.txt
+  ./tasks/task_051/stderr_step_3.txt
+  ./tasks/task_051/stdout_step_3.txt
+  ./tasks/task_051/stderr_step_1.txt
+  ./tasks/task_051/stderr_step_4.txt
+  ./tasks/task_051/stderr_step_2.txt
+  ./tasks/task_051/stdout_step_4.txt
+  ./tasks/task_129/stderr_step_5.txt
+  ./tasks/task_129/stderr_step_3.txt
+  ./tasks/task_129/stderr_step_1.txt
+  ./tasks/task_129/stderr_step_4.txt
+  ./tasks/task_129/stderr_step_2.txt
+  ./tasks/task_074/stderr_step_1.txt
+  ./tasks/task_074/stderr_step_2.txt
+  ./tasks/task_081/stdout_step_1.txt
+  ./tasks/task_081/stderr_step_3.txt
+  ./tasks/task_081/stdout_step_3.txt
+  ./tasks/task_081/stderr_step_1.txt
+  ./tasks/task_081/stderr_step_2.txt
+  ./tasks/task_099/stderr_step_3.txt
+  ./tasks/task_099/stderr_step_1.txt
+  ./tasks/task_099/stderr_step_2.txt
+  ./tasks/task_168/stderr_step_3.txt
+  ./tasks/task_168/stderr_step_1.txt
+  ./tasks/task_168/stderr_step_2.txt
+  ./tasks/task_015/stdout_step_1.txt
+  ./tasks/task_015/stdout_step_3.txt
+  ./tasks/task_015/stderr_step_1.txt
+  ./tasks/task_015/stderr_step_2.txt
+  ./tasks/task_064/stderr_step_1.txt
+  ./tasks/task_176/stderr_step_5.txt
+  ./tasks/task_176/stderr_step_3.txt
+  ./tasks/task_176/stderr_step_1.txt
+  ./tasks/task_176/stderr_step_4.txt
+  ./tasks/task_176/stderr_step_2.txt
+  ./tasks/task_045/stdout_step_2.txt
+  ./tasks/task_045/stderr_step_3.txt
+  ./tasks/task_045/stdout_step_3.txt
+  ./tasks/task_045/stderr_step_1.txt
+  ./tasks/task_045/stderr_step_2.txt
+  ./tasks/task_040/stderr_step_5.txt
+  ./tasks/task_040/stderr_step_3.txt
+  ./tasks/task_040/stderr_step_1.txt
+  ./tasks/task_040/stderr_step_4.txt
+  ./tasks/task_040/stderr_step_2.txt
+  ./tasks/task_052/stderr_step_3.txt
+  ./tasks/task_052/stdout_step_3.txt
+  ./tasks/task_052/stderr_step_1.txt
+  ./tasks/task_052/stderr_step_4.txt
+  ./tasks/task_052/stderr_step_2.txt
+  ./tasks/task_180/stderr_step_3.txt
+  ./tasks/task_180/stdout_step_3.txt
+  ./tasks/task_180/stderr_step_1.txt
+  ./tasks/task_180/stderr_step_2.txt
+  ./tasks/task_157/stdout_step_2.txt
+  ./tasks/task_157/stdout_step_1.txt
+  ./tasks/task_157/stderr_step_3.txt
+  ./tasks/task_157/stderr_step_1.txt
+  ./tasks/task_157/stderr_step_2.txt
+  ./tasks/task_005/stdout_step_2.txt
+  ./tasks/task_005/stdout_step_1.txt
+  ./tasks/task_005/stderr_step_3.txt
+  ./tasks/task_005/stdout_step_3.txt
+  ./tasks/task_005/stderr_step_1.txt
+  ./tasks/task_005/stderr_step_2.txt
+  ./tasks/task_143/stderr_step_5.txt
+  ./tasks/task_143/stderr_step_3.txt
+  ./tasks/task_143/stderr_step_1.txt
+  ./tasks/task_143/stderr_step_4.txt
+  ./tasks/task_143/stderr_step_2.txt
+  ./tasks/task_174/stderr_step_3.txt
+  ./tasks/task_174/stderr_step_1.txt
+  ./tasks/task_174/stderr_step_2.txt
+  ./tasks/task_002/stderr_step_3.txt
+  ./tasks/task_002/stderr_step_1.txt
+  ./tasks/task_002/stderr_step_2.txt
+  ./tasks/task_123/stderr_step_1.txt
+  ./tasks/task_123/stderr_step_2.txt
+  ./tasks/task_061/stderr_step_3.txt
+  ./tasks/task_061/stderr_step_1.txt
+  ./tasks/task_061/stderr_step_2.txt
+  ./tasks/task_102/stderr_step_1.txt
+  ./tasks/task_102/stderr_step_2.txt
+  ./tasks/task_036/stdout_step_1.txt
+  ./tasks/task_036/stderr_step_3.txt
+  ./tasks/task_036/stdout_step_3.txt
+  ./tasks/task_036/stderr_step_1.txt
+  ./tasks/task_036/stderr_step_2.txt
+  ./tasks/task_070/stderr_step_1.txt
+  ./tasks/task_070/stderr_step_2.txt
+  ./tasks/task_161/stderr_step_3.txt
+  ./tasks/task_161/stderr_step_1.txt
+  ./tasks/task_161/stderr_step_4.txt
+  ./tasks/task_161/stderr_step_2.txt
+  ./tasks/task_170/stderr_step_1.txt
+  ./tasks/task_170/stderr_step_2.txt
+  ./tasks/task_106/stdout_step_2.txt
+  ./tasks/task_106/stdout_step_1.txt
+  ./tasks/task_106/stderr_step_3.txt
+  ./tasks/task_106/stderr_step_4.txt
+  ./tasks/task_077/stderr_step_1.txt
+  ./tasks/task_077/stderr_step_2.txt
+  ./tasks/task_153/stderr_step_3.txt
+  ./tasks/task_153/stderr_step_1.txt
+  ./tasks/task_153/stderr_step_4.txt
+  ./tasks/task_153/stderr_step_2.txt
+  ./tasks/task_029/stderr_step_3.txt
+  ./tasks/task_029/stderr_step_1.txt
+  ./tasks/task_029/stderr_step_4.txt
+  ./tasks/task_029/stderr_step_2.txt
+  ./tasks/task_104/stderr_step_5.txt
+  ./tasks/task_104/stderr_step_3.txt
+  ./tasks/task_104/stderr_step_1.txt
+  ./tasks/task_104/stderr_step_4.txt
+  ./tasks/task_104/stderr_step_2.txt
+  ./tasks/task_134/stdout_step_5.txt
+  ./tasks/task_134/stderr_step_5.txt
+  ./tasks/task_134/stderr_step_3.txt
+  ./tasks/task_134/stdout_step_3.txt
+  ./tasks/task_134/stderr_step_1.txt
+  ./tasks/task_134/stderr_step_4.txt
+  ./tasks/task_134/stderr_step_2.txt
+  ./tasks/task_134/stdout_step_4.txt
+  ./tasks/task_109/stdout_step_2.txt
+  ./tasks/task_109/stderr_step_5.txt
+  ./tasks/task_109/stdout_step_1.txt
+  ./tasks/task_109/stderr_step_3.txt
+  ./tasks/task_109/stderr_step_4.txt
+  ./tasks/task_124/stderr_step_1.txt
+  ./tasks/task_124/stderr_step_2.txt
+  ./tasks/task_135/stdout_step_2.txt
+  ./tasks/task_135/stdout_step_1.txt
+  ./tasks/task_135/stderr_step_3.txt
+  ./tasks/task_062/stdout_step_5.txt
+  ./tasks/task_062/stderr_step_5.txt
+  ./tasks/task_062/stderr_step_3.txt
+  ./tasks/task_062/stderr_step_1.txt
+  ./tasks/task_062/stderr_step_4.txt
+  ./tasks/task_062/stderr_step_2.txt
+  ./tasks/task_011/stderr_step_3.txt
+  ./tasks/task_011/stdout_step_3.txt
+  ./tasks/task_011/stderr_step_1.txt
+  ./tasks/task_011/stderr_step_2.txt
+  ./tasks/task_110/stdout_step_2.txt
+  ./tasks/task_110/stdout_step_1.txt
+  ./tasks/task_110/stdout_step_3.txt
+  ./tasks/task_110/stderr_step_4.txt
+  ./tasks/task_095/stderr_step_1.txt
+  ./tasks/task_095/stderr_step_2.txt
+  ./tasks/task_012/stderr_step_5.txt
+  ./tasks/task_012/stderr_step_3.txt
+  ./tasks/task_012/stdout_step_3.txt
+  ./tasks/task_012/stderr_step_1.txt
+  ./tasks/task_012/stderr_step_4.txt
+  ./tasks/task_018/stderr_step_3.txt
+  ./tasks/task_018/stderr_step_1.txt
+  ./tasks/task_018/stderr_step_2.txt
+  ./tasks/task_137/stderr_step_3.txt
+  ./tasks/task_137/stderr_step_1.txt
+  ./tasks/task_137/stderr_step_2.txt
+  ./tasks/task_055/stderr_step_3.txt
+  ./tasks/task_055/stderr_step_1.txt
+  ./tasks/task_055/stderr_step_2.txt
+  ./tasks/task_158/stdout_step_1.txt
+  ./tasks/task_158/stdout_step_3.txt
+  ./tasks/task_158/stderr_step_1.txt
+  ./tasks/task_158/stderr_step_2.txt
+  ./tasks/task_158/stdout_step_4.txt
+  ./tasks/task_096/stderr_step_3.txt
+  ./tasks/task_096/stderr_step_1.txt
+  ./tasks/task_096/stderr_step_2.txt
+  ./tasks/task_071/stderr_step_3.txt
+  ./tasks/task_071/stderr_step_1.txt
+  ./tasks/task_071/stderr_step_4.txt
+  ./tasks/task_071/stderr_step_2.txt
+  ./tasks/task_103/stderr_step_1.txt
+  ./tasks/task_103/stderr_step_2.txt
+  ./tasks/task_037/stderr_step_5.txt
+  ./tasks/task_037/stderr_step_3.txt
+  ./tasks/task_037/stderr_step_1.txt
+  ./tasks/task_037/stderr_step_4.txt
+  ./tasks/task_037/stderr_step_2.txt
+  ./tasks/task_048/stderr_step_3.txt
+  ./tasks/task_048/stderr_step_1.txt
+  ./tasks/task_048/stderr_step_2.txt
+  ./tasks/task_160/stderr_step_5.txt
+  ./tasks/task_160/stderr_step_3.txt
+  ./tasks/task_160/stderr_step_1.txt
+  ./tasks/task_160/stderr_step_4.txt
+  ./tasks/task_160/stderr_step_2.txt
+  ./tasks/task_118/stderr_step_1.txt
+  ./tasks/task_118/stderr_step_2.txt
+  ./tasks/task_054/stdout_step_2.txt
+  ./tasks/task_054/stdout_step_1.txt
+  ./tasks/task_054/stderr_step_3.txt
+  ./tasks/task_054/stderr_step_2.txt
+  ./tasks/task_014/stdout_step_2.txt
+  ./tasks/task_014/stderr_step_5.txt
+  ./tasks/task_014/stderr_step_3.txt
+  ./tasks/task_014/stdout_step_3.txt
+  ./tasks/task_014/stderr_step_1.txt
+  ./tasks/task_014/stderr_step_4.txt
+  ./tasks/task_014/stderr_step_2.txt
+  ./tasks/task_150/stderr_step_3.txt
+  ./tasks/task_150/stderr_step_1.txt
+  ./tasks/task_150/stderr_step_2.txt
+  ./tasks/task_116/stderr_step_3.txt
+  ./tasks/task_116/stderr_step_1.txt
+  ./tasks/task_116/stderr_step_2.txt
+  ./tasks/task_131/stderr_step_5.txt
+  ./tasks/task_131/stdout_step_3.txt
+  ./tasks/task_131/stderr_step_1.txt
+  ./tasks/task_131/stderr_step_4.txt
+  ./tasks/task_131/stderr_step_2.txt
+  ./tasks/task_042/stdout_step_2.txt
+  ./tasks/task_042/stdout_step_1.txt
+  ./tasks/task_042/stdout_step_3.txt
+  ./tasks/task_042/stderr_step_1.txt
+  ./tasks/task_042/stderr_step_2.txt
+  ./tasks/task_163/stderr_step_3.txt
+  ./tasks/task_163/stderr_step_1.txt
+  ./tasks/task_163/stderr_step_2.txt
+  ./tasks/task_053/stderr_step_5.txt
+  ./tasks/task_053/stderr_step_3.txt
+  ./tasks/task_053/stderr_step_1.txt
+  ./tasks/task_053/stderr_step_4.txt
+  ./tasks/task_053/stderr_step_2.txt
+  ./tasks/task_100/stderr_step_1.txt
+  ./tasks/task_100/stderr_step_2.txt
+  ./tasks/task_177/stderr_step_3.txt
+  ./tasks/task_177/stderr_step_2.txt
+
+Set 6 (hash: 3fd6642e3bb24a425406d9bb8c320c6014bd44c3731e8d742fcc73e75f5116e6):
+  ./tasks/task_147/stdout_step_1.txt
+  ./tasks/task_148/stdout_step_1.txt
+  ./tasks/task_146/stdout_step_1.txt
+  ./tasks/task_170/stdout_step_2.txt
+
+Set 7 (hash: e9ce15e1e69aacd78d4e63ca24c3ce890b3705b4c6556c6a525dfef0a230b1b4):
+  ./tasks/task_147/step_1.sh
+  ./tasks/task_032/step_1.sh
+  ./tasks/task_144/step_1.sh
+  ./tasks/task_141/step_1.sh
+  ./tasks/task_148/step_1.sh
+  ./tasks/task_152/step_1.sh
+  ./tasks/task_145/step_1.sh
+  ./tasks/task_142/step_1.sh
+  ./tasks/task_151/step_1.sh
+  ./tasks/task_146/step_1.sh
+  ./tasks/task_045/step_1.sh
+  ./tasks/task_002/step_1.sh
+
+Set 8 (hash: 9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa):
+  ./tasks/task_136/stdout_step_2.txt
+  ./tasks/task_022/stdout_step_4.txt
+  ./tasks/task_004/stdout_step_2.txt
+  ./tasks/task_004/stdout_step_5.txt
+  ./tasks/task_027/stdout_step_3.txt
+
+Set 9 (hash: 7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d):
+  ./tasks/task_023/stdout_step_2.txt
+  ./tasks/task_023/stdout_step_5.txt
+  ./tasks/task_023/stdout_step_1.txt
+  ./tasks/task_023/stdout_step_3.txt
+  ./tasks/task_023/stdout_step_4.txt
+
+Set 10 (hash: 513f58774a41965262e45053648c2e188744d13f4cc62a5ba918e95be6d410b8):
+  ./tasks/task_092/step_5.py
+  ./tasks/task_011/step_3.py
+
+Set 11 (hash: df9d75de365cd63e2728f4f4a5dd7279f43da6d875d76ad807d9ea1a5ea43b6d):
+  ./tasks/task_019/step_2.sh
+  ./tasks/task_019/step_1.sh
+
+Set 12 (hash: 1de700c29687cae34561545f50d3c8b3d9afe88e04cc11069f8a6dc6e4ce9464):
+  ./tasks/task_019/step_4.sh
+  ./tasks/task_171/step_2.sh
+  ./tasks/task_038/step_2.sh
+  ./tasks/task_159/step_2.sh
+  ./tasks/task_027/step_4.sh
+  ./tasks/task_034/step_3.sh
+  ./tasks/task_172/step_2.sh
+  ./tasks/task_157/step_3.sh
+  ./tasks/task_018/step_3.sh
+  ./tasks/task_014/step_1.sh
+
+Set 13 (hash: a1159e9df3670d549d04524532629f5477ceb7deec9b45e47e8c009506ecb2c8):
+  ./tasks/task_019/step_3.sh
+  ./tasks/task_038/step_1.sh
+  ./tasks/task_034/step_2.sh
+
+Set 14 (hash: 886c75abbd4c518244286c9435c97cb11c6b00dc016685db8417f35481190db4):
+  ./tasks/task_019/stdout_step_3.txt
+  ./tasks/task_038/stdout_step_1.txt
+  ./tasks/task_034/stdout_step_2.txt
+
+Set 15 (hash: ba1578059280351506f37e3e65fac839a82df378a68c7b887e7fe65426c95c20):
+  ./tasks/task_097/stdout_step_2.txt
+  ./tasks/task_097/stdout_step_3.txt
+
+Set 16 (hash: d22182825f8e606872b7d4ed87c1fe8a94c2f2fe5d200676afdacb8bfb4fc5a8):
+  ./tasks/task_171/stdout_step_1.txt
+  ./tasks/task_169/stdout_step_1.txt
+  ./tasks/task_172/stdout_step_1.txt
+  ./tasks/task_168/stdout_step_1.txt
+  ./tasks/task_170/stdout_step_1.txt
+
+Set 17 (hash: a3cb64d5026925e5c102e2554ab10e30581897a4ec2f31f1a32f2ba98d3f314a):
+  ./tasks/task_171/step_1.sh
+  ./tasks/task_041/step_1.sh
+  ./tasks/task_169/step_1.sh
+  ./tasks/task_172/step_1.sh
+  ./tasks/task_168/step_1.sh
+  ./tasks/task_040/step_1.sh
+  ./tasks/task_170/step_1.sh
+
+Set 18 (hash: b6d45ed71326010f4b7cd1a760a6c4d5ba00e253dfb38074a0833ce2ecd9778a):
+  ./tasks/task_013/step_1.sh
+  ./tasks/task_141/step_3.sh
+  ./tasks/task_046/step_1.sh
+  ./tasks/task_149/step_1.sh
+
+Set 19 (hash: 57eba3c64dbd1be3a70c29ecf58f2943755caf8fa21275b2f16cd4426ac9d484):
+  ./tasks/task_072/stdout_step_2.txt
+  ./tasks/task_072/stdout_step_1.txt
+
+Set 20 (hash: c3107b8b9e3b1a13057dbb9fc7baa923f53a74a46f1b93ee66b25275c2fa4609):
+  ./tasks/task_072/step_1.py
+  ./tasks/task_072/step_2.py
+
+Set 21 (hash: 4c44f14ab28d222604f4eee14f9eb36b725658e87e8955b42a88db0d03a47c58):
+  ./tasks/task_130/step_3.py
+  ./tasks/task_130/step_5.py
+  ./tasks/task_130/step_1.py
+  ./tasks/task_130/step_2.py
+  ./tasks/task_130/step_4.py
+
+Set 22 (hash: 8d1e0ee57d01139464cdafe1ed5c7e4d8e2307563de1caa88f3a97db34076d0f):
+  ./tasks/task_105/step_3.py
+  ./tasks/task_105/step_1.py
+
+Set 23 (hash: 5ccf6d4943ce443e5b36a1751a453fbdd80ac98ea6e8926890c39e275bcb7327):
+  ./tasks/task_105/stdout_step_1.txt
+  ./tasks/task_105/stdout_step_3.txt
+
+Set 24 (hash: 1835b79440b64c4dcd8c974b0adcda73528d23836bcf3b4fab5a17516af2b3cf):
+  ./tasks/task_057/step_3.py
+  ./tasks/task_057/step_1.py
+  ./tasks/task_057/step_2.py
+
+Set 25 (hash: 3c0eba72efcc7ab17c712227f13cc472563db9b0436a3154abb3c7d6fd054488):
+  ./tasks/task_057/stdout_step_2.txt
+  ./tasks/task_057/stdout_step_1.txt
+  ./tasks/task_057/stdout_step_3.txt
+
+Set 26 (hash: 484816a8d6b1e9f1c4fb77d9d9bdc806f8bf734e60d1c9a3a285365285445e15):
+  ./tasks/task_159/step_5.sh
+  ./tasks/task_159/step_3.sh
+
+Set 27 (hash: a93f12fd4594979aacc821a9476bc582bb60dacf293e2c6830264d6b65c68f10):
+  ./tasks/task_001/step_2.sh
+  ./tasks/task_001/step_3.sh
+  ./tasks/task_001/step_1.sh
+
+Set 28 (hash: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b):
+  ./tasks/task_139/stdout_step_2.txt
+  ./tasks/task_145/stdout_step_2.txt
+  ./tasks/task_020/stdout_step_2.txt
+  ./tasks/task_020/stdout_step_1.txt
+  ./tasks/task_020/stdout_step_4.txt
+
+Set 29 (hash: 3aedb0cb7f81bfb42e6c2a07f14f8e8d85f081cff662f1ad7534cb7d7158eafa):
+  ./tasks/task_112/stdout_step_2.txt
+  ./tasks/task_112/stdout_step_1.txt
+
+Set 30 (hash: 00920b5567723ee74ec20f1b62a6b7ff0e990a74b493b40eaaac955d9119abc9):
+  ./tasks/task_112/step_1.py
+  ./tasks/task_112/step_2.py
+
+Set 31 (hash: f8b76cddcde58488d3240aed09a74f188267d880857c2f616f09e5445e880b5a):
+  ./tasks/task_114/stdout_step_2.txt
+  ./tasks/task_052/stdout_step_2.txt
+  ./tasks/task_052/stdout_step_1.txt
+  ./tasks/task_053/stdout_step_2.txt
+  ./tasks/task_053/stdout_step_1.txt
+
+Set 32 (hash: 46effacfed9dc8f3d69ce9a5cb56b1a48233448fc23ffda247d465a1184930c1):
+  ./tasks/task_114/stdout_step_1.txt
+  ./tasks/task_116/stdout_step_1.txt
+
+Set 33 (hash: 5eef14c23a1d1b3f5934969395f850b9862da67496c6188e36647c903bd5d9b8):
+  ./tasks/task_165/stdout_step_2.txt
+  ./tasks/task_165/stderr_step_2.txt
+  ./tasks/task_028/stdout_step_1.txt
+  ./tasks/task_028/stderr_step_1.txt
+  ./tasks/task_008/stderr_step_4.txt
+  ./tasks/task_177/stderr_step_1.txt
+
+Set 34 (hash: 6789aca151e18f05ca61225599d31a6f2dc612b6b74b4bcba3e381bc02ef00c1):
+  ./tasks/task_004/step_5.sh
+  ./tasks/task_004/step_2.sh
+
+Set 35 (hash: e75640d335a5105b7d0337ac8a9d15cbabbf57a1e75c98e85c65da527dbb191e):
+  ./tasks/task_004/step_3.sh
+  ./tasks/task_004/step_1.sh
+
+Set 36 (hash: bf60fd2f190edce277230ed391b018e24191f4ed404e11803b4aa46c476aa0ba):
+  ./tasks/task_075/stdout_step_1.txt
+  ./tasks/task_075/stdout_step_3.txt
+  ./tasks/task_076/stdout_step_1.txt
+
+Set 37 (hash: 0dedaa96dc9dac6041a9f0fa8498afc4c1bcb0fccef8b7f37c7278cdcb571dd7):
+  ./tasks/task_075/step_1.sh
+  ./tasks/task_076/step_1.sh
+
+Set 38 (hash: e3edbe159630522f1fdc94fbb674dfa615128daf351f396beec93ad49ccbbe24):
+  ./tasks/task_141/stdout_step_3.txt
+  ./tasks/task_149/stdout_step_1.txt
+
+Set 39 (hash: 9e3e3a75de49ca7d82aa9b7761ba54c54de12cf851007c5ea6f0976935aed67d):
+  ./tasks/task_076/stdout_step_2.txt
+  ./tasks/task_076/stdout_step_4.txt
+
+Set 40 (hash: 8c1dd9ce252712ff5fd43d7c49a78095e0f53838ae7b6235f537b1f540bda405):
+  ./tasks/task_156/step_5.sh
+  ./tasks/task_156/step_2.sh
+  ./tasks/task_156/step_4.sh
+  ./tasks/task_156/step_3.sh
+  ./tasks/task_156/step_1.sh
+
+Set 41 (hash: 571cf26ded847444ca9ccbb8606d0f20b9867855211ba857131c1f205d293ea4):
+  ./tasks/task_030/stdout_step_5.txt
+  ./tasks/task_030/stdout_step_1.txt
+  ./tasks/task_030/stdout_step_3.txt
+  ./tasks/task_161/stdout_step_1.txt
+  ./tasks/task_161/stdout_step_3.txt
+  ./tasks/task_018/stdout_step_2.txt
+
+Set 42 (hash: 5152c4990faceb1cb31a1c01f15b7adb1c6366c874aeeedf71543d3bf762d489):
+  ./tasks/task_030/step_2.sh
+  ./tasks/task_161/step_2.sh
+
+Set 43 (hash: 0dbc7d523e22268fa309de31bd87ed832b4d60a971b677f20a8182782412584a):
+  ./tasks/task_030/step_3.sh
+  ./tasks/task_030/step_1.sh
+
+Set 44 (hash: 67419764e14563e5b40f096cd9e9eed05a440ed3020e2e0a83a1698b2188c4af):
+  ./tasks/task_093/stdout_step_2.txt
+  ./tasks/task_093/stdout_step_3.txt
+
+Set 45 (hash: e59ba08a10a213f920b03a2c8df0372a5dcfd58d88d144609c1161d3dfe66290):
+  ./tasks/task_120/stdout_step_2.txt
+  ./tasks/task_120/stdout_step_1.txt
+
+Set 46 (hash: 19175e0d0c3d7dedce3c678f6ceae5680905acd96af698bd7d28a670bce2cda3):
+  ./tasks/task_127/step_3.py
+  ./tasks/task_127/step_5.py
+  ./tasks/task_127/step_1.py
+  ./tasks/task_127/step_2.py
+  ./tasks/task_127/step_4.py
+
+Set 47 (hash: 05cc4a987c45bfa0501462f8834fc1bc133202cc3d69c4a40a6fafadaf9c686b):
+  ./tasks/task_152/stdout_step_2.txt
+  ./tasks/task_152/stdout_step_4.txt
+
+Set 48 (hash: 11418a5b37ee3358335edfaf2c728355c3a955d040aee91fa881842b8891cb9c):
+  ./tasks/task_058/stdout_step_1.txt
+  ./tasks/task_058/stdout_step_3.txt
+
+Set 49 (hash: 5656574387522f84e72356054b2e466d9b34dd893a3dfdc35627c8ac629bd9e1):
+  ./tasks/task_145/step_2.py
+  ./tasks/task_145/stdout_step_4.txt
+
+Set 50 (hash: 0a2dbc7cc365561561a162b5b0d448a9c2efedeb7a231f50d68212f2dcb031c8):
+  ./tasks/task_044/stdout_step_2.txt
+  ./tasks/task_044/stdout_step_3.txt
+
+Set 51 (hash: 72bdfa947da207210481b9415ecd65c37b9ca35433d8ffc32607aa5640bc0215):
+  ./tasks/task_044/stdout_step_1.txt
+  ./tasks/task_044/stdout_step_4.txt
+
+Set 52 (hash: b51312c692352606b191cfea13807bd161029c053b342f6e3fbf2f9d1a1f1d8b):
+  ./tasks/task_056/stdout_step_2.txt
+  ./tasks/task_056/stdout_step_3.txt
+  ./tasks/task_056/stdout_step_4.txt
+
+Set 53 (hash: 39bf82153b34e0860e31d74f309a6e2b92d83a88a7eebcf8e1f952807f1c69d1):
+  ./tasks/task_047/stdout_step_1.txt
+  ./tasks/task_047/stdout_step_4.txt
+
+Set 54 (hash: 3be3b9547eef51cc49a1de5d482554e118735d9b860dd24f5cf1b6eccc3ab69e):
+  ./tasks/task_078/stdout_step_2.txt
+  ./tasks/task_119/stdout_step_2.txt
+
+Set 55 (hash: 08f6347c6bc47b1f68fb3e5b85f789b6baabb1c94d2006983a485d4501048459):
+  ./tasks/task_059/stdout_step_2.txt
+  ./tasks/task_059/stdout_step_1.txt
+
+Set 56 (hash: 4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865):
+  ./tasks/task_043/stdout_step_3.txt
+  ./tasks/task_104/stdout_step_2.txt
+  ./tasks/task_104/stdout_step_3.txt
+  ./tasks/task_104/stdout_step_4.txt
+
+Set 57 (hash: 79a7f53af1fc0710aaccb34029effb8714ee232e9d39f0732e468d2009295536):
+  ./tasks/task_113/step_3.py
+  ./tasks/task_113/step_2.py
+
+Set 58 (hash: 908df836ee44c32df507d96cd7dd64d6daaa975edd75f5575435930297344a43):
+  ./tasks/task_113/stdout_step_2.txt
+  ./tasks/task_113/stdout_step_5.txt
+  ./tasks/task_113/stdout_step_3.txt
+  ./tasks/task_113/stdout_step_4.txt
+
+Set 59 (hash: 96bfd0b86873f44a785b4a2c4312233bbcbfeadd814ffff3f1bc55ddd6b2eeec):
+  ./tasks/task_107/step_3.py
+  ./tasks/task_107/step_4.py
+
+Set 60 (hash: 2adc7fdb4e89ca3d6a0f604fddaa3fb8c5d422ca661622435637c8960620bc67):
+  ./tasks/task_107/stdout_step_3.txt
+  ./tasks/task_107/stdout_step_4.txt
+
+Set 61 (hash: edf1748d755101b0c38b24b5132495051a6565bea04d48350cdb06100fd68fd0):
+  ./tasks/task_117/stdout_step_2.txt
+  ./tasks/task_115/stdout_step_2.txt
+
+Set 62 (hash: a17c11d72ff906d06836602c1dc331fac545bfa72931ec90ba43f8062553184c):
+  ./tasks/task_067/step_3.py
+  ./tasks/task_067/step_1.py
+  ./tasks/task_067/step_2.py
+  ./tasks/task_067/step_4.py
+
+Set 63 (hash: 517189bfb29986252b278497d62a3c9638d9b8c21bd2623e12f1751a6f7e358c):
+  ./tasks/task_083/stdout_step_1.txt
+  ./tasks/task_173/stdout_step_2.txt
+  ./tasks/task_174/stdout_step_2.txt
+  ./tasks/task_174/stdout_step_3.txt
+
+Set 64 (hash: dc3f7eb7a4188198395125c038b9ff39b5fbdbcb3ac9ceca49ab62855fd18da6):
+  ./tasks/task_041/stdout_step_2.txt
+  ./tasks/task_041/stdout_step_3.txt
+  ./tasks/task_041/stdout_step_4.txt
+
+Set 65 (hash: 0c1055dd5d550a03ca8acb6b5acfccbe57c9e23f0d4aefe2d2512066797438b7):
+  ./tasks/task_041/stdout_step_1.txt
+  ./tasks/task_040/stdout_step_1.txt
+
+Set 66 (hash: 84854786d6974cebfaca74d3bbd9cac8afa96b38c0c4ad0d476d4fd69c59bdfe):
+  ./tasks/task_007/stdout_step_2.txt
+  ./tasks/task_007/stdout_step_1.txt
+
+Set 67 (hash: eb4bd64f7014f7d42e9d358035802242741b974e8dfcd37c59f9c21ce29d781e):
+  ./tasks/task_007/stdout_step_5.txt
+  ./tasks/task_007/stdout_step_3.txt
+  ./tasks/task_007/stdout_step_4.txt
+
+Set 68 (hash: ad3c7ad17cd9f8e8c00add0776f7f529a2ad5171b963be4dc5daa4b13c2bd294):
+  ./tasks/task_007/step_4.sh
+  ./tasks/task_007/step_3.sh
+
+Set 69 (hash: 444ac32d053bdced6c79de5e845695891afdd7504df78066cb565ad140a98a19):
+  ./tasks/task_173/step_2.sh
+  ./tasks/task_174/step_2.sh
+
+Set 70 (hash: dcfc21283686b0ad3e2ee6075645460a2eccb902a682536ac2bebca52c833517):
+  ./tasks/task_173/stdout_step_3.txt
+  ./tasks/task_173/step_1.sh
+
+Set 71 (hash: e9e8b8f68eb190c20e42cd7a0b034fbcb4e3fe014581478c17983cbae66c461b):
+  ./tasks/task_140/stdout_step_2.txt
+  ./tasks/task_140/stdout_step_1.txt
+  ./tasks/task_140/stdout_step_3.txt
+
+Set 72 (hash: 5d0b38b4990c996bed587882484dbd5d5d093f17c97ed046b1ee254f5e7931fe):
+  ./tasks/task_155/step_3.sh
+  ./tasks/task_155/step_1.sh
+
+Set 73 (hash: 7293f372fdec1bb84286f28656a693b907e7080ad4033750f49d9add9d470417):
+  ./tasks/task_068/step_3.py
+  ./tasks/task_068/step_4.py
+
+Set 74 (hash: 0810fd1204f8db3d6ddd983ecd264b73726739ec3e0f6c6ff7485d67b3add16d):
+  ./tasks/task_073/stdout_step_2.txt
+  ./tasks/task_073/stdout_step_1.txt
+
+Set 75 (hash: 02f809771c488ec64d7451d6da6b656a7aaec1ac05f51ee758327c62809e8cc7):
+  ./tasks/task_166/stdout_step_2.txt
+  ./tasks/task_166/stdout_step_1.txt
+  ./tasks/task_166/stdout_step_3.txt
+  ./tasks/task_166/stdout_step_4.txt
+
+Set 76 (hash: 6ee1eed81453ffa6e9e2c1c2654c80a600c198919539698bf171a8d724b195e0):
+  ./tasks/task_166/step_2.sh
+  ./tasks/task_166/step_4.sh
+  ./tasks/task_166/step_3.sh
+  ./tasks/task_166/step_1.sh
+
+Set 77 (hash: 97cd96a8b642bec02f4780c3f7ff3a10bc361f7a4fd3447bf3f5058e22901a14):
+  ./tasks/task_020/step_2.sh
+  ./tasks/task_020/step_4.sh
+  ./tasks/task_020/step_1.sh
+
+Set 78 (hash: cf2722f23b43eab246b678b708063288c6450cb0bea85f3de32b104f66e60b9d):
+  ./tasks/task_111/step_1.sh
+  ./tasks/task_106/step_2.sh
+
+Set 79 (hash: be7818799196bf3e26432c69f250baded907c4c0d655dd810ac425f90e1bf598):
+  ./tasks/task_025/step_3.py
+  ./tasks/task_025/step_1.py
+  ./tasks/task_025/step_2.py
+  ./tasks/task_025/step_4.py
+
+Set 80 (hash: f4ccd05b3271c386ee55d9876c7450012a3b361e5065c09dc22075e38b3cc35c):
+  ./tasks/task_125/stdout_step_2.txt
+  ./tasks/task_125/stdout_step_1.txt
+  ./tasks/task_125/stdout_step_4.txt
+
+Set 81 (hash: 6ebe1082bc1b9a91d116effc0a39aecb428fb0be01c9e5708a9b50ffc2d21da4):
+  ./tasks/task_094/stdout_step_2.txt
+  ./tasks/task_094/stdout_step_3.txt
+
+Set 82 (hash: 8179103d68f9ba3b3b02721a1c5216c365a079d54106ec2c6266f1a44826fc1d):
+  ./tasks/task_074/stdout_step_2.txt
+  ./tasks/task_074/stdout_step_1.txt
+
+Set 83 (hash: 09943e2ff2a33711a03300e4188a3b024b6fc6189807d33da584d04be1f1538d):
+  ./tasks/task_074/step_1.py
+  ./tasks/task_074/step_2.py
+
+Set 84 (hash: 4ad728fe29997fcc121dbfc5bb3cc7d3894f18a02dfb57bf21284527926b5971):
+  ./tasks/task_081/step_3.py
+  ./tasks/task_081/step_1.py
+
+Set 85 (hash: 462a674a64d729557e1d979896e02b7756b8d6eed74600d86b1f8cf67d281b85):
+  ./tasks/task_015/stderr_step_3.txt
+  ./tasks/task_158/stderr_step_3.txt
+  ./tasks/task_158/stderr_step_4.txt
+
+Set 86 (hash: c0bbb4ce33b8bc597cccbf9d90955b5c715f47d45843111566395170398e64f7):
+  ./tasks/task_176/step_5.py
+  ./tasks/task_176/step_4.py
+
+Set 87 (hash: 0782241cfe218918351db81b62160c4d812ae92eaaf3eb8d2e3393b0677f7d5f):
+  ./tasks/task_176/step_3.sh
+  ./tasks/task_176/step_1.sh
+
+Set 88 (hash: ad8957b32455b2a0eacecd5e9ab3b8901563dbbc4e03e9c69948aa959216d4ed):
+  ./tasks/task_040/step_5.sh
+  ./tasks/task_040/step_4.sh
+
+Set 89 (hash: 24bd031e7b085657fd151459a3791dd5735e25af57b37bd8fd4839dbafed7ca7):
+  ./tasks/task_143/stdout_step_2.txt
+  ./tasks/task_143/stdout_step_4.txt
+
+Set 90 (hash: f207c117c5ad79feb41fe7af38b69b717cf3313de539f4e012e6793b147ea687):
+  ./tasks/task_143/step_2.sh
+  ./tasks/task_143/step_4.sh
+
+Set 91 (hash: b820a95b08c5ee5858b8c9386eb5a4f749a35963facda34efa28de338e7595b6):
+  ./tasks/task_036/step_3.sh
+  ./tasks/task_036/step_1.sh
+
+Set 92 (hash: 455d6e8153baeafceb38f11f4a8a6016f196e0cfed9c9ce7f03bc047a15e2591):
+  ./tasks/task_070/stdout_step_2.txt
+  ./tasks/task_070/stdout_step_1.txt
+  ./tasks/task_070/stdout_step_3.txt
+
+Set 93 (hash: 2bdc81d0ba0096fd48fba068ea7f65fa2eec9fde69a20288becb4aeb9731ffc3):
+  ./tasks/task_106/stdout_step_3.txt
+  ./tasks/task_106/stdout_step_4.txt
+
+Set 94 (hash: 4d5961cb33fd8da68ae2b58a8d9a08333c24938253f8e6d4bc6567149690d87f):
+  ./tasks/task_077/stdout_step_2.txt
+  ./tasks/task_077/stdout_step_1.txt
+
+Set 95 (hash: fba325384c2de65fddd5b6f3621a0e39ec4c53b3faf17718feebe87ff2ba6fba):
+  ./tasks/task_062/stdout_step_2.txt
+  ./tasks/task_062/stdout_step_1.txt
+
+Set 96 (hash: 7819c1e4db0708c01637b929bda63e3295e5809bd9edfa0b4f33da0db69080f9):
+  ./tasks/task_062/step_2.sh
+  ./tasks/task_062/step_1.sh
+
+Set 97 (hash: 5a94c798ed0bc36699e946204bd40d338d962c3cc520850eeb9dc60c9c27d6e4):
+  ./tasks/task_095/stdout_step_2.txt
+  ./tasks/task_095/stdout_step_1.txt
+
+Set 98 (hash: d987f1a8e0cd969ea7568f89afaebe1032f06674d1008cd1e0ac156eec5cc208):
+  ./tasks/task_012/step_5.sh
+  ./tasks/task_012/step_1.sh
+
+Set 99 (hash: c11e3f4837efde2441e23a7b9da02131f53bf59fddeb7147c4ab81afe400460f):
+  ./tasks/task_137/stdout_step_1.txt
+  ./tasks/task_137/stdout_step_3.txt
+
+Set 100 (hash: ea006dd48509967505f5f174577ea636c9b048713cb2622083b7bc95b396b159):
+  ./tasks/task_096/step_3.py
+  ./tasks/task_096/step_2.py
+
+Set 101 (hash: 606c335d57a5f2c25ceff8f1b9598398c541c7226912b378ff81b8a3a3a645a0):
+  ./tasks/task_096/stdout_step_2.txt
+  ./tasks/task_096/stdout_step_3.txt
+
+Set 102 (hash: 2bca0dfe1db3251a457e1aaa12f21261e6338d0b9bfa3636697f12330a2c6d06):
+  ./tasks/task_160/stdout_step_2.txt
+  ./tasks/task_160/stdout_step_5.txt
+  ./tasks/task_160/stdout_step_1.txt
+  ./tasks/task_160/stdout_step_3.txt
+  ./tasks/task_160/stdout_step_4.txt
+
+Set 103 (hash: 4b7ce47ea566bd334a797d210be1978ec8fa1ad51ebba5f7c48f0669478b9103):
+  ./tasks/task_160/step_5.sh
+  ./tasks/task_160/step_2.sh
+  ./tasks/task_160/step_4.sh
+  ./tasks/task_160/step_3.sh
+  ./tasks/task_160/step_1.sh
+
+Set 104 (hash: f91793193a4b67ab4891955588a6ca079d751c28e5a9b28a5207973f4effa0e2):
+  ./tasks/task_118/stdout_step_2.txt
+  ./tasks/task_118/stdout_step_1.txt
+
+Set 105 (hash: ad666b6420c280bb82a7557546260ce3c9f3e5b77f9cd96319c29beecdf3f3bf):
+  ./tasks/task_131/step_5.py
+  ./tasks/task_131/step_4.py
+
+Set 106 (hash: 8ec6ead353e19d949e925d610617d14a8a54fd6ec6bbb75519b9a4dfe5e615e4):
+  ./tasks/task_131/stdout_step_5.txt
+  ./tasks/task_131/stdout_step_4.txt
+
+Set 107 (hash: 0bc91412033c5c6d67747acf8fe88b564bd9f1bd68faabf7defc3a2392b3ae9f):
+  ./tasks/task_053/stdout_step_5.txt
+  ./tasks/task_053/stdout_step_4.txt

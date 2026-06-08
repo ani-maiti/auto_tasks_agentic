@@ -1,0 +1,1 @@
+curl -s https://github.blog/feed/

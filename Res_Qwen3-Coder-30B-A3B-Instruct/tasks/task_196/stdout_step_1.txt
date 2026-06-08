@@ -1,0 +1,10 @@
+.
+./tasks
+./tasks/task_147
+./tasks/task_178
+./tasks/task_091
+./tasks/task_136
+./tasks/task_122
+./tasks/task_023
+./tasks/task_086
+./tasks/task_092

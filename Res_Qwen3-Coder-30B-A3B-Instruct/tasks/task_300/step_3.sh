@@ -1,0 +1,1 @@
+find . -name "*.xml" -type f | wc -l

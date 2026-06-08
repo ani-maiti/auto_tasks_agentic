@@ -1,0 +1,10 @@
+/var/cache/pacman/pkg/cudnn-9.21.1.3-1-x86_64.pkg.tar.zst
+/var/cache/pacman/pkg/cudnn-9.22.0.52-1-x86_64.pkg.tar.zst
+/opt/cuda/targets/x86_64-linux/lib/libcublas.so.13.4.0.1
+/opt/cuda/targets/x86_64-linux/lib/libcurand.so.10.4.2.55
+/opt/cuda/targets/x86_64-linux/lib/libcusolverMg.so.12.2.0.1
+/opt/cuda/targets/x86_64-linux/lib/libcusparse.so.12.7.10.1
+/opt/cuda/targets/x86_64-linux/lib/libcufft.so.12.2.0.46
+/opt/cuda/targets/x86_64-linux/lib/libcusolver.so.12.2.0.1
+/opt/cuda/targets/x86_64-linux/lib/libnppif.so.13.1.0.48
+/opt/cuda/targets/x86_64-linux/lib/libcublasLt.so.13.4.0.1

@@ -1,0 +1,25 @@
+Starting to crawl documentation site...
+Crawling: https://docs.python.org/3/
+Crawling: https://docs.python.org/3.13/
+Crawling: https://docs.python.org/3/download.html
+Crawling: https://docs.python.org/3/whatsnew/index.html
+Crawling: https://docs.python.org/3.15/
+Crawling: https://docs.python.org/3/deprecations/index.html
+Crawling: https://docs.python.org/bugs.html
+Crawling: https://docs.python.org/3/library/index.html
+Crawling: https://docs.python.org/3.14/
+Crawling: https://docs.python.org/3/about.html
+Crawling: https://docs.python.org/3.7/
+Crawling: https://docs.python.org/3.1/
+Crawling: https://docs.python.org/3.2/
+Crawling: https://docs.python.org/3.12/
+Crawling: https://docs.python.org/3/search.html
+Crawling: https://docs.python.org/license.html
+Crawling: https://docs.python.org/3.16/
+Crawling: https://docs.python.org/3/contents.html
+Crawling: https://docs.python.org/3/c-api/index.html
+Crawling: https://docs.python.org/3/installing/index.html
+Saved code examples to CSV file
+
+--- Report ---
+Total examples collected: 699

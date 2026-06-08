@@ -1,0 +1,1 @@
+find / -type l -exec readlink {} \; 2>/dev/null | head -20

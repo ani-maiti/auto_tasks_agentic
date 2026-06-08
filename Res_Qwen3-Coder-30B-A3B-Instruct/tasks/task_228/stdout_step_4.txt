@@ -1,0 +1,11 @@
+Created mock weather data for 20 cities saved to weather_data.json
+
+Average temperatures by continent:
+North America: 17.67°C
+Europe: 16.88°C
+Asia: 27.2°C
+Australia: 19.0°C
+South America: 22.0°C
+Africa: 21.5°C
+
+Warmest continent: Asia with average temperature 27.2°C

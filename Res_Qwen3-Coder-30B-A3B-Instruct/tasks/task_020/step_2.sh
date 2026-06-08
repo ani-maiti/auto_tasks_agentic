@@ -1,0 +1,1 @@
+find . -name "*.md" -type f -exec stat -c "%s" {} + | awk '{sum += $1} END {print sum}'

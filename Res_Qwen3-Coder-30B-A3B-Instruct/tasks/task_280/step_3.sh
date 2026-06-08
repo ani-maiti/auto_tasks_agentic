@@ -1,0 +1,1 @@
+find . -type f \( -name "*.db" -o -name "*.sqlite" -o -name "*.sqlite3" \) | grep -E "(accounts|database|formhistory|history|places)" | head -10

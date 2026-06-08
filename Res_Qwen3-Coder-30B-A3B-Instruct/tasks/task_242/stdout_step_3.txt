@@ -1,0 +1,13 @@
+Top 10 most common topics:
+python: 22
+ai: 11
+llm: 10
+openai: 7
+hacktoberfest: 6
+chatgpt: 5
+rag: 5
+web: 4
+agents: 4
+gpt: 4
+
+Most common topic overall: python

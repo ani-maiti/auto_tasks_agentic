@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/git/git/releases/latest

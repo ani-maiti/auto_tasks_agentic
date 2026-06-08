@@ -1,0 +1,1 @@
+find . -type f -name "*.*" | grep -E '\.(zip|tar|gz|tgz|rar)$' | head -10

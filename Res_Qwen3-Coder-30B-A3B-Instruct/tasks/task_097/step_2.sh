@@ -1,0 +1,1 @@
+curl -s -H "User-Agent: Mozilla/5.0" "https://www.reddit.com/r/programming/.rss" | grep -o '<title>[^<]*</title>' | head -n 5

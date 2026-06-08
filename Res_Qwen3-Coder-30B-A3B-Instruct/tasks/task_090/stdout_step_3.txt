@@ -1,0 +1,3 @@
+Trying alternative API...
+Failed to get goldprice.org: 403
+Error with CME Group: HTTPSConnectionPool(host='www.cmegroup.com', port=443): Read timed out. (read timeout=10)

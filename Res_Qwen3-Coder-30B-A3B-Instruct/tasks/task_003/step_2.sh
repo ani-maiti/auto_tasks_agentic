@@ -1,0 +1,1 @@
+ls -la $(find . -type f -mtime -1)

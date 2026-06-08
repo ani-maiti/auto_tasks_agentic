@@ -1,0 +1,10 @@
+6 /boot/loader/entries.srel
+3 /tmp/RustDesk/ipc_uinput_mouse.pid
+3 /tmp/RustDesk/ipc_uinput_keyboard.pid
+3 /tmp/RustDesk/ipc_uinput_control.pid
+3 /tmp/RustDesk/ipc_service.pid
+0 /home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/google/protobuf/util/__init__.py
+0 /home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/google/protobuf/testdata/__init__.py
+0 /home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/google/protobuf/pyext/__init__.py
+0 /home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/google/protobuf/compiler/__init__.py
+0 /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/srsly/ruamel_yaml/py.typed

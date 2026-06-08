@@ -1,0 +1,23 @@
+Starting crawl...
+Crawled 1: https://docs.python.org/3/bugs.html
+Crawled 2: https://docs.python.org/3/license.html
+Total pages crawled: 3
+Content extracted from 3 pages
+Index saved to search_index.json
+
+Most common headings:
+6: Navigation
+4: Table of Contents
+4: This page
+2: Download
+2: Docs by version
+2: Other resources
+1: History and License¶
+1: History of the software¶
+1: Terms and conditions for accessing or otherwise using Python¶
+1: Licenses and Acknowledgements for Incorporated Software¶
+
+Report Summary:
+- Total pages indexed: 3
+- Total unique headings: 42
+- Most common heading: 'Navigation' (appears 6 times)

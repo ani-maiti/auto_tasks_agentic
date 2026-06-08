@@ -1,0 +1,1 @@
+find . -type d -exec sh -c 'files=$(find "{}" -type f | wc -l); if [ "$files" -gt 100 ]; then echo "$files {}"; fi' \;

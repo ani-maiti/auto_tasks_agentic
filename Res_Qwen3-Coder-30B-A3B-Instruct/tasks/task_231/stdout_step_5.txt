@@ -1,0 +1,21 @@
+Top 20 Keywords:
+documentation: 39
+index: 7
+copyright: 3
+download: 3
+about: 2
+this: 2
+search: 2
+what: 2
+dealing: 2
+bugs: 2
+history: 2
+license: 2
+page: 1
+found: 1
+language: 1
+setup: 1
+usage: 1
+howtos: 1
+installing: 1
+modules: 1

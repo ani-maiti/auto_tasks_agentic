@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_277/step_2.py", line 127
+    print(f"{state}: {avg_temp:.
+                                ^
+SyntaxError: f-string: newlines are not allowed in format specifiers for single quoted f-strings

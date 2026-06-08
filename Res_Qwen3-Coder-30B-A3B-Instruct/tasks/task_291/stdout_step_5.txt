@@ -1,0 +1,28 @@
+Total nodes: 10550
+Total edges: 25930
+
+First 10 nodes:
+  Python (programming language)
+  Main_Page
+  Python_(programming_language)
+  Programming_paradigm
+  Multi-paradigm
+  Object-oriented_programming
+  Procedural_programming
+  Imperative_programming
+  Functional_programming
+  Structured_programming
+
+First 10 edges:
+  ['Python (programming language)', 'Main_Page']
+  ['Python (programming language)', 'Python_(programming_language)']
+  ['Python (programming language)', 'Programming_paradigm']
+  ['Python (programming language)', 'Multi-paradigm']
+  ['Python (programming language)', 'Object-oriented_programming']
+  ['Python (programming language)', 'Procedural_programming']
+  ['Python (programming language)', 'Imperative_programming']
+  ['Python (programming language)', 'Functional_programming']
+  ['Python (programming language)', 'Structured_programming']
+  ['Python (programming language)', 'Reflective_programming']
+
+Report saved to report.txt

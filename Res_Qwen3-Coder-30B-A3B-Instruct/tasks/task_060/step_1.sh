@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/rust-lang/rust/releases/latest | grep -E '"tag_name":|"name":' | head -2

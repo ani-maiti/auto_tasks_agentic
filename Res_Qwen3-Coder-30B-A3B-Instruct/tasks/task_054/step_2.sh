@@ -1,0 +1,1 @@
+curl -s https://worldtimeapi.org/api/ip

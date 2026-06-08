@@ -1,0 +1,4 @@
+API is accessible
+Joke 1: What do prisoners use to call each other? Cell phones.
+Joke 2: Knock-knock. A race condition. Who is there?
+Joke 3: What did the Dorito farmer say to the other Dorito farmer? Cool Ranch!

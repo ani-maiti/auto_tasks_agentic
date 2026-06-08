@@ -1,0 +1,5 @@
+url,width,height
+https://httpbin.org/image/jpeg,239,178
+https://httpbin.org/image/png,100,100
+https://httpbin.org/image/webp,274,367
+

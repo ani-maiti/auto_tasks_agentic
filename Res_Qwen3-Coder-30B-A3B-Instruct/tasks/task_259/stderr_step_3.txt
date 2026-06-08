@@ -1,0 +1,2 @@
+find: ‘/var/log/private’: Permission denied
+find: ‘/var/log/audit’: Permission denied

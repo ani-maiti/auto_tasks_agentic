@@ -1,0 +1,1 @@
+curl -s https://kubernetes.io/blog/ | grep -o '<h2[^>]*>[^<]*</h2>' | head -1

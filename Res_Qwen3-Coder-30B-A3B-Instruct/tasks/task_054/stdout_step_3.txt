@@ -1,0 +1,17 @@
+{
+    "status": "FAILED",
+    "message": "Invalid API key.",
+    "countryCode": "",
+    "countryName": "",
+    "regionName": "",
+    "cityName": "",
+    "zoneName": "",
+    "abbreviation": "",
+    "gmtOffset": 0,
+    "dst": 0,
+    "zoneStart": 0,
+    "zoneEnd": null,
+    "nextAbbreviation": null,
+    "timestamp": 0,
+    "formatted": ""
+}

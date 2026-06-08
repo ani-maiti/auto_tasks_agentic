@@ -1,0 +1,10 @@
+./tasks/task_147/step_2.sh
+./tasks/task_147/step_3.sh
+./tasks/task_147/step_1.sh
+./tasks/task_235/step_5.sh
+./tasks/task_235/step_4.sh
+./tasks/task_235/step_1.sh
+./tasks/task_216/step_4.sh
+./tasks/task_216/step_1.sh
+./tasks/task_178/step_2.sh
+./tasks/task_178/step_3.sh

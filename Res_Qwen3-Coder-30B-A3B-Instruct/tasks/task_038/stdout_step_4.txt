@@ -1,0 +1,10 @@
+drwxr-xr-x  3 ai_admin ai_admin  4096 Jun  1 16:23 .
+drwxr-xr-x 40 ai_admin ai_admin 12288 Jun  1 16:34 ./tasks
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:49 ./tasks/task_001
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:50 ./tasks/task_002
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:51 ./tasks/task_003
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:52 ./tasks/task_004
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:53 ./tasks/task_005
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:53 ./tasks/task_006
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:54 ./tasks/task_007
+drwxr-xr-x  2 ai_admin ai_admin  4096 Jun  1 15:59 ./tasks/task_008

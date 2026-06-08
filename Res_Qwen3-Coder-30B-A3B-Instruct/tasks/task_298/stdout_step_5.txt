@@ -1,0 +1,9 @@
+Mock weather data created successfully
+  state         city  temperature  ...  pressure    description wind_speed
+0    AL   Montgomery         22.5  ...    1018.0  Partly cloudy        2.3
+1    AK       Juneau          4.3  ...    1001.7  Partly cloudy       13.0
+2    AZ      Phoenix         27.9  ...    1029.1  Partly cloudy       12.5
+3    AR  Little Rock         23.8  ...    1005.5  Partly cloudy        2.8
+4    CA   Sacramento         19.2  ...    1008.7  Partly cloudy        9.2
+
+[5 rows x 7 columns]

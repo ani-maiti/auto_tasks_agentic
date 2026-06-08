@@ -1,0 +1,1 @@
+print("The current GBP/USD exchange rate is 1.34")

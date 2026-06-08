@@ -1,0 +1,13 @@
+Created mock dataset with 2080 entries
+Raw data saved to weather_data_raw.csv
+Volatility calculated
+Cities ranked by volatility
+Volatility data saved to weather_volatility.csv
+Summary Report:
+total_cities: 52
+most_volatile_city: Sydney
+highest_volatility: 13.100712231078829
+average_volatility: 11.065277447870063
+median_volatility: 10.998730676768627
+
+Most volatile city: Sydney with volatility: 13.10

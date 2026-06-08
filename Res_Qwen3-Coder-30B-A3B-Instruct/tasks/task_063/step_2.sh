@@ -1,0 +1,1 @@
+ping -c 1 api.coindesk.com

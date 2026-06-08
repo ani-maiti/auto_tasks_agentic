@@ -1,0 +1,1 @@
+curl -s https://docs.python.org/3/ | grep -o '<title>[^<]*</title>' | head -100 | sed 's/<title>\(.*\)<\/title>/\1/' > titles.txt

@@ -1,0 +1,5 @@
+Found 1178 JSON files
+Error processing ./technology_news.json: Expecting value: line 1 column 1 (char 0)
+Saved cross-reference index with 20081 shared values
+Generated cross-reference report
+Most frequently shared value: '1' appears in 136532 files

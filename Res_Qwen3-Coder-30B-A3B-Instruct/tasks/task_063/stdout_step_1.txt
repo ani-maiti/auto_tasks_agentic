@@ -1,0 +1,1 @@
+Error fetching Bitcoin price: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /v1/bpi/currentprice.json (Caused by NameResolutionError("HTTPSConnection(host='api.coindesk.com', port=443): Failed to resolve 'api.coindesk.com' ([Errno -2] Name or service not known)"))

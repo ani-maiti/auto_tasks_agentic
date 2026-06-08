@@ -1,0 +1,10 @@
+./generate_code_model_run.py
+./tasks/task_235/step_3.py
+./tasks/task_235/step_2.py
+./tasks/task_216/step_3.py
+./tasks/task_216/step_2.py
+./tasks/task_308/step_3.py
+./tasks/task_308/step_5.py
+./tasks/task_308/step_1.py
+./tasks/task_308/step_2.py
+./tasks/task_308/step_4.py

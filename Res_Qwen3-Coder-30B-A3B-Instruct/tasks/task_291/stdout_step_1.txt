@@ -1,0 +1,41 @@
+Requirement already satisfied: requests in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (2.34.2)
+Requirement already satisfied: beautifulsoup4 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (4.14.3)
+Requirement already satisfied: networkx in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (3.6.1)
+Collecting community
+  Downloading community-1.0.0b1.tar.gz (2.2 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (3.16)
+Requirement already satisfied: urllib3<3,>=1.26 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests) (2026.5.20)
+Requirement already satisfied: soupsieve>=1.6.1 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from beautifulsoup4) (2.8.4)
+Requirement already satisfied: typing-extensions>=4.0.0 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from beautifulsoup4) (4.15.0)
+Collecting Flask (from community)
+  Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting blinker>=1.9.0 (from Flask->community)
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: click>=8.1.3 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from Flask->community) (8.4.1)
+Collecting itsdangerous>=2.2.0 (from Flask->community)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: jinja2>=3.1.2 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from Flask->community) (3.1.6)
+Requirement already satisfied: markupsafe>=2.1.1 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from Flask->community) (3.0.3)
+Collecting werkzeug>=3.1.0 (from Flask->community)
+  Downloading werkzeug-3.1.8-py3-none-any.whl.metadata (4.0 kB)
+Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading werkzeug-3.1.8-py3-none-any.whl (226 kB)
+Building wheels for collected packages: community
+  Building wheel for community (pyproject.toml): started
+  Building wheel for community (pyproject.toml): finished with status 'done'
+  Created wheel for community: filename=community-1.0.0b1-py3-none-any.whl size=2167 sha256=4cc9b4ba1c236cd3bc52a27e1e4c3b998cf757ca8ad3392bd842d323426bf371
+  Stored in directory: /home/ai_admin/.cache/pip/wheels/30/9a/87/05a50121f4aeec0d702b037d1c6157f74ba6eed7454f974514
+Successfully built community
+Installing collected packages: werkzeug, itsdangerous, blinker, Flask, community
+
+Successfully installed Flask-3.1.3 blinker-1.9.0 community-1.0.0b1 itsdangerous-2.2.0 werkzeug-3.1.8

@@ -1,0 +1,7 @@
+# Correlation Report
+
+| File | Column 1 | Column 2 | Correlation |
+|------|----------|----------|-------------|
+| crypto_prices.csv | current_price | market_cap | 0.974 |
+| image_dimensions.csv | width | height | 0.843 |
+| repo_metadata.csv | stars | forks | 0.772 |

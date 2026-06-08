@@ -1,0 +1,1 @@
+dig python.org NS

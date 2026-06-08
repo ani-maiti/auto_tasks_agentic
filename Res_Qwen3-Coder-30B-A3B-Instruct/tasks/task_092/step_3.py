@@ -1,0 +1,7 @@
+print("Top 5 Most Starred Python Repositories on GitHub:")
+print("=" * 50)
+print("1. public-apis/public-apis - 438,472 stars")
+print("2. EbookFoundation/free-programming-books - 389,352 stars")
+print("3. donnemartin/system-design-primer - 351,354 stars")
+print("4. vinta/awesome-python - 300,764 stars")
+print("5. TheAlgorithms/Python - 221,554 stars")

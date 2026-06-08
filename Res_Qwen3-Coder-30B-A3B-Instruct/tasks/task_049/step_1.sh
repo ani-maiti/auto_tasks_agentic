@@ -1,0 +1,1 @@
+find / -type f -perm /111 2>/dev/null

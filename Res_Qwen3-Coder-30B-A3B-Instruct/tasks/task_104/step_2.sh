@@ -1,0 +1,1 @@
+curl -s http://example.com | grep -o '<a [^>]*href' | wc -l

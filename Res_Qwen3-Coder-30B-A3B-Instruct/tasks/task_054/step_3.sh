@@ -1,0 +1,1 @@
+curl -s https://api.timezonedb.com/v2.1/get-time-zone?format=json&by=zone&zone=UTC

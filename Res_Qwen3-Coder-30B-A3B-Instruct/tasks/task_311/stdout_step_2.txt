@@ -1,0 +1,14 @@
+total 492
+drwxr-xr-x   6 root root              4096 Jun  1 21:10 .
+drwxr-xr-x  12 root root              4096 May 21 10:36 ..
+drwx------   2 root root              4096 May  1 15:13 audit
+-rw-rw----   1 root utmp               768 May 21 10:36 btmp
+drwxr-sr-x+  4 root systemd-journal   4096 May  1 15:14 journal
+-rw-rw-r--   1 root utmp                 0 May  1 15:13 lastlog
+drwxr-xr-x   2 root root              4096 Oct 12  2025 old
+-rw-r--r--   1 root root            210583 May 27 09:37 pacman.log
+-rw-r--r--   1 root root              8976 May  3 15:47 pacman.PackageKit.log
+drwx------   2 root root              4096 May  1 15:13 private
+-rw-rw-r--   1 root utmp            101376 Jun  1 21:11 wtmp
+-rw-r--r--   1 root root             39563 Jun  1 21:10 Xorg.0.log
+-rw-r--r--   1 root root             92896 Jun  1 21:10 Xorg.0.log.old

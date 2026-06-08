@@ -1,0 +1,6 @@
+Processing /home/ai_admin/.ipython/profile_default/history.sqlite
+Processing /home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_CodeGemma-7B-IT/database.db
+Processing /home/ai_admin/.config/libaccounts-glib/accounts.db
+Processing /home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/places.sqlite
+Error checking /home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/places.sqlite: database is locked
+No date columns found in any database

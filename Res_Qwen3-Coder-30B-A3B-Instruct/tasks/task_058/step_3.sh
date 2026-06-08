@@ -1,0 +1,1 @@
+curl -s https://www.python.org/downloads/ | grep -o 'Python [0-9]*\.[0-9]*\.[0-9]*' | head -1 | cut -d' ' -f2

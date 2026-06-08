@@ -1,0 +1,12 @@
+Found 1163660 paths
+First 10 paths:
+/etc/mkinitcpio.conf
+/etc/rhashrc
+/etc/host.conf
+/etc/subgid
+/etc/inputrc
+/etc/netconfig
+/etc/bindresvport.blacklist
+/etc/services
+/etc/xattr.conf
+/etc/mailcap

@@ -1,0 +1,10 @@
+35876	.
+35660	./tasks
+18112	./tasks/task_194
+820	./tasks/task_049
+676	./tasks/task_192
+612	./tasks/task_174
+596	./tasks/task_193
+524	./tasks/task_083
+468	./tasks/task_191
+384	./tasks/task_173

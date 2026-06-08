@@ -1,0 +1,1 @@
+-rw-r--r-- 1 ai_admin ai_admin 256 Jun  1 22:14 weather_responses.json

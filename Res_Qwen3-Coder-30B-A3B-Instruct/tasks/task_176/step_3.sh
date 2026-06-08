@@ -1,0 +1,1 @@
+find . -type f -name '*.*' | cut -d. -f2- | sort | uniq -c | sort -nr

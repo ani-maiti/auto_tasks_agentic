@@ -1,0 +1,1339 @@
+{
+  "/home/ai_admin/.ipython/profile_default/history.sqlite": {
+    "sessions": [
+      {
+        "name": "session",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "start",
+        "type": "timestamp",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "end",
+        "type": "timestamp",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "num_cmds",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "remark",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "sqlite_sequence": [
+      {
+        "name": "name",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "seq",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "history": [
+      {
+        "name": "session",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "line",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 2
+      },
+      {
+        "name": "source",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "source_raw",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "output_history": [
+      {
+        "name": "session",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "line",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 2
+      },
+      {
+        "name": "output",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ]
+  },
+  "/home/ai_admin/.config/libaccounts-glib/accounts.db": {
+    "Accounts": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "provider",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "enabled",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "sqlite_sequence": [
+      {
+        "name": "name",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "seq",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "Services": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "display",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "provider",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "type",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "Settings": [
+      {
+        "name": "account",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "service",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "key",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "type",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "value",
+        "type": "BLOB",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "Signatures": [
+      {
+        "name": "account",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "service",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "key",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "signature",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "token",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      }
+    ]
+  },
+  "/home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/places.sqlite": {
+    "moz_origins": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "prefix",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "host",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "frecency",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "recalc_frecency",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "alt_frecency",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "recalc_alt_frecency",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "block_until_ms",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "block_pages_until_ms",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_places": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "url",
+        "type": "LONGVARCHAR",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "title",
+        "type": "LONGVARCHAR",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "rev_host",
+        "type": "LONGVARCHAR",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "visit_count",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "hidden",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "typed",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "frecency",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "-1",
+        "primary_key": 0
+      },
+      {
+        "name": "last_visit_date",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "guid",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "foreign_count",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "url_hash",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "description",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "preview_image_url",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "site_name",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "origin_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "recalc_frecency",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "alt_frecency",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "recalc_alt_frecency",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      }
+    ],
+    "moz_places_extra": [
+      {
+        "name": "place_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "sync_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_historyvisits": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "from_visit",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "place_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "visit_date",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "visit_type",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "session",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "source",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "triggeringPlaceId",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_historyvisits_extra": [
+      {
+        "name": "visit_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "sync_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_inputhistory": [
+      {
+        "name": "place_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "input",
+        "type": "LONGVARCHAR",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 2
+      },
+      {
+        "name": "use_count",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_bookmarks": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "type",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "fk",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "NULL",
+        "primary_key": 0
+      },
+      {
+        "name": "parent",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "position",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "title",
+        "type": "LONGVARCHAR",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "keyword_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "folder_type",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "dateAdded",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "lastModified",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "guid",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "syncStatus",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "syncChangeCounter",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "1",
+        "primary_key": 0
+      }
+    ],
+    "moz_bookmarks_deleted": [
+      {
+        "name": "guid",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "dateRemoved",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      }
+    ],
+    "moz_keywords": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "keyword",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "place_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "post_data",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "sqlite_sequence": [
+      {
+        "name": "name",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "seq",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_anno_attributes": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "name",
+        "type": "VARCHAR(32)",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_annos": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "place_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "anno_attribute_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "content",
+        "type": "LONGVARCHAR",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "flags",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "expiration",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "type",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "dateAdded",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "lastModified",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      }
+    ],
+    "moz_items_annos": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "item_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "anno_attribute_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "content",
+        "type": "LONGVARCHAR",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "flags",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "expiration",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "type",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "dateAdded",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "lastModified",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": "0",
+        "primary_key": 0
+      }
+    ],
+    "moz_meta": [
+      {
+        "name": "key",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "value",
+        "type": "",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_places_metadata": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "place_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "referrer_place_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "created_at",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "updated_at",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "total_view_time",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "typing_time",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "key_presses",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "scrolling_time",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "scrolling_distance",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "document_type",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "0",
+        "primary_key": 0
+      },
+      {
+        "name": "search_query_id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_places_metadata_search_queries": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "terms",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_previews_tombstones": [
+      {
+        "name": "hash",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      }
+    ],
+    "moz_newtab_story_click": [
+      {
+        "name": "feature",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "timestamp_s",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "card_format_enum",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "position",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "section_position",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "feature_value",
+        "type": "REAL",
+        "notnull": 1,
+        "default": "1",
+        "primary_key": 0
+      }
+    ],
+    "moz_newtab_story_impression": [
+      {
+        "name": "feature",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "timestamp_s",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "card_format_enum",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "position",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "section_position",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "feature_value",
+        "type": "REAL",
+        "notnull": 1,
+        "default": "1",
+        "primary_key": 0
+      }
+    ],
+    "moz_newtab_shortcuts_interaction": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "place_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "event_type",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "timestamp_s",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "pinned",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "tile_position",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "sqlite_stat1": [
+      {
+        "name": "tbl",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "idx",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "stat",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ]
+  },
+  "/home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/formhistory.sqlite": {
+    "moz_formhistory": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "fieldname",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "value",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "timesUsed",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "firstUsed",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "lastUsed",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "guid",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_deleted_formhistory": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "timeDeleted",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "guid",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_sources": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "source",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "moz_history_to_sources": [
+      {
+        "name": "history_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "source_id",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 2
+      }
+    ]
+  },
+  "/home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/storage-sync-v2.sqlite": {
+    "storage_sync_data": [
+      {
+        "name": "ext_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "data",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "sync_change_counter",
+        "type": "INTEGER",
+        "notnull": 1,
+        "default": "1",
+        "primary_key": 0
+      }
+    ],
+    "storage_sync_mirror": [
+      {
+        "name": "guid",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "ext_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      },
+      {
+        "name": "data",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "primary_key": 0
+      }
+    ],
+    "meta": [
+      {
+        "name": "key",
+        "type": "TEXT",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 1
+      },
+      {
+        "name": "value",
+        "type": "",
+        "notnull": 1,
+        "default": null,
+        "primary_key": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -exec wc -l {} \; | sort -n | tail -5

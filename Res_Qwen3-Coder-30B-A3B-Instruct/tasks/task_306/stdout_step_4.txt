@@ -1,0 +1,12 @@
+Most Complex File:
+Path: ./tasks/task_306/step_2.py
+Total Complexity: 638
+Average Function Complexity: 212.67
+Number of Functions: 3
+
+Top 5 Most Complex Files:
+1. ./tasks/task_306/step_2.py - Complexity: 638
+2. ./tasks/task_271/step_2.py - Complexity: 485
+3. ./tasks/task_237/step_2.py - Complexity: 439
+4. ./tasks/task_274/step_3.py - Complexity: 403
+5. ./tasks/task_274/step_2.py - Complexity: 403

@@ -1,0 +1,1 @@
+find . -name ".*" -not -path "./.*" -not -path "." -type f

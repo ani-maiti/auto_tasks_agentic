@@ -1,0 +1,8 @@
+Retrieving weather data for European capitals...
+Total capitals to process: 41
+Simulated data for London: 28°C
+Simulated data for Paris: 25°C
+Simulated data for Berlin: 28°C
+Saved weather data to weather_responses.json
+Average temperature across all capitals: 27.00°C
+Warmest capital: London with 28°C

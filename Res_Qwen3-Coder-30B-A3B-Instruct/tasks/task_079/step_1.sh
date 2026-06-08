@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/psf/requests | grep -E '"stargazers_count"'

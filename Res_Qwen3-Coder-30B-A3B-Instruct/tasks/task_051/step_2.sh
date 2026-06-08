@@ -1,0 +1,1 @@
+find . -type d -print | awk 'BEGIN {max_len=20} {if (length($0) > max_len) print $0}'

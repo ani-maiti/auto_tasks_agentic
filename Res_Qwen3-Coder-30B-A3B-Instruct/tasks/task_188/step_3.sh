@@ -1,0 +1,1 @@
+find . -type l -print0 | wc -l

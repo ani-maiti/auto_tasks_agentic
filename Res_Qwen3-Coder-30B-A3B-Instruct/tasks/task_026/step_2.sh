@@ -1,0 +1,1 @@
+find . -type f -print0 | xargs -0 -I {} sh -c 'basename "{}" | grep -q "[^[:ascii:]]" && echo "{}"'

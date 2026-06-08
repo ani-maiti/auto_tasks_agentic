@@ -1,0 +1,2 @@
+Error accessing CME site: HTTPSConnectionPool(host='www.cmegroup.com', port=443): Read timed out. (read timeout=10)
+Yahoo Finance error: 429

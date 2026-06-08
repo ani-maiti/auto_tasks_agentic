@@ -1,0 +1,3 @@
+Retrieving weather data for 55 cities...
+Using mock weather data for demonstration
+Raw weather data saved to raw_weather_data.json

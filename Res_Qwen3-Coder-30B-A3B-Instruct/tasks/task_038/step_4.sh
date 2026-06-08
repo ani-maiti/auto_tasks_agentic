@@ -1,0 +1,1 @@
+find . -type d -print0 | xargs -0 ls -ld | head -10

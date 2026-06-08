@@ -1,0 +1,1 @@
+find /tmp/test_logs -type f -name "*.log"

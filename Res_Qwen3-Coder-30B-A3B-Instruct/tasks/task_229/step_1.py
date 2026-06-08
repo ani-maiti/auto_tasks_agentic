@@ -1,0 +1,47 @@
+import requests
+import csv
+from collections import Counter
+import re
+
+# Get the top 100 story IDs
+response = requests.get('https://hacker-news.firebaseio.com/v0/topstories.json')
+story_ids = response.json()[:100]
+
+# Fetch the stories
+stories = []
+for story_id in story_ids:
+    story_response = requests.get(f'https://hacker-news.firebaseio.com/v0/item/{story_id}.json')
+    story = story_response.json()
+    if story and 'title' in story:
+        stories.append(story['title'])
+
+# Define common company names to look for
+companies = [
+    "Apple", "Microsoft", "Google", "Amazon", "Facebook", "Tesla", 
+    "Netflix", "Twitter", "Uber", "Airbnb", "Spotify", "Slack",
+    "Adobe", "Salesforce", "Oracle", "IBM", "Intel", "AMD",
+    "NVIDIA", "Samsung", "Sony", "LG", "Cisco", "HP",
+    "Dell", "Lenovo", "Qualcomm", "T-Mobile", "Verizon", "AT&T"
+]
+
+# Count mentions
+company_counts = Counter()
+for story in stories:
+    title = story.lower()
+    for company in companies:
+        count = len(re.findall(r'\b' + re.escape(company.lower()) + r'\b', title))
+        if count > 0:
+            company_counts[company] += count
+
+# Get top 10 companies
+top_companies = company_counts.most_common(10)
+
+# Save to CSV
+with open('company_mentions.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(['Company', 'Mentions'])
+    writer.writerows(top_companies)
+
+print("Top 10 companies mentioned:")
+for company, count in top_companies:
+    print(f"{company}: {count}")

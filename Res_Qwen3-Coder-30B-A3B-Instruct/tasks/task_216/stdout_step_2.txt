@@ -1,0 +1,5 @@
+Error processing hacker_news_classification.json: 'list' object has no attribute 'items'
+Error processing python_files.json: 'list' object has no attribute 'items'
+Keys appearing in more than one file:
+  cod: appears in 10 files (Sydney_weather.json, Rio de Janeiro_weather.json, New York_weather.json, Tokyo_weather.json, Cairo_weather.json, Paris_weather.json, Dubai_weather.json, London_weather.json, Moscow_weather.json, Mumbai_weather.json)
+  message: appears in 10 files (Sydney_weather.json, Rio de Janeiro_weather.json, New York_weather.json, Tokyo_weather.json, Cairo_weather.json, Paris_weather.json, Dubai_weather.json, London_weather.json, Moscow_weather.json, Mumbai_weather.json)

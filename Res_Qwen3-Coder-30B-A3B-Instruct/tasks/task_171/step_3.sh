@@ -1,0 +1,1 @@
+find tasks -type f -name "*.txt" | head -10

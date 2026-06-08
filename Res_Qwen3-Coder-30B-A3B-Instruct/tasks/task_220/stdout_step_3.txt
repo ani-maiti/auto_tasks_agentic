@@ -1,0 +1,14 @@
+Found 251 Python files
+Top 10 most common third-party modules:
+requests: 121
+bs4: 30
+datetime: 16
+pandas: 8
+ast: 6
+xml: 6
+dns: 6
+hashlib: 5
+numpy: 5
+subprocess: 3
+
+Frequency table saved to module_frequency.json

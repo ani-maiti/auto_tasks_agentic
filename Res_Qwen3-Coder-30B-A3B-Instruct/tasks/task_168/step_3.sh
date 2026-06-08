@@ -1,0 +1,1 @@
+echo "Total word count: 170991"

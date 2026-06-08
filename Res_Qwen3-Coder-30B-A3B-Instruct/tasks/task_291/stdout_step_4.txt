@@ -1,0 +1,122 @@
+Starting wiki crawl...
+Crawled: Python (programming language)
+Crawled: Main Page
+Crawled: Programming paradigm
+Crawled: Comparison of multi-paradigm programming languages
+Crawled: Object-oriented programming
+Crawled: Procedural programming
+Crawled: Imperative programming
+Crawled: Functional programming
+Crawled: Structured programming
+Crawled: Reflective programming
+Crawled: Software design
+Crawled: Guido van Rossum
+Crawled: Software development
+Crawled: Python Software Foundation
+Crawled: Software release life cycle
+Crawled: Type system
+Crawled: Duck typing
+Crawled: Type system
+Crawled: Type safety
+Crawled: Type system
+Crawled: Memory management
+Crawled: Garbage collection (computer science)
+Crawled: Operating system
+Crawled: Cross-platform software
+Crawled: Software license
+Crawled: Python Software Foundation License
+Crawled: Filename extension
+Crawled: Programming language design and implementation
+Crawled: CPython
+Crawled: PyPy
+Crawled: MicroPython
+Crawled: CircuitPython
+Crawled: IronPython
+Crawled: Jython
+Crawled: Stackless Python
+Crawled: Programming language
+Crawled: Cython
+Crawled: PyPy
+Crawled: Starlark
+Crawled: ABC (programming language)
+Crawled: Ada (programming language)
+Crawled: ALGOL 68
+Crawled: APL (programming language)
+Crawled: C (programming language)
+Crawled: C++
+Crawled: CLU (programming language)
+Crawled: Dylan (programming language)
+Crawled: Haskell
+Crawled: Icon (programming language)
+Crawled: Lisp (programming language)
+Crawled: Modula-3
+Crawled: Perl
+Crawled: Standard ML
+Crawled: Apache Groovy
+Crawled: Boo (programming language)
+Crawled: Cobra (programming language)
+Crawled: CoffeeScript
+Crawled: D (programming language)
+Crawled: F Sharp (programming language)
+Crawled: Godot (game engine)
+Crawled: Go (programming language)
+Crawled: JavaScript
+Crawled: Julia (programming language)
+Crawled: Mojo (programming language)
+Crawled: Nim (programming language)
+Crawled: Ruby (programming language)
+Crawled: Swift (programming language)
+Crawled: V (programming language)
+Crawled: List of Python software
+Crawled: Zope
+Crawled: CherryPy
+Crawled: CubicWeb
+Crawled: Django (web framework)
+Crawled: FastAPI
+Crawled: Flask (web framework)
+Crawled: Google App Engine
+Crawled: Zope
+Crawled: Kivy (framework)
+Crawled: mod_wsgi
+Crawled: Twisted (software)
+Crawled: Pylons project
+Crawled: Pylons project
+Crawled: Python Paste
+Crawled: Quixote (web framework)
+Crawled: RapidSMS
+Crawled: Robot Framework
+Crawled: Spyce (software)
+Crawled: Tornado (web server)
+Crawled: TurboGears
+Crawled: web2py
+Crawled: Zope
+Crawled: AppJar
+Crawled: Anaconda (Python distribution)
+Crawled: Apache MXNet
+Crawled: Apache SINGA
+Crawled: Astropy
+Crawled: Beautiful Soup (HTML parser)
+Crawled: Biopython
+Crawled: Chainer
+Crawled: CatBoost
+Finished crawling. Visited 100 pages.
+Graph saved to wiki_graph.json
+Found 19 communities
+Report generated
+{
+  "total_pages": 100,
+  "total_links": 25930,
+  "communities": 19,
+  "largest_community_size": 1136
+}
+Largest community (1136 nodes):
+  - .NET
+  - 2020_Facebook_ad_boycotts
+  - 2021_Facebook_leak
+  - 2021_Facebook_outage
+  - 3Blue1Brown
+  - 3DSlicer
+  - 3D_computer_graphics
+  - 3D_computer_graphics_software
+  - 501(c)(3)
+  - A-A-P

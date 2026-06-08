@@ -1,0 +1,1 @@
+nslookup -type=mx gmail.com

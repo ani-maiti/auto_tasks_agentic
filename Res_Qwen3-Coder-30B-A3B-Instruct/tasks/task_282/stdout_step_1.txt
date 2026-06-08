@@ -1,0 +1,108 @@
+Fetching weather data for cities...
+Processing New York (1/52)
+Error fetching data for New York: 401
+Processing London (2/52)
+Error fetching data for London: 401
+Processing Tokyo (3/52)
+Error fetching data for Tokyo: 401
+Processing Paris (4/52)
+Error fetching data for Paris: 401
+Processing Sydney (5/52)
+Error fetching data for Sydney: 401
+Processing Dubai (6/52)
+Error fetching data for Dubai: 401
+Processing Singapore (7/52)
+Error fetching data for Singapore: 401
+Processing Toronto (8/52)
+Error fetching data for Toronto: 401
+Processing Berlin (9/52)
+Error fetching data for Berlin: 401
+Processing Rome (10/52)
+Error fetching data for Rome: 401
+Processing Madrid (11/52)
+Error fetching data for Madrid: 401
+Processing Amsterdam (12/52)
+Error fetching data for Amsterdam: 401
+Processing Stockholm (13/52)
+Error fetching data for Stockholm: 401
+Processing Copenhagen (14/52)
+Error fetching data for Copenhagen: 401
+Processing Oslo (15/52)
+Error fetching data for Oslo: 401
+Processing Helsinki (16/52)
+Error fetching data for Helsinki: 401
+Processing Athens (17/52)
+Error fetching data for Athens: 401
+Processing Istanbul (18/52)
+Error fetching data for Istanbul: 401
+Processing Moscow (19/52)
+Error fetching data for Moscow: 401
+Processing Bangkok (20/52)
+Error fetching data for Bangkok: 401
+Processing Seoul (21/52)
+Error fetching data for Seoul: 401
+Processing Shanghai (22/52)
+Error fetching data for Shanghai: 401
+Processing Beijing (23/52)
+Error fetching data for Beijing: 401
+Processing Mumbai (24/52)
+Error fetching data for Mumbai: 401
+Processing Karachi (25/52)
+Error fetching data for Karachi: 401
+Processing Lagos (26/52)
+Error fetching data for Lagos: 401
+Processing Cairo (27/52)
+Error fetching data for Cairo: 401
+Processing Johannesburg (28/52)
+Error fetching data for Johannesburg: 401
+Processing São Paulo (29/52)
+Error fetching data for São Paulo: 401
+Processing Mexico City (30/52)
+Error fetching data for Mexico City: 401
+Processing Buenos Aires (31/52)
+Error fetching data for Buenos Aires: 401
+Processing Rio de Janeiro (32/52)
+Error fetching data for Rio de Janeiro: 401
+Processing Los Angeles (33/52)
+Error fetching data for Los Angeles: 401
+Processing Chicago (34/52)
+Error fetching data for Chicago: 401
+Processing Houston (35/52)
+Error fetching data for Houston: 401
+Processing Phoenix (36/52)
+Error fetching data for Phoenix: 401
+Processing Philadelphia (37/52)
+Error fetching data for Philadelphia: 401
+Processing San Antonio (38/52)
+Error fetching data for San Antonio: 401
+Processing San Diego (39/52)
+Error fetching data for San Diego: 401
+Processing Dallas (40/52)
+Error fetching data for Dallas: 401
+Processing San Jose (41/52)
+Error fetching data for San Jose: 401
+Processing Austin (42/52)
+Error fetching data for Austin: 401
+Processing Jacksonville (43/52)
+Error fetching data for Jacksonville: 401
+Processing Fort Worth (44/52)
+Error fetching data for Fort Worth: 401
+Processing Columbus (45/52)
+Error fetching data for Columbus: 401
+Processing Charlotte (46/52)
+Error fetching data for Charlotte: 401
+Processing San Francisco (47/52)
+Error fetching data for San Francisco: 401
+Processing Indianapolis (48/52)
+Error fetching data for Indianapolis: 401
+Processing Seattle (49/52)
+Error fetching data for Seattle: 401
+Processing Denver (50/52)
+Error fetching data for Denver: 401
+Processing Washington (51/52)
+Error fetching data for Washington: 401
+Processing Boston (52/52)
+Error fetching data for Boston: 401
+Retrieved data for 0 entries
+DataFrame shape: (0, 0)
+Raw data saved to weather_data_raw.csv

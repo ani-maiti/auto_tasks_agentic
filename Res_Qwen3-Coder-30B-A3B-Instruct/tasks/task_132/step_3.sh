@@ -1,0 +1,1 @@
+curl -s https://www.docker.com/blog/ | grep -o '<h2[^>]*>.*</h2>' | head -n 5

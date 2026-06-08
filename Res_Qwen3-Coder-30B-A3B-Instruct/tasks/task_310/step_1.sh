@@ -1,0 +1,1 @@
+find . -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.bmp" -o -name "*.tiff" \) | head -20

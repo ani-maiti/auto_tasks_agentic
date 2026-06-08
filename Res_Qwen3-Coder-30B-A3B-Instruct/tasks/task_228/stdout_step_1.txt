@@ -1,0 +1,3 @@
+To proceed with retrieving weather data, we need an OpenWeatherMap API key.
+Please sign up at https://openweathermap.org/api to get a free API key.
+Then set the API key as an environment variable named 'OPENWEATHER_API_KEY'

@@ -1,0 +1,1 @@
+find . -maxdepth 1 -name ".*" -not -path "./.*" -not -path "." -type f

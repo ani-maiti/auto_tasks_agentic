@@ -1,0 +1,1 @@
+curl -s https://api.launchpad.net/1.0/ubuntu | grep -o '"version": "[0-9]*\.[0-9]*' | head -1 | cut -d'"' -f4

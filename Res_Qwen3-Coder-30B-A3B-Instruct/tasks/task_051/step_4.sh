@@ -1,0 +1,1 @@
+find . -type d -exec sh -c 'basename="$1"; len=$(echo -n "$basename" | wc -c); if [ "$len" -gt 20 ]; then echo "$1"; fi' _ {} \;

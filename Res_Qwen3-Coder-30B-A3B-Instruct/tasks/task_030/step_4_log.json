@@ -1,0 +1,39 @@
+{
+  "task_id": 30,
+  "step": 4,
+  "max_steps": 5,
+  "timestamp": "2026-05-18T13:25:33.062540",
+  "task_description": "list all directories that contain more than 50 files",
+  "code": "find . -type d -exec sh -c 'find \"{}\" -type f | wc -l | xargs -I {} echo \"{} {}\"' \\; | awk '$1 > 50 {print $2}'",
+  "trace": {
+    "stdout": "473\n467\n",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -type d -exec sh -c 'echo \"$(find \"{}\" -type f | wc -l) {}\"' \\; | sort -nr | head -20\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n465 .\n459 ./tasks\n20 ./tasks/task_028\n20 ./tasks/task_024\n20 ./tasks/task_023\n20 ./tasks/task_021\n20 ./tasks/task_020\n20 ./tasks/task_014\n20 ./tasks/task_012\n20 ./tasks/task_007\n20 ./tasks/task_004\n16 ./tasks/task_029\n16 ./tasks/task_027\n16 ./tasks/task_026\n16 ./tasks/task_025\n16 ./tasks/task_022\n16 ./tasks/task_019\n16 ./tasks/task_017\n16 ./tasks/task_010\n16 ./tasks/task_008\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -type d -exec sh -c 'echo \"$(find \"{}\" -type f | wc -l) {}\"' \\; | awk '$1 > 50 {print $2}'\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n.\n./tasks\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -type d -exec sh -c 'find \"{}\" -type f | wc -l | xargs -I {} echo \"{} {}\"' \\; | awk '$1 > 50 {print $2}'\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n473\n467\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

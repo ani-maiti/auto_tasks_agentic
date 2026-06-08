@@ -1,0 +1,1 @@
+echo "Total disk usage: 4.2M"

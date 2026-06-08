@@ -1,0 +1,1 @@
+find . -type f -name "*.sh" -exec wc -l {} \; | tail -10

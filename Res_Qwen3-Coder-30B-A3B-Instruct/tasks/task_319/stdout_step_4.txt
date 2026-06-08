@@ -1,0 +1,32 @@
+Report generated successfully
+Exchange Rate Comparison Report
+==============================
+
+Generated on: 2026-06-02
+
+Currency Pairs Analyzed:
+- USD/EUR
+- USD/GBP
+- USD/JPY
+- EUR/GBP
+- EUR/JPY
+- GBP/JPY
+
+Data Sources:
+- exchangerate-api.com
+- fixer.io (simulated)
+- currencyapi.com (simulated)
+
+Detailed Results:
+Pair		API 1		API 2		API 3		Max		Min		Discrepancy
+----------------------------------------------------------------------------------------------------
+USD/EUR		0.86		82.56		78.26		82.56		0.86		9500.0
+USD/GBP		0.743		74.3		73.557		74.3		0.743		9900.0
+USD/JPY		159.6		12768.0		9416.4		12768.0		159.6		7900.0
+EUR/GBP		0.865		84.77		82.175		84.77		0.865		9700.0
+EUR/JPY		185.72		10586.04		2414.36		10586.04		185.72		5600.000000000001
+GBP/JPY		214.75		16025.71875		10361.6875		16025.71875		214.75		7362.5
+
+Summary:
+The currency pair with the largest discrepancy is USD/GBP with 9900.00% discrepancy.
+

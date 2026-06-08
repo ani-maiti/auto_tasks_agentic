@@ -1,0 +1,39 @@
+{
+  "task_id": 51,
+  "step": 4,
+  "max_steps": 4,
+  "timestamp": "2026-05-19T16:46:33.133954",
+  "task_description": "find all directories with names longer than 20 characters",
+  "code": "find . -type d -exec sh -c 'basename=\"$1\"; len=$(echo -n \"$basename\" | wc -c); if [ \"$len\" -gt 20 ]; then echo \"$1\"; fi' _ {} \\;",
+  "trace": {
+    "stdout": "",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -type d -print | awk 'BEGIN {max_len=20} {if (length($0) > max_len) print $0}'\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -type d -name \"*\" -exec sh -c 'test $(echo \"$1\" | wc -c) -gt 21 && echo \"$1\"' _ {} \\;\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```bash\nfind . -type d -exec sh -c 'basename=\"$1\"; len=$(echo -n \"$basename\" | wc -c); if [ \"$len\" -gt 20 ]; then echo \"$1\"; fi' _ {} \\;\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

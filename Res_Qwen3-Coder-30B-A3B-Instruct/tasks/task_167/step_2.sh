@@ -1,0 +1,1 @@
+find . -type f -exec stat -c "%Y %n" {} \; | sort -nr | head -10 | cut -d' ' -f2-

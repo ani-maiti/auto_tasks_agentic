@@ -1,0 +1,10 @@
+329 /etc/ppp/ipv6-down
+344 /etc/ppp/ip-up.d/00-dns.sh
+191 /etc/ppp/ip-down.d/00-dns.sh
+309 /etc/ppp/ip-up
+329 /etc/ppp/ipv6-up
+106 /etc/ppp/ipv6-up.d/00-iface-config.sh
+309 /etc/ppp/ip-down
+1971 /etc/security/namespace.init
+453 /etc/xdg/Xwayland-session.d/00-at-spi
+318 /etc/X11/xinit/xinitrc.d/40-libcanberra-gtk-module.sh

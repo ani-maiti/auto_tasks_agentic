@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -size -100k | head -5

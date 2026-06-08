@@ -1,0 +1,10 @@
+/home/ai_admin/nltk_data/sentiment/vader_lexicon.zip
+/home/ai_admin/nltk_data/corpora/cmudict.zip
+/home/ai_admin/nltk_data/tokenizers/punkt.zip
+/home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz
+/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz
+/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pkg_resources/tests/data/my-test-package-zip/my-test-package.zip
+/home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_Qwen2.5-Coder-32B-Instruct/cpython/Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip
+/home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_Qwen2.5-Coder-32B-Instruct/cpython/Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip
+/home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_Qwen2.5-Coder-32B-Instruct/cpython/Lib/test/test_importlib/namespace_pkgs/missing_directory.zip
+/home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_Qwen2.5-Coder-32B-Instruct/cpython/Lib/test/archivetestdata/testtar.tar

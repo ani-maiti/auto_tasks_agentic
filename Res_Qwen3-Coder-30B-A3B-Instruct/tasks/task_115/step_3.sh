@@ -1,0 +1,1 @@
+echo "Need to get a valid API key from OpenWeatherMap website"

@@ -1,0 +1,18 @@
+Error processing /home/ai_admin/.cache/discover/icons/org.gnome.gThumb.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/org.kde.skanpage.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/io.github.martinrotter.textosaurus.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/org.keepassxc.KeePassXC.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/org.kde.digikam.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/com.anydesk.Anydesk.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/org.kde.umbrello.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/com.jagex.RuneScape.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/io.github.limads.Queries.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+Error processing /home/ai_admin/.cache/discover/icons/org.kde.dolphin.desktop.png: [Errno 2] No such file or directory: 'exiftool'
+=== IMAGE METADATA SUMMARY REPORT ===
+Total images found: 340
+
+First 10 images with metadata:
+
+=== OLDEST IMAGE ===
+Path: /home/ai_admin/.local/share/wallpapers/Space Plasma 4K.jpg
+Created Time: 2026-05-01T16:46:01.762774

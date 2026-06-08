@@ -1,0 +1,4 @@
+/tmp/file_sizes.txt
+/tmp/file_list.txt
+/tmp/xauth_XaTCNA
+/tmp/RustDesk/ipc.pid

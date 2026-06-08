@@ -1,0 +1,7 @@
+Current weather in Sydney:
+Temperature: 12°C
+Feels like: 10°C
+Weather: Light Rain Shower
+Humidity: 82%
+Wind Speed: 24 km/h
+Pressure: 1008 hPa

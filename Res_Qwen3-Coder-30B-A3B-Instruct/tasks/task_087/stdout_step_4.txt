@@ -1,0 +1,16 @@
+HTTP Headers from python.org:
+Connection: keep-alive
+Content-Length: 52474
+x-frame-options: SAMEORIGIN
+server: nginx
+via: 1.1 varnish, 1.1 varnish
+content-type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Date: Mon, 01 Jun 2026 21:30:28 GMT
+Age: 3267
+X-Served-By: cache-iad-kiad7000173-IAD, cache-iad-kiad7000173-IAD, cache-iad-kcgs7200167-IAD
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 16
+X-Timer: S1780349428.169419,VS0,VE0
+Vary: Cookie
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload

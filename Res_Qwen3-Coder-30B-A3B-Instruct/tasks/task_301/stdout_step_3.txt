@@ -1,0 +1,103 @@
+Found 100 repositories
+First 5 repositories: ['HealthVault-Mobile-iOS-Library', 'BeanSpy', 'healthvault-ios-sdk', 'WindowsAzureToolkitForEclipseWithJava', 'php-sdk-binary-tools']
+Fetched 0 releases from HealthVault-Mobile-iOS-Library
+Fetched 0 releases from BeanSpy
+Fetched 3 releases from healthvault-ios-sdk
+Fetched 0 releases from WindowsAzureToolkitForEclipseWithJava
+Fetched 0 releases from php-sdk-binary-tools
+Fetched 0 releases from LIS3.5
+Fetched 19 releases from plcrashreporter
+Fetched 5 releases from filter-explorer
+Fetched 4 releases from filter-effects
+Fetched 4 releases from real-time-filter-demo
+Fetched 5 releases from photo-inspector
+Fetched 1 releases from camera-explorer
+Fetched 1 releases from map-explorer
+Fetched 1 releases from music-explorer
+Fetched 1 releases from here-launchers
+Fetched 2 releases from azure-puppet
+Fetched 1 releases from weekly-planner-wp
+Fetched 1 releases from drumkitx
+Fetched 1 releases from diner-wp
+Fetched 1 releases from rss-reader-wp
+Fetched 1 releases from audio-recorder
+Fetched 0 releases from cocos2d-x
+Fetched 1 releases from dynamic-layout-sample
+Fetched 1 releases from nfc-ndef-tag-reader
+Fetched 1 releases from nfc-talk
+Fetched 1 releases from car-trumps
+Fetched 1 releases from drumkit-wp
+Fetched 1 releases from bubble-level-wp
+Fetched 3 releases from phone-info
+Fetched 0 releases from launchapp-tag-maker
+Fetched 1 releases from matchem-poker-wp
+Fetched 1 releases from media-viewer
+Fetched 1 releases from moto-trial-racer-wp
+Fetched 0 releases from native-filter-demo
+Fetched 1 releases from protractor
+Fetched 1 releases from solitaire-wp
+Fetched 1 releases from space-blok-wp
+Fetched 1 releases from sudokumaster-wp
+Fetched 1 releases from surveillance-camera
+Fetched 0 releases from maps-samples
+Fetched 2 releases from rate-my-app
+Fetched 2 releases from chroma-key-demo
+Fetched 0 releases from azure-activedirectory-jwt-token-handler-for-dotnet
+Fetched 3 releases from real-time-blend-demo
+Fetched 0 releases from knife-azure
+Fetched 0 releases from angle
+Fetched 0 releases from backupessentials
+Fetched 3 releases from Tx
+Fetched 0 releases from optical-reader
+Fetched 2 releases from lens-blur
+Fetched 0 releases from azure-cookbook
+Fetched 0 releases from lis-test
+Fetched 0 releases from nokia-x-notifications-samples
+Fetched 0 releases from nokia-x-in-app-payment-samples
+Fetched 2 releases from simple-filter-mixer
+Fetched 4 releases from places
+Fetched 0 releases from opencv
+Fetched 4 releases from tracks
+Fetched 1 releases from cordova-plugin-websql
+Error fetching releases from image-sequencer: string indices must be integers, not 'str'
+Error fetching releases from msphpsql: string indices must be integers, not 'str'
+Error fetching releases from cordova-plugin-indexedDB: string indices must be integers, not 'str'
+Error fetching releases from PowerShell-DSC-for-Linux: string indices must be integers, not 'str'
+Error fetching releases from packer-hyperv: string indices must be integers, not 'str'
+Error fetching releases from Azure-DDP: string indices must be integers, not 'str'
+Error fetching releases from microsoft.github.io: string indices must be integers, not 'str'
+Error fetching releases from cocos2d-x-3rd-party-libs-bin: string indices must be integers, not 'str'
+Error fetching releases from TypeScript: string indices must be integers, not 'str'
+Error fetching releases from recorder: string indices must be integers, not 'str'
+Error fetching releases from activities: string indices must be integers, not 'str'
+Error fetching releases from steps: string indices must be integers, not 'str'
+Error fetching releases from o365-moodle: string indices must be integers, not 'str'
+Error fetching releases from TypeScriptSamples: string indices must be integers, not 'str'
+Error fetching releases from lumia-sensorcore-simulation: string indices must be integers, not 'str'
+Error fetching releases from opencv_contrib: string indices must be integers, not 'str'
+Error fetching releases from Win2D: string indices must be integers, not 'str'
+Error fetching releases from winstore-jscompat: string indices must be integers, not 'str'
+Error fetching releases from windows-phone-callout-project: string indices must be integers, not 'str'
+Error fetching releases from ApplicationInsights-node.js: string indices must be integers, not 'str'
+Error fetching releases from dotnet-samples: string indices must be integers, not 'str'
+Error fetching releases from activate-sensorcore: string indices must be integers, not 'str'
+Error fetching releases from cpprestsdk: string indices must be integers, not 'str'
+Error fetching releases from diskspd: string indices must be integers, not 'str'
+Error fetching releases from StorScore: string indices must be integers, not 'str'
+Error fetching releases from java-example-fraud-score: string indices must be integers, not 'str'
+Error fetching releases from openssl: string indices must be integers, not 'str'
+Error fetching releases from TestEasy: string indices must be integers, not 'str'
+Error fetching releases from RoslynClrHeapAllocationAnalyzer: string indices must be integers, not 'str'
+Error fetching releases from js-example-fraud-score: string indices must be integers, not 'str'
+Error fetching releases from hello-sensorcore: string indices must be integers, not 'str'
+Error fetching releases from dotnet: string indices must be integers, not 'str'
+Error fetching releases from QuickInject: string indices must be integers, not 'str'
+Error fetching releases from msopentech-tools-for-intellij: string indices must be integers, not 'str'
+Error fetching releases from js-client-library: string indices must be integers, not 'str'
+Error fetching releases from js-rbroker-framework: string indices must be integers, not 'str'
+Error fetching releases from Lumia-Imaging-SDK-Extras: string indices must be integers, not 'str'
+Error fetching releases from referencesource: string indices must be integers, not 'str'
+Error fetching releases from ApplicationInsights-Python: string indices must be integers, not 'str'
+Error fetching releases from o365rwsclient: string indices must be integers, not 'str'
+Error fetching releases from o365tosplunkdataimportapp: string indices must be integers, not 'str'
+Total releases collected: 91

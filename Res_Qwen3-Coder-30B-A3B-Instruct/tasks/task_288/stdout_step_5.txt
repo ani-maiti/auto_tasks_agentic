@@ -1,0 +1,32 @@
+==================================================
+GITHUB REPOSITORIES REPORT
+==================================================
+Total repositories analyzed: 100
+Repositories with language data: 94
+Repositories without language data: 6
+
+TOP 10 REPOSITORIES BY STARS:
+1. donnemartin/system-design-primer - Stars: 351401, Language: Python
+2. vinta/awesome-python - Stars: 300822, Language: Python
+3. practical-tutorials/project-based-learning - Stars: 267289, Language: nan
+4. TheAlgorithms/Python - Stars: 221569, Language: Python
+5. tensorflow/tensorflow - Stars: 195360, Language: C++
+6. Significant-Gravitas/AutoGPT - Stars: 184710, Language: Python
+7. CyC2018/CS-Notes - Stars: 184453, Language: nan
+8. yt-dlp/yt-dlp - Stars: 167268, Language: Python
+9. huggingface/transformers - Stars: 161185, Language: Python
+10. 521xueweihan/HelloGitHub - Stars: 159698, Language: Python
+
+LANGUAGE DISTRIBUTION:
+Python: 74 repositories (74.0%)
+Jupyter Notebook: 6 repositories (6.0%)
+TypeScript: 4 repositories (4.0%)
+Rust: 3 repositories (3.0%)
+C++: 2 repositories (2.0%)
+Shell: 2 repositories (2.0%)
+CSS: 1 repositories (1.0%)
+JavaScript: 1 repositories (1.0%)
+Scala: 1 repositories (1.0%)
+
+MOST DOMINANT LANGUAGE: Python
+==================================================

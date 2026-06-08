@@ -1,0 +1,7 @@
+Starting web crawl...
+Crawling: https://httpbin.org
+Crawling: https://httpbin.org/forms/post
+Collected 0 images
+Data saved to image_dimensions.csv
+
+Most common image dimensions:

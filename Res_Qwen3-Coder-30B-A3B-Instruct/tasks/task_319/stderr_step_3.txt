@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_319/step_3.py", line 25, in <module>
+    for _, row in pd.read_csv('exchange_rates.csv').iterrows():
+                  ^^
+NameError: name 'pd' is not defined. Did you mean: 'id'?

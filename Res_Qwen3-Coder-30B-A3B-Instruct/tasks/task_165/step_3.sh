@@ -1,0 +1,1 @@
+find . -type f -exec stat -c "%s" {} \; | sort -n | awk '{a[i++]=$1} END {if(i%2==1) print a[int(i/2)]; else print (a[i/2-1]+a[i/2])/2}'

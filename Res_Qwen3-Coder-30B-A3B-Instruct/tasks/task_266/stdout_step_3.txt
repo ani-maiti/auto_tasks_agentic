@@ -1,0 +1,3 @@
+Found 337 Python files
+Class hierarchy saved to class_hierarchy.json
+Found 0 classes

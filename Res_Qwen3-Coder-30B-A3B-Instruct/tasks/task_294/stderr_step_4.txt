@@ -1,0 +1,5 @@
+find: ‘/tmp/systemd-private-aea672844517485b96bd1f1a0b70677f-upower.service-1qy8ih’: Permission denied
+find: ‘/tmp/systemd-private-aea672844517485b96bd1f1a0b70677f-power-profiles-daemon.service-h9VSPF’: Permission denied
+find: ‘/tmp/systemd-private-aea672844517485b96bd1f1a0b70677f-polkit.service-WgtZsh’: Permission denied
+find: ‘/tmp/RustDesk/cliprdr-server’: Permission denied
+find: ‘/tmp/systemd-private-aea672844517485b96bd1f1a0b70677f-systemd-logind.service-TuANiF’: Permission denied

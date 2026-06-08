@@ -1,0 +1,6 @@
+File Extension Report:
+--------------------
+.txt: 115
+.json: 55
+.sh: 49
+.py: 8

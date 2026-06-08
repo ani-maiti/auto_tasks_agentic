@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/tmux/tmux/releases/latest

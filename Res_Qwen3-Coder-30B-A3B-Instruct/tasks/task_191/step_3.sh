@@ -1,0 +1,1 @@
+find . -type f -mtime -1 -printf '%T@ %p\n' | sort -n | cut -d' ' -f2-

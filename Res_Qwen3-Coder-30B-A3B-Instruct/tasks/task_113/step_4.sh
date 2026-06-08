@@ -1,0 +1,1 @@
+curl -s https://www.kernel.org/ | grep -o '<title>[^<]*</title>' | sed 's/<title>\(.*\)<\/title>/\1/'

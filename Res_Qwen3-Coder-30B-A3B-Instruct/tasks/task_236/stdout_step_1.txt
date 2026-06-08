@@ -1,0 +1,10 @@
+./Sydney_weather.json
+./exchange_rates.json
+./Rio de Janeiro_weather.json
+./technology_news.json
+./hacker_news_classification.json
+./tasks/task_147/step_1_log.json
+./tasks/task_147/step_3_log.json
+./tasks/task_147/step_2_log.json
+./tasks/task_235/step_1_log.json
+./tasks/task_235/step_3_log.json

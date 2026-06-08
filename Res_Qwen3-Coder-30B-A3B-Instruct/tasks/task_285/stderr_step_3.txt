@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_285/step_3.py", line 81
+    elif
+        ^
+SyntaxError: invalid syntax

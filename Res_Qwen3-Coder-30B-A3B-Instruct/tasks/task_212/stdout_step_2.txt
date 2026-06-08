@@ -1,0 +1,22 @@
+Raw data file exists
+File contains data for base currency: USD
+Data date: 2026-06-02
+Number of currencies: 166
+
+--- FINAL SUMMARY ---
+Exchange rates for USD against 10 currencies:
+EUR: 0.86
+GBP: 0.743
+JPY: 159.6
+CAD: 1.38
+AUD: 1.4
+CHF: 0.786
+CNY: 6.78
+SEK: 9.3
+NZD: 1.68
+MXN: 17.36
+
+Strongest rate: JPY (159.6)
+Weakest rate: GBP (0.743)
+
+Raw data saved to exchange_rates_raw.json

@@ -1,0 +1,1 @@
+curl -s https://www.debian.org/releases/ | grep -o 'Debian [0-9]*' | head -1

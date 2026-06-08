@@ -1,0 +1,1 @@
+find . -type f -exec file {} \; | grep -i json | head -10

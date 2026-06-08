@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -exec wc -w {} + | tail -n 1

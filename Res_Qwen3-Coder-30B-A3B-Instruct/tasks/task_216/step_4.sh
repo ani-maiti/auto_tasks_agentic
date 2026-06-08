@@ -1,0 +1,1 @@
+cat key_inventory.txt

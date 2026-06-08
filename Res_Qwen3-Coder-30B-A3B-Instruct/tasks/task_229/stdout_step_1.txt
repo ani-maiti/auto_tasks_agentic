@@ -1,0 +1,6 @@
+Top 10 companies mentioned:
+NVIDIA: 3
+Microsoft: 2
+Apple: 1
+Dell: 1
+Google: 1

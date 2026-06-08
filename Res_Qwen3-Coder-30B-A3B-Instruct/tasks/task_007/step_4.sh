@@ -1,0 +1,1 @@
+find . -type d -print0 | xargs -0 du -d 1 | sort -nr | head -n 1 | cut -f2

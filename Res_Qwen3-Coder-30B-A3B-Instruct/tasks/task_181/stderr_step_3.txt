@@ -1,0 +1,2 @@
+./tasks/task_181/step_3.sh: line 1: syntax error near unexpected token `paths'
+./tasks/task_181/step_3.sh: line 1: `for size, paths in duplicates.items():'

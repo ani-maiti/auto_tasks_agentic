@@ -1,0 +1,11 @@
+All European Capital Weather Data:
+--------------------------------------------------
+London: 28°C (clear sky)
+Paris: 25°C (clear sky)
+Berlin: 28°C (clear sky)
+
+==================================================
+Summary Statistics:
+Total cities processed: 3
+Average temperature: 27.00°C
+Warmest capital: London with 28°C

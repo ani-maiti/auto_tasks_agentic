@@ -1,0 +1,1 @@
+find . -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.yml" -o -name "*.ini" -o -name "*.toml" \) | head -20

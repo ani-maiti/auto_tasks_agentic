@@ -1,0 +1,5 @@
+2772	.
+2696	./tasks
+220	./tasks/task_025
+200	./tasks/task_031
+176	./tasks/task_021

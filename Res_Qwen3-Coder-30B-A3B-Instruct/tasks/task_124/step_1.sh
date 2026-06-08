@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/numpy/numpy | grep -E '"stargazers_count"'

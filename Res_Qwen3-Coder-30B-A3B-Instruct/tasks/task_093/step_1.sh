@@ -1,0 +1,1 @@
+curl -s "https://api.github.com/search/repositories?q=language:rust&sort=stars&order=desc&per_page=5" | grep -E "full_name|stargazers_count"

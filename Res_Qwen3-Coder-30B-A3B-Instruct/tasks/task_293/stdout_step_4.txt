@@ -1,0 +1,9 @@
+    "trace": 1081,
+    "trace.stdout": 1081,
+    "trace.stderr": 1081,
+    "trace.return_code": 1081,
+    "messages": 1081,
+    "messages.role": 5900,
+    "messages.content": 5900
+  }
+}

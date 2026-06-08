@@ -1,0 +1,1 @@
+curl -s https://www.postgresql.org/blog/ | grep -A2 -B2 "class.*blog"

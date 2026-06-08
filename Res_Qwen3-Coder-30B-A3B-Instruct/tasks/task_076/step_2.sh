@@ -1,0 +1,1 @@
+curl -s "http://ip-api.com/json/192.73.23.2"

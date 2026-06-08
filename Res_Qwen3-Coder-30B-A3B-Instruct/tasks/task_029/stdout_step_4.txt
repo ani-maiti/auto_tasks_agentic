@@ -1,0 +1,1 @@
+Total lines in shell scripts: 16

@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/rust-lang/rust/releases/latest | jq -r '.tag_name'

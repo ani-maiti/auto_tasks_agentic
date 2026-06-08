@@ -1,0 +1,8 @@
+Language,Frequency
+C,76
+Lua,1
+R,91
+Go,5
+Rust,4
+C++,1
+Scala,1

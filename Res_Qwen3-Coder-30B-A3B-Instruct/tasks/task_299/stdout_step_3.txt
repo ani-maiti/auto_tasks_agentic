@@ -1,0 +1,6 @@
+{
+  "total_urls": 0,
+  "unique_domains": 0,
+  "domain_counts": {},
+  "most_referenced_domains": []
+}

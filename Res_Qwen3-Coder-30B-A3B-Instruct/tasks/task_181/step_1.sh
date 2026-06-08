@@ -1,0 +1,1 @@
+find . -type f -exec ls -l {} \; | awk '{print $5, $9}' > file_list.txt

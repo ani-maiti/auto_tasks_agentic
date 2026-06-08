@@ -1,0 +1,1 @@
+curl -s https://www.debian.org/releases/ | grep -o 'stable' | head -1

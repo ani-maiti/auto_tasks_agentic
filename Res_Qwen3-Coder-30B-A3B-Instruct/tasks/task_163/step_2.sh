@@ -1,0 +1,1 @@
+find . -type f -size -100c -print0 | xargs -0 ls -lh

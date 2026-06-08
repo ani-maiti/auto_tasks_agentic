@@ -1,0 +1,7 @@
+Top 5 Most Starred Python Repositories on GitHub:
+==================================================
+1. public-apis/public-apis - 438,472 stars
+2. EbookFoundation/free-programming-books - 389,352 stars
+3. donnemartin/system-design-primer - 351,354 stars
+4. vinta/awesome-python - 300,764 stars
+5. TheAlgorithms/Python - 221,554 stars

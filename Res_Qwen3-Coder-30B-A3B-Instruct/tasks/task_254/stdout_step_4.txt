@@ -1,0 +1,3 @@
+Task completed successfully!
+The weather forecast data for 10 major cities has been saved to 'weather_forecast_data.json'
+New York has the highest forecast variability with a score of 2.13

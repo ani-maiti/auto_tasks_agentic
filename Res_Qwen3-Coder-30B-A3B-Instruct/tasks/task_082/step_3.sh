@@ -1,0 +1,1 @@
+curl -s https://pyfound.blogspot.com/ | grep -o '<h3[^>]*class="post-title[^>]*>[^<]*</h3>' | head -1

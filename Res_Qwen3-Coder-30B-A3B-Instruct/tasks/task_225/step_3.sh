@@ -1,0 +1,1 @@
+ls -la /home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_CodeGemma-7B-IT/

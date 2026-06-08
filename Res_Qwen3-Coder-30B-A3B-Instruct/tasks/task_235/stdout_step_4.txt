@@ -1,0 +1,77 @@
+# CSV Primary Key Analysis Report
+
+## File: ./company_mentions.csv
+
+Columns: Company, Mentions
+
+Potential Primary Key Columns:
+- `Company`
+
+## File: ./crypto_prices.csv
+
+Columns: id, name, symbol, current_price, market_cap, market_cap_rank, total_volume
+
+Potential Primary Key Columns:
+- `id`
+- `name`
+- `symbol`
+- `current_price`
+- `market_cap`
+- `market_cap_rank`
+- `total_volume`
+
+## File: ./long_functions_report.csv
+
+Columns: File Path, Function Name, Line Count
+
+Potential Primary Key Columns:
+- `File Path`
+- `Function Name`
+- `Line Count`
+
+## File: ./python_files_line_counts.csv
+
+Columns: File Path, Line Count
+
+Potential Primary Key Columns:
+- `File Path`
+
+## File: ./largest_files.csv
+
+Columns: Size (bytes), File Path
+
+Potential Primary Key Columns:
+- `File Path`
+
+## File: ./config_report.csv
+
+Columns: File Path, cod, message, list, task_id, step, max_steps, timestamp, task_description, code, trace.stdout, trace.stderr, trace.return_code, messages
+
+Potential Primary Key Columns:
+- `File Path`
+- `timestamp`
+
+## File: ./file_size_histogram.csv
+
+Columns: size, count
+
+Potential Primary Key Columns:
+- `size`
+
+## File: ./repo_metadata.csv
+
+Columns: name, stars, forks, open_issues
+
+Potential Primary Key Columns:
+- `name`
+- `stars`
+- `forks`
+- `open_issues`
+
+## File: ./key_analysis.csv
+
+Columns: Key, Count
+
+Potential Primary Key Columns:
+- `Key`
+

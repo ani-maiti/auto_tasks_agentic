@@ -1,0 +1,1 @@
+find . -type d -exec sh -c 'echo "$(find "{}" -type f | wc -l) {}"' \; | sort -nr | head -20

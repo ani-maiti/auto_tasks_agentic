@@ -1,0 +1,5 @@
+Starting wiki crawl...
+Error crawling https://en.wikipedia.org/wiki/Main_Page: 403 Client Error: Forbidden for url: https://en.wikipedia.org/wiki/Main_Page
+Finished crawling. Visited 0 pages.
+Graph saved to wiki_graph.json
+Found 0 communities

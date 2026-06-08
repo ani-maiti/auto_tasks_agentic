@@ -1,0 +1,14 @@
+company_mentions.csv: Not enough numeric columns for correlation analysis
+language_frequencies.csv: Not enough numeric columns for correlation analysis
+email_detection_report.csv: Error processing file - No columns to parse from file
+github_releases.csv: Not enough numeric columns for correlation analysis
+long_functions_report.csv: Not enough numeric columns for correlation analysis
+python_files_line_counts.csv: Not enough numeric columns for correlation analysis
+largest_files.csv: Not enough numeric columns for correlation analysis
+file_size_histogram.csv: Not enough numeric columns for correlation analysis
+duplicated_headings_report.csv: Not enough numeric columns for correlation analysis
+hacker_news_domains.csv: Not enough numeric columns for correlation analysis
+keyword_frequency.csv: Not enough numeric columns for correlation analysis
+key_analysis.csv: Not enough numeric columns for correlation analysis
+table_report.csv: Not enough numeric columns for correlation analysis
+Correlation report generated successfully.

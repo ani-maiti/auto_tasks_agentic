@@ -1,0 +1,782 @@
+[
+  {
+    "path": "./generate_code_model_run.py",
+    "size": 7796
+  },
+  {
+    "path": "./tasks/task_091/step_3.py",
+    "size": 1680
+  },
+  {
+    "path": "./tasks/task_091/step_1.py",
+    "size": 852
+  },
+  {
+    "path": "./tasks/task_091/step_2.py",
+    "size": 698
+  },
+  {
+    "path": "./tasks/task_091/step_4.py",
+    "size": 1709
+  },
+  {
+    "path": "./tasks/task_122/step_2.py",
+    "size": 10
+  },
+  {
+    "path": "./tasks/task_023/step_5.py",
+    "size": 345
+  },
+  {
+    "path": "./tasks/task_023/step_2.py",
+    "size": 382
+  },
+  {
+    "path": "./tasks/task_086/step_3.py",
+    "size": 263
+  },
+  {
+    "path": "./tasks/task_086/step_1.py",
+    "size": 87
+  },
+  {
+    "path": "./tasks/task_086/step_2.py",
+    "size": 197
+  },
+  {
+    "path": "./tasks/task_092/step_3.py",
+    "size": 352
+  },
+  {
+    "path": "./tasks/task_092/step_5.py",
+    "size": 7
+  },
+  {
+    "path": "./tasks/task_092/step_2.py",
+    "size": 544
+  },
+  {
+    "path": "./tasks/task_092/step_4.py",
+    "size": 97
+  },
+  {
+    "path": "./tasks/task_013/step_3.py",
+    "size": 428
+  },
+  {
+    "path": "./tasks/task_089/step_3.py",
+    "size": 601
+  },
+  {
+    "path": "./tasks/task_089/step_1.py",
+    "size": 605
+  },
+  {
+    "path": "./tasks/task_072/step_1.py",
+    "size": 636
+  },
+  {
+    "path": "./tasks/task_072/step_2.py",
+    "size": 636
+  },
+  {
+    "path": "./tasks/task_101/step_2.py",
+    "size": 305
+  },
+  {
+    "path": "./tasks/task_035/step_2.py",
+    "size": 869
+  },
+  {
+    "path": "./tasks/task_130/step_3.py",
+    "size": 130
+  },
+  {
+    "path": "./tasks/task_130/step_5.py",
+    "size": 130
+  },
+  {
+    "path": "./tasks/task_130/step_1.py",
+    "size": 130
+  },
+  {
+    "path": "./tasks/task_130/step_2.py",
+    "size": 130
+  },
+  {
+    "path": "./tasks/task_130/step_4.py",
+    "size": 130
+  },
+  {
+    "path": "./tasks/task_032/step_3.py",
+    "size": 72
+  },
+  {
+    "path": "./tasks/task_032/step_2.py",
+    "size": 1045
+  },
+  {
+    "path": "./tasks/task_105/step_3.py",
+    "size": 368
+  },
+  {
+    "path": "./tasks/task_105/step_1.py",
+    "size": 368
+  },
+  {
+    "path": "./tasks/task_105/step_2.py",
+    "size": 521
+  },
+  {
+    "path": "./tasks/task_057/step_3.py",
+    "size": 360
+  },
+  {
+    "path": "./tasks/task_057/step_1.py",
+    "size": 360
+  },
+  {
+    "path": "./tasks/task_057/step_2.py",
+    "size": 360
+  },
+  {
+    "path": "./tasks/task_079/step_2.py",
+    "size": 166
+  },
+  {
+    "path": "./tasks/task_112/step_1.py",
+    "size": 549
+  },
+  {
+    "path": "./tasks/task_112/step_2.py",
+    "size": 549
+  },
+  {
+    "path": "./tasks/task_114/step_1.py",
+    "size": 399
+  },
+  {
+    "path": "./tasks/task_114/step_2.py",
+    "size": 799
+  },
+  {
+    "path": "./tasks/task_144/step_2.py",
+    "size": 756
+  },
+  {
+    "path": "./tasks/task_017/step_3.py",
+    "size": 624
+  },
+  {
+    "path": "./tasks/task_075/step_2.py",
+    "size": 158
+  },
+  {
+    "path": "./tasks/task_087/step_3.py",
+    "size": 120
+  },
+  {
+    "path": "./tasks/task_087/step_5.py",
+    "size": 155
+  },
+  {
+    "path": "./tasks/task_087/step_1.py",
+    "size": 87
+  },
+  {
+    "path": "./tasks/task_087/step_2.py",
+    "size": 197
+  },
+  {
+    "path": "./tasks/task_087/step_4.py",
+    "size": 180
+  },
+  {
+    "path": "./tasks/task_141/step_2.py",
+    "size": 941
+  },
+  {
+    "path": "./tasks/task_108/step_3.py",
+    "size": 205
+  },
+  {
+    "path": "./tasks/task_108/step_4.py",
+    "size": 271
+  },
+  {
+    "path": "./tasks/task_098/step_2.py",
+    "size": 305
+  },
+  {
+    "path": "./tasks/task_076/step_3.py",
+    "size": 614
+  },
+  {
+    "path": "./tasks/task_003/step_3.py",
+    "size": 555
+  },
+  {
+    "path": "./tasks/task_085/step_2.py",
+    "size": 87
+  },
+  {
+    "path": "./tasks/task_093/step_3.py",
+    "size": 363
+  },
+  {
+    "path": "./tasks/task_093/step_2.py",
+    "size": 465
+  },
+  {
+    "path": "./tasks/task_120/step_2.py",
+    "size": 48
+  },
+  {
+    "path": "./tasks/task_127/step_3.py",
+    "size": 113
+  },
+  {
+    "path": "./tasks/task_127/step_5.py",
+    "size": 113
+  },
+  {
+    "path": "./tasks/task_127/step_1.py",
+    "size": 113
+  },
+  {
+    "path": "./tasks/task_127/step_2.py",
+    "size": 113
+  },
+  {
+    "path": "./tasks/task_127/step_4.py",
+    "size": 113
+  },
+  {
+    "path": "./tasks/task_090/step_3.py",
+    "size": 2227
+  },
+  {
+    "path": "./tasks/task_090/step_1.py",
+    "size": 1531
+  },
+  {
+    "path": "./tasks/task_090/step_2.py",
+    "size": 1299
+  },
+  {
+    "path": "./tasks/task_090/step_4.py",
+    "size": 1914
+  },
+  {
+    "path": "./tasks/task_058/step_1.py",
+    "size": 1042
+  },
+  {
+    "path": "./tasks/task_058/step_2.py",
+    "size": 939
+  },
+  {
+    "path": "./tasks/task_145/step_2.py",
+    "size": 835
+  },
+  {
+    "path": "./tasks/task_142/step_2.py",
+    "size": 1054
+  },
+  {
+    "path": "./tasks/task_056/step_3.py",
+    "size": 373
+  },
+  {
+    "path": "./tasks/task_056/step_1.py",
+    "size": 655
+  },
+  {
+    "path": "./tasks/task_056/step_2.py",
+    "size": 371
+  },
+  {
+    "path": "./tasks/task_056/step_4.py",
+    "size": 354
+  },
+  {
+    "path": "./tasks/task_059/step_2.py",
+    "size": 48
+  },
+  {
+    "path": "./tasks/task_046/step_3.py",
+    "size": 786
+  },
+  {
+    "path": "./tasks/task_046/step_2.py",
+    "size": 677
+  },
+  {
+    "path": "./tasks/task_043/step_2.py",
+    "size": 315
+  },
+  {
+    "path": "./tasks/task_069/step_1.py",
+    "size": 286
+  },
+  {
+    "path": "./tasks/task_113/step_3.py",
+    "size": 206
+  },
+  {
+    "path": "./tasks/task_113/step_5.py",
+    "size": 267
+  },
+  {
+    "path": "./tasks/task_113/step_2.py",
+    "size": 206
+  },
+  {
+    "path": "./tasks/task_107/step_3.py",
+    "size": 205
+  },
+  {
+    "path": "./tasks/task_107/step_4.py",
+    "size": 205
+  },
+  {
+    "path": "./tasks/task_138/step_1.py",
+    "size": 93
+  },
+  {
+    "path": "./tasks/task_060/step_2.py",
+    "size": 247
+  },
+  {
+    "path": "./tasks/task_066/step_1.py",
+    "size": 291
+  },
+  {
+    "path": "./tasks/task_066/step_2.py",
+    "size": 50
+  },
+  {
+    "path": "./tasks/task_067/step_3.py",
+    "size": 335
+  },
+  {
+    "path": "./tasks/task_067/step_1.py",
+    "size": 335
+  },
+  {
+    "path": "./tasks/task_067/step_2.py",
+    "size": 335
+  },
+  {
+    "path": "./tasks/task_067/step_4.py",
+    "size": 335
+  },
+  {
+    "path": "./tasks/task_083/step_3.py",
+    "size": 178
+  },
+  {
+    "path": "./tasks/task_083/step_4.py",
+    "size": 280
+  },
+  {
+    "path": "./tasks/task_009/step_2.py",
+    "size": 471
+  },
+  {
+    "path": "./tasks/task_010/step_3.py",
+    "size": 331
+  },
+  {
+    "path": "./tasks/task_149/step_2.py",
+    "size": 835
+  },
+  {
+    "path": "./tasks/task_080/step_2.py",
+    "size": 274
+  },
+  {
+    "path": "./tasks/task_065/step_1.py",
+    "size": 291
+  },
+  {
+    "path": "./tasks/task_065/step_2.py",
+    "size": 50
+  },
+  {
+    "path": "./tasks/task_068/step_3.py",
+    "size": 518
+  },
+  {
+    "path": "./tasks/task_068/step_5.py",
+    "size": 433
+  },
+  {
+    "path": "./tasks/task_068/step_1.py",
+    "size": 1041
+  },
+  {
+    "path": "./tasks/task_068/step_2.py",
+    "size": 671
+  },
+  {
+    "path": "./tasks/task_068/step_4.py",
+    "size": 518
+  },
+  {
+    "path": "./tasks/task_073/step_3.py",
+    "size": 892
+  },
+  {
+    "path": "./tasks/task_073/step_1.py",
+    "size": 832
+  },
+  {
+    "path": "./tasks/task_073/step_2.py",
+    "size": 895
+  },
+  {
+    "path": "./tasks/task_073/step_4.py",
+    "size": 662
+  },
+  {
+    "path": "./tasks/task_126/step_3.py",
+    "size": 247
+  },
+  {
+    "path": "./tasks/task_126/step_1.py",
+    "size": 402
+  },
+  {
+    "path": "./tasks/task_031/step_2.py",
+    "size": 888
+  },
+  {
+    "path": "./tasks/task_088/step_3.py",
+    "size": 624
+  },
+  {
+    "path": "./tasks/task_088/step_1.py",
+    "size": 587
+  },
+  {
+    "path": "./tasks/task_016/step_2.py",
+    "size": 651
+  },
+  {
+    "path": "./tasks/task_025/step_3.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_025/step_1.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_025/step_2.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_025/step_4.py",
+    "size": 709
+  },
+  {
+    "path": "./tasks/task_063/step_1.py",
+    "size": 291
+  },
+  {
+    "path": "./tasks/task_084/step_1.py",
+    "size": 159
+  },
+  {
+    "path": "./tasks/task_125/step_2.py",
+    "size": 285
+  },
+  {
+    "path": "./tasks/task_128/step_3.py",
+    "size": 287
+  },
+  {
+    "path": "./tasks/task_128/step_1.py",
+    "size": 292
+  },
+  {
+    "path": "./tasks/task_128/step_2.py",
+    "size": 297
+  },
+  {
+    "path": "./tasks/task_128/step_4.py",
+    "size": 320
+  },
+  {
+    "path": "./tasks/task_121/step_2.py",
+    "size": 363
+  },
+  {
+    "path": "./tasks/task_129/step_3.py",
+    "size": 400
+  },
+  {
+    "path": "./tasks/task_129/step_5.py",
+    "size": 438
+  },
+  {
+    "path": "./tasks/task_129/step_1.py",
+    "size": 457
+  },
+  {
+    "path": "./tasks/task_129/step_2.py",
+    "size": 427
+  },
+  {
+    "path": "./tasks/task_129/step_4.py",
+    "size": 485
+  },
+  {
+    "path": "./tasks/task_074/step_1.py",
+    "size": 617
+  },
+  {
+    "path": "./tasks/task_074/step_2.py",
+    "size": 617
+  },
+  {
+    "path": "./tasks/task_081/step_3.py",
+    "size": 448
+  },
+  {
+    "path": "./tasks/task_081/step_1.py",
+    "size": 448
+  },
+  {
+    "path": "./tasks/task_099/step_3.py",
+    "size": 732
+  },
+  {
+    "path": "./tasks/task_099/step_1.py",
+    "size": 512
+  },
+  {
+    "path": "./tasks/task_099/step_2.py",
+    "size": 587
+  },
+  {
+    "path": "./tasks/task_064/step_1.py",
+    "size": 309
+  },
+  {
+    "path": "./tasks/task_052/step_1.py",
+    "size": 642
+  },
+  {
+    "path": "./tasks/task_052/step_2.py",
+    "size": 711
+  },
+  {
+    "path": "./tasks/task_143/step_3.py",
+    "size": 792
+  },
+  {
+    "path": "./tasks/task_123/step_2.py",
+    "size": 11
+  },
+  {
+    "path": "./tasks/task_102/step_2.py",
+    "size": 91
+  },
+  {
+    "path": "./tasks/task_070/step_3.py",
+    "size": 1415
+  },
+  {
+    "path": "./tasks/task_070/step_1.py",
+    "size": 548
+  },
+  {
+    "path": "./tasks/task_070/step_2.py",
+    "size": 968
+  },
+  {
+    "path": "./tasks/task_106/step_3.py",
+    "size": 395
+  },
+  {
+    "path": "./tasks/task_106/step_4.py",
+    "size": 257
+  },
+  {
+    "path": "./tasks/task_077/step_2.py",
+    "size": 40
+  },
+  {
+    "path": "./tasks/task_104/step_3.py",
+    "size": 312
+  },
+  {
+    "path": "./tasks/task_104/step_5.py",
+    "size": 334
+  },
+  {
+    "path": "./tasks/task_104/step_1.py",
+    "size": 327
+  },
+  {
+    "path": "./tasks/task_104/step_4.py",
+    "size": 299
+  },
+  {
+    "path": "./tasks/task_109/step_3.py",
+    "size": 287
+  },
+  {
+    "path": "./tasks/task_109/step_5.py",
+    "size": 382
+  },
+  {
+    "path": "./tasks/task_109/step_4.py",
+    "size": 341
+  },
+  {
+    "path": "./tasks/task_124/step_2.py",
+    "size": 12
+  },
+  {
+    "path": "./tasks/task_135/step_2.py",
+    "size": 260
+  },
+  {
+    "path": "./tasks/task_062/step_4.py",
+    "size": 753
+  },
+  {
+    "path": "./tasks/task_011/step_3.py",
+    "size": 7
+  },
+  {
+    "path": "./tasks/task_011/step_2.py",
+    "size": 80
+  },
+  {
+    "path": "./tasks/task_110/step_4.py",
+    "size": 409
+  },
+  {
+    "path": "./tasks/task_095/step_2.py",
+    "size": 40
+  },
+  {
+    "path": "./tasks/task_137/step_3.py",
+    "size": 90
+  },
+  {
+    "path": "./tasks/task_137/step_1.py",
+    "size": 91
+  },
+  {
+    "path": "./tasks/task_137/step_2.py",
+    "size": 161
+  },
+  {
+    "path": "./tasks/task_055/step_3.py",
+    "size": 430
+  },
+  {
+    "path": "./tasks/task_055/step_1.py",
+    "size": 875
+  },
+  {
+    "path": "./tasks/task_055/step_2.py",
+    "size": 572
+  },
+  {
+    "path": "./tasks/task_096/step_3.py",
+    "size": 554
+  },
+  {
+    "path": "./tasks/task_096/step_2.py",
+    "size": 554
+  },
+  {
+    "path": "./tasks/task_071/step_3.py",
+    "size": 900
+  },
+  {
+    "path": "./tasks/task_071/step_1.py",
+    "size": 784
+  },
+  {
+    "path": "./tasks/task_071/step_2.py",
+    "size": 1062
+  },
+  {
+    "path": "./tasks/task_071/step_4.py",
+    "size": 843
+  },
+  {
+    "path": "./tasks/task_103/step_1.py",
+    "size": 456
+  },
+  {
+    "path": "./tasks/task_103/step_2.py",
+    "size": 606
+  },
+  {
+    "path": "./tasks/task_048/step_3.py",
+    "size": 650
+  },
+  {
+    "path": "./tasks/task_118/step_2.py",
+    "size": 52
+  },
+  {
+    "path": "./tasks/task_054/step_1.py",
+    "size": 125
+  },
+  {
+    "path": "./tasks/task_150/step_1.py",
+    "size": 621
+  },
+  {
+    "path": "./tasks/task_116/step_3.py",
+    "size": 648
+  },
+  {
+    "path": "./tasks/task_116/step_1.py",
+    "size": 398
+  },
+  {
+    "path": "./tasks/task_116/step_2.py",
+    "size": 870
+  },
+  {
+    "path": "./tasks/task_131/step_3.py",
+    "size": 3415
+  },
+  {
+    "path": "./tasks/task_131/step_5.py",
+    "size": 356
+  },
+  {
+    "path": "./tasks/task_131/step_4.py",
+    "size": 356
+  },
+  {
+    "path": "./tasks/task_053/step_5.py",
+    "size": 71
+  },
+  {
+    "path": "./tasks/task_053/step_1.py",
+    "size": 633
+  },
+  {
+    "path": "./tasks/task_053/step_2.py",
+    "size": 658
+  },
+  {
+    "path": "./tasks/task_053/step_4.py",
+    "size": 138
+  },
+  {
+    "path": "./tasks/task_100/step_2.py",
+    "size": 308
+  }
+]

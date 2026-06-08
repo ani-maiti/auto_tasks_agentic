@@ -1,0 +1,1 @@
+curl -s -o /dev/null -w "%{url_effective}\n" -L https://www.python.org

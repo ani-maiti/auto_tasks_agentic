@@ -1,0 +1,1 @@
+find . -type f \( -name "*.db" -o -name "*.sqlite" -o -name "*.sqlite3" \) -print0 | xargs -0 ls -la

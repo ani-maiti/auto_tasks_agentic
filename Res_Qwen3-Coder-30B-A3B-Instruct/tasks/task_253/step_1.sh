@@ -1,0 +1,1 @@
+curl -s "https://news.ycombinator.com/" | grep -o '<a href="[^"]*" class="storylink">[^<]*</a>' | head -n 100 | sed 's/.*class="storylink">//; s/<\/a>//' > titles.txt

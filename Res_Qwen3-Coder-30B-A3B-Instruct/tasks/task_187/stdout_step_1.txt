@@ -1,0 +1,10 @@
+/etc/ppp/ipv6-down
+/etc/ppp/ip-up.d/00-dns.sh
+/etc/ppp/ip-down.d/00-dns.sh
+/etc/ppp/ip-up
+/etc/ppp/ipv6-up
+/etc/ppp/ipv6-up.d/00-iface-config.sh
+/etc/ppp/ip-down
+/etc/security/namespace.init
+/etc/xdg/Xwayland-session.d/00-at-spi
+/etc/X11/xinit/xinitrc.d/40-libcanberra-gtk-module.sh

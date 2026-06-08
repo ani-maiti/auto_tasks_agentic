@@ -1,0 +1,10 @@
+Found 4 text files
+Entity inventory saved to entity_inventory.json
+Total entities by type:
+  emails: 1
+  urls: 1
+  dates: 2
+  phone_numbers: 2
+  numbers: 1098
+
+Most common entity type: numbers with 1098 occurrences

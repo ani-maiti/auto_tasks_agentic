@@ -1,0 +1,10 @@
+Total files analyzed: 351
+Coverage report entries: 351
+Undocumented functions: 103
+
+First 5 files by coverage:
+./tasks/task_235/step_3.py: 0.0%
+./tasks/task_235/step_2.py: 0.0%
+./tasks/task_216/step_3.py: 0.0%
+./tasks/task_216/step_2.py: 0.0%
+./tasks/task_223/step_2.py: 0.0%

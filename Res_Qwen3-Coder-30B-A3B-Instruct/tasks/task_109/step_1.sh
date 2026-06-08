@@ -1,0 +1,1 @@
+dig outlook.com MX

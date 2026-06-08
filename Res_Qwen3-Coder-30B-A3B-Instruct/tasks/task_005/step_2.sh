@@ -1,0 +1,1 @@
+find . -type f -size +1M -exec stat -c "%s,%n" {} \; | head -20

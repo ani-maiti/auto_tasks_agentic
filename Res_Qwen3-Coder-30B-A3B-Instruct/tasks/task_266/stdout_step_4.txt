@@ -1,0 +1,5 @@
+Found 338 Python files
+Examining file: ./generate_code_model_run.py
+Classes found in ./generate_code_model_run.py: []
+Class hierarchy saved to class_hierarchy.json
+Found 0 classes total

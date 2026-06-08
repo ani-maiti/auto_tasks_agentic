@@ -1,0 +1,506 @@
+{
+  "repositories": [
+    {
+      "name": "PabloVitt/acis-python-sdk",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "DIMANANDEZ/refrag",
+      "stars": 3,
+      "forks": 1
+    },
+    {
+      "name": "konichiwa1023/Machine-Learning-with-Tree-Based-Models-in-Python",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "clay-good/verisim",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "haritha8503/langextract",
+      "stars": 0,
+      "forks": 1
+    },
+    {
+      "name": "Haerulanwar05/Zero-To-ML-Engineer",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Sah-arch/legalysis",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "shahram-h-hesari/secure-wifi-csi-healthcare-sensing",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "jhikeplays/GlobalEye",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "kushal0616/eggroll-embedding-trainer",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Siege1876/reachy_mini",
+      "stars": 1,
+      "forks": 1
+    },
+    {
+      "name": "marlyn13-cloud/ResilientCare",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "unclelittlestar/media-summarizer",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Arshdeep123/vibe-analyzer",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Islam1264/RAG-Interview-Questions-and-Answers-Hub",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "bellemosca/airflow-machine-learning-pipeline",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "aten302/Tumor-Doppelganger-Studio",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "MuuYesen/trade-learn",
+      "stars": 81,
+      "forks": 18
+    },
+    {
+      "name": "Shalaka127/Store-Sales-Forecasting-Using-Machine-Learning-case-study",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "mlpack/mlpack",
+      "stars": 5652,
+      "forks": 1710
+    },
+    {
+      "name": "Tetooozx/taxi-weather-analytics",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "MrRay-101/lofi.nvim",
+      "stars": 0,
+      "forks": 2
+    },
+    {
+      "name": "khalid0987/Machine-Learning-Warning-Systems",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "HeyAlexOliveira/Factum---ML-",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "waefrebeorn/money-room",
+      "stars": 1,
+      "forks": 1
+    },
+    {
+      "name": "Alyson145/BTC_ETH_Price_Prediction_Model",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Amethist890/ros2-humble-docker-ml-robotics-nav2-fastapi",
+      "stars": 3,
+      "forks": 0
+    },
+    {
+      "name": "Mont-ikayo2302/medasr",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Wavyier/game-recommendation-agent",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "idakam/nyc-noise-complaint-predictor",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "vonofdaville/adversarial-phish-forge",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "sv54shivam84/Fake-Company-Verifier",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Joakr95/streamlined-applied-math-curriculum",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Arttixmodz/FEDRETAIL-Framework",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "MatheusWinkler/knowledge-pipeline",
+      "stars": 2,
+      "forks": 1
+    },
+    {
+      "name": "zrldnl/credit-risk-prediction-xgboost",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "anuwat1150/stanford-cs-229-machine-learning",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "DanishAliSyed/fraud_detection",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "lvargasd11/MGNREGA-Data-Analysis-PowerBI",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "freshestmanaliv1993/Machine_Learning-And-Data_Mining-Project",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "mrjoybiswas07/artificial-intelligence-and-machine-learning",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "anonymous7220/data-science-bootcamp",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "TanchingonYT/credit-card-fraud-project",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "gustavoesper/vision-hud-controller",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "enesdanis00/theo-hide",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "KouseiA/AGI_HER_LLM",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "Bryanqty/Startup-Finance-Dataset",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Pickle1432/Military-Aircraft-Detection",
+      "stars": 3,
+      "forks": 0
+    },
+    {
+      "name": "AlphaVizi/Road-Accident-Severity-Prediction-ML",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "ppranggk/Machine-Learning-Should-Warn-Not-Decide",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Lurcypringles/CS229",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "gopi703/cultural-advice-bias",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "PandaKawaii334/ptrader",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "bli312/cnn-image-identifier",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Aditya3282/unbihexium",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Fran-Chu/sme-insights",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "gabryelvieiramusico/instagram-content-intelligence-pro",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "XKionx/Loan_Eligibility_Prediction",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "wateasca/DiffusionVL",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "ADRIANVM117/quant-research-notes",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "MalongaFructueux/tracker-velib-paris",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Q84hello/ununseptium",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "EyeKlass/machine-learning-practice-sets",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "kizmocuDev/content-humanizer",
+      "stars": 2,
+      "forks": 1
+    },
+    {
+      "name": "cauepio/Lifestyle-Health-Risk-Prediction",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "TushaeBXN/kerrigan-fantasma",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "codeandclass/ecommerce-customer-behavior-analysis",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "ANTHONYBENICIO2012/LitWithParticles",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "vangame97/Koffan",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Sushiii24/Recipes",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "DipendraSinghSandhu/dongguaTV",
+      "stars": 0,
+      "forks": 1
+    },
+    {
+      "name": "wjlee619/mos2-memristor-ml",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Pablitocalvi/OpenSandbox",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "sriramrajendran21/Predicting-Purchase-Intentions-Through-Social-Media-Sentimental-Analysis",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "AddyDelaCruz/swift-tiktoken",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "SyedMoasib000/ai-system-design-guide",
+      "stars": 8,
+      "forks": 1
+    },
+    {
+      "name": "mtmatheuus/QKV-Core",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "alikhan017/ada",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Ajaykumar-8307/zola-theme-cyber-walk",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "abdoyouseef/Grade",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Klakygaming/project-parasite",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Ruelbernal03/Yigtwxx",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "badassX/SPEC-AGENTS.md",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "mate3424/easy-zoot-data-scraper",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "alanpe96/rscexplorer",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "amankh007/hyperbooklm",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "Hizomboga/ocmt",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "ZaykorDev/AsesorAIrrechisimo",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "praveenkumarreddyaturu104/TENSORFLOW",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "vanl214/Face-Recognition",
+      "stars": 2,
+      "forks": 1
+    },
+    {
+      "name": "Gutho2402/dongguaTV",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Lucaszac98/Disaster-Instability-Early-Warning-Engine",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "franco123883/SnapchatMemoryDownloader",
+      "stars": 3,
+      "forks": 0
+    },
+    {
+      "name": "fabriad/Student-Minor-Prediction",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "name": "mt801/OrionPrime",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Nisado29/Aerial-Robotics-Competition",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "Thomasetiawan/power-inspection",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "name": "zukakun-11/aywson",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "OscarPal/symbolic_regression.rs",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "ErcinDedeoglu/crypto-market-data",
+      "stars": 50,
+      "forks": 10
+    }
+  ],
+  "average_stars": 58.49,
+  "average_forks": 17.49
+}

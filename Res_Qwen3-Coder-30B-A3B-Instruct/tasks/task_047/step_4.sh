@@ -1,0 +1,1 @@
+find . -type f -name "*.json" -o -name "*.js" -o -name "*.ts" -o -name "*.yaml" -o -name "*.yml" | head -10

@@ -1,0 +1,53 @@
+[
+  {
+    "file": "./github_releases.csv",
+    "date_columns": [
+      "published_at"
+    ],
+    "date_ranges": {
+      "published_at": {
+        "min": "2018-10-08",
+        "max": "2026-06-01",
+        "count": 36
+      }
+    },
+    "overall_range": {
+      "min": "2018-10-08",
+      "max": "2026-06-01"
+    }
+  },
+  {
+    "file": "./weather_data_raw.csv",
+    "date_columns": [
+      "timestamp"
+    ],
+    "date_ranges": {
+      "timestamp": {
+        "min": "2026-06-02",
+        "max": "2026-06-06",
+        "count": 2080
+      }
+    },
+    "overall_range": {
+      "min": "2026-06-02",
+      "max": "2026-06-06"
+    }
+  },
+  {
+    "file": "./config_report.csv",
+    "date_columns": [
+      "timestamp"
+    ],
+    "date_ranges": {
+      "timestamp": {
+        "min": "2026-05-17",
+        "max": "2026-05-28",
+        "count": 793
+      }
+    },
+    "overall_range": {
+      "min": "2026-05-17",
+      "max": "2026-05-28"
+    }
+  }
+]

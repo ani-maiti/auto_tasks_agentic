@@ -1,0 +1,1 @@
+head -n 10 weather_data_raw.csv

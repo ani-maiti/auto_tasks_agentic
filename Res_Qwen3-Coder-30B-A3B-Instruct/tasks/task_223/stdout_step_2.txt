@@ -1,0 +1,3 @@
+Widest date range: 11 days
+File: ./config_report.csv
+Column: timestamp

@@ -1,0 +1,6 @@
+Number of links found: 213
+Link 1: #content
+Link 2: #python-network
+Link 3: /
+Link 4: https://www.python.org/psf/
+Link 5: https://docs.python.org

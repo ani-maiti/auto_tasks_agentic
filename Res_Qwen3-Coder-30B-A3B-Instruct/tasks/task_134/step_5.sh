@@ -1,0 +1,1 @@
+curl -s https://kubernetes.io/blog/ | grep -o 'href="/blog/[0-9]*/[0-9]*/[0-9]*/[^"]*"' | head -1

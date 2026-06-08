@@ -1,0 +1,46 @@
+{
+  "total_json_files": 1116,
+  "total_unique_key_paths": 136023,
+  "most_common_structures": [
+    [
+      "messages.role",
+      5900
+    ],
+    [
+      "messages.content",
+      5900
+    ],
+    [
+      "task_id",
+      1081
+    ],
+    [
+      "step",
+      1081
+    ],
+    [
+      "max_steps",
+      1081
+    ],
+    [
+      "timestamp",
+      1081
+    ],
+    [
+      "task_description",
+      1081
+    ],
+    [
+      "code",
+      1081
+    ],
+    [
+      "trace",
+      1081
+    ],
+    [
+      "trace.stdout",
+      1081
+    ]
+  ]
+}

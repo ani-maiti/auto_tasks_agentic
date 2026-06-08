@@ -1,0 +1,16 @@
+Found 5 databases
+
+Processing database 1: /home/ai_admin/.ipython/profile_default/history.sqlite
+Saved schema to schema_history.sqlite.md
+
+Processing database 2: /home/ai_admin/aniruddha/nasa_seed/auto_task_codes_and_logs/Res_CodeGemma-7B-IT/database.db
+Saved schema to schema_database.db.md
+
+Processing database 3: /home/ai_admin/.config/libaccounts-glib/accounts.db
+Saved schema to schema_accounts.db.md
+
+Processing database 4: /home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/places.sqlite
+Saved schema to schema_places.sqlite.md
+
+Processing database 5: /home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/formhistory.sqlite
+Saved schema to schema_formhistory.sqlite.md

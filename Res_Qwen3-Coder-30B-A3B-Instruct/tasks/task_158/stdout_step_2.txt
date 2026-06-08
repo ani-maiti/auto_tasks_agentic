@@ -1,0 +1,13 @@
+total 124
+drwxr-xr-x   3 ai_admin ai_admin  4096 Jun  1 18:50 .
+drwxr-xr-x   5 ai_admin ai_admin  4096 Jun  1 15:08 ..
+-rw-r--r--   1 ai_admin ai_admin  7796 Jun  1 15:48 generate_code_model_run.py
+-rw-r--r--   1 ai_admin ai_admin  9846 Jun  1 16:23 largest_files.csv
+-rw-r--r--   1 ai_admin ai_admin  9722 Jun  1 16:25 largest_files.txt
+-rw-r--r--   1 ai_admin ai_admin 13058 Jun  1 18:50 python_files.json
+-rw-r--r--   1 ai_admin ai_admin  5975 Jun  1 18:49 python_files_line_counts.csv
+-rw-r--r--   1 ai_admin ai_admin  6951 Jun  1 18:33 sitemap.xml
+-rw-r--r--   1 ai_admin ai_admin  2204 May 31 13:29 system_prompt_body.txt
+-rw-r--r--   1 ai_admin ai_admin 32299 May 31 12:59 task_descriptions_all.txt
+-rw-r--r--   1 ai_admin ai_admin   332 May 31 11:33 task_descriptions.txt
+drwxr-xr-x 160 ai_admin ai_admin 12288 Jun  1 18:58 tasks

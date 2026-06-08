@@ -1,0 +1,54 @@
+Retrieving weather data for largest cities in each US state...
+Number of cities to query: 50
+✗ Failed to retrieve data for Montgomery, AL: 401
+✗ Failed to retrieve data for Juneau, AK: 401
+✗ Failed to retrieve data for Phoenix, AZ: 401
+✗ Failed to retrieve data for Little Rock, AR: 401
+✗ Failed to retrieve data for Sacramento, CA: 401
+✗ Failed to retrieve data for Denver, CO: 401
+✗ Failed to retrieve data for Hartford, CT: 401
+✗ Failed to retrieve data for Dover, DE: 401
+✗ Failed to retrieve data for Tallahassee, FL: 401
+✗ Failed to retrieve data for Atlanta, GA: 401
+✗ Failed to retrieve data for Honolulu, HI: 401
+✗ Failed to retrieve data for Boise, ID: 401
+✗ Failed to retrieve data for Springfield, IL: 401
+✗ Failed to retrieve data for Indianapolis, IN: 401
+✗ Failed to retrieve data for Des Moines, IA: 401
+✗ Failed to retrieve data for Topeka, KS: 401
+✗ Failed to retrieve data for Frankfort, KY: 401
+✗ Failed to retrieve data for Baton Rouge, LA: 401
+✗ Failed to retrieve data for Augusta, ME: 401
+✗ Failed to retrieve data for Annapolis, MD: 401
+✗ Failed to retrieve data for Boston, MA: 401
+✗ Failed to retrieve data for Lansing, MI: 401
+✗ Failed to retrieve data for Saint Paul, MN: 401
+✗ Failed to retrieve data for Jackson, MS: 401
+✗ Failed to retrieve data for Jefferson City, MO: 401
+✗ Failed to retrieve data for Helena, MT: 401
+✗ Failed to retrieve data for Lincoln, NE: 401
+✗ Failed to retrieve data for Carson City, NV: 401
+✗ Failed to retrieve data for Concord, NH: 401
+✗ Failed to retrieve data for Trenton, NJ: 401
+✗ Failed to retrieve data for Santa Fe, NM: 401
+✗ Failed to retrieve data for Albany, NY: 401
+✗ Failed to retrieve data for Raleigh, NC: 401
+✗ Failed to retrieve data for Bismarck, ND: 401
+✗ Failed to retrieve data for Columbus, OH: 401
+✗ Failed to retrieve data for Oklahoma City, OK: 401
+✗ Failed to retrieve data for Salem, OR: 401
+✗ Failed to retrieve data for Harrisburg, PA: 401
+✗ Failed to retrieve data for Providence, RI: 401
+✗ Failed to retrieve data for Columbia, SC: 401
+✗ Failed to retrieve data for Pierre, SD: 401
+✗ Failed to retrieve data for Nashville, TN: 401
+✗ Failed to retrieve data for Austin, TX: 401
+✗ Failed to retrieve data for Salt Lake City, UT: 401
+✗ Failed to retrieve data for Montpelier, VT: 401
+✗ Failed to retrieve data for Richmond, VA: 401
+✗ Failed to retrieve data for Olympia, WA: 401
+✗ Failed to retrieve data for Charleston, WV: 401
+✗ Failed to retrieve data for Madison, WI: 401
+✗ Failed to retrieve data for Cheyenne, WY: 401
+
+Successfully retrieved data for 0 cities

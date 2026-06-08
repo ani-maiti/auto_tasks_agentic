@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/curl/curl/releases/latest | grep -o '"tag_name": "[^"]*"' | cut -d'"' -f4

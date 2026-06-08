@@ -1,0 +1,1 @@
+ls -la hacker_news_domains.csv

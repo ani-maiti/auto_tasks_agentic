@@ -1,0 +1,13 @@
+Found 708 JSON files
+Extracted keys from 5656 top-level entries
+Found 8 unique keys
+Saved analysis to key_analysis.csv
+Top 10 most common keys:
+task_id: 707
+step: 707
+max_steps: 707
+timestamp: 707
+task_description: 707
+code: 707
+trace: 707
+messages: 707

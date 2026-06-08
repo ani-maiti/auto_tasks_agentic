@@ -1,0 +1,1 @@
+find . -type d -exec sh -c 'echo $(find "{}" -type f | wc -l) "{}"' \; | awk '$1 > 50 {print $2}'

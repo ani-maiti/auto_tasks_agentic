@@ -1,0 +1,14 @@
+City with highest forecast variability: New York
+Variability score: 2.13
+
+All cities and their variability:
+New York: 2.13
+London: 1.58
+Tokyo: 2.07
+Paris: 1.41
+Sydney: 1.63
+Dubai: 2.13
+Moscow: 1.87
+Toronto: 1.73
+Singapore: 1.87
+Seoul: 1.87

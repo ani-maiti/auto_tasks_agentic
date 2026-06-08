@@ -1,0 +1,3 @@
+Error: OPENWEATHER_API_KEY environment variable not set
+Please set your API key as an environment variable:
+export OPENWEATHER_API_KEY='your_api_key_here'

@@ -1,0 +1,1 @@
+curl -s "https://news.ycombinator.com/rss"

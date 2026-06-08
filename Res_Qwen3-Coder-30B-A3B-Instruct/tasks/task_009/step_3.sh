@@ -1,0 +1,1 @@
+find . -name "*.txt" -type f -exec sh -c 'echo "Computing hash for: {}"; sha256sum "{}"' \;

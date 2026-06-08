@@ -1,0 +1,1 @@
+curl -s https://docs.python.org/3/ | grep -o '<a[^>]*href="[^"]*"' | grep -E "(href=\"[^\"]*\.html\")" | head -50 | sed 's/.*href="\([^"]*\)".*/\1/' > links.txt

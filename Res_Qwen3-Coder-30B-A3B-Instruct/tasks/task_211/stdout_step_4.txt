@@ -1,0 +1,35 @@
+Website Crawl Report
+====================
+
+Total pages crawled: 24
+Unique titles: 23
+Duplicate titles: 1
+
+Duplicate titles:
+  '3.14.5 Documentation' appears 2 times
+
+All page titles:
+  3.14.5 Documentation
+  Download — Python 3.14.5 documentation
+  Index — Python 3.14.5 documentation
+  Python Module Index — Python 3.14.5 documentation
+  3.14.5 Documentation
+  What’s new in Python 3.14 — Python 3.14.5 documentation
+  What’s New in Python — Python 3.14.5 documentation
+  The Python Tutorial — Python 3.14.5 documentation
+  The Python Standard Library — Python 3.14.5 documentation
+  The Python Language Reference — Python 3.14.5 documentation
+  Python Setup and Usage — Python 3.14.5 documentation
+  Python HOWTOs — Python 3.14.5 documentation
+  Installing Python modules — Python 3.14.5 documentation
+  Extending and Embedding the Python Interpreter — Python 3.14.5 documentation
+  Python/C API reference manual — Python 3.14.5 documentation
+  Python Frequently Asked Questions — Python 3.14.5 documentation
+  Deprecations — Python 3.14.5 documentation
+  Glossary — Python 3.14.5 documentation
+  Search — Python 3.14.5 documentation
+  Python Documentation contents — Python 3.14.5 documentation
+  Dealing with Bugs — Python 3.14.5 documentation
+  History and License — Python 3.14.5 documentation
+  Copyright — Python 3.14.5 documentation
+  About this documentation — Python 3.14.5 documentation

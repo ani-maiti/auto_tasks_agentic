@@ -1,0 +1,1 @@
+find . -type f -mtime -7 -print0 | xargs -0 stat -c "%y %n"

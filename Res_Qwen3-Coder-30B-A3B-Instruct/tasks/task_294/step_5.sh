@@ -1,0 +1,1 @@
+find /home -type f \( -name "*.zip" -o -name "*.tar" -o -name "*.tar.gz" -o -name "*.tgz" -o -name "*.rar" -o -name "*.7z" \) 2>/dev/null | head -10

@@ -1,0 +1,5 @@
+2789 ./file_sizes.txt
+3556 ./tasks/task_132/stdout_step_1.txt
+12818 ./tasks/task_049/stdout_step_1.txt
+24400 ./tasks/task_194/stdout_step_2.txt
+372425 ./tasks/task_194/stdout_step_1.txt

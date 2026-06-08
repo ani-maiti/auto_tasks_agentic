@@ -1,0 +1,1 @@
+curl -s "https://feeds.feedburner.com/TechCrunch" | head -n 20

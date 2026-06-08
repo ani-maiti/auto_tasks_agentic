@@ -1,0 +1,1 @@
+find / -type f -exec du -b {} \; 2>/dev/null | sort -nr | head -100 > largest_files.txt

@@ -1,0 +1,1 @@
+find ./tasks -type f -size 0c

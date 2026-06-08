@@ -1,0 +1,5 @@
+Found 2168 text files
+Error processing ./tasks/task_185/stdout_step_3.txt: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Error processing ./tasks/task_260/stdout_step_4.txt: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Error processing ./tasks/task_135/stdout_step_3.txt: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Analysis complete. Results saved to text_analysis_results.csv

@@ -1,0 +1,3 @@
+Average stars: 58.49
+Average forks: 17.49
+Most starred repository: mlpack/mlpack with 5652 stars

@@ -1,0 +1,20 @@
+[
+  {
+    "file_path": "./generate_code_model_run.py",
+    "total_functions": 0,
+    "total_complexity": 0,
+    "average_function_complexity": 0,
+    "functions": [],
+    "total_lines": 298,
+    "code_lines": 212,
+    "comment_lines": 9
+  },
+  {
+    "file_path": "./tasks/task_235/step_3.py",
+    "total_functions": 1,
+    "total_complexity": 116,
+    "average_function_complexity": 116.0,
+    "functions": [
+      {
+        "name": "analyze_csv_file",
+        "complexity": 116,

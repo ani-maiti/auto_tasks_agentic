@@ -1,0 +1,48 @@
+Error analyzing ./tasks/task_304/step_3.py: invalid syntax (<unknown>, line 11)
+Error analyzing ./tasks/task_304/step_2.py: invalid syntax (<unknown>, line 11)
+Error analyzing ./tasks/task_246/step_4.py: invalid syntax (<unknown>, line 44)
+Error analyzing ./tasks/task_284/step_3.py: invalid syntax (<unknown>, line 24)
+Error analyzing ./tasks/task_284/step_4.py: invalid syntax (<unknown>, line 24)
+Error analyzing ./tasks/task_198/step_3.py: invalid syntax (<unknown>, line 20)
+Error analyzing ./tasks/task_198/step_2.py: invalid syntax (<unknown>, line 20)
+Error analyzing ./tasks/task_198/step_4.py: invalid syntax (<unknown>, line 20)
+Error analyzing ./tasks/task_277/step_3.py: '(' was never closed (<unknown>, line 127)
+Error analyzing ./tasks/task_277/step_1.py: f-string: newlines are not allowed in format specifiers for single quoted f-strings (<unknown>, line 127)
+Error analyzing ./tasks/task_277/step_2.py: f-string: newlines are not allowed in format specifiers for single quoted f-strings (<unknown>, line 127)
+Error analyzing ./tasks/task_277/step_4.py: '(' was never closed (<unknown>, line 127)
+Error analyzing ./tasks/task_300/step_2.py: invalid syntax (<unknown>, line 17)
+Error analyzing ./tasks/task_279/step_3.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error analyzing ./tasks/task_279/step_5.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error analyzing ./tasks/task_279/step_2.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error analyzing ./tasks/task_279/step_4.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error analyzing ./tasks/task_195/step_2.py: invalid syntax (<unknown>, line 9)
+Error analyzing ./tasks/task_207/step_2.py: invalid syntax (<unknown>, line 14)
+Error analyzing ./tasks/task_257/step_3.py: invalid syntax (<unknown>, line 42)
+Error analyzing ./tasks/task_257/step_2.py: invalid syntax (<unknown>, line 42)
+Error analyzing ./tasks/task_298/step_3.py: '(' was never closed (<unknown>, line 45)
+Error analyzing ./tasks/task_298/step_2.py: '(' was never closed (<unknown>, line 45)
+Error analyzing ./tasks/task_298/step_4.py: '(' was never closed (<unknown>, line 45)
+Error analyzing ./tasks/task_252/step_3.py: '{' was never closed (<unknown>, line 122)
+Error analyzing ./tasks/task_252/step_5.py: '{' was never closed (<unknown>, line 122)
+Error analyzing ./tasks/task_252/step_2.py: '{' was never closed (<unknown>, line 122)
+Error analyzing ./tasks/task_252/step_4.py: '{' was never closed (<unknown>, line 122)
+Error analyzing ./tasks/task_239/step_2.py: invalid syntax (<unknown>, line 25)
+Error analyzing ./tasks/task_285/step_3.py: invalid syntax (<unknown>, line 81)
+Error analyzing ./tasks/task_285/step_1.py: invalid syntax (<unknown>, line 81)
+Error analyzing ./tasks/task_285/step_2.py: invalid syntax (<unknown>, line 81)
+Error analyzing ./tasks/task_131/step_3.py: unterminated triple-quoted string literal (detected at line 84) (<unknown>, line 5)
+Error analyzing ./tasks/task_249/step_3.py: invalid syntax (<unknown>, line 72)
+Error analyzing ./tasks/task_249/step_2.py: invalid syntax (<unknown>, line 72)
+Error analyzing ./tasks/task_249/step_4.py: invalid syntax (<unknown>, line 72)
+Most complex file:
+File: ./tasks/task_306/step_2.py
+Total Complexity: 638
+Average Function Complexity: 212.67
+Number of Functions: 3
+
+Top 5 most complex functions:
+1. ./tasks/task_283/step_2.py:analyze_python_file - Complexity: 398
+2. ./tasks/task_306/step_2.py:main - Complexity: 300
+3. ./tasks/task_306/step_2.py:analyze_file - Complexity: 249
+4. ./tasks/task_237/step_2.py:visit_FunctionDef - Complexity: 239
+5. ./tasks/task_213/step_5.py:find_long_functions - Complexity: 237

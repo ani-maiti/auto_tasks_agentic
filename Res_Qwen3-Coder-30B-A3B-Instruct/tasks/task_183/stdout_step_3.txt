@@ -1,0 +1,4 @@
+CSV files and their row counts:
+./python_files_line_counts.csv: 195 rows
+./largest_files.csv: 101 rows
+./file_size_histogram.csv: 5 rows

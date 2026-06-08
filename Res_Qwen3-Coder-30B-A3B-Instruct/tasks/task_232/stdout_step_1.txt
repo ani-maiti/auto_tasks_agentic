@@ -1,0 +1,14 @@
+Successfully fetched data for 50 coins
+Data saved to crypto_prices.csv
+
+Top 10 Cryptocurrencies by Market Cap:
+1. Bitcoin (BTC) - $70,898.00
+2. Ethereum (ETH) - $1,986.28
+3. Tether (USDT) - $1.00
+4. BNB (BNB) - $686.53
+5. XRP (XRP) - $1.28
+6. USDC (USDC) - $1.00
+7. Solana (SOL) - $80.43
+8. TRON (TRX) - $0.34
+9. Figure Heloc (FIGR_HELOC) - $1.04
+10. Hyperliquid (HYPE) - $72.81

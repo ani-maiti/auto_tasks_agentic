@@ -1,0 +1,1 @@
+find . -type f -print0 | xargs -0 -I {} sh -c 'basename "$1" | LC_ALL=C grep -q "[^[:ascii:]]" && echo "$1"' _ {}

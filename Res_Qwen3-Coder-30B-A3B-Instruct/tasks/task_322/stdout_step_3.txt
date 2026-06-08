@@ -1,0 +1,3 @@
+Retrieving weather data for 100 cities...
+Generated mock weather data for all cities
+Sample data: [{'city': 'New York', 'temperature': 29, 'humidity': 72, 'pressure': 993, 'climate': 'Cold'}, {'city': 'Los Angeles', 'temperature': 11, 'humidity': 34, 'pressure': 1034, 'climate': 'Cold'}, {'city': 'Chicago', 'temperature': 29, 'humidity': 71, 'pressure': 980, 'climate': 'Cold'}]

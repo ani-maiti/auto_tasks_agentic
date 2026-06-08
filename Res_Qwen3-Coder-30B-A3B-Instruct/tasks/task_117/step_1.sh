@@ -1,0 +1,1 @@
+curl -s "https://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=YOUR_API_KEY&units=metric" | grep -E '"main":"|temp":|humidity":'

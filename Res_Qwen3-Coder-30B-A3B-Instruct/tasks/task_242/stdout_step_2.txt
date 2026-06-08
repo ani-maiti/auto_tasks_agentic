@@ -1,0 +1,13 @@
+Dataset shape: (50, 7)
+
+First few rows:
+                     name  ...                                             topics
+0             public-apis  ...  api, apis, dataset, development, free, list, l...
+1  free-programming-books  ...    books, education, hacktoberfest, list, resource
+2    system-design-primer  ...  design, design-patterns, design-system, develo...
+3          awesome-python  ...  awesome, collections, python, python-framework...
+4                  Python  ...  algorithm, algorithm-competitions, algorithms-...
+
+[5 rows x 7 columns]
+
+Most common topic: python (appears in 22 repositories)

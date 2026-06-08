@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/psf/requests | grep -E '"open_issues_count"'

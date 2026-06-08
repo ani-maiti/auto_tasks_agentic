@@ -1,0 +1,13 @@
+Error fetching data for New York: 401
+Error fetching data for London: 401
+Error fetching data for Tokyo: 401
+Error fetching data for Sydney: 401
+Error fetching data for Paris: 401
+Error fetching data for Berlin: 401
+Error fetching data for Moscow: 401
+Error fetching data for Dubai: 401
+Error fetching data for Toronto: 401
+Error fetching data for Singapore: 401
+Empty DataFrame
+Columns: []
+Index: []

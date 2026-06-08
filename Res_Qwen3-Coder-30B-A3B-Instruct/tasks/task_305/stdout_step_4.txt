@@ -1,0 +1,22 @@
+Dataset saved to weather_data.csv
+
+City with largest temperature range: Moscow
+Temperature range: 35°C
+
+--- WEATHER DATA REPORT ---
+Total cities analyzed: 10
+Average temperature across all cities: 15.96°C
+Highest temperature: 31.19°C in Singapore
+Lowest temperature: 3.48°C in Moscow
+
+Temperature Ranges:
+Moscow: 35°C
+Toronto: 28°C
+New York: 25°C
+Berlin: 22°C
+Paris: 20°C
+Tokyo: 18°C
+Dubai: 18°C
+London: 15°C
+Sydney: 12°C
+Singapore: 8°C

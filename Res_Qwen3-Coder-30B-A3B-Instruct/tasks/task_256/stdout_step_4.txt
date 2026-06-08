@@ -1,0 +1,6 @@
+Error reading ./tasks/task_185/stdout_step_3.txt: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Error reading ./tasks/task_135/stdout_step_3.txt: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Total sentences found: 388360
+Unique sentences: 89538
+Duplicated sentences: 43038
+Report saved to duplication_report.json

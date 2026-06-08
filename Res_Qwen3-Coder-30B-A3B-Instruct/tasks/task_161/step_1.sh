@@ -1,0 +1,1 @@
+find . -type d -exec sh -c 'echo "$(find "{}" -type f | wc -l) {}"' \; | grep -E '^[0-9]+ ' | awk '$1 > 100 {print $2}'

@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -exec head -n 10 {} \; | head -20

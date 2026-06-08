@@ -1,0 +1,1 @@
+echo "Since we can't get an API key in this environment, let's try using a different weather API that might not require authentication or has a demo key available."

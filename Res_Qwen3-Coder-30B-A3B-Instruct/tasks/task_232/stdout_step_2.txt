@@ -1,0 +1,17 @@
+CSV file contents:
+             id          name  ... market_cap_rank  total_volume
+0       bitcoin       Bitcoin  ...               1  5.064265e+10
+1      ethereum      Ethereum  ...               2  1.664294e+10
+2        tether        Tether  ...               3  7.779129e+10
+3   binancecoin           BNB  ...               4  2.723192e+09
+4        ripple           XRP  ...               5  1.834431e+09
+5      usd-coin          USDC  ...               6  1.660265e+10
+6        solana        Solana  ...               7  2.727734e+09
+7          tron          TRON  ...               8  5.467919e+08
+8  figure-heloc  Figure Heloc  ...               9  8.102114e+07
+9   hyperliquid   Hyperliquid  ...              10  1.771628e+09
+
+[10 rows x 7 columns]
+
+Total rows: 50
+Columns: ['id', 'name', 'symbol', 'current_price', 'market_cap', 'market_cap_rank', 'total_volume']

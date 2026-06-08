@@ -1,0 +1,3 @@
+Found 872 JSON files
+Found 1 groups with similar named files
+Comparison report saved to json_comparison_report.html

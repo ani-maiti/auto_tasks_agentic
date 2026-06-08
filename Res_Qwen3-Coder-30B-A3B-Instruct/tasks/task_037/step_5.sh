@@ -1,0 +1,1 @@
+echo "Largest directory: . (size: 2772)"

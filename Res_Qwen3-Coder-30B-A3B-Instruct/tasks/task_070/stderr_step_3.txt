@@ -1,0 +1,2 @@
+/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_070/step_3.py:13: DeprecationWarning: The 'text' argument to find()-type methods is deprecated. Use 'string' instead.
+  for element in soup.find_all(text=True):

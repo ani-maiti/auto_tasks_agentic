@@ -1,0 +1,6 @@
+Top 10 companies mentioned:
+NVIDIA: 4
+Microsoft: 2
+GitHub: 1
+Apple: 1
+Dell: 1

@@ -1,0 +1,1 @@
+find ./tasks -name "*.md" -type f | head -10

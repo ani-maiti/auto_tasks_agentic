@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_282/step_1.py", line 94, in <module>
+    volatility_df = calculate_volatility(df)
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_282/step_1.py", line 64, in calculate_volatility
+    volatility = df.groupby('city')['temperature'].std().reset_index()
+                 ~~~~~~~~~~^^^^^^^^
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pandas/util/_decorators.py", line 336, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pandas/core/frame.py", line 10833, in groupby
+    return DataFrameGroupBy(
+        obj=self,
+    ...<6 lines>...
+        dropna=dropna,
+    )
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pandas/core/groupby/groupby.py", line 1095, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<4 lines>...
+        dropna=self.dropna,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages/pandas/core/groupby/grouper.py", line 901, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'city'

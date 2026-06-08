@@ -1,0 +1,20 @@
+repo,tag_name,name,published_at,age
+facebook/react,v19.2.7,"19.2.7 (June 1st, 2026)",2026-06-01T18:04:24Z,0 days
+vuejs/vue,v2.7.16,"v2.7.16 ""Swan Song""",2023-12-24T15:02:39Z,2 years
+angular/angular,v21.2.15,21.2.15,2026-05-28T16:51:19Z,4 days
+tensorflow/tensorflow,v2.21.0,TensorFlow 2.21.0,2026-03-06T19:48:15Z,2 months
+microsoft/vscode,1.122.1,1.122.1,2026-05-29T12:53:58Z,3 days
+nodejs/node,v26.3.0,"2026-06-01, Version 26.3.0 (Current), @aduh95",2026-06-01T13:10:59Z,0 days
+jquery/jquery,4.0.0,Release 4.0.0,2026-01-18T00:27:34Z,4 months
+expressjs/express,v5.2.1,v5.2.1,2025-12-01T20:54:44Z,6 months
+webpack/webpack,v5.107.2,v5.107.2,2026-05-25T15:18:32Z,7 days
+axios/axios,v1.16.1,v1.16.1,2026-05-13T16:19:58Z,19 days
+babel/babel,v7.29.7,v7.29.7,2026-05-25T12:36:26Z,7 days
+gatsbyjs/gatsby,gatsby@5.16.1,gatsby@5.16.1,2026-02-10T14:38:44Z,3 months
+nextjs/next.js,,,,No release
+vercel/next.js,v16.2.6,v16.2.6,2026-05-07T20:16:51Z,25 days
+sveltejs/svelte,svelte@5.56.1,svelte@5.56.1,2026-06-01T22:42:27Z,0 days
+nuxt/nuxt,v4.4.6,,2026-05-18T09:30:06Z,14 days
+ionic-team/ionic,v8.8.8,v8.8.8,2026-05-20T20:44:20Z,12 days
+expo/expo,,,,No release
+storybookjs/storybook,v10.4.1,v10.4.1,2026-05-22T09:46:17Z,10 days

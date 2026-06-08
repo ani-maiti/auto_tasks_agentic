@@ -1,0 +1,1 @@
+curl -s -o /dev/null -w "%{url_effective}\n%{redirect_url}\n" -L https://openai.com

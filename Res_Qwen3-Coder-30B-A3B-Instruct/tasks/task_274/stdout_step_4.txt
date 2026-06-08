@@ -1,0 +1,9 @@
+Testing with direct image URLs...
+Testing URL: https://httpbin.org/image/jpeg
+Dimensions: (239, 178)
+Testing URL: https://httpbin.org/image/png
+Dimensions: (100, 100)
+Testing URL: https://httpbin.org/image/webp
+Dimensions: (274, 367)
+Collected 3 images
+Data saved to image_dimensions.csv

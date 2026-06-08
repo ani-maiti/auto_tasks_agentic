@@ -1,0 +1,1 @@
+find . -name "*.md" -type f -exec grep -l "```" {} \; 2>/dev/null

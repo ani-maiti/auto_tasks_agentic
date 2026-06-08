@@ -1,0 +1,1 @@
+curl -s https://blog.mozilla.org/feed/

@@ -1,0 +1,1 @@
+wc -l github_releases.csv

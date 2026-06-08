@@ -1,0 +1,5 @@
+Found 1 XML files
+Error parsing ./sitemap.xml: not well-formed (invalid token): line 1, column 0
+Report saved to xml_attribute_report.json
+Total unique attributes: 0
+Most common attributes:

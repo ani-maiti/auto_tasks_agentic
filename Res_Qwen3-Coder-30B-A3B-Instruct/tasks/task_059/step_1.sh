@@ -1,0 +1,1 @@
+curl -s https://api.github.com/repos/nodejs/node/releases/latest | grep -E '"tag_name":' | cut -d '"' -f 4

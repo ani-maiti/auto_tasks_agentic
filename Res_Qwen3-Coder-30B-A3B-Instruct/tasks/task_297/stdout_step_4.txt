@@ -1,0 +1,24 @@
+Strongest inferred relationship:
+{
+  "column": "name",
+  "type": "",
+  "databases": [
+    "/home/ai_admin/.ipython/profile_default/history.sqlite",
+    "/home/ai_admin/.config/libaccounts-glib/accounts.db",
+    "/home/ai_admin/.config/mozilla/firefox/fnthq021.default-release/places.sqlite"
+  ],
+  "tables": [
+    "sqlite_sequence",
+    "sqlite_sequence",
+    "sqlite_sequence"
+  ],
+  "common_tables": [
+    "sqlite_sequence"
+  ],
+  "similarity_score": 3
+}
+
+Mapping Report Summary:
+Total databases analyzed: 5
+Total columns analyzed: 179
+Potential relationships found: 2

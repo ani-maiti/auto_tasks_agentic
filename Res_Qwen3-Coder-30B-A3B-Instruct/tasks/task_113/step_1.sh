@@ -1,0 +1,1 @@
+curl -s https://www.kernel.org/ | grep -i "<title>" | head -1

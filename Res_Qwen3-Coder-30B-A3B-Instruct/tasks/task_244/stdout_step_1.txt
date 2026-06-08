@@ -1,0 +1,6 @@
+Starting wiki crawl...
+Error processing https://en.wikipedia.org/wiki/Python_(programming_language): 403 Client Error: Forbidden for url: https://en.wikipedia.org/wiki/Python_(programming_language)
+Finished crawling. Collected 0 pages.
+Link graph saved to link_graph.json
+Page with highest degree: None
+Highest degree: 0

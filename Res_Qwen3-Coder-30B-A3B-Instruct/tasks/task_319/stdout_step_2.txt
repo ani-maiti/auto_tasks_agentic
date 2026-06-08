@@ -1,0 +1,16 @@
+CSV Contents:
+      pair                   timestamp  ...     fixer_io  currencyapi
+0  USD/EUR  2026-06-02 05:47:20.973863  ...     82.56000      78.2600
+1  USD/GBP  2026-06-02 05:47:21.290746  ...     74.30000      73.5570
+2  USD/JPY  2026-06-02 05:47:21.534956  ...  12768.00000    9416.4000
+3  EUR/GBP  2026-06-02 05:47:21.784167  ...     84.77000      82.1750
+4  EUR/JPY  2026-06-02 05:47:22.012245  ...  10586.04000    2414.3600
+5  GBP/JPY  2026-06-02 05:47:22.236988  ...  16025.71875   10361.6875
+
+[6 rows x 5 columns]
+
+Discrepancies:
+      pair  discrepancy_percent  max_rate  min_rate
+0  USD/GBP               9900.0      1.35    0.0136
+
+The currency pair with the largest discrepancy is USD/GBP with 9900.00% discrepancy

@@ -1,0 +1,18 @@
+=== ENTITY INVENTORY REPORT ===
+Total text files processed: 4
+
+Entities found per type:
+  numbers: 1098
+  dates: 2
+  phone_numbers: 2
+  emails: 1
+  urls: 1
+
+Most common entity type: numbers with 1098 occurrences
+
+Sample entity data:
+File: /tmp/test2.txt
+  urls: ['https://www.example.com']
+  dates: ['12/25/2023']
+  phone_numbers: ['(555) 987-6543']
+  numbers: ['555', '987', '6543', '12', '25', '2023']

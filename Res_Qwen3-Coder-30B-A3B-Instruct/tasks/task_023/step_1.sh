@@ -1,0 +1,1 @@
+find . -type f | grep -E '\.[^.]+$' | sed 's/.*\.//' | sort | uniq | wc -l

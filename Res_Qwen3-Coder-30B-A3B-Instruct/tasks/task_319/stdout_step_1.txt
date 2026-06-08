@@ -1,0 +1,4 @@
+Exchange rates saved to CSV
+Discrepancies calculated
+Currency pair with largest discrepancy: USD/GBP
+Discrepancy: 9900.00%

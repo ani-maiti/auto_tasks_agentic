@@ -1,0 +1,10 @@
+1617804660.0000000000 /home/ai_admin/Pictures/9k5qhq26yor61.jpg
+1770399627.0000000000 /home/ai_admin/.local/share/jupyter/kernels/torch-venv2/logo-32x32.png
+1770399627.0000000000 /home/ai_admin/.local/share/jupyter/kernels/torch-venv2/logo-64x64.png
+1777668361.7574525850 /home/ai_admin/.local/share/wallpapers/Space Plasma 4K.jpg
+1777671445.5586149080 /home/ai_admin/yay/src/gopath/pkg/mod/github.com/deckarep/golang-set/v2@v2.8.0/new_improved.jpeg
+1777671446.0634584900 /home/ai_admin/yay/src/gopath/pkg/mod/github.com/ohler55/ojg@v1.27.0/assets/ojg_comet.jpg
+1777671446.0635451400 /home/ai_admin/yay/src/gopath/pkg/mod/github.com/ohler55/ojg@v1.27.0/assets/ojg_comet2.jpg
+1777761849.2677078250 /home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/sympy/plotting/tests/test_region_and.png
+1777761849.2677478950 /home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/sympy/plotting/tests/test_region_not.png
+1777761849.2677885560 /home/ai_admin/venvs/torch-venv/lib/python3.14/site-packages/sympy/plotting/tests/test_region_or.png

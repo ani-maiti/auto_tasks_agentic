@@ -1,0 +1,20 @@
+Readability Report
+==================
+
+./tasks/task_075/stdout_step_2.txt: 206.50
+./tasks/task_075/stdout_step_1.txt: 206.50
+./tasks/task_075/stdout_step_3.txt: 206.50
+./tasks/task_076/stdout_step_1.txt: 206.50
+./tasks/task_106/stdout_step_3.txt: 206.50
+./tasks/task_106/stdout_step_4.txt: 206.50
+./tasks/task_110/stdout_step_4.txt: 206.50
+./tasks/task_058/stdout_step_1.txt: 206.33
+./tasks/task_058/stdout_step_3.txt: 206.33
+./tasks/task_060/stdout_step_2.txt: 206.33
+./tasks/task_007/stdout_step_5.txt: 205.82
+./tasks/task_007/stdout_step_3.txt: 205.82
+./tasks/task_007/stdout_step_4.txt: 205.82
+./tasks/task_063/stdout_step_5.txt: 205.82
+./tasks/task_164/stdout_step_1.txt: 205.82
+./tasks/task_197/stdout_step_2.txt: 204.81
+./tasks/task_196/stdout_step_3.txt: 204.81

@@ -1,0 +1,39 @@
+{
+  "task_id": 99,
+  "step": 3,
+  "max_steps": 4,
+  "timestamp": "2026-05-21T13:53:39.033876",
+  "task_description": "retrieve the SSL certificate expiration date for python.org",
+  "code": "import ssl\nimport socket\nfrom datetime import datetime\n\ndef get_ssl_expiry_date(hostname):\n    context = ssl.create_default_context()\n    with socket.create_connection((hostname, 443), timeout=10) as sock:\n        with context.wrap_socket(sock, server_hostname=hostname) as ssock:\n            cert = ssock.getpeercert()\n            expiry_date = cert['notAfter']\n            return expiry_date\n\ntry:\n    expiry = get_ssl_expiry_date('python.org')\n    # Convert to datetime object for better formatting\n    expiry_dt = datetime.strptime(expiry, \"%b %d %H:%M:%S %Y %Z\")\n    print(f\"SSL certificate for python.org expires on: {expiry_dt.strftime('%Y-%m-%d')}\")\nexcept Exception as e:\n    print(f\"Error retrieving SSL certificate: {e}\")",
+  "trace": {
+    "stdout": "SSL certificate for python.org expires on: 2027-02-14\n",
+    "stderr": "",
+    "return_code": "0"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "```python\nimport ssl\nimport socket\nfrom datetime import datetime\n\ndef get_ssl_expiry_date(hostname):\n    context = ssl.create_default_context()\n    with socket.create_connection((hostname, 443), timeout=10) as sock:\n        with context.wrap_socket(sock, server_hostname=hostname) as ssock:\n            cert = ssock.getpeercert()\n            expiry_date = cert['notAfter']\n            return expiry_date\n\ntry:\n    expiry = get_ssl_expiry_date('python.org')\n    print(expiry)\nexcept Exception as e:\n    print(f\"Error: {e}\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nFeb 14 13:03:45 2027 GMT\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport ssl\nimport socket\nfrom datetime import datetime\n\ndef get_ssl_expiry_date(hostname):\n    context = ssl.create_default_context()\n    with socket.create_connection((hostname, 443), timeout=10) as sock:\n        with context.wrap_socket(sock, server_hostname=hostname) as ssock:\n            cert = ssock.getpeercert()\n            expiry_date = cert['notAfter']\n            return expiry_date\n\ntry:\n    expiry = get_ssl_expiry_date('python.org')\n    print(f\"SSL certificate for python.org expires on: {expiry}\")\nexcept Exception as e:\n    print(f\"Error retrieving SSL certificate: {e}\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nSSL certificate for python.org expires on: Feb 14 13:03:45 2027 GMT\n\n\nstderr:\n\n\nreturn code: 0"
+    },
+    {
+      "role": "assistant",
+      "content": "```python\nimport ssl\nimport socket\nfrom datetime import datetime\n\ndef get_ssl_expiry_date(hostname):\n    context = ssl.create_default_context()\n    with socket.create_connection((hostname, 443), timeout=10) as sock:\n        with context.wrap_socket(sock, server_hostname=hostname) as ssock:\n            cert = ssock.getpeercert()\n            expiry_date = cert['notAfter']\n            return expiry_date\n\ntry:\n    expiry = get_ssl_expiry_date('python.org')\n    # Convert to datetime object for better formatting\n    expiry_dt = datetime.strptime(expiry, \"%b %d %H:%M:%S %Y %Z\")\n    print(f\"SSL certificate for python.org expires on: {expiry_dt.strftime('%Y-%m-%d')}\")\nexcept Exception as e:\n    print(f\"Error retrieving SSL certificate: {e}\")\n```"
+    },
+    {
+      "role": "user",
+      "content": "execution trace:\nstdout:\nSSL certificate for python.org expires on: 2027-02-14\n\n\nstderr:\n\n\nreturn code: 0"
+    }
+  ]
+}

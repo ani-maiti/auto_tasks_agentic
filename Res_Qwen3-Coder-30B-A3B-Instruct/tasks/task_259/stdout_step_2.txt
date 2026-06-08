@@ -1,0 +1,2 @@
+Found 3 log files
+Hour counts: {6: 2}

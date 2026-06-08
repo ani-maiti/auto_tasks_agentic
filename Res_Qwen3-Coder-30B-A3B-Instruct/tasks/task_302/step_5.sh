@@ -1,0 +1,1 @@
+cat entity_inventory.json

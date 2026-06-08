@@ -1,0 +1,6 @@
+name,stars,forks,open_issues
+python/cpython,72941,34691,9307
+django/django,87611,33981,449
+pallets/flask,71598,16847,3
+psf/requests,54017,9938,229
+numpy/numpy,32129,12401,2383

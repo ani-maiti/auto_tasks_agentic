@@ -1,0 +1,18 @@
+Requirement already satisfied: textstat in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (0.7.13)
+Collecting vaderSentiment
+  Downloading vaderSentiment-3.3.2-py2.py3-none-any.whl.metadata (572 bytes)
+Requirement already satisfied: pyphen in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from textstat) (0.17.2)
+Requirement already satisfied: nltk in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from textstat) (3.9.4)
+Requirement already satisfied: setuptools in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from textstat) (81.0.0)
+Requirement already satisfied: requests in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from vaderSentiment) (2.34.2)
+Requirement already satisfied: click in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (8.4.1)
+Requirement already satisfied: joblib in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (1.5.3)
+Requirement already satisfied: regex>=2021.8.3 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (2026.5.9)
+Requirement already satisfied: tqdm in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from nltk->textstat) (4.67.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests->vaderSentiment) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests->vaderSentiment) (3.16)
+Requirement already satisfied: urllib3<3,>=1.26 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests->vaderSentiment) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /home/ai_admin/venvs/torch_venv2/lib/python3.14/site-packages (from requests->vaderSentiment) (2026.5.20)
+Downloading vaderSentiment-3.3.2-py2.py3-none-any.whl (125 kB)
+Installing collected packages: vaderSentiment
+Successfully installed vaderSentiment-3.3.2

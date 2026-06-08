@@ -1,0 +1,297 @@
+import os
+import json
+import random
+import subprocess
+import time
+from datetime import datetime, timedelta
+
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+
+
+torch.cuda.empty_cache()
+
+# possible model options:
+# 8GB:  "Qwen2.5-Coder-7B-Instruct", "CodeGemma-7B-IT"
+# 64GB: "Qwen2.5-Coder-32B-Instruct", "Codestral-22B-v0.1", "Qwen3-Coder-30B-A3B-Instruct"
+MODEL_NAME = "Qwen3-Coder-30B-A3B-Instruct"
+MODEL_PATH = f"/home/ai_admin/dp_models/coding_models/{MODEL_NAME}"
+
+
+MAX_HISTORY = 8
+MAX_TRACE_CHARS = 4000
+STEP_MIN = 3
+STEP_MAX = 5
+EXEC_TIMEOUT = 120
+
+tokenizer = AutoTokenizer.from_pretrained(
+    MODEL_PATH,
+    trust_remote_code=True
+)
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=True
+)
+
+# model = AutoModelForCausalLM.from_pretrained(
+#     MODEL_PATH,
+#     quantization_config=bnb_config,
+#     device_map="sequential",
+#     trust_remote_code=True
+# )
+
+
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_PATH,
+    dtype="auto",
+    trust_remote_code=True,
+)
+
+model.eval()
+
+with open("task_descriptions_all.txt", "r", encoding="utf-8") as f:
+    task_list = [line.strip() for line in f if line.strip()]
+
+with open("system_prompt_body.txt", "r", encoding="utf-8") as f:
+    system_body = f.read().strip()
+
+print(f"Loaded {len(task_list)} tasks")
+
+
+days_d = 15
+hours_d = 8
+
+for task_id, task_description in enumerate(task_list, start=1):
+
+    if task_id % 20 == 0:
+        days_d = days_d - 1
+    if task_id % 2 == 0:
+        hours_d = hours_d - 1
+    if hours_d == 1:
+            hours_d = 8
+    print("step", task_id)
+
+    print("\n" + "=" * 80)
+    print(f"TASK {task_id}")
+    print(task_description)
+    print("=" * 80)
+
+    task_dir = f"./tasks/task_{str(task_id).zfill(3)}"
+    os.makedirs(task_dir, exist_ok=True)
+
+    system_prompt = (
+        system_body
+        + "\n\n"
+        + "task description: "
+        + task_description
+    )
+
+    messages = [
+        {
+            "role": "system",
+            "content": system_prompt
+        }
+    ]
+
+    max_steps = random.randint(STEP_MIN, STEP_MAX)
+
+    print(f"Max steps: {max_steps}")
+
+    task_failed = False
+
+    for step in range(1, max_steps + 1):
+
+        try:
+
+            messages = [messages[0]] + messages[-MAX_HISTORY:]
+
+            prompt = tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True
+            )
+
+            token_count = len(
+                tokenizer(prompt)["input_ids"]
+            )
+
+            print(f"Step {step} | Prompt tokens: {token_count}")
+
+            inputs = tokenizer(
+                prompt,
+                return_tensors="pt"
+            ) #.to("cuda")
+
+            try:
+
+                with torch.no_grad():
+
+                    outputs = model.generate(
+                        **inputs,
+                        max_new_tokens=1024,
+                        temperature=0.4,
+                        do_sample=True,
+                        pad_token_id=tokenizer.eos_token_id
+                    )
+
+            except torch.OutOfMemoryError:
+
+                print(f"[TASK {task_id}] CUDA OOM")
+
+                torch.cuda.empty_cache()
+
+                task_failed = True
+                break
+
+            generated_tokens = outputs[0][inputs["input_ids"].shape[-1]:]
+
+            content = tokenizer.decode(
+                generated_tokens,
+                skip_special_tokens=True
+            ).strip()
+
+            messages.append(
+                {
+                    "role": "assistant",
+                    "content": content
+                }
+            )
+
+            code = content.strip()
+
+            if code.startswith("```python"):
+                code = code[len("```python"):].strip()
+                code = code[:-3].strip() if code.endswith("```") else code
+                file_ext = "py"
+                exec_cmd = ["python3"]
+
+            elif code.startswith("```bash"):
+                code = code[len("```bash"):].strip()
+                code = code[:-3].strip() if code.endswith("```") else code
+                file_ext = "sh"
+                exec_cmd = ["bash"]
+
+            elif code.startswith("```sh"):
+                code = code[len("```sh"):].strip()
+                code = code[:-3].strip() if code.endswith("```") else code
+                file_ext = "sh"
+                exec_cmd = ["bash"]
+
+            else:
+                print(f"[TASK {task_id}] Invalid model output")
+                task_failed = True
+                break
+
+            code_file = os.path.join(
+                task_dir,
+                f"step_{step}.{file_ext}"
+            )
+
+            with open(code_file, "w", encoding="utf-8") as f:
+                f.write(code)
+
+            stdout_file_name = os.path.join(
+                task_dir,
+                f"stdout_step_{step}.txt"
+            )
+
+            stderr_file_name = os.path.join(
+                task_dir,
+                f"stderr_step_{step}.txt"
+            )
+
+            try:
+
+                with open(stdout_file_name, "w", encoding="utf-8") as stdout_file, \
+                     open(stderr_file_name, "w", encoding="utf-8") as stderr_file:
+
+                    result = subprocess.run(
+                        exec_cmd + [code_file],
+                        stdout=stdout_file,
+                        stderr=stderr_file,
+                        timeout=EXEC_TIMEOUT
+                    )
+
+                return_code = str(result.returncode)
+
+            except subprocess.TimeoutExpired:
+
+                return_code = "TIMEOUT"
+
+                with open(stdout_file_name, "a", encoding="utf-8") as f:
+                    f.write("\nPROCESS TIMED OUT\n")
+
+                with open(stderr_file_name, "a", encoding="utf-8") as f:
+                    f.write("\nPROCESS TIMED OUT\n")
+
+            time.sleep(2)
+
+            with open(stdout_file_name, "r", encoding="utf-8") as f:
+                stdout = f.read()
+
+            with open(stderr_file_name, "r", encoding="utf-8") as f:
+                stderr = f.read()
+
+            stdout = stdout[-MAX_TRACE_CHARS:]
+            stderr = stderr[-MAX_TRACE_CHARS:]
+
+            trace = (
+                "execution trace:\n"
+                + "stdout:\n"
+                + stdout
+                + "\n\nstderr:\n"
+                + stderr
+                + "\n\nreturn code: "
+                + return_code
+            )
+
+            messages.append(
+                {
+                    "role": "user",
+                    "content": trace
+                }
+            )
+
+            step_log = {
+                "task_id": task_id,
+                "step": step,
+                "max_steps": max_steps,
+                "timestamp": (datetime.utcnow() - timedelta(days=days_d, hours=hours_d)).isoformat(),
+                "task_description": task_description,
+                "code": code,
+                "trace": {
+                    "stdout": stdout,
+                    "stderr": stderr,
+                    "return_code": return_code
+                },
+                "messages": messages[-6:]
+            }
+
+            log_file = os.path.join(
+                task_dir,
+                f"step_{step}_log.json"
+            )
+
+            with open(log_file, "w", encoding="utf-8") as f:
+                json.dump(step_log, f, indent=2)
+
+        except Exception as e:
+
+            print(f"[TASK {task_id}] ERROR: {e}")
+
+            torch.cuda.empty_cache()
+
+            task_failed = True
+            break
+
+    if task_failed:
+        print(f"[TASK {task_id}] FAILED")
+    else:
+        print(f"[TASK {task_id}] FINISHED")
+
+    torch.cuda.empty_cache()
+
+print("\nALL TASKS COMPLETE")

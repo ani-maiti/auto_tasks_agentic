@@ -1,0 +1,2 @@
+# Let's try a different approach using curl to test if we can access the API
+curl -s "http://api.openweathermap.org/data/2.5/weather?q=New York&appid=b6907d289e10d714a6e88b30761fae22&units=metric" | grep -E '"temp":|error|message'

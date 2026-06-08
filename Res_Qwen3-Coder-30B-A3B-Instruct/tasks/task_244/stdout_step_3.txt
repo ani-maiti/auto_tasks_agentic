@@ -1,0 +1,5 @@
+Page with highest degree: https://en.wikipedia.org/wiki/2026_Iran_war
+Highest degree: 3882
+Total pages crawled: 50
+Total links found: 36772
+Average links per page: 735.44

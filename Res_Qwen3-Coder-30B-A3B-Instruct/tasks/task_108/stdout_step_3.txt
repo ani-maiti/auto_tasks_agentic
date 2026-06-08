@@ -1,0 +1,5 @@
+gmail-smtp-in.l.google.com.
+alt1.gmail-smtp-in.l.google.com.
+alt2.gmail-smtp-in.l.google.com.
+alt3.gmail-smtp-in.l.google.com.
+alt4.gmail-smtp-in.l.google.com.

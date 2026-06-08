@@ -1,0 +1,1 @@
+find . -type d -name "*" -exec sh -c 'test $(echo "$1" | wc -c) -gt 21 && echo "$1"' _ {} \;

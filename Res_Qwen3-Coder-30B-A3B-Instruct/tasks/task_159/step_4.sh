@@ -1,0 +1,1 @@
+find ./tasks -type f -size 0c -print0 | xargs -0 ls -la

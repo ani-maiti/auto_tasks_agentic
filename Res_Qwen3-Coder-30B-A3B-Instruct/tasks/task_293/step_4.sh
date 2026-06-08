@@ -1,0 +1,1 @@
+cat key_hierarchy_inventory.json | grep -A 5 -B 5 "messages.role"

@@ -1,0 +1,1 @@
+{"status":"success","country":"United States","countryCode":"US","region":"WV","regionName":"West Virginia","city":"Institute","zip":"25112","lat":38.3889,"lon":-81.7614,"timezone":"America/New_York","isp":"West Virginia State University","org":"West Virginia State University","as":"AS63274 West Virginia State University","query":"192.73.23.2"}

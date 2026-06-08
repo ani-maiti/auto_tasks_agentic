@@ -1,0 +1,12 @@
+Sample Weather Data:
+        city  temperature  humidity  pressure    description
+0   New York        14.48        82      1007          sunny
+1     London         9.45        60      1006         cloudy
+2      Tokyo        18.93        63      1002         cloudy
+3     Sydney        24.69        41      1023  partly cloudy
+4      Paris        13.10        81      1027  partly cloudy
+5     Berlin         9.15        55      1014         cloudy
+6     Moscow         3.48        83      1022  partly cloudy
+7      Dubai        28.93        42      1004          rainy
+8    Toronto         6.20        57      1003          sunny
+9  Singapore        31.19        53      1017         cloudy

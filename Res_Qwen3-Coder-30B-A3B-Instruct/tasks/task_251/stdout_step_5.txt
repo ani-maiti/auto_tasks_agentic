@@ -1,0 +1,12 @@
+Syntax error in ./tasks/task_246/step_4.py: invalid syntax (<unknown>, line 44)
+Syntax error in ./tasks/task_198/step_3.py: invalid syntax (<unknown>, line 20)
+Syntax error in ./tasks/task_198/step_2.py: invalid syntax (<unknown>, line 20)
+Syntax error in ./tasks/task_198/step_4.py: invalid syntax (<unknown>, line 20)
+Syntax error in ./tasks/task_195/step_2.py: invalid syntax (<unknown>, line 9)
+Syntax error in ./tasks/task_207/step_2.py: invalid syntax (<unknown>, line 14)
+Syntax error in ./tasks/task_239/step_2.py: invalid syntax (<unknown>, line 25)
+Syntax error in ./tasks/task_131/step_3.py: unterminated triple-quoted string literal (detected at line 84) (<unknown>, line 5)
+Syntax error in ./tasks/task_249/step_3.py: invalid syntax (<unknown>, line 72)
+Syntax error in ./tasks/task_249/step_2.py: invalid syntax (<unknown>, line 72)
+Syntax error in ./tasks/task_249/step_4.py: invalid syntax (<unknown>, line 72)
+Report generated successfully.

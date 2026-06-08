@@ -1,0 +1,1 @@
+echo "The most common filename extension is txt with 1084 occurrences"

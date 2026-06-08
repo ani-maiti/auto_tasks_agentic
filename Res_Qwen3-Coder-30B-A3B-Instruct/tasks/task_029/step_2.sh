@@ -1,0 +1,1 @@
+find . -type f -name "*.sh" -exec wc -l {} \; | tail -n +1 | awk '{sum += $1} END {print sum}'

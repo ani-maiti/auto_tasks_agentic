@@ -1,0 +1,1 @@
+curl -k -s https://api.quotable.io/random | grep -E '"content":"| "author":"'

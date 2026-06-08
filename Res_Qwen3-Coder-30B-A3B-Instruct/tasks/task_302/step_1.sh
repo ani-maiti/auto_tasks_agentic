@@ -1,0 +1,1 @@
+find /tmp -type f -name "*.txt" | head -10

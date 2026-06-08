@@ -1,0 +1,6 @@
+total 60
+-rw-r--r--  1 ai_admin ai_admin  7796 Jun  1 15:48 generate_code_model_run.py
+-rw-r--r--  1 ai_admin ai_admin  2204 May 31 13:29 system_prompt_body.txt
+-rw-r--r--  1 ai_admin ai_admin 32299 May 31 12:59 task_descriptions_all.txt
+-rw-r--r--  1 ai_admin ai_admin   332 May 31 11:33 task_descriptions.txt
+drwxr-xr-x 17 ai_admin ai_admin 12288 Jun  1 16:04 tasks

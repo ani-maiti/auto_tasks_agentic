@@ -1,0 +1,4 @@
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_298/step_2.py", line 45
+    'SD': (-10, 20), 'NE': (10, 30), 'OR': (5, 2
+                                           ^
+SyntaxError: '(' was never closed

@@ -1,0 +1,1 @@
+find . -type f -name "*.sh" -exec wc -l {} \; | awk '{sum += $1} END {print "Total lines in shell scripts:", sum}'

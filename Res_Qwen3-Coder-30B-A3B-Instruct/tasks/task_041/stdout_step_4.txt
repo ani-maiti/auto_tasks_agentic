@@ -1,0 +1,2 @@
+./tasks/task_021/stdout_step_3.txt
+./tasks/task_021/stdout_step_4.txt

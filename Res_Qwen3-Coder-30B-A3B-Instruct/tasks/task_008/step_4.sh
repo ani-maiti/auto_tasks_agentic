@@ -1,0 +1,1 @@
+find / -type l -exec sh -c 'printf "%s -> %s\n" "$1" "$(readlink "$1")"' _ {} \; 2>/dev/null | head -20

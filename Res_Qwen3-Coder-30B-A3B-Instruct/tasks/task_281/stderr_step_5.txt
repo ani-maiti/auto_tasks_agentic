@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ai_admin/aniruddha/nasa_seed/nasa_seed/./tasks/task_281/step_5.py", line 8, in <module>
+    for url in visited_urls:
+               ^^^^^^^^^^^^
+NameError: name 'visited_urls' is not defined

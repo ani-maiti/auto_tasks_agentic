@@ -1,0 +1,1 @@
+find . -type f -name "*.txt" -exec grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' {} \; 2>/dev/null | head -10

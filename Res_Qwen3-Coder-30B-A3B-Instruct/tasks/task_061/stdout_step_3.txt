@@ -1,0 +1,109 @@
+</div> <!-- end header -->
+<!--/UdmComment-->
+<div id="content">
+<h1>Debian Releases</h1>
+<p>Debian always has at least
+three releases in active maintenance: <q>stable</q>, <q>testing</q> and
+<q>unstable</q>.</p>
+<dl>
+<dt><a href="stable/">stable</a></dt>
+<dd>
+<p>
+  The <q>stable</q> distribution contains the latest officially
+  released distribution of Debian.
+</p>
+<p>
+  This is the production release of Debian, the one which we primarily
+  recommend using.
+</p>
+<p>
+  The current <q>stable</q> distribution of Debian is version
+  13, codenamed <em>trixie</em>.
+It was initially released as version 13.0
+  on August 9th, 2025 and its latest
+  update, version 13.5, was released on May 16th, 2026.
+</p>
+</dd>
+<dt><a href="testing/">testing</a></dt>
+<dd>
+<p>
+  The <q>testing</q> distribution contains packages that haven't been
+  accepted into a <q>stable</q> release yet, but they are in the queue for
+  that. The main advantage of using this distribution is that it has more
+  recent versions of software.
+</p>
+<p>
+  See the <a href="../doc/manuals/debian-faq/">Debian FAQ</a> for more information on
+  <a href="../doc/manuals/debian-faq/ftparchives#testing">what is <q>testing</q></a>
+  and <a href="../doc/manuals/debian-faq/ftparchives#frozen">how it becomes
+  <q>stable</q></a>.
+</p>
+<p>
+  The current <q>testing</q> distribution is <em>forky</em>.
+</p>
+</dd>
+<dt><a href="unstable/">unstable</a></dt>
+<dd>
+<p>
+  The <q>unstable</q> distribution is where active development of
+  Debian occurs. Generally, this distribution is run by developers
+  and those who like to live on the edge. It is recommended that users
+  running unstable should subscribe to the debian-devel-announce
+  mailing list to receive notifications of major changes, for example
+  upgrades that may break.
+</p>
+<p>
+  The <q>unstable</q> distribution is always called <em>sid</em>.
+</p>
+</dd>
+</dl>
+<h2>Release life cycle</h2>
+<p>
+  Debian announces its new stable release on a regular basis. The Debian
+  release life cycle encompasses five years: the first three years of full
+  support followed by two years of Long Term Support (LTS).
+</p>
+<p>
+  See <a href="https://wiki.debian.org/DebianReleases">Debian Releases</a>
+--
+  <td><a href="trixie/">Trixie</a></td>
+  <td>2025-08-09</td>
+  <td>2028-08-09</td>
+  <td>2030-06-30</td>
+  <td>2035-06-30</td>
+  <td>Current <q>stable</q> release</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><a href="bookworm/">Bookworm</a></td>
+  <td>2023-06-10</td>
+  <td>2026-06-10</td>
+  <td>2028-06-30</td>
+  <td>2033-06-30</td>
+  <td>Current <q>oldstable</q> release</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><a href="bullseye/">Bullseye</a></td>
+  <td>2021-08-14</td>
+  <td>2024-08-14</td>
+  <td>2026-08-31</td>
+  <td>2031-06-30</td>
+  <td>Current <q>oldoldstable</q> release, under <a href="https://wiki.debian.org/LTS">LTS support</a></td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><a href="buster/">Buster</a></td>
+  <td>2019-07-06</td>
+--
+file. To ensure that all files in the release belong to it, checksums of
+all <code>Packages</code> files are copied into the <code>Release</code>
+file.</p>
+<p>Digital signatures for this file are stored in the file
+<code>Release.gpg</code>, using the current version of the archive signing
+key. For <q>stable</q> and <q>oldstable</q> an additional signature is
+generated using an offline key specifically generated for a release
+by a member of the <a href="../intro/organization#release-team">Stable Release Team</a>.</p>
+<div class="clr"></div>
+</div> <!-- end content -->
+<div id="footer">

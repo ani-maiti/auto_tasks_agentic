@@ -1,0 +1,1 @@
+find . -type d -exec du -sh {} \; 2>/dev/null | sort -hr

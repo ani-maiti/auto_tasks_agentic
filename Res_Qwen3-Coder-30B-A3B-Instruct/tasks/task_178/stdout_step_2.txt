@@ -1,0 +1,22 @@
+Directory Size Report
+=====================
+15M	./tasks
+15M	./tasks
+15M	.
+820K	./tasks/task_049
+820K	./tasks/task_049
+820K	./tasks/task_049
+612K	./tasks/task_174
+612K	./tasks/task_174
+612K	./tasks/task_174
+524K	./tasks/task_083
+524K	./tasks/task_083
+524K	./tasks/task_083
+384K	./tasks/task_173
+384K	./tasks/task_173
+384K	./tasks/task_173
+328K	./tasks/task_132
+328K	./tasks/task_132
+328K	./tasks/task_132
+324K	./tasks/task_163
+324K	./tasks/task_163

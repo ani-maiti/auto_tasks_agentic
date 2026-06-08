@@ -1,0 +1,11 @@
+Retrieved and saved metadata for 100 repositories
+
+Language Statistics:
+Python: 57
+Jupyter Notebook: 17
+TypeScript: 2
+JavaScript: 2
+Java: 2
+HTML: 2
+C++: 2
+Go: 1

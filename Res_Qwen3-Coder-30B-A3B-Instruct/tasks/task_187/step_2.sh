@@ -1,0 +1,1 @@
+find / -type f -executable -printf "%s %p\n" 2>/dev/null | head -10

@@ -1,0 +1,3 @@
+Found 250 Python files
+Collected 27 imports
+First 20 imports: ['os', 'json', 'random', 'subprocess', 'time', 'datetime', 'torch', 'transformers', 'json', 'os', 'collections', 'json', 'os', 'collections', 'ast', 'os', 'collections', 'graphviz', 'requests', 'json']

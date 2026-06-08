@@ -1,0 +1,45 @@
+Dataset Info:
+<class 'pandas.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 5 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   name      100 non-null    str  
+ 1   stars     100 non-null    int64
+ 2   forks     100 non-null    int64
+ 3   issues    100 non-null    int64
+ 4   language  94 non-null     str  
+dtypes: int64(3), str(2)
+memory usage: 4.0 KB
+None
+
+First few rows:
+                                         name   stars  forks  issues language
+0            donnemartin/system-design-primer  351401  56529     549   Python
+1                        vinta/awesome-python  300822  28023      19   Python
+2  practical-tutorials/project-based-learning  267289  34698     306      NaN
+3                        TheAlgorithms/Python  221569  50690     935   Python
+4                       tensorflow/tensorflow  195360  75332    3083      C++
+
+Top 5 repositories by stars:
+                                         name   stars
+0            donnemartin/system-design-primer  351401
+1                        vinta/awesome-python  300822
+2  practical-tutorials/project-based-learning  267289
+3                        TheAlgorithms/Python  221569
+4                       tensorflow/tensorflow  195360
+
+Language distribution:
+language
+Python              74
+Jupyter Notebook     6
+TypeScript           4
+Rust                 3
+C++                  2
+Shell                2
+CSS                  1
+JavaScript           1
+Scala                1
+Name: count, dtype: int64
+
+Most dominant language: Python

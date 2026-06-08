@@ -1,0 +1,1 @@
+0 ./tasks/task_001/stderr_step_1.txt

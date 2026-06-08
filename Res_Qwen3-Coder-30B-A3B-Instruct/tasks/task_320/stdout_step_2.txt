@@ -1,0 +1,136 @@
+Error parsing ./tasks/task_235/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_235/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_216/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_216/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_308/step_3.py: '{' was never closed (<unknown>, line 141)
+Error parsing ./tasks/task_308/step_2.py: '{' was never closed (<unknown>, line 141)
+Error parsing ./tasks/task_308/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_223/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_307/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_306/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_318/step_2.py: invalid syntax (<unknown>, line 19)
+Error parsing ./tasks/task_032/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_304/step_3.py: invalid syntax (<unknown>, line 11)
+Error parsing ./tasks/task_304/step_2.py: invalid syntax (<unknown>, line 11)
+Error parsing ./tasks/task_185/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_283/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_275/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_275/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_282/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_282/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_278/step_5.py: I/O operation on closed file.
+Error parsing ./tasks/task_266/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_266/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_246/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_246/step_4.py: invalid syntax (<unknown>, line 44)
+Error parsing ./tasks/task_284/step_3.py: invalid syntax (<unknown>, line 24)
+Error parsing ./tasks/task_284/step_4.py: invalid syntax (<unknown>, line 24)
+Error parsing ./tasks/task_198/step_3.py: invalid syntax (<unknown>, line 20)
+Error parsing ./tasks/task_198/step_2.py: invalid syntax (<unknown>, line 20)
+Error parsing ./tasks/task_198/step_4.py: invalid syntax (<unknown>, line 20)
+Error parsing ./tasks/task_144/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_319/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_141/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_213/step_5.py: I/O operation on closed file.
+Error parsing ./tasks/task_213/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_213/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_217/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_277/step_3.py: '(' was never closed (<unknown>, line 127)
+Error parsing ./tasks/task_277/step_1.py: f-string: newlines are not allowed in format specifiers for single quoted f-strings (<unknown>, line 127)
+Error parsing ./tasks/task_277/step_2.py: f-string: newlines are not allowed in format specifiers for single quoted f-strings (<unknown>, line 127)
+Error parsing ./tasks/task_277/step_4.py: '(' was never closed (<unknown>, line 127)
+Error parsing ./tasks/task_237/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_152/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_264/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_300/step_2.py: invalid syntax (<unknown>, line 17)
+Error parsing ./tasks/task_145/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_265/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_142/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_316/step_2.py: invalid syntax (<unknown>, line 99)
+Error parsing ./tasks/task_211/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_211/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_296/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_296/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_046/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_046/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_183/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_279/step_3.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error parsing ./tasks/task_279/step_5.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error parsing ./tasks/task_279/step_2.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error parsing ./tasks/task_279/step_4.py: unterminated string literal (detected at line 103) (<unknown>, line 103)
+Error parsing ./tasks/task_222/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_222/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_195/step_2.py: invalid syntax (<unknown>, line 9)
+Error parsing ./tasks/task_281/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_288/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_253/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_248/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_248/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_207/step_2.py: invalid syntax (<unknown>, line 14)
+Error parsing ./tasks/task_273/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_247/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_247/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_228/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_314/step_3.py: '[' was never closed (<unknown>, line 94)
+Error parsing ./tasks/task_314/step_2.py: '[' was never closed (<unknown>, line 94)
+Error parsing ./tasks/task_317/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_320/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_257/step_3.py: invalid syntax (<unknown>, line 42)
+Error parsing ./tasks/task_257/step_2.py: invalid syntax (<unknown>, line 42)
+Error parsing ./tasks/task_236/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_295/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_293/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_025/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_025/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_025/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_025/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_260/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_268/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_225/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_261/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_261/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_245/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_272/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_298/step_3.py: '(' was never closed (<unknown>, line 45)
+Error parsing ./tasks/task_298/step_2.py: '(' was never closed (<unknown>, line 45)
+Error parsing ./tasks/task_298/step_4.py: '(' was never closed (<unknown>, line 45)
+Error parsing ./tasks/task_099/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_099/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_099/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_297/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_297/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_297/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_221/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_221/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_252/step_3.py: '{' was never closed (<unknown>, line 122)
+Error parsing ./tasks/task_252/step_5.py: '{' was never closed (<unknown>, line 122)
+Error parsing ./tasks/task_252/step_2.py: '{' was never closed (<unknown>, line 122)
+Error parsing ./tasks/task_252/step_4.py: '{' was never closed (<unknown>, line 122)
+Error parsing ./tasks/task_180/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_180/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_180/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_271/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_239/step_2.py: invalid syntax (<unknown>, line 25)
+Error parsing ./tasks/task_312/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_110/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_302/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_276/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_315/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_315/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_315/step_2.py: unterminated string literal (detected at line 128) (<unknown>, line 128)
+Error parsing ./tasks/task_274/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_274/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_274/step_4.py: I/O operation on closed file.
+Error parsing ./tasks/task_103/step_1.py: I/O operation on closed file.
+Error parsing ./tasks/task_103/step_2.py: I/O operation on closed file.
+Error parsing ./tasks/task_285/step_3.py: invalid syntax (<unknown>, line 81)
+Error parsing ./tasks/task_285/step_1.py: invalid syntax (<unknown>, line 81)
+Error parsing ./tasks/task_285/step_2.py: invalid syntax (<unknown>, line 81)
+Error parsing ./tasks/task_048/step_3.py: I/O operation on closed file.
+Error parsing ./tasks/task_131/step_3.py: unterminated triple-quoted string literal (detected at line 84) (<unknown>, line 5)
+Error parsing ./tasks/task_249/step_3.py: invalid syntax (<unknown>, line 72)
+Error parsing ./tasks/task_249/step_2.py: invalid syntax (<unknown>, line 72)
+Error parsing ./tasks/task_249/step_4.py: invalid syntax (<unknown>, line 72)
+Deduplication report saved to deduplication_report.json
+Found 0 duplicate pairs
+No significant duplicates found.

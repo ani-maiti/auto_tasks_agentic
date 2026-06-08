@@ -1,0 +1,1 @@
+curl -s "http://ip-api.com/json/$(curl -s https://api.ipify.org)"

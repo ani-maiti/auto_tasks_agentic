@@ -1,0 +1,2 @@
+Found 2018 text files
+First 5 files: ['./tasks/task_147/stdout_step_2.txt', './tasks/task_147/stdout_step_1.txt', './tasks/task_147/stderr_step_3.txt', './tasks/task_147/stdout_step_3.txt', './tasks/task_147/stderr_step_1.txt']

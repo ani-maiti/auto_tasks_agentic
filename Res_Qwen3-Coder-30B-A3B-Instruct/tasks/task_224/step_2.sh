@@ -1,0 +1,1 @@
+find /home -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" -o -name "*.bmp" \) -print0 | head -20 | xargs -0 ls -la

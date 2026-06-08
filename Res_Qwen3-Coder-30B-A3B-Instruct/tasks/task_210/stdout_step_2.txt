@@ -1,0 +1,2 @@
+General
+Category counts: {'General': 38, 'Technology': 8, 'Security': 1}

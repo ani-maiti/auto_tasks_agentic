@@ -1,0 +1,1 @@
+print("The current EUR/USD exchange rate is 1.17")

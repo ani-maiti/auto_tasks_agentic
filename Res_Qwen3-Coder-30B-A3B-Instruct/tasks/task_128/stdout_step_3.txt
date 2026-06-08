@@ -1,0 +1,1 @@
+Error: HTTPSConnectionPool(host='some-random-api.ml', port=443): Max retries exceeded with url: /facts/dog (Caused by NameResolutionError("HTTPSConnection(host='some-random-api.ml', port=443): Failed to resolve 'some-random-api.ml' ([Errno -2] Name or service not known)"))

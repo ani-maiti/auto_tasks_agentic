@@ -1,0 +1,189 @@
+General
+Title: The newest Instagram “exploit” is the goofiest I've seen
+Categories: General
+URL: https://www.0xsid.com/blog/meta-account-takeover-fiasco
+
+Title: Debug Project
+Categories: General
+URL: https://debug.com/
+
+Title: OpenAI frontier models and Codex are now available on AWS
+Categories: Technology
+URL: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/
+
+Title: AI Agent Guidelines for CS336 at Stanford
+Categories: Technology
+URL: https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md
+
+Title: Should you normalize RGB values by 255 or 256?
+Categories: General
+URL: https://30fps.net/pages/255-vs-256-division/
+
+Title: CS336: Language Modeling from Scratch
+Categories: General
+URL: https://cs336.stanford.edu/
+
+Title: GrapheneOS Speech Services version 2 released
+Categories: General
+URL: https://discuss.grapheneos.org/d/36001-grapheneos-speech-services-version-2-released
+
+Title: What appear to be biochemical processes may be a natural feature of geology
+Categories: General
+URL: https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/
+
+Title: Stealing from Biologists to Compile Haskell Faster
+Categories: General
+URL: https://www.iankduncan.com/engineering/2026-05-30-stealing-from-biologists-to-compile-haskell-faster/
+
+Title: Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra
+Categories: General
+URL: https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/
+
+Title: Nvidia RTX Spark
+Categories: General
+URL: https://www.nvidia.com/en-us/products/rtx-spark/
+
+Title: I made my phone slow on purpose
+Categories: General
+URL: https://vinewallapp.com/notes/i-made-my-phone-slow-on-purpose/
+
+Title: Alphabet announces $80B equity capital raise to expand AI infra and compute
+Categories: Technology
+URL: https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx
+
+Title: The Frame Problem
+Categories: General
+URL: https://plato.stanford.edu/entries/frame-problem/
+
+Title: Anthropic confidentially submits draft S-1 to the SEC
+Categories: General
+URL: https://www.anthropic.com/news/confidential-draft-s1-sec
+
+Title: Windows GOG DOS Games on M-Series Macs
+Categories: General
+URL: https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/
+
+Title: Show HN: DepsGuard – one command to harden NPM/pnpm/yarn/bun/uv configs
+Categories: General
+URL: https://github.com/arnica/depsguard
+
+Title: Only 17% of all 64-bit Integers are products of two 32-bit integers
+Categories: General
+URL: https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/
+
+Title: Flipper Zero Zig Template
+Categories: General
+URL: https://github.com/NishantJoshi00/flipper-template
+
+Title: GitHub and the crime against software
+Categories: Technology
+URL: https://eblog.fly.dev/githubbad.html
+
+Title: Malicious npm packages detected across Red Hat Cloud Services
+Categories: General
+URL: https://github.com/RedHatInsights/javascript-clients/issues/492
+
+Title: The Pirate Bay Remains Resilient, 20 Years After the Raid
+Categories: Technology
+URL: https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/
+
+Title: Handmade Hawaiian Islands Map
+Categories: Technology
+URL: https://www.notesfromtheroad.com/roam/hawaiian-islands-map.html
+
+Title: Florida sues OpenAI and Sam Altman over AI risks
+Categories: Technology
+URL: https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215
+
+Title: Linux Basics for Hackers (2019)
+Categories: Security
+URL: https://github.com/ahegazy0/linux-basics-for-hackers-notes
+
+Title: Sysadmining Like It's 2009
+Categories: General
+URL: https://lambdacreate.com/posts/sysadmining-like-its-2009
+
+Title: Show HN: A free Linux adaptation of NETworkManager by BornToBeRoot
+Categories: General
+URL: https://github.com/thongor77/nmlinux
+
+Title: Building a custom mount for a telescoping webcam
+Categories: General
+URL: https://john.mercouris.online/webcam-mount.html
+
+Title: Superintelligence: The Idea That Eats Smart People (2016)
+Categories: General
+URL: https://idlewords.com/talks/superintelligence.htm
+
+Title: Medium Access Control Protocols
+Categories: General
+URL: https://jasonfantl.com/posts/Multiple-Access-Protocols/
+
+Title: Show HN: Textile – A desktop app for weaving together bits of text
+Categories: General
+URL: https://www.gettextile.app
+
+Title: Lid-lifting Kiwi author forced to sit in silence at writers' festival
+Categories: General
+URL: https://www.rnz.co.nz/life/books/lid-lifting-kiwi-author-forced-to-sit-in-silence-at-writers-festival
+
+Title: Tracing HTTP Requests with Go's net/HTTP/httptrace
+Categories: General
+URL: https://blainsmith.com/articles/httptrace-with-go/
+
+Title: A 10 year old Xeon is all you need
+Categories: General
+URL: https://point.free/blog/gemma-4-on-a-2016-xeon/
+
+Title: Show HN: A CSS 3D Engine (no WebGL)
+Categories: General
+URL: https://github.com/LayoutitStudio/polycss
+
+Title: Terrascan: Explore public deep earth scan datasets
+Categories: General
+URL: https://terrascan.bowd.io
+
+Title: “The Apple Boogie“ 1987 Mac Promo Album Cassette Tape [video]
+Categories: General
+URL: https://www.youtube.com/watch?v=chJHB-btMNI
+
+Title: Build a Basic AI Agent from Scratch: Tools
+Categories: Technology
+URL: https://www.ruxu.dev/articles/ai/build-an-ai-agent-with-tools/
+
+Title: Radxa Dragon Q8B: A Laptop Cosplaying as an SBC?
+Categories: General
+URL: https://bret.dk/radxa-dragon-q8b-a-laptop-cosplaying-as-an-sbc/
+
+Title: Decades of Effort Restore Steelhead and Salmon Passage on Alameda Creek
+Categories: General
+URL: https://www.fisheries.noaa.gov/feature-story/decades-effort-restore-steelhead-and-salmon-passage-californias-alameda-creek
+
+Title: Cessation of public development of Kefir C compiler
+Categories: General
+URL: https://kefir.protopopov.lv/posts/announce2.html
+
+Title: What Caused That Loud Boom in South Carolina?
+Categories: General
+URL: https://www.nytimes.com/2026/05/29/us/south-carolina-sonic-boom.html
+
+Title: Web Archive is banned from Wikipedia
+Categories: General
+URL: https://en.wikipedia.org/wiki/Wikipedia:Archive.today_guidance
+
+Title: Install web apps with the new HTML install element
+Categories: General
+URL: https://developer.chrome.com/blog/install-element-ot
+
+Title: Announcing Zstandard in Rust
+Categories: General
+URL: https://trifectatech.org/blog/announcing-zstandard-in-rust/
+
+Title: Florida AG files lawsuit against OpenAI, CEO Sam Altman for deceptive practices
+Categories: Technology
+URL: https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-first-nation-state-led-lawsuit-against-openai-ceo
+
+Title: Using Git's rerere feature to escape recurring conflict hell
+Categories: General
+URL: https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928
+
